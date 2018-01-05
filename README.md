@@ -1,4 +1,4 @@
-# PATh documentation repository
+# PATh documentation repository
 
 Welcome to the [PAThs](http://paths.uniroma1.it) documentation repository, which
 is still at a **very early phase of drafting**.
