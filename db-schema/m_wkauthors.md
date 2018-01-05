@@ -22,4 +22,4 @@ CREATE TABLE paths__m_wkauthors (
 ```
 
 ## Links
-- `Works` —< `m_wkauthors` >- `Authors`
+- `Works` —< `m_wkauthors` >— `Authors`

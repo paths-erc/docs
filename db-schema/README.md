@@ -33,8 +33,8 @@ describing each table is standard SQL and will work—with minor changes—with 
   1. [m_placephase](m_placephase.md)
   1. [m_quires](m_quires.md)
   1. [m_shelfmarks](m_shelfmarks.md)
-  1. [m_toponyms](m_toponyms)
-  1. [m_wkauthors](m_wkauthors)
+  1. [m_toponyms](m_toponyms.md)
+  1. [m_wkauthors](m_wkauthors.md)
 
 - System tables
   1. [Files](files.md)

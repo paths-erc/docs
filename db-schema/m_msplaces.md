@@ -19,4 +19,4 @@ CREATE TABLE paths__m_msplaces (
 ```
 
 ## Links
-- `Manuscripts` >— `m_msplaces` -<  `Places`
+- `Manuscripts` >— `m_msplaces` —<  `Places`
