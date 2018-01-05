@@ -1,11 +1,12 @@
 # geodata
 
 ## DDL
+
 ```sql
 CREATE TABLE paths__geodata (
-  id           INTEGER PRIMARY KEY, -- chiave primaria
-  table_link   TEXT, -- FK dinamico insieme a id_link
-  id_link      INTEGER, -- KF dinamico insieme a table_link
+  id           INTEGER PRIMARY KEY, -- primary key
+  table_link   TEXT, -- dynamic foreign key, combined with id_link
+  id_link      INTEGER, -- dynamic foreign key, combined with table_link
   geometry     TEXT,
   geo_el_elips INTEGER,
   geo_el_asl   INTEGER

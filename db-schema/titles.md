@@ -1,13 +1,14 @@
 # Titles
 
 ## DDL
+
 ```sql
 CREATE TABLE paths__titles (
-  id              INTEGER PRIMARY KEY, -- chiave primaria
-  creator         TEXT, -- compilato dal sistema con l'utente attivo
+  id              INTEGER PRIMARY KEY, -- primary key
+  creator         TEXT, -- automatically filled by the RDBMS with the current user id
   cc              TEXT,
-  workcc          TEXT REFERENCES paths__works (cmcl), -- FK: works.cmcl,
-  msid            TEXT REFERENCES paths__manuscripts (id), -- FK: works.cmcl,
+  workcc          TEXT REFERENCES paths__works (cmcl), -- foreign key: works.cmcl,
+  msid            TEXT REFERENCES paths__manuscripts (id), -- foreign key: works.cmcl,
   type            TEXT,  -- vocabularies.def = 'title_type'
   description     TEXT,
   columns         TEXT,
@@ -17,7 +18,7 @@ CREATE TABLE paths__titles (
   text            TEXT,
   translation     TEXT,
   taggedtext      TEXT,
-  editors         TEXT   -- scsv: vocabularies.def = 'persons'
+  editors         TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
 );
 ```
 

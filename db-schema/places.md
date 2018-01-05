@@ -1,10 +1,11 @@
 # Places
 
 ## DDL
+
 ```sql
 CREATE TABLE paths__places (
-  id                  INTEGER PRIMARY KEY, -- chiave primaria
-  creator             TEXT, -- compilato dal sistema con l'utente attivo
+  id                  INTEGER PRIMARY KEY, -- primary key
+  creator             TEXT, -- automatically filled by the RDBMS with the current user id
   name                TEXT,
   copticname          TEXT,
   greekname           TEXT,
@@ -15,7 +16,7 @@ CREATE TABLE paths__places (
   pleiades            TEXT,
   timm                TEXT,
   region              TEXT, -- vocabularies.def = 'dialects'
-  area                TEXT, -- scsv vocabularies.def = 'area'
+  area                TEXT, -- semi-colon-separated-values: vocabularies.def = 'area'
   nomos               TEXT, -- vocabularies.def = 'nomos'
   province            TEXT, -- vocabularies.def = 'provinces'
   episcopalsee        TEXT, -- 1|0
@@ -35,7 +36,7 @@ CREATE TABLE paths__places (
   monasterynotes      TEXT,
   isnomoscapital      BOOLEAN, -- 1|0
   accuracy            TEXT,
-  editors             TEXT   -- scsv: vocabularies.def = 'persons'
+  editors             TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
 );
 ```
 

@@ -3,8 +3,8 @@
 ## DDL
 ```sql
 CREATE TABLE paths__works (
-  id              INTEGER PRIMARY KEY, -- chiave primaria
-  creator         TEXT, -- compilato dal sistema con l'utente attivo
+  id              INTEGER PRIMARY KEY, -- primary key
+  creator         TEXT, -- automatically filled by the RDBMS with the current user id
   cmcl            TEXT,
   title           TEXT,
   cpg             TEXT,
@@ -14,12 +14,12 @@ CREATE TABLE paths__works (
   bhg             TEXT,
   bhl             TEXT,
   cae             TEXT,
-  period          TEXT,  -- CMCL legacy scsv vocabularies.def = 'period'
+  period          TEXT,  -- CMCL legacy semi-colon-separated-values vocabularies.def = 'period'
   problems        TEXT,  -- CMCL legacy
   shelfmarks      TEXT,  -- CMCL legacy
   notes           TEXT,
   litperiod       TEXT,
-  editors         TEXT   -- scsv: vocabularies.def = 'persons'
+  editors         TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
 );
 ```
 

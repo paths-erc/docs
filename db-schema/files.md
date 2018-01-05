@@ -1,10 +1,11 @@
 # Files
 
 ## DDL
+
 ```sql
 CREATE TABLE paths__files (
-  id          INTEGER PRIMARY KEY,  -- chiave primaria
-  creator     TEXT,  -- compilato dal sistema con l'utente attivo
+  id          INTEGER PRIMARY KEY, -- primary key
+  creator     TEXT, -- automatically filled by the RDBMS with the current user id
   ext         TEXT,
   keywords    TEXT,
   description TEXT,

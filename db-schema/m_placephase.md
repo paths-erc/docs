@@ -1,6 +1,6 @@
 # m_placephase
 
-`m_placephase` servers of adding to each record of table `Places` one or more
+`m_placephase` servers  the purpose of adding to each record of table `Places` one or more
 chronological phase description
 
 ## DDL

@@ -1,10 +1,11 @@
 # Manuscripts
 
 ## DDL
+
 ```sql
 CREATE TABLE paths__manuscripts (
-  id               INTEGER PRIMARY KEY, -- chiave primaria
-  creator          TEXT, -- compilato dal sistema con l'utente attivo
+  id               INTEGER PRIMARY KEY, -- primary key
+  creator          TEXT, -- automatically filled by the RDBMS with the current user id
   cmclid           TEXT,
   tm               TEXT,
   ldab             TEXT,
@@ -51,15 +52,15 @@ CREATE TABLE paths__manuscripts (
   quirenotes       TEXT,
   quiresig         INTEGER,  -- 1|0
   quiretype        TEXT,
-  quireposition    TEXT, -- smsv vocabularies.def = 'position_in_page'
+  quireposition    TEXT, -- semi-colon-separated-values: vocabularies.def = 'position_in_page'
   quirenrnotes     TEXT,
   pagination       INTEGER,   -- 1|0
-  pagtype          TEXT, -- smsv vocabularies.def = 'regular_irregular'
-  pagposition      TEXT, -- smsv vocabularies.def = 'position_in_page'
+  pagtype          TEXT, -- semi-colon-separated-values: vocabularies.def = 'regular_irregular'
+  pagposition      TEXT, -- semi-colon-separated-values: vocabularies.def = 'position_in_page'
   pagnote          TEXT,
   foliation        INTEGER,   -- 1|0
   foltype          TEXT, -- vocabularies.def = 'regular_irregular'
-  folposition      TEXT, -- smsv vocabularies.def = 'position_in_page'
+  folposition      TEXT, -- semi-colon-separated-values: vocabularies.def = 'position_in_page'
   folnotes         TEXT,
   modulartypology  TEXT, -- vocabularies.def = 'modular_typology'
   writingaxis      TEXT, -- vocabularies.def = 'axis'
@@ -70,10 +71,10 @@ CREATE TABLE paths__manuscripts (
   typeofy          TEXT, -- vocabularies.def = 'type_of_r'
   typeoff          TEXT, -- vocabularies.def = 'type_of_r'
   writingnotes     TEXT,
-  lectionalsigns   TEXT, -- smsv vocabularies.def = 'lectional_signs'
+  lectionalsigns   TEXT, -- semi-colon-separated-values: vocabularies.def = 'lectional_signs'
   structuralsigns  TEXT,
   signsnotes       TEXT,
-  abbreviations    TEXT,  -- smsv vocabularies.def = 'abbreviations'
+  abbreviations    TEXT,  -- semi-colon-separated-values: vocabularies.def = 'abbreviations'
   abbrnotes        TEXT,
   ruling           BOOLEAN, -- 1|0
   rulingtype       TEXT,  -- vocabularies.def = 'ruling_types'
@@ -90,7 +91,7 @@ CREATE TABLE paths__manuscripts (
   bindings         INTEGER,  -- 1|0
   sewings          INTEGER,  -- 1|0
   sewingtype       TEXT,
-  covers           TEXT,  -- smsv vocabularies.def = 'covers'
+  covers           TEXT,  -- semi-colon-separated-values: vocabularies.def = 'covers'
   coversnotes      TEXT,
   holesno          INTEGER,
   holesarrangement TEXT, -- vocabularies.def = 'holes_arrangement'
@@ -101,15 +102,15 @@ CREATE TABLE paths__manuscripts (
   palimpsestnotes  TEXT,
   restancient      TEXT,
   restmodern       TEXT,
-  inks             TEXT,  -- smsv vocabularies.def = 'ink_types'
+  inks             TEXT,  -- semi-colon-separated-values: vocabularies.def = 'ink_types'
   redink           BOOLEAN, -- 1|0
   redinknotes      TEXT,
-  decortype        TEXT,  -- smsv vocabularies.def = 'decor_types'
-  decorsubj        TEXT,  -- smsv vocabularies.def = 'decor_subj'
+  decortype        TEXT,  -- semi-colon-separated-values: vocabularies.def = 'decor_types'
+  decorsubj        TEXT,  -- semi-colon-separated-values: vocabularies.def = 'decor_subj'
   decorationdescr  TEXT,
   enlargedinitials TEXT,
   sourceinfo       TEXT,
-  editors          TEXT   -- scsv: vocabularies.def = 'persons'
+  editors          TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
 );
 
 );

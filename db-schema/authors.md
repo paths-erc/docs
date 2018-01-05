@@ -1,10 +1,11 @@
 # Authors
 
 ## DDL
-```SQL
+
+```sql
 CREATE TABLE paths__authors (
-  id         INTEGER PRIMARY KEY, -- chiave primaria
-  creator    TEXT, -- compilato dal sistema con l'utente attivo
+  id         INTEGER PRIMARY KEY, -- primary key
+  creator    TEXT, -- automatically filled by the RDBMS with the current user id
   name       TEXT, --
   copticname TEXT, --
   greekname  TEXT, --
@@ -14,7 +15,7 @@ CREATE TABLE paths__authors (
   cmclname   TEXT, --
   birth      INTEGER, --
   death      INTEGER, --
-  editors    TEXT -- scsv: vocabularies.def = 'persons'
+  editors    TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
 );
 ```
 

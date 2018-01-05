@@ -1,15 +1,16 @@
 # Colophons
 
 ## DDL
+
 ```sql
 CREATE TABLE paths__colophons (
-  id              INTEGER PRIMARY KEY, -- chiave primaria
-  creator         TEXT, -- compilato dal sistema con l'utente attivo
-  msid            TEXT REFERENCES paths__manuscripts (id), -- FK: manuscripts.id
+  id              INTEGER PRIMARY KEY, -- primary key
+  creator         TEXT, -- automatically filled by the RDBMS with the current user id
+  msid            TEXT REFERENCES paths__manuscripts (id), -- foreign key: manuscripts.id
   chronofrom      TEXT,
   chronoto        TEXT,
   datingcriteria  TEXT,
-  dialect         TEXT, -- scsv: vocabularies.def = 'dialects'
+  dialect         TEXT, -- semi-colon-separated-values: vocabularies.def = 'dialects'
   dialectnotes    TEXT,
   greektext       TEXT,
   writingaxis     TEXT, -- vocabularies.def = 'dialects'
@@ -21,7 +22,7 @@ CREATE TABLE paths__colophons (
   text            TEXT,
   translation     TEXT,
   taggedtext      TEXT,
-  editors         TEXT  -- scsv: vocabularies.def = 'persons'
+  editors         TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
 );
 ```
 
