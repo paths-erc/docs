@@ -24,6 +24,7 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ---
 
 ## Available documentation:
+- [Users’ handbook](db-handbook/README.md)
 - [Database schema](db-schema/README.md)
 
 ---
