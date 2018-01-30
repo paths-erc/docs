@@ -20,7 +20,6 @@ Ref.: `paths.manuscripts`
 - CMCL siglum of the reconstructed codicological unit, where available.
 - DB id: `cmclid`
 
-
 #### TM
 - Trismegistos stable identifier, where available.
 - DB id: `tm`
@@ -64,16 +63,16 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 - Collection name as (programatically) extracted from the [CMCL](http://cmcl.it)
 - DB id: `segnatid`
 
-#### Collection
+#### COLLECTION
 - Normalised full form of the collection name (country, city, institution, and collection of the fragment)
 - DB id: `collection`
 - **Warning**: this field is a foreign key referring [collections.id](../db-schema/collections.md) field.
 
-#### Shelfmark
+#### SHELFMARK
 - Identifier of the fragment within the collection
 - DB id: `shelfmark`
 
-#### f./ff.  or p./pp.
+#### F./FF.  OR P./PP.
 - Page range, within the fragment referring to the main codicological unit, in case a single (modern) fragment contains more than one original codicological units.
 - DB id: `pp`
 
@@ -413,82 +412,82 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - Noted if present.
 - DB id: `ruling`
 
-#### Ruling type
+#### RULING TYPE
 - Description of ruling types (and systems), following Leroy's method (J. Leroy, Les types de réglures des manuscrits grecs, Paris 1976; J.H. Sautel, Répertoire des réglures dans les manuscrits grecs sur parchemin, Turnhout 1995).
 - DB id: `rulingtype`
 
-#### Ruling tool
+#### RULING TOOL
 - Description of the ruling tools.
 - DB id: `rulingtool`
 
-#### Pricking
+#### PRICKING
 - Noted if present. Description of pricking patterns, according to L.W. Jones, Pricking Manuscripts: the Instruments and their Significance, in Speculum 21 (1941), 389-403.
 - DB id: `pricking`
 
-#### Ruling notes
+#### RULING NOTES
 - Noteworthy matters related to ruling.
 - DB id: `rulingnotes`
 
-#### Leaf tabs
+#### LEAF TABS
 - Little leather or parchment tab fixed to the outer margin of a leaf as a bookmark.
 - DB id: `leaftabs`
 
 ---
-### Manifacture of the rolls
+### MANIFACTURE OF THE ROLLS
 
-#### Kollēseis
+#### KOLLĒSEIS
 - Noted if present.
 - DB id: `kolleseis`
 
-#### Kollēseis description
+#### KOLLĒSEIS DESCRIPTION
 - Number, direction (horizontal of vertical).
 - DB id: `kolleseseisdescr`
 
-#### Notes
+#### NOTES
 - Position on the pages or on the roll (use 'K+number' identifies the kolleseis: K1, K2, etc.)
 - DB id: `tracesnotes`
 
-#### Number of kollēmata
+#### NUMBER OF KOLLĒMATA
 - Noted if the number can be estimated.
 - DB id: `kollno`
 
-#### Kollēmata dimensions
+#### KOLLĒMATA DIMENSIONS
 - Noted if possible to measure (use "k+number" to identifies the kollemata: k1, k2, etc.)
 - DB id: `kolldim`
 
 ---
 
-### Bidings
+### BIDINGS
 
-#### Presence of bindings
+#### PRESENCE OF BINDINGS
 - Noted if present.
 - DB id: `bindings`
 
-#### Presence of sewings
+#### PRESENCE OF SEWINGS
 - Noted if present.
 - DB id: `sewings`
 
-#### Type of sewing
+#### TYPE OF SEWING
 - Description of the sewing type.
 - DB id: `sewingtype`
 
-#### Covers
+#### COVERS
 - Noted if preserved.
 - DB id: `covers`
 
-#### Notes on covers
+#### NOTES ON COVERS
 - Verbose description of the covers.
 - DB id: `coversnotes`
 
-#### No. of holes
+#### NO. OF HOLES
 - Number of the extant binding holes (also applicable to tablets).
 - DB id: `holesno`
 
-#### Arrangement of holes
+#### ARRANGEMENT OF HOLES
 - Position of the holes.
 - DB id: `holesarrangement`
 
-#### Notes on holes
+#### NOTES ON HOLES
 - Specific/special characteristics of the holes
 - DB id: `holesnotes`
 
@@ -496,81 +495,81 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 
 ### Additional information
 
-#### Change of hand
+#### CHANGE OF HAND
 - Noted if present.
 - DB id: `changeofhand`
 
-#### Marginal notes
+#### MARGINAL NOTES
 - Noted if present.
 - DB id: `marginalnotes`
 
-#### Palimpsest
+#### PALIMPSEST
 - It records whether the manuscript is palimpsest or not.
 - DB id: `palimpsest`
 
-#### Notes on palimpsest
+#### NOTES ON PALIMPSEST
 - Additional notes on palimpsest.
 - DB id: `palipsestnotes`
 
-#### Ancient restoration
+#### ANCIENT RESTORATION
 - Notes on ancient restoration, if any.
 - DB id: `restancient`
 
-#### Modern restorations
+#### MODERN RESTORATIONS
 - Notes on modern restoration, if any.
 - DB id: `restmodern`
 
-#### Inks
+#### INKS
 - Type of ink (iron gall, tannin, carbon).
 - DB id: `inks`
 
-#### Red ink
+#### RED INK
 - Noted if present.
 - DB id: `redink`
 
-#### Notes on red ink
+#### NOTES ON RED INK
 - Verbose description of the red ink use and function.
 - DB id: `redlinknotes`
 
-#### Decoration types
+#### DECORATION TYPES
 - Description of the decorative type(s).
 - DB id: `decortype`
 
-#### Decoration subjects
+#### DECORATION SUBJECTS
 - Description of the decorative subject(s).
 - DB id: `decorsubj`
 
-#### Decoration description
+#### DECORATION DESCRIPTION
 - Position of the decorative elements.
 - DB id: `decorationdescr`
 
-#### Enlarged initials
+#### ENLARGED INITIALS
 - Noted if present.
 - DB id: `enlargedinitials`
 
-#### Source of information about this record
+#### SOURCE OF INFORMATION ABOUT THIS RECORD
 - Catalogues - Editions - Secondary literature - Autoptic analysis - Photographic reproductions - Personal communication (from...)
 - DB id: `sourceinfo`
 
-#### Editors
+#### EDITORS
 - Initials of the person(s) responsible for the record.
 - DB id: `editors`
 
 ---
 
-### Bibliography
+### BIBLIOGRAPHY
 For each manuscript multiple instances of the following group of fields can be filed, each one describing a bibliographic reference.
 
 These fields are not part of the [manuscripts table](../db-schema/manuscripts.md) but of the [m_biblio table](../db-schema/m_biblio.md).
 
-#### Short reference
+#### SHORT REFERENCE
 - Short reference of the bibliographic item as stored in [biblio table](biblio.md)
 - DB id: `short`
 
-#### Specific details
+#### SPECIFIC DETAILS
 - Pages of the publication if not precised in the reference
 - DB id: `details`
 
-#### Details about images
+#### DETAILS ABOUT IMAGES
 - Pages or figures containing reproductions of (part[s] of) the manuscript
 - DB id: `images`
