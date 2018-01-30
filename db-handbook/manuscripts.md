@@ -20,7 +20,7 @@ Ref.: `paths.manuscripts`
 - CMCL siglum of the reconstructed codicological unit, where available.
 - DB id: `cmclid`
 
-#### TM
+#### TM
 - Trismegistos stable identifier, where available.
 - DB id: `tm`
 
@@ -28,7 +28,7 @@ Ref.: `paths.manuscripts`
 - [LDAB](www.trismegistos.org/ldab/) stable identifier, where available.
 - DB id: `ldab`
 
-#### LCBM
+#### LCBM
 - List of Coptic Biblical Manuscripts identifier, where available (Göttingen, Digital Edition of the Sahidic Coptic Old Testament / Berlin, Novum Testamentum Graecum - Editio Critica Maior).
 - DB id: `lcbm`
 
@@ -44,7 +44,7 @@ Ref.: `paths.manuscripts`
 - Brief description of the modern history of the original (i.e. virtually reconstructed) codicological unit and/or of the fragments in which it is composed. History of modern storage places is recorded, as well as modifications of the codicological units (e.g. unification or dismemberment).
 - DB id: `modernhistory`
 
-#### CONTENTS
+#### CONTENTS
 - Detailed description of the sequence of the works contained in a multiple-text manuscript (CCs) or description of the content of a work that, for different reasons, at the moment cannot be associated to a Clavis Coptica (CC).
 - DB id: `contents`
 
