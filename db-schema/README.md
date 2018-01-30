@@ -6,6 +6,9 @@ http://db.bradypus.net. The documentation is written in [Markdown](https://darin
 by the PAThs' team (Julian Bogdani) and is available in PDF format in
 [PAThs’ website](http://paths.uniroma1.it).
 
+If you are looking for the user & reader guide please go to [db-handbook/README.md](../db-handbook/README.md).
+
+
 The current database engine used by PAThs is [Sqlite](https://www.sqlite.org/),
 «a self-contained, high-reliability, embedded, full-featured, public-domain,
 SQL database engine. SQLite is the most used database engine in the world» (https://www.sqlite.org). The [DDL](https://en.wikipedia.org/wiki/Data_definition_language)

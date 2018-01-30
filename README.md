@@ -29,4 +29,5 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ---
 
 ## Changelog
+- v. **0.2** [2018-01-30] Added user handbook for entity `Manuscripts`
 - v. **0.1** [2018-01-05] Initial commit
