@@ -88,6 +88,8 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 - Special characteristics of the dialect. Bibliographical reference only for minor dialects.
 - DB id: `dialectnotes`
 
+---
+
 ### Dating
 
 #### FROM
