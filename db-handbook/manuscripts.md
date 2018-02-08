@@ -176,7 +176,7 @@ Polyptych: codex made from wooden tablets.
 
 ---
 
-### Original dimensions (mm) and proportions
+### Dimensions (mm) and proportions
 
 #### LEAF OR TABLET WIDTH
 - Total width (in mm) of the leaf or the tablet.
