@@ -30,5 +30,16 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ---
 
 ## Changelog
+- v. **0.3** [2018-03-22] Multiple changes on database schema
+  - Added `paths__works.status`
+  - Removed `titles.columns`
+  - Added `titles.status`
+  - Added `colophons.status`
+  - Added `authors.status`
+  - Added `places.status`
+  - Added `manuscripts.status`
+  - Added `m_shelfmarks.sort`
+  - `manuscripts.propwuw` changed to `manuscripts.propwt`
+  - Enhanced inline docs
 - v. **0.2** [2018-01-30] Added user handbook for entity `Manuscripts`
 - v. **0.1** [2018-01-05] Initial commit
