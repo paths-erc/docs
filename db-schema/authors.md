@@ -15,7 +15,9 @@ CREATE TABLE paths__authors (
   cmclname   TEXT, --
   birth      INTEGER, --
   death      INTEGER, --
-  editors    TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
+  editors    VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
+  status     VARCHAR(255) -- vocabularies.def = 'status'
+
 );
 ```
 
