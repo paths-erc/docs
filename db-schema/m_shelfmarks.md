@@ -14,7 +14,8 @@ CREATE TABLE paths__m_shelfmarks (
   segnatid    TEXT,
   collection  TEXT,
   shelfmark   TEXT,
-  pp          TEXT
+  pp          TEXT,
+  sort        INTEGER
 );
 ```
 
