@@ -17,7 +17,8 @@ CREATE TABLE paths__titles (
   text            TEXT,
   translation     TEXT,
   taggedtext      TEXT,
-  editors         TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
+  editors         VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
+  status         VARCHAR(255) -- vocabularies.def = 'status'
 );
 ```
 
