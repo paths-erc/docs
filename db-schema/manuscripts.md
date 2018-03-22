@@ -47,7 +47,7 @@ CREATE TABLE paths__manuscripts (
   marginright      TEXT,
   heighttenlines   TEXT,
   prophw           TEXT,
-  propwuw          TEXT,
+  propwt           TEXT,
   dimnotes         TEXT,
   quirenotes       TEXT,
   quiresig         INTEGER,  -- 1|0

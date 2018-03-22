@@ -230,9 +230,9 @@ Polyptych: codex made from wooden tablets.
 - It quantifies the format of a codex. If the proportion is around 1, the codex is defined as square (quadratus); if the proportion is around 2, the codex is defined as rectangular (oblongus).
 - DB id: `prophw`
 
-#### PROPORTION WRITTEN/UNWRITTEN TEXT
-- It shows how the writer decided to cover the writing support with scripture. Unwritten space consists of the margins and the intercolumnia. If the proportion is around 1, it means that half of the surface of the leaf is covered with writing. If the proportion is higher than 1, more than half of the surface of the leaf is covered with writing and therefore the margins are more narrow.
-- DB id: `propwuw`
+#### PROPORTION WRITTEN/TOTAL PAGE SPACE
+- It shows how the writer decided to cover the writing support with scripture. Total page space includes the margins and the intercolumnia. The proportion is always between 0 and 1; the smaller it is, lesser parts of the page have been written. The bigger it is (around 1) more surface of the page is covered with writing and therefore margins and intercolumnia (id present) are more narrow.
+- DB id: `propwt`
 
 #### NOTES ON DIMENSIONS AND PROPORTIONS
 - Noteworthy matters regarding the proportion between written/unwritten areas.
