@@ -20,7 +20,7 @@ CREATE TABLE paths__works (
   notes           TEXT,
   litperiod       TEXT,
   editors         VARCHAR (255), -- semi-colon-separated-values: vocabularies.def = 'persons'
-  status          VARCHAR (255)  -- voc.status
+  status          VARCHAR(255) -- vocabularies.def = 'status'
 );
 ```
 
