@@ -19,7 +19,8 @@ CREATE TABLE paths__works (
   shelfmarks      TEXT,  -- CMCL legacy
   notes           TEXT,
   litperiod       TEXT,
-  editors         TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
+  editors         VARCHAR (255), -- semi-colon-separated-values: vocabularies.def = 'persons'
+  status          VARCHAR (255)  -- voc.status
 );
 ```
 
