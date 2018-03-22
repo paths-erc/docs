@@ -11,7 +11,6 @@ CREATE TABLE paths__titles (
   msid            TEXT REFERENCES paths__manuscripts (id), -- foreign key: works.cmcl,
   type            TEXT,  -- vocabularies.def = 'title_type'
   description     TEXT,
-  columns         TEXT,
   modulartypology TEXT,  -- vocabularies.def = 'modular_typology'
   writingaxis     TEXT,  -- vocabularies.def = 'axis'
   thickandthin    TEXT,  -- 1|0
