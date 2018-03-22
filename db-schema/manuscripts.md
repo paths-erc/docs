@@ -110,7 +110,9 @@ CREATE TABLE paths__manuscripts (
   decorationdescr  TEXT,
   enlargedinitials TEXT,
   sourceinfo       TEXT,
-  editors          TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
+  editors          VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
+  status           VARCHAR(255) -- vocabularies.def = 'status'
+
 );
 
 );
