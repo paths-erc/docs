@@ -30,6 +30,10 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ---
 
 ## Changelog
+- v. **0.4** [2018-03-28] Changes on database schema
+  - Added `biblio.seriesvolume`
+  - `paths__manuscripts.leaftabs` renamed to `paths__manuscripts.leaftabsnotes`
+  - Added `paths__manuscripts.leaftabs`
 - v. **0.3** [2018-03-22] Multiple changes on database schema
   - Added `paths__works.status`
   - Removed `titles.columns`
