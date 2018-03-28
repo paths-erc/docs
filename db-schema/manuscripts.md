@@ -81,7 +81,8 @@ CREATE TABLE paths__manuscripts (
   rulingtool       TEXT,  -- vocabularies.def = 'ruling_tool'
   pricking         BOOLEAN, -- 1|0
   rulingnotes      TEXT,
-  leaftabs         TEXT,
+  leaftabs         BOOLEAN,
+  leaftabsnotes    TEXT,
   kolleseis        INTEGER, -- 1|0
   kolleseseisdescr TEXT,
   tracesnotes      TEXT,

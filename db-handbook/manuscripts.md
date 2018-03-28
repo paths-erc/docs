@@ -431,8 +431,12 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `rulingnotes`
 
 #### LEAF TABS
-- Little leather or parchment tab fixed to the outer margin of a leaf as a bookmark.
+- Presence or absence of little leather or parchment tab fixed to the outer margin of a leaf as a bookmark.
 - DB id: `leaftabs`
+
+#### NOTES ON LEAF TABS
+- Notes and description of little leather or parchment tab fixed to the outer margin of a leaf as a bookmark.
+- DB id: `leaftabsnotes`
 
 ---
 ### MANIFACTURE OF THE ROLLS
