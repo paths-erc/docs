@@ -14,6 +14,7 @@ CREATE TABLE paths__biblio (
   issue      TEXT,
   voleditors TEXT,
   series     TEXT,
+  seriesvol  TEXT,
   year       TEXT,
   place      TEXT,
   pages      TEXT,
