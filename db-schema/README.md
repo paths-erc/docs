@@ -28,6 +28,7 @@ describing each table is standard SQL and will work—with minor changes—with 
   1. [Colophons](colophons.md)
   1. [Authors](authors.md)
   1. [Places](places.md)
+  1. [Persons](persons.md)
   1. [Bibliographic database](biblio.md)
 
 - Auxiliary tables
@@ -37,6 +38,7 @@ describing each table is standard SQL and will work—with minor changes—with 
   1. [m_quires](m_quires.md)
   1. [m_shelfmarks](m_shelfmarks.md)
   1. [m_toponyms](m_toponyms.md)
+  1. [m_nameforms](m_nameforms.md)
   1. [m_wkauthors](m_wkauthors.md)
 
 - System tables

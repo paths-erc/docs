@@ -30,6 +30,9 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ---
 
 ## Changelog
+- v. **0.5** [2018-04-05] Changes on database schema
+  - Added table `paths__persons`
+  - Added table `paths__m_nameforms`
 - v. **0.4** [2018-03-28] Changes on database schema
   - Added `biblio.seriesvolume`
   - `paths__manuscripts.leaftabs` renamed to `paths__manuscripts.leaftabsnotes`

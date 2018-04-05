@@ -21,4 +21,4 @@ CREATE TABLE paths__m_toponyms (
 ```
 
 ## Links
-- `Manuscripts` —< `m_toponyms`
+- `Places` —< `m_toponyms`
