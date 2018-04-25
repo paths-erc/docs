@@ -255,7 +255,6 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 - DB id: `quirelayout`
 
 #### NOTES ON QUIRE LAYOUT
--
 - DB id: `quirelayoutnotes`
 
 #### PAPIRUS QUIRE TYPOLOGY
@@ -342,7 +341,17 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 
 ---
 
-### Writing
+#### NUMBER OF HANDS
+- Number of different scribe hands identified. For each of them must be filled out a hand description protocol
+- DB id: `handstot`
+
+### Hand(s)
+
+---
+
+#### HAND NUMBER
+- Progressive unique number of identified hands
+- DB id: `handno`
 
 #### WRITING MODULAR TYPOLOGY
 - In unimodular writing, the letters all fit in the same shape, usually a square. In bimodular writing, there is an opposition between wide letters and narrower ones (usually ⲉ, ⲑ, ⲟ, ⲥ).
@@ -355,26 +364,6 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 #### THICK-AND-THIN STYLE
 - Noted if present.
 - DB id: `thickandthin`
-
-#### TYPE OF Ⲉ Ⲟ Ⲥ
-- Description of the type of Ⲉ Ⲟ Ⲥ (wide/narrow).
-- DB id: `typeofeos`
-
-#### TYPE OF Ⲙ
-- Description of the type of Ⲙ (3-stroke/4-stroke).
-- DB id: `typeofm`
-
-#### TYPE OF Ⲣ
-- Description of the type of Ⲣ (tall/short).
-- DB id: `typeofr `
-
-#### TYPE OF Ⲩ
-- Description of the type of Ⲩ (tall/short).
-- DB id: `typeofy`
-
-#### TYPE OF Ϥ
-- Description of the type of Ϥ (tall/short).
-- DB id: `typeoff`
 
 #### NOTES OF WRITING
 - Noteworthy elements related to the writing and the glyphs.
