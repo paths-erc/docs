@@ -30,6 +30,19 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ---
 
 ## Changelog
+- v. **0.6** [2018-04-24] Changes on database schema: removed `Writing` fields, added `Hands` plugin
+  - Added table `paths__m_hands`
+  - Added `manuscripts.handstot`
+  - Removed `manuscripts.modulartypology`
+  - Removed `manuscripts.writingaxis`
+  - Removed `manuscripts.thickandthin`
+  - Removed `manuscripts.typeofeos`
+  - Removed `manuscripts.typeofm`
+  - Removed `manuscripts.typeofr`
+  - Removed `manuscripts.typeofy`
+  - Removed `manuscripts.typeoff`
+  - Removed `manuscripts.writingnotes`
+  - Removed `manuscripts.changeofhand`
 - v. **0.5** [2018-04-05] Changes on database schema
   - Added table `paths__persons`
   - Added table `paths__m_nameforms`

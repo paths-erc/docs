@@ -62,15 +62,7 @@ CREATE TABLE paths__manuscripts (
   foltype          TEXT, -- vocabularies.def = 'regular_irregular'
   folposition      TEXT, -- semi-colon-separated-values: vocabularies.def = 'position_in_page'
   folnotes         TEXT,
-  modulartypology  TEXT, -- vocabularies.def = 'modular_typology'
-  writingaxis      TEXT, -- vocabularies.def = 'axis'
-  thickandthin     BOOLEAN, -- 1|0
-  typeofeos        TEXT, -- vocabularies.def = 'type_of_eos'
-  typeofm          TEXT, -- vocabularies.def = 'type_of_m'
-  typeofr          TEXT, -- vocabularies.def = 'type_of_r'
-  typeofy          TEXT, -- vocabularies.def = 'type_of_r'
-  typeoff          TEXT, -- vocabularies.def = 'type_of_r'
-  writingnotes     TEXT,
+  handstot         INTEGER,
   lectionalsigns   TEXT, -- semi-colon-separated-values: vocabularies.def = 'lectional_signs'
   structuralsigns  TEXT,
   signsnotes       TEXT,
@@ -97,7 +89,6 @@ CREATE TABLE paths__manuscripts (
   holesno          INTEGER,
   holesarrangement TEXT, -- vocabularies.def = 'holes_arrangement'
   holesnotes       TEXT,
-  changeofhand     TEXT,
   marginalnotes    TEXT,
   palimpsest       BOOLEAN, -- 1|0
   palimpsestnotes  TEXT,

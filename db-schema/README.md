@@ -33,6 +33,7 @@ describing each table is standard SQL and will work—with minor changes—with 
 
 - Auxiliary tables
   1. [m_biblio](m_biblio.md)
+  1. [m_hands](m_hands.md)
   1. [m_msplaces](m_msplaces.md)
   1. [m_placephase](m_placephase.md)
   1. [m_quires](m_quires.md)
