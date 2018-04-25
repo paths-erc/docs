@@ -30,7 +30,7 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ---
 
 ## Changelog
-- v. **0.6** [2018-04-24] Changes on database schema: removed `Writing` fields, added `Hands` plugin
+- v. **0.6** [2018-04-25] Changes on database schema: removed `Writing` fields, added `Hands` plugin
   - Added table `paths__m_hands`
   - Added `manuscripts.handstot`
   - Removed `manuscripts.modulartypology`
