@@ -16,7 +16,8 @@ CREATE TABLE paths__places (
   pleiades            TEXT,
   timm                TEXT,
   region              TEXT, -- vocabularies.def = 'dialects'
-  area                TEXT, -- semi-colon-separated-values: vocabularies.def = 'area'
+  area                TEXT, -- places.area
+  meris               TEXT, -- places.meris
   nomos               TEXT, -- vocabularies.def = 'nomos'
   province            TEXT, -- vocabularies.def = 'provinces'
   episcopalsee        TEXT, -- 1|0
