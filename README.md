@@ -30,6 +30,11 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ---
 
 ## Changelog
+
+- v. **0.7** [2018-08-30] Changes on database schema:
+  - Added field places.meris
+  - Added documentation on places
+
 - v. **0.6** [2018-04-25] Changes on database schema: removed `Writing` fields in `Manuscript` table and added new `Hands` plugin
   - Added table `paths__m_hands`
   - Added `manuscripts.handstot`
