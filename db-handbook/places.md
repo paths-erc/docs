@@ -1,4 +1,4 @@
-# Manual for the correct use and reading of the Places
+# Manual for the correct use and reading of the Places section of PAThs database
 
 This subfolder of PAThs’ main documentation repository provides a complete
 documentation for users and readers of the PAThs database, currently available at
