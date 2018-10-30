@@ -2,8 +2,8 @@
 
 This subfolder of PAThs’ main documentation repository provides a complete
 documentation for users and readers of the PAThs database, currently available at
-http://db.bradypus.net. The documentation is written in [Markdown](https://daringfireball.net/projects/markdown/)
-by the PAThs' team (Julian Bogdani) and is available in PDF format in
+[http://db.bradypus.net](http://db.bradypus.net). The documentation is written in [Markdown](https://daringfireball.net/projects/markdown/)
+by the PAThs' team (Julian Bogdani) and is available in PDF format on
 [PAThs’ website](http://paths.uniroma1.it).
 
 If you are looking for the schema description please go to [db-schema/README.md](../db-schema/README.md).
@@ -17,35 +17,35 @@ Ref.: `paths.manuscripts`
 ### Manuscript identifiers
 
 #### CMCL
-- CMCL siglum of the reconstructed codicological unit, where available.
+- CMCL *siglum* of the reconstructed codicological unit, where available ([www.cmcl.it](http://www.cmcl.it)).
 - DB id: `cmclid`
 
 #### TM
-- Trismegistos stable identifier, where available.
+- Trismegistos stable identifier, where available ([www.trismegistos.org](http://www.trismegistos.org)).
 - DB id: `tm`
 
 #### LDAB
-- [LDAB](www.trismegistos.org/ldab/) stable identifier, where available.
+- [LDAB](http://www.trismegistos.org/ldab/) stable identifier, where available ([www.trismegistos.org/ldab](http://www.trismegistos.org/ldab)).
 - DB id: `ldab`
 
 #### LCBM
-- List of Coptic Biblical Manuscripts identifier, where available (Göttingen, Digital Edition of the Sahidic Coptic Old Testament / Berlin, Novum Testamentum Graecum - Editio Critica Maior).
+- List of Coptic Biblical Manuscripts identifier, where available (Göttingen, Digital Edition of the Sahidic Coptic Old Testament - [coptot.manuscriptroom.com/manuscript-catalog](http://coptot.manuscriptroom.com/manuscript-catalog) / Berlin, Novum Testamentum Graecum - Editio Critica Maior).
 - DB id: `lcbm`
 
 #### ALIAS
-- Name par excellence used to identify a manuscript (i.e. Codex Tchacos).
+- Name *par excellence* used to identify a manuscript (i.e. Codex Tchacos).
 - DB id: `alias`
 
 #### STRATIGRAPHY
-- Brief description of the 'stratigraphy' of the codicological unit, following the method and terminology of P. Andrist, P. Canart, M. Maniaci, *La syntaxe du codex. Essai de codicologie structurale*, Turnhout 2013 [ISBN: 9782503543932]. Particular attention is given to 'Production Units' (UniProd) and 'Circulation Units' (UniCirc).
+- Brief description of the stratigraphy of the codicological unit, following the method and terminology of P. Andrist, P. Canart, M. Maniaci, *La syntaxe du codex. Essai de codicologie structurale*, Turnhout 2013 [ISBN: 9782503543932]. Particular attention is given to 'Production Units' (UniProd) and 'Circulation Units' (UniCirc).
 - DB id: `stratigraphy`
 
 #### MODERN HISTORY
-- Brief description of the modern history of the original (i.e. virtually reconstructed) codicological unit and/or of the fragments in which it is composed. History of modern storage places is recorded, as well as modifications of the codicological units (e.g. unification or dismemberment).
+- Brief description of the modern history of the original (i.e. virtually reconstructed) codicological unit and/or of the fragments in which it is composed. History of modern storage places is recorded, as well as modifications of the codicological units (e.g. unification or dismemberment). See also [Codex stratigraphy](#codex-stratigraphy).
 - DB id: `modernhistory`
 
 #### CONTENTS
-- Detailed description of the sequence of the works contained in a multiple-text manuscript (CCs) or description of the content of a work that, for different reasons, at the moment cannot be associated to a Clavis Coptica (CC).
+- Detailed description of the sequence of the works contained in a multiple-text manuscript (Clavis Coptica = CC) or description of the content of a work that, for different reasons, at the moment cannot be associated to a CC.
 - DB id: `contents`
 
 ---
@@ -56,11 +56,11 @@ For each manuscript multiple instances of the following group of fields can be f
 These fields are not part of the [manuscripts table](../db-schema/manuscripts.md) but of the [m_shelfmarks table](../db-schema/m_shelfmarks.md).
 
 #### CMCL's full segnat
-- Fragment identifier as recorderd in the [CMCL](http://cmcl.it)
+- Fragment identifier as recorded in the [CMCL](http://cmcl.it)
 - DB id: `fullsegnat`
 
 #### CMCL segnat
-- Collection name as (programatically) extracted from the [CMCL](http://cmcl.it)
+- Collection name as (programmatically) extracted from the [CMCL](http://cmcl.it)
 - DB id: `segnatid`
 
 #### COLLECTION
@@ -73,7 +73,7 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 - DB id: `shelfmark`
 
 #### F./FF.  OR P./PP.
-- Page range, within the fragment referring to the main codicological unit, in case a single (modern) fragment contains more than one original codicological units.
+- For dismembered manuscripts (except the White Monastery manuscripts), page or leaf range, within the modern bibliological unit. For dismembered manuscripts from the White Monastery, page or leaf range, within the codicological unit (about the concepts of bibliological and codicological units, see T. Orlandi, *Coptic Texts Relating to the Virgin Mary. An Overview*, Rome 2008, 8-9). For fully preserved manuscripts (e.g.: Phantoou manuscripts), modern foliation as stated in catalogues and/or editions. When a `%` sign occurs, it refers to portion of a single page/leaf preserved in more than one fragment.
 - DB id: `pp`
 
 ---
@@ -81,7 +81,7 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 ### Dialects
 
 #### DIALECTS/LANGUAGES
-- Indication of the dialect(s) or language(s) used in the manuscript, according to the *sigla* of the 'Kasser-Funk system' (see R. Kasser, *A Standard System of Sigla for Referring to the Dialects of Coptic*, in Journal of Coptic Studies 1 [1990], 141-151).
+- Indication of the dialect(s) or language(s) used in the manuscript, according to the *sigla* of the *Kasser-Funk system* (see R. Kasser, *A Standard System of Sigla for Referring to the Dialects of Coptic*, in Journal of Coptic Studies 1 [1990], 141-151).
 - DB id: `dialect`
 
 #### NOTES ON DIALECTS/LANGUAGES
@@ -92,16 +92,20 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 
 ### Dating
 
+#### SOURCE FOR DATING
+- Used to further qualify the type of dating. Available sources are: `colophon`, `palaeography`, `prosopography` and `related manuscripts` in case a manuscript is part of a (well) datable group of manuscripts.
+- DB id: `chronofrom`
+
 #### FROM
-- Lower chronological limit (year) of the codicological unit, to be expressed in years. Negative values are used for BC dating
+- Lower chronological limit (year) of the codicological unit, to be expressed in years. Negative values are used for BCE dating
 - DB id: `chronofrom`
 
 #### TO
-- Upper chronological limit (year) of the codicological unit, to be expressed in years. Negative values are used for BC dating. In the case of an exact date (year), this field should be filled with the same value of the From (chronofrom) date. When no elements of dating are available, the label is blank.
+- Upper chronological limit (year) of the codicological unit, to be expressed in years. Negative values are used for BCE dating. In the case of an exact date (year), this field should be filled with the same value of the From ([chronofrom](#from)) date. When no elements of dating are available, the label is blank.
 -DB id: `chronoto`
 
 #### DATING CRITERIA
-- Criteria and information source for dating. If the manuscript/fragment is not dated, the field is blank.
+- Criteria and information source for dating. If the manuscript/fragment (= codicological unit) is not datable, the field is blank.
 - DB id: `datingcriteria`
 
 ---
@@ -109,13 +113,11 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 ### Book form
 
 #### BOOK FORM
-- Horizontal roll: roll written horizontally in a sequence of more or less narrow columns.
-Vertical roll: roll in which the writing runs in one column top-down and parallel to the short side.
-Polyptych: codex made from wooden tablets.
+- Codex, horizontal roll (roll written horizontally in a sequence of more or less narrow columns), vertical roll (roll in which the writing runs in one column top-down and parallel to the short side), ostracon, polyptych (codex made from wooden tablets), and tablet.
 - DB id: `bookform`
 
 #### WRITING SUPPORT
-- Material used for the manuscripts (papyrus, parchment, paper, wood, etc.).
+- Material used for the manuscripts (papyrus, parchment, paper, wood, terracotta, wood, stone, and leather).
 - DB id: `writingsupport`
 
 ---
@@ -131,7 +133,7 @@ Polyptych: codex made from wooden tablets.
 - DB id: `fragtot`
 
 #### FRAGMENTS DIMENSIONS
-- Dimensions of the extant fragments, if any and when relevant.
+- Dimensions of the extant fragments, if any, and when relevant.
 - DB id: `fragdim`
 
 #### ESTIMATED NUMBER OF ANCIENT LEAVES
@@ -167,7 +169,7 @@ Polyptych: codex made from wooden tablets.
 - DB id: `charsperline`
 
 #### TEXT ALIGNMENT
-- Typology of column alignment (left, right, justified).
+- Typology of text alignment inside columns (left, right, justified).
 - DB id: `alignment`
 
 #### NOTES ON ALIGNMENT
@@ -223,15 +225,15 @@ Polyptych: codex made from wooden tablets.
 - DB id: `marginright`
 
 #### HEIGHT OF TEN LINES OF TEXT
-- Height of ten lines of text (in mm) together with their ten interlinear spaces.
+- Height of ten lines of text (in mm) together with their nine interlinear spaces.
 - DB id: `heighttenlines`
 
 #### PROPORTION HEIGHT/WIDTH
-- It quantifies the format of a codex. If the proportion is around 1, the codex is defined as square (quadratus); if the proportion is around 2, the codex is defined as rectangular (oblongus).
+- It quantifies the format of a codex. If the proportion is around 1, the codex is defined as square (*quadratus*); if the proportion is around 2, the codex is defined as rectangular (*oblongus*).
 - DB id: `prophw`
 
 #### PROPORTION WRITTEN/TOTAL PAGE SPACE
-- It shows how the writer decided to cover the writing support with scripture. Total page space includes the margins and the intercolumnia. The proportion is always between 0 and 1; the smaller it is, lesser parts of the page have been written. The bigger it is (around 1) more surface of the page is covered with writing and therefore margins and intercolumnia (id present) are more narrow.
+- It shows how the writer decided to cover the writing support with scripture. Total page space includes the margins and the *intercolumnia*. The proportion is always between 0 and 1; the smaller it is, the smaller the surface of the page written upon. The bigger it is (around 1) a larger surface of the page is covered with writing and therefore margins and *intercolumnia* (if present) are narrower.
 - DB id: `propwt`
 
 #### NOTES ON DIMENSIONS AND PROPORTIONS
@@ -242,7 +244,7 @@ Polyptych: codex made from wooden tablets.
 
 ### Reconstructed quire layout
 
-For each manuscript multiple instances of the following group of fields can be filed, each one describing a single quire.
+For each manuscript, multiple instances of the following group of fields can be filed, each one describing a single quire.
 
 These fields are not part of the [manuscripts table](../db-schema/manuscripts.md) but of the [m_quires table](../db-schema/m_quires.md).
 
@@ -251,26 +253,25 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 - DB id: `quireno`
 
 #### 	QUIRE LAYOUT
-- Schematic representation of the quire layout obtained by means of an *ad hoc*-elaborated tool (http://paths.uniroma1.it/other-products): a dependency-less software to visualise in the browser the layout of quires, using a very intuitive notation system. Please refer to the The software is written in vanilla javascript and can be run in every browser. The code is available for download at PAThs' official GitHub repository: https://github.com/paths-erc/quireMatrix and is released with MIT License.
+- Schematic representation of the quire layout obtained by means of an *ad hoc*-elaborated tool (quireMatrix by J. Bogdani, DOI: [10.5281/zenodo.1453362](http://dx.doi.org/10.5281/zenodo.1453362), working demo: [https://paths-erc.github.io/quireMatrix/](https://paths-erc.github.io/quireMatrix/)): a dependency-less software to visualise in the browser the layout of quires, using a highly intuitive notation system. Please refer to the The software is written in vanilla javascript and can be run in every browser. The code is available for download at PAThs' official GitHub repository: https://github.com/paths-erc/quireMatrix and is released with MIT License.
 - DB id: `quirelayout`
 
 #### NOTES ON QUIRE LAYOUT
+- Verbose notes on quire layout
 - DB id: `quirelayoutnotes`
 
 #### PAPIRUS QUIRE TYPOLOGY
 - Papyrus quire typology, according to E.G. Turner, *The Typology of the Early Codex*, Philadelphia 1977.
-If the quire is of mixed type, its composition is accurately described. For this purpose, a scheme like the following is used: →↓|→↓|↓→|→↓||↓→|→↓|↓→|↓→ (↓, →, F or H; | shows the passage from one leaf to the following; || shows the centre of the quire).
-The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page, i.e. in case of a kollēsis: e.g. →-↓ ↓-→|↓-→ →-↓| etc.
+The fibre direction of the first page is noted (→ for horizontal fibres, and ↓ for vertical fibres) and followed by the pattern of composition of the quire, i.e. ‘like facing like’ when a double page shows the same fibre direction or ‘alternance’ when the fibre direction alternates in a double page. If the quire is of mixed type, its composition is accurately described in ‘Quire notes’ (see below). For this purpose, a scheme like the following is used: →↓|→↓|↓→|→↓||↓→|→↓|↓→|↓→ (↓, →, F or H; | shows the passage from one leaf to the next; || shows the centre of the quire). The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page, i.e. in case of a kollēsis: e.g. →-↓ ↓-→|↓-→ →-↓| etc.
 - DB id: `quirepaptype`
 
 #### PARCHMENT QUIRE TYPOLOGY
 - Parchment quire typology, according to E.G. Turner, *The Typology of the Early Codex*, Philadelphia 1977.
-If the quire is of mixed type, its composition is accurately described. For this purpose, a scheme like the following is used: →↓|→↓|↓→|→↓||↓→|→↓|↓→|↓→ (↓, →, F or H; | shows the passage from one leaf to the following; || shows the centre of the quire).
-The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page, i.e. in case of a kollēsis: e.g. →-↓ ↓-→|↓-→ →-↓| etc.
+The parchment side of the first page is noted (F for flesh side, and H for hair side) and followed by the pattern of composition of the quire, i.e. ‘like facing like’ when a double page shows the same parchment side (and respects the Gregory rule) or ‘alternance’ when the parchment side alternates in a double page. If the quire is of mixed type, its composition is accurately described in [Quire notes](#quire-notes).
 - DB id: `quirepartype`
 
 #### QUIRE NOTES
-- Ancient quire-signature. Special characteristics of the structure and composition of the quire
+- Ancient quire-signature. Special characteristics of the structure and composition of the quire, e.g. →↓|→↓|↓→|→↓||↓→|→↓|↓→|↓→ or F H|H F|F H|F H||H F|H F|F H|H F, where | shows the passage from one leaf to the next; || shows the centre of the quire. For papyrus codices, the scheme →-↓ or ↓-→ indicates a change of fibre direction in the page, i.e. in case of a kollēsis: e.g. →-↓ ↓-→|↓-→ →-↓.
 - DB id: `quirenotes`
 
 ---
@@ -288,11 +289,11 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `quiresig`
 
 #### QUIRE-SIGNATURE TYPE
-- Regular/irregular. A regular signature respects the logical order of the quires; an irregular signature shows errors or incompleteness in signing the quires.
+- Regular/irregular. A regular signature respects the logical order of the quires; an irregular signature shows errors or incompleteness in signing the quires. We consider as irregular repeated series of regular quire-signatures (e.g.: quires 1-4 signed ⲁ-ⲇ followed by quires 5-8 signed again ⲁ-ⲇ).
 - DB id: `quiretype`
 
 #### QUIRE-SIGNATURE POSITION
-- Top-left / -right / -central / -inner / -outer. Position of the quire-signature on the page. It is usually written in the upper margin. The position may vary: near the inner margin, in the centre or near the outer margin. For the leaves where no binding traces are visible, "left" or "right" is used.
+- Top-left / -right / -central / -inner / -outer. Position of the quire-signature on the page. It is usually written in the upper margin. The position may vary: near the inner margin, in the centre or near the outer margin. For the leaves where recto and verso cannot be identified, "left" or "right" is used.
 - DB id: `quireposition`
 
 #### NOTES ON QUIRE-SIGNATURE
@@ -308,11 +309,11 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `pagination`
 
 #### PAGINATION TYPE
-- Regular/irregular. A regular numbering respects the logical order of the pages. An irregular numbering shows errors or incompleteness in numbering the pages.
+- Regular/irregular. A regular numbering respects the logical order of the pages. An irregular numbering shows errors or incompleteness in numbering the pages. We consider as irregular repeated series of regular paginations (e.g.: pages 1-20 signed ⲁ-ⲕ followed by pages 21-40 signed again ⲁ-ⲕ).
 - DB id: `pagtype`
 
 #### PAGINATION POSITION
-- Top-left / -right / -central / -inner / -outer. Position of the page numbers on the page. It is usually written in the upper margin. The position may vary: near the inner margin, in the centre or near the outer margin. For the leaves where no binding traces are visible or inferable, "left" or "right" is used.
+-	Top-left / -right / -central / -inner / -outer. Position of the page numbers on the page. It is usually written in the upper margin. The position may vary: near the inner margin, in the centre or near the outer margin. For the leaves where recto and verso cannot be identified, "left" or "right" is used.
 - DB id: `pagposition`
 
 #### NOTES ON PAGINATION
@@ -324,7 +325,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 ### Foliation (ancient and modern)
 
 #### PRESENCE OF FOLIATION
-- Noted if present. Normally, foliation is modern and written in pencil. Exceptions are accurately described.
+- Noted if present. Usually, foliation is modern and written in pencil. Exceptions are accurately described.
 - DB id: `foliation`
 
 #### FOLIATION TYPE
@@ -342,10 +343,14 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 ---
 
 #### NUMBER OF HANDS
-- Number of different scribe hands identified. For each of them must be filled out a hand description protocol
+- Number of different scribe hands identified. For each of them a hand description protocol must be filled out.
 - DB id: `handstot`
 
 ### Hand(s)
+
+For each manuscript, multiple instances of the following group of fields can be filed, each one describing a single hand.
+
+These fields are not part of the [manuscripts table](../db-schema/manuscripts.md) but of the [m_hands table](../db-schema/m_hands.md).
 
 ---
 
@@ -365,20 +370,22 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - Noted if present.
 - DB id: `thickandthin`
 
-#### NOTES OF WRITING
-- Noteworthy elements related to the writing and the glyphs.
+#### NOTES ON WRITING
+- Noteworthy elements related to the writing and the glyphs. In this section, the writing styles (Biblical majuscule, Alexandrian majuscule, Sloping majuscule, and mixed type) are also mentioned.
 - DB id: `writingnotes`
 
 ---
 
 ### Diacritical signs
 
+In the absence of a detailed and comprehensive study, we do not take into account the supralinear strokes.
+
 #### LECTIONAL SIGNS
 - Signs used to help the correct reading of the text: trema, apostrophe, etc.
 - DB id: `lectionalsigns`
 
 #### PUNCTUATION AND STRUCTURAL/LOGICAL SIGNS
-- Signs used to help the reader to identify the structure of the text. These signs may be graphic (paragraphos, obelos, etc.) or layout characteristics (eisthesis, ekthesis, etc.).
+- Signs used to help the reader to identify the structure of the text. These signs may be graphic (*paragraphos*, *obelos*, etc.) or layout characteristics (*eisthesis*, *ekthesis*, etc.).
 - DB id: `structuralsigns`
 
 #### NOTES ON SIGNS
@@ -404,7 +411,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `ruling`
 
 #### RULING TYPE
-- Description of ruling types (and systems), following Leroy's method (J. Leroy, Les types de réglures des manuscrits grecs, Paris 1976; J.H. Sautel, Répertoire des réglures dans les manuscrits grecs sur parchemin, Turnhout 1995).
+- Description of ruling types (and systems), following Leroy's method (J. Leroy, *Les types de réglures des manuscrits grecs*, Paris 1976; J.H. Sautel, *Répertoire des réglures dans les manuscrits grecs sur parchemin*, Turnhout 1995).
 - DB id: `rulingtype`
 
 #### RULING TOOL
@@ -412,7 +419,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `rulingtool`
 
 #### PRICKING
-- Noted if present. Description of pricking patterns, according to L.W. Jones, Pricking Manuscripts: the Instruments and their Significance, in Speculum 21 (1941), 389-403.
+- Noted if present. Description of pricking patterns, according to L.W. Jones, *Pricking Manuscripts: the Instruments and their Significance*, in Speculum 21 (1941), 389-403.
 - DB id: `pricking`
 
 #### RULING NOTES
@@ -428,7 +435,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `leaftabsnotes`
 
 ---
-### MANIFACTURE OF THE ROLLS
+### MANUFACTURE OF THE ROLLS
 
 #### KOLLĒSEIS
 - Noted if present.
@@ -439,7 +446,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `kolleseseisdescr`
 
 #### NOTES
-- Position on the pages or on the roll (use 'K+number' identifies the kolleseis: K1, K2, etc.)
+-	Direction (horizontal or vertical) and position (ascending or descending) of the *kollēseis* on the pages or on the rolls (we use 'K+number' to identify the *kollēseis*: K1, K2, etc.), identification and dimensions of the reconstructed rolls and *kollēmata* (‘k+number’ is used to identify the *kollēmata*, e.g. k1, k2, etc.).
 - DB id: `tracesnotes`
 
 #### NUMBER OF KOLLĒMATA
@@ -447,7 +454,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `kollno`
 
 #### KOLLĒMATA DIMENSIONS
-- Noted if possible to measure (use "k+number" to identifies the kollemata: k1, k2, etc.)
+- Noted if possible to measure (‘k+number’ is used to identify the *kollēmata*: k1, k2, etc.)
 - DB id: `kolldim`
 
 ---
@@ -467,7 +474,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `sewingtype`
 
 #### COVERS
-- Noted if preserved.
+-	If present, indication of the preserved cover(s) (upper and/or lower).
 - DB id: `covers`
 
 #### NOTES ON COVERS
@@ -495,7 +502,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `changeofhand`
 
 #### MARGINAL NOTES
-- Noted if present.
+- Noted if present and transcription or brief description.
 - DB id: `marginalnotes`
 
 #### PALIMPSEST
@@ -503,7 +510,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `palimpsest`
 
 #### NOTES ON PALIMPSEST
-- Additional notes on palimpsest.
+- Description of the palimpsest.
 - DB id: `palipsestnotes`
 
 #### ANCIENT RESTORATION
@@ -535,7 +542,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `decorsubj`
 
 #### DECORATION DESCRIPTION
-- Position of the decorative elements.
+- Description of the decorative elements.
 - DB id: `decorationdescr`
 
 #### ENLARGED INITIALS
@@ -543,7 +550,7 @@ The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page,
 - DB id: `enlargedinitials`
 
 #### SOURCE OF INFORMATION ABOUT THIS RECORD
-- Catalogues - Editions - Secondary literature - Autoptic analysis - Photographic reproductions - Personal communication (from...)
+- Autoptic analysis - Photographic reproductions - Catalogues - Editions - Secondary literature - Personal communication (from...)
 - DB id: `sourceinfo`
 
 #### EDITORS

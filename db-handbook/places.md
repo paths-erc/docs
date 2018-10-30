@@ -21,80 +21,112 @@ Ref.: `paths.places`
 - DB id: `id`
 
 #### SITE NAME
-- English “standard” version of the most common toponym used in the scholarly literature
+- English ‘standard’ version of the most common toponym used in the scholarly literature
 - DB id: `name`
 
+
 #### COPTIC NAME(S)
-- One ore more (comma-separated) Coptic toponyms or toponym versions, as they appear in manuscripts, related to the place, encoded in Unicode, using Antinoou font.
-- DB id: `copticname`
+**The use of this field has been deprecated in favour of the Place name field group**
+~~- One ore more (comma-separated) Coptic toponyms or toponym versions, as they appear in manuscripts, related to the place, encoded in Unicode, using Antinoou font.~~
+~~- DB id: `copticname`~~
 
 #### GREEK NAME(S)
-- One ore more (comma-separated) well-known Greek toponyms or toponym versions related to the place.
-- DB id: `greekname`
+**The use of this field has been deprecated in favour of the Place name field group**
+~~- One ore more (comma-separated) well-known Greek toponyms or toponym versions related to the place.~~
+~~- DB id: `greekname`~~
+
 
 #### ARABIC NAME(S)
-- One ore more (comma-separated) well-known Arabic toponyms or toponym versions related to the place.
-- DB id: `arabicname`
+**The use of this field has been deprecated in favour of the Place name field group**
+~~- One ore more (comma-separated) well-known Arabic toponyms or toponym versions related to the place.~~
+~~- DB id: `arabicname`~~
 
 #### TRANSLITTERATION OF ARABIC NAME(S)
-- Romanization of the Arabic place names, using the DIN (Deutsches Institut für Normung) 31635 standard.
-- DB id: `arabictranslname`
+**The use of this field has been deprecated in favour of the Place name field group**
+~~- Romanization of the Arabic place names, using the DIN (Deutsches Institut für Normung) 31635 standard.~~
+~~- DB id: `arabictranslname`~~
 
 #### EGYPTIAN NAME(S)
-- One ore more (comma-separated) Egyptian toponyms or toponym versions, transliterated using the Gardiner 1953 standard (Gardiner, Alan Henderson. 1957. *Egyptian Grammar; Being an Introduction to the Study of Hieroglyphs*. 3rd ed. Oxford: Griffith Institute).
-- DB id: `egyptianname`
+**The use of this field has been deprecated in favour of the Place name field group**
 
----
-
-### Other (external) identifiers
+~~- One ore more (comma-separated) Egyptian toponyms or toponym versions, transliterated using the Gardiner 1953 standard (Gardiner, Alan Henderson. 1957. *Egyptian Grammar; Being an Introduction to the Study of Hieroglyphs*. 3rd ed. Oxford: Griffith Institute).~~
+~~- DB id: `egyptianname`~~
 
 #### Trismegistos GeoID
-- Trismegistos GeoID, if available
+- [Trismegistos GeoID](https://www.trismegistos.org/geo/index.php), if available
 - DB id: `tm`
 
 #### Pleiades Id
-- Pleiades Id, if available
+- [Pleiades](https://pleiades.stoa.org/places) Id, if available
 - DB id: `pleiades`
 
 #### Timm references
-- Bibliografical reference to Timm, S. 1984-1992. *Das christlich-koptische Ägypten in arabischer Zeit. Eine Sammlung christlicher Stätten in Ägypten in arabischer Zeit, unter Ausschluss von Alexandria, Kairo, des Apa-Mena-Klosters (Dēr Abū Mina), der Skētis (Wādi n-Naṭrūn) und der Sinai-Region*. Wiesbaden.
-- DB id: `timm`
+**The use of this field has been deprecated in favour of the Bibliography field group**
+~~- Bibliografical reference to Timm, S. 1984-1992. *Das christlich-koptische Ägypten in arabischer Zeit. Eine Sammlung christlicher Stätten in Ägypten in arabischer Zeit, unter Ausschluss von Alexandria, Kairo, des Apa-Mena-Klosters (Dēr Abū Mina), der Skētis (Wādi n-Naṭrūn) und der Sinai-Region*. Wiesbaden.~~
+~~- DB id: `timm`~~
+
+---
+
+### Place names
+For each place multiple instances of the following group of fields can be filed, each one describing a single toponym form.
+
+These fields are not part of the [places table](../db-schema/places.md) but of the [m_toponyms table](../db-schema/m_toponyms.md).
+
+#### LANGUAGE
+- The language in which the toponym is expressed, e.g.: Egyptian, Greek, Latin, Coptic, Arabic and English.
+- DB id: `language`
+
+#### PLACE NAME
+- The single toponym variant.
+- DB id: `toponym`
+
+#### TRANSCRIPTION
+- Romanization of toponym variant. Only Arabic forms are being romanized, using the [DIN (Deutsches Institut für Normung) 31635 standard](https://en.wikipedia.org/wiki/DIN_31635).
+- DB id: `transcription`
+
+#### NOTES
+- Possible notes for the toponym variant
+- DB id: `notes`
+
+#### SORT
+- This field is used to manually order the single items.
+- DB id: `sort`
 
 ---
 
 ### Current administrative position
 
 #### REGION
-- Egyptian macro regions as listed by Baines, J., Malek, J. 1980 ()*Atlas of Ancient Egypt*. Oxford) with the exception of Thebes (divided in Western and Eastern Thebes) and the Fayyum region
+- Egyptian macro regions as listed by Baines, J., Malek, J. 1980 (*Atlas of Ancient Egypt*. Oxford) with the exception of Thebes (divided in Western and Eastern Thebes) and the Fayyum region.
 - DB id: `region`
 
 #### AREA
-- A coherent modern area if available, eg. Valley of the Queens / Kings, etc. An exception is made for the Fayyum region, where *Moerides* are recorded.
+- A coherent modern area if available, eg. Valley of the Queens / Kings, etc.
 - DB id: `area`
 
 ---
 
 ### Ancient administrative position
 
-#### Meris
-- The pertinent Egyptian Fayyumic meris.
-- DB id: `meris`
-
 #### NOMÓS
-- The pertinent Egyptian nome. The Trismegistos’ list of the Egyptian nomes, around 3rd Century CE, published at https://www.trismegistos.org/geo/nomoi_lookup_nomoi.php?fieldname=Egyptian_Nomos&num=one is used.
+- The pertinent Egyptian nome. The [Trismegistos’ list of the Egyptian nomes](https://www.trismegistos.org/geo/nomoi_lookup_nomoi.php?fieldname=Egyptian_Nomos&num=one), around 3rd Century CE is used.
 - DB id: `nomos`
 
 #### Capital of nomós
-- True (1) if the site is the capital of the pertinent nome, false (0) otherwise.
+- True if the site is the capital of the pertinent nome, false otherwise.
 - DB id: `isnomoscapital`
 
 #### PROVINCE
 - The pertinent Diocletian province.
 - DB id: `province`
 
+#### MERIS
+- The pertinent Egyptian Fayyumic meris.
+- DB id: `meris`
+
 ---
 
-### Episcopal see
+### Religious administrative position
 
 #### EPISCOPAL SEE
 - If the site is documented to have been a bishopric or not.
@@ -110,11 +142,26 @@ Ref.: `paths.places`
 
 ---
 
-### Site definition
+### Chronology
 
+#### DATE FROM
+- The upper chronological limit expressed in years of the ‘Coptic’ phase of the site
+- DB id: `datefrom`
+
+#### DATE TO
+- The lower chronological limit expressed in years of the ‘Coptic’ phase of the site
+- DB id: `dateto`
+
+#### DATING CRITERIA AND NOTES
+- Detailed information on which the dating of the site is made.
+- DB id: `datingcriteria`
+
+---
+
+### Description
 
 #### TYPOLOGY
-- Site typologies have been shaped after (selected from) Pleiades’ Feature (or Place) Categories, with the addition of `hermitage unit(s)` and `castrum`.
+- Site typologies has been shaped after (selected from) Pleiades’ Feature (or Place) Categories, with the addition of `hermitage unit(s)` and `castrum`.
 - DB id: `typology`
 
 #### TOPOGRAPHICALLY REFERRED TO
@@ -125,49 +172,96 @@ Ref.: `paths.places`
 - Descriptive notes about the (upwards) topographical relation of the site.
 - DB id: `notestoporeferredto`
 
-#### HISTORICAL CONNECTIONS / REFERENCES
-- Historical (textual) evidence of relations between two or more sites.
-- DB id: `historicalreference`
-
----
-
-### Dating
-
-#### DATE FROM
-- The upper chronological limit expressed in years of the “Coptic” phase of the site
-- DB id: `datefrom`
-
-#### DATE TO
-- The lower chronological limit expressed in years of the “Coptic” phase of the site
-- DB id: `dateto`
-
-#### DATING CRITERIA AND NOTES
-- Detailed information on which the dating of the site is made.
-- DB id: `datingcriteria`
-
----
-
-### General description
-
-#### DESCRIPTION
-- A detailed description of the site, limited to the 3rd-11th Centuries CE.
-- DB id: `description`
-
 #### MONASTERY
-- True (1) if a site is a monastery od a site contains monasteries, false (0) otherwise.
+- True (1) if a site is a monastery of a site contains monasteries, false (0) otherwise.
 - DB id: `ismonastery`
 
 #### NOTES ON MONASTERY
 - Descriptive notes on the monastic nature of the site.
 - DB id: `monasterynotes`
 
-#### POSITION ACCURACY
-- The position accuracy of the the geographic coordinates.
-- DB id: `accuracy`
+#### HISTORICAL CONNECTIONS / REFERENCES
+- Historical (textual) evidence of relations between two or more sites.
+- DB id: `historicalreference`
+
+#### DESCRIPTION
+- A detailed description of the site, limited to the 3rd-11th Centuries CE.
+- DB id: `description`
 
 ---
 
-### BIBLIOGRAPHY
+### Other periods
+For each place multiple instances of the following group of fields can be filed, each one providing a short description of a specific phase.
+
+These fields are not part of the [places table](../db-schema/places.md) but of the [m_placephase table](../db-schema/m_placephase.md).
+
+#### PERIOD
+- Specific chronological period, controlled by a vocabulary derived from [perio.do](http://perio.do/). The following items are so far implemented:
+  - Predynastic Egypt (4500 BC - 2950 BC)
+  - Early Dynastic Egypt (2950 BC - 2670 BC)
+  - Old Kingdom Egypt (2670 BC - 2168 BC)
+  - First Intermediate Period Egypt (2168 BC - 2010 BC)
+  - Middle Kingdom Egypt (2010 BC - 1640 BC)
+  - Second Intermediate Period Egypt (1640 BC - 1548 BC)
+  - New Kingdom Egypt (1548 BC - 1086 BC)
+  - Third Intermediate Period Egypt (1086 BC - 664 BC)
+  - Late Period Egypt (664 BC - 332 BC)
+  - Macedonian Egypt (332 BC - 304 BC)
+  - Ptolemaic Egypt (304 BC - 30 BC)
+  - Ptolemaic-Roman Egypt (304 BC - AD 640)
+  - Roman, early Empire (30 BC - AD 300)
+  - Late Antique (AD 300 - AD 640)
+  - Early Byzantine (AD 650 - AD 850)
+  - Middle Byzantine (AD 850 - AD 1200)
+  - Late Byzantine Period (AD 1200 - AD 1450)
+  - Early Ottoman Empire (AD 1453 - AD 1683)
+  - Ottoman Empire (AD 1513 - AD 1918)
+  - undefined.
+- DB id: `phperiod`
+
+#### NOTES ON PERIOD
+- Further verbose notes on the period
+- DB id: `phperiodnote`
+
+#### TYPOLOGY
+- Typology of the site in the specific period
+- DB id: `phtypology`
+
+#### DESCRIPTION
+- Full description of the site referring to the specific period
+- DB id: `phdescription`
+
+---
+
+### Editorial information
+
+#### PLANS
+**Deprecated**
+
+~~- Field reserved for internal use~~
+~~- DB id: `hasplans`~~
+
+#### PHOTOS
+**Deprecated**
+~~- Field reserved for internal use~~
+~~- DB id: `hasphotos`~~
+
+#### POSITION ACCURACY
+**Deprecated**
+~~- Field reserved for internal use~~
+~~- DB id: `accuracy`~~
+
+#### EDITORS
+- Initials of the person(s) responsible for the record.
+- DB id: `editors`
+
+#### STATUS
+- If the record has been fully compiled the status is set to `complete`; if it is under study the status is set to `in-progress`. If the status is blank it means that the provided information are incomplete, not reliable and liable to change in the future.
+- DB id: `status`
+
+---
+
+### Bibliography
 For each place multiple instances of the following group of fields can be filed, each one describing a bibliographic reference.
 
 These fields are not part of the [places table](../db-schema/places.md) but of the [m_biblio table](../db-schema/m_biblio.md).

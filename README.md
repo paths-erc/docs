@@ -31,6 +31,10 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 
 ## Changelog
 
+- v. **0.8** [2018-10-30] Doc updated
+  - Updated handbook section regarding `Manuscripts`
+  - Updated handbook section regarding `Places`
+
 - v. **0.7** [2018-08-30] Changes on database schema:
   - Added field places.meris
   - Added documentation on places

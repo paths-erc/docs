@@ -13,10 +13,8 @@ CREATE TABLE paths__m_toponyms (
   toponym          TEXT,
   language         TEXT,
   transcription    TEXT,
-  reference        TEXT,
-  referencedetails TEXT,
-  datefrom         TEXT,
-  dateto           TEXT
+  notes            TEXT,
+  sort             INTEGER
 );
 ```
 
