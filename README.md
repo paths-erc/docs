@@ -31,6 +31,11 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 
 ## Changelog
 
+- v. **0.9** [2018-11-06] Changes on database schema:
+  - Dropped `places.copticname`, `places.greekname`, `places.arabicname`, `places.arabictranslname`, `places.egyptianname`
+  - Updated handbook section regarding `Manuscripts`
+  - Updated handbook section regarding `Places`
+
 - v. **0.8** [2018-10-30] Doc updated
   - Updated handbook section regarding `Manuscripts`
   - Updated handbook section regarding `Places`
