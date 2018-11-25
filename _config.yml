@@ -4,7 +4,6 @@ description: The official documentation repository of PAThs project
 theme: jekyll-theme-minimal
 
 footer-links:
-  email:paola.buzi@uniroma1.it
+  email: paola.buzi@uniroma1.it
   email:julian.bogdani@uniroma1.it
-  github: paths-erc
   stackoverflow: users/586449/bradypus
