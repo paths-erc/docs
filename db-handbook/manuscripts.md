@@ -370,6 +370,10 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 - Noted if present.
 - DB id: `thickandthin`
 
+#### IDENTIFICATION
+- The (nick)name of the scribe, if known
+- DB id: `identification`
+
 #### NOTES ON WRITING
 - Noteworthy elements related to the writing and the glyphs. In this section, the writing styles (Biblical majuscule, Alexandrian majuscule, Sloping majuscule, and mixed type) are also mentioned.
 - DB id: `writingnotes`
