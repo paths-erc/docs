@@ -33,7 +33,7 @@ CREATE TABLE paths__places (
   description         TEXT,
   hasplans            BOOLEAN, -- 1|0
   hasphotos           BOOLEAN, -- 1|0
-  ismonastery         BOOLEAN, -- 1|0
+  hasmonastery        BOOLEAN, -- 1|0
   monasterynotes      TEXT,
   isnomoscapital      BOOLEAN, -- 1|0
   accuracy            TEXT,

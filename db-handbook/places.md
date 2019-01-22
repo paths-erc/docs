@@ -144,9 +144,9 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 - Descriptive notes about the (upwards) topographical relation of the site.
 - DB id: `notestoporeferredto`
 
-#### MONASTERY
-- True (1) if a site is a monastery of a site contains monasteries, false (0) otherwise.
-- DB id: `ismonastery`
+#### DOES THE SITE INCLUDE ANY MONASTERIES?
+- True (1) if a site contains one or many monasteries, false (0) otherwise.
+- DB id: `Does the site include any monasteries?`
 
 #### NOTES ON MONASTERY
 - Descriptive notes on the monastic nature of the site.
