@@ -34,7 +34,7 @@ CREATE TABLE paths__manuscripts (
   charsperline     INTEGER,
   alignment        TEXT,  -- vocabularies.def = 'alignment'
   alignmentnotes   TEXT,
-  leafw            TEXT,
+  leafw            INTEGER,
   leafh            TEXT,
   framew           TEXT,
   frameh           TEXT,
@@ -46,7 +46,7 @@ CREATE TABLE paths__manuscripts (
   marginleft       TEXT,
   marginright      TEXT,
   heighttenlines   TEXT,
-  prophw           TEXT,
+  prophw           INTEGER,
   propwt           TEXT,
   dimnotes         TEXT,
   quirenotes       TEXT,
