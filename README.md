@@ -31,6 +31,10 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 
 ## Changelog
 
+- v. **0.10** [2019-01-31] Doc updated:
+  - Added documentation for `manuscripts`.`issinglefrag`
+  - Added DDL for auxiliary tables
+
 - v. **0.9** [2018-11-06] Changes on database schema:
   - Dropped `places.copticname`, `places.greekname`, `places.arabicname`, `places.arabictranslname`, `places.egyptianname`
   - Updated handbook section regarding `Manuscripts`
