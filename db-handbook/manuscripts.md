@@ -16,6 +16,10 @@ Ref.: `paths.manuscripts`
 
 ### Manuscript identifiers
 
+#### CML
+- Coptic Literary Manusctipt (CLM)identifier of the reconstructed codicological unit.
+- DB id: `id`
+
 #### CMCL
 - CMCL *siglum* of the reconstructed codicological unit, where available ([www.cmcl.it](http://www.cmcl.it)).
 - DB id: `cmclid`
@@ -35,6 +39,10 @@ Ref.: `paths.manuscripts`
 #### ALIAS
 - Name *par excellence* used to identify a manuscript (i.e. Codex Tchacos).
 - DB id: `alias`
+
+#### IS PRESERVED IN A SINGLE FRAGMENT?
+- True or 1 if the manuscript is conserved in only one single fragment
+- DB id: `issinglefrag`
 
 #### STRATIGRAPHY
 - Brief description of the stratigraphy of the codicological unit, following the method and terminology of P. Andrist, P. Canart, M. Maniaci, *La syntaxe du codex. Essai de codicologie structurale*, Turnhout 2013 [ISBN: 9782503543932]. Particular attention is given to 'Production Units' (UniProd) and 'Circulation Units' (UniCirc).
