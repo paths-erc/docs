@@ -1,5 +1,8 @@
 title: PAThs documentation
 description: The official documentation repository of PAThs project
-logo: https://avatars2.githubusercontent.com/u/24432254?s=200&v=4
+logo: paths-logo.png
 
-theme: jekyll-theme-minimal
+
+defaults:
+  - values:
+      layout: default

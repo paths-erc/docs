@@ -1,4 +1,8 @@
-# PAThs database schema documentation
+---
+title: "PAThs database schema documentation"
+layout: default
+permalink: /schema
+---
 
 This subfolder of PAThs’ main documentation repository provides a complete
 documentation of the PAThs database, currently available at
@@ -6,7 +10,7 @@ http://db.bradypus.net. The documentation is written in [Markdown](https://darin
 by the PAThs' team (Julian Bogdani) and is available in PDF format in
 [PAThs’ website](http://paths.uniroma1.it).
 
-If you are looking for the user & reader guide please go to [db-handbook/README.md](../db-handbook/README.md).
+If you are looking for the user & reader guide please go to [db-handbook/README](../db-handbook/README).
 
 
 The current database engine used by PAThs is [Sqlite](https://www.sqlite.org/),
@@ -19,33 +23,33 @@ describing each table is standard SQL and will work—with minor changes—with 
 
 ## Table of contents
 
-- [The database managing system](dbms.md)
+- [The database managing system](dbms)
 - Table list
-  1. [Manuscripts](manuscripts.md)
-  1. [Collections](collections.md)
-  1. [Works](works.md)
-  1. [Titles](titles.md)
-  1. [Colophons](colophons.md)
-  1. [Authors](authors.md)
-  1. [Places](places.md)
-  1. [Persons](persons.md)
-  1. [Bibliographic database](biblio.md)
+  1. [Manuscripts](manuscripts)
+  1. [Collections](collections)
+  1. [Works](works)
+  1. [Titles](titles)
+  1. [Colophons](colophons)
+  1. [Authors](authors)
+  1. [Places](places)
+  1. [Persons](persons)
+  1. [Bibliographic database](biblio)
 
 - Auxiliary tables
-  1. [m_biblio](m_biblio.md)
-  1. [m_hands](m_hands.md)
-  1. [m_msplaces](m_msplaces.md)
-  1. [m_placephase](m_placephase.md)
-  1. [m_quires](m_quires.md)
-  1. [m_shelfmarks](m_shelfmarks.md)
-  1. [m_toponyms](m_toponyms.md)
-  1. [m_nameforms](m_nameforms.md)
-  1. [m_wkauthors](m_wkauthors.md)
+  1. [m_biblio](m_biblio)
+  1. [m_hands](m_hands)
+  1. [m_msplaces](m_msplaces)
+  1. [m_placephase](m_placephase)
+  1. [m_quires](m_quires)
+  1. [m_shelfmarks](m_shelfmarks)
+  1. [m_toponyms](m_toponyms)
+  1. [m_nameforms](m_nameforms)
+  1. [m_wkauthors](m_wkauthors)
 
 - System tables
-  1. [Files](files.md)
-  1. [Charts](charts.md)
-  1. [Queries](queries.md)
-  1. [Rs](rs.md)
-  1. [Userlinks](userlinks.md)
-  1. [Vocabularies](vocabularies.md)
+  1. [Files](files)
+  1. [Charts](charts)
+  1. [Queries](queries)
+  1. [Rs](rs)
+  1. [Userlinks](userlinks)
+  1. [Vocabularies](vocabularies)

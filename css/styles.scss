@@ -1,0 +1,79 @@
+---
+---
+$rossoS: #8E072C;
+
+// h1, h2, h3, h4, h5, h6{
+//   font-family: Merriweather;
+//   font-weight: bold;
+// }
+h1, h2{
+  margin-top: 2rem;
+}
+
+nav.navbar{
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, .6) !important;
+
+  @media (min-width: 576px) {
+    background-color: rgba(0, 0, 0, .3) !important;
+  }
+
+  .nav-item.active{
+    font-weight: bold;
+  }
+
+  a{
+    color: #fff !important;
+  }
+}
+
+.img-container{
+  background: url('../images/css/paths-header.jpg');
+  padding-top: 50px;
+  width: 100% !important;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  overflow: hidden;
+
+  -webkit-filter: sepia(100%) hue-rotate(190deg) saturate(200%);
+  -moz-filter: sepia(100%) hue-rotate(190deg) saturate(200%);
+  filter: sepia(100%) hue-rotate(190deg) saturate(200%);
+
+
+  h1{
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+    text-shadow: 0 0 1rem #000;
+
+    img{
+      background: #fff;
+      max-width: 70px;
+    }
+
+    @media (min-width: 768px) {
+      width: 80%;
+      font-size: 2.5rem;
+      padding-left: 4rem;
+      img{
+        max-width: 150px;
+      }
+    }
+  }
+}
+
+// Highlight box in home: news marked as home
+.bg-sapienza{
+  background: $rossoS;
+  color: #fff;
+}
+
+pre{
+  background-color: #f8f9fa;
+  padding: 2rem;
+}

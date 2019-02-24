@@ -1,4 +1,8 @@
-# PAThs’ handbook
+---
+title: "User‘s handbook"
+layout: default
+permalink: /handbook
+---
 
 This subfolder of PAThs’ main documentation repository provides a complete
 handbook for PAThs’ database users. The documentation is written in [Markdown](https://daringfireball.net/projects/markdown/)
@@ -11,5 +15,5 @@ This section is still under development and will be frequently updated
 
 ## Table of contents
 
-- [The Manuscripts table](manuscripts.md)
-- [The Places table](places.md)
+- [The Manuscripts table](manuscripts)
+- [The Places table](places)

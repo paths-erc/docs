@@ -1,4 +1,9 @@
-# PATh documentation repository
+---
+title: PAThs documentation repository
+category: gen
+class: home
+permalink: /
+---
 
 This repository is maintained by Julian Bogdani
 [julian.bogdani@uniroma1.it](mailto:julian.bogdani@uniroma1.it)
@@ -24,5 +29,5 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ---
 
 ## Available documentation:
-- [Users’ handbook](db-handbook/README.md)
-- [Database schema](db-schema/README.md)
+- [Users’ handbook](handbook)
+- [Database schema](schema)
