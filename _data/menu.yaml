@@ -11,10 +11,7 @@ docs:
   url: https://atlas.paths-erc.eu
 
 - title: Users handbook
-  url: /handbook
+  url: /handbook/
 
 - title: Database structure
-  url: /schema
-
-- title: webGIS docs
-  url: /gis-docs
+  url: /schema/
