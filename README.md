@@ -1,7 +1,5 @@
 ---
 title: PAThs documentation repository
-category: gen
-class: home
 permalink: /
 ---
 
