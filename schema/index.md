@@ -1,7 +1,7 @@
 ---
 title: "PAThs database schema documentation"
 layout: default
-permalink: /schema
+permalink: /schema/
 ---
 
 This subfolder of PAThs’ main documentation repository provides a complete

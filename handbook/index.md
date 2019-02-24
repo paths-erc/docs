@@ -1,7 +1,7 @@
 ---
 title: "User‘s handbook"
 layout: default
-permalink: /handbook
+permalink: /handbook/
 ---
 
 This subfolder of PAThs’ main documentation repository provides a complete
