@@ -1,11 +1,8 @@
 menu_title: Main menu
 docs:
 
-- title: Home
-  url: /
-
 - title: PAThs main website
-  url: https://paths.uniroma1.it
+  url: http://paths.uniroma1.it
 
 - title: The Atlas
   url: https://atlas.paths-erc.eu
@@ -13,5 +10,8 @@ docs:
 - title: Users handbook
   url: /handbook/
 
-- title: Database structure
+- title: DB structure
   url: /schema/
+
+- title: Vectorization protocol
+  url: /geodata/

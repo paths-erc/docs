@@ -29,9 +29,11 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 ## Available documentation:
 - [Users’ handbook](handbook)
 - [Database schema](schema)
+- [The vectorization protocol](/geodata/)
 
 ## Changelog
 
+- v. **0.11** [2019-03-17] Added first version of the vectorization protocol
 - v. **0.10** [2019-01-31] Doc updated:
   - Added documentation for `manuscripts`.`issinglefrag`
   - Added DDL for auxiliary tables
