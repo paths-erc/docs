@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="h-100">
+    <div id="map" class="h-100"></div>
+
+
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+      crossorigin=""></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+
+    <script type="text/javascript">
+      function getStyle(f){
+        var p = f.properties;
+
+        var s = {
+          weight: 2,
+          fillOpacity: .2
+        };
+
+        var opacity;
+
+        if (p.reconstr){
+          s.dashArray = '4 4';
+          opacity = 0.4;
+        } else {
+          opacity = 0.8
+        }
+        switch(true){
+          case (p.phase < 0):
+            s.color = 'rgba(150, 150, 150, ' + opacity + ')';
+            s.fillColor = 'rgba(150, 150, 150, .4)';
+            break;
+          case (p.phase > 0):
+            s.color = 'rgba(247, 110, 1, ' + opacity + ')';
+            s.fillColor = 'rgba(247, 110, 1, .4)';
+            break;
+          default:
+            s.color = 'rgba(31, 120, 180, ' + opacity + ')';
+            s.fillColor = 'rgba(31, 120, 180, .4)';
+            break;
+        }
+
+        if (p.part && p.part.indexOf('u') > -1) {
+          s.fill = false;
+          s.color = 'rgba(0, 0, 0, .2)';
+        } else if (p.part && p.part.indexOf('l') > -1) {
+          s.fillColor = 'rgba(0, 0, 0, .1)';
+          s.color = 'rgba(0, 0, 0, .2)';
+        } else if (p.part && p.part.indexOf('d') > -1) {
+          s.fillColor = 'rgba(171, 221, 164, .8)';
+          s.color = 'rgba(171, 221, 164, 1)';
+        }
+        return s;
+      }
+
+      function loadGeoJSON(path, cb){
+        fetch(path).then( function(response){
+          response.json().then(function(j){
+            cb(j);
+          });
+        });
+      }
+
+      var map = L.map('map', {
+        maxZoom: 25,
+      });
+
+      var basemaps = {
+        'OSM': L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+          // 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }),
+        'Pelagios': L.tileLayer('http://pelagios.org/tilesets/imperium/{z}/{x}/{y}.png', {
+          maxZoom: 11
+        })
+      };
+      basemaps['OSM'].addTo(map);
+
+
+      loadGeoJSON('taposiris.geojson', function(gj){
+        var overlays = {
+          'Previous phases': L.layerGroup(),
+          'Main phase': L.layerGroup(),
+          'Successive phases': L.layerGroup()
+        };
+
+        var geojsonLayer = new L.GeoJSON(gj, {
+          style: getStyle,
+          onEachFeature: function(f, l){
+            if (f.properties.phase < 0) {
+              l.addTo(overlays['Previous phases']);
+            } else if (f.properties.phase > 0) {
+              l.addTo(overlays['Successive phases']);
+            } else {
+              l.addTo(overlays['Main phase']);
+            }
+            l.bindPopup('paths.places.' + f.properties.place + ' / ' + f.properties.building)
+          }
+        });
+        overlays['Previous phases'].addTo(map);
+        overlays['Main phase'].addTo(map);
+        overlays['Successive phases'].addTo(map);
+
+        L.control.layers(basemaps, overlays).addTo(map);
+
+        map.fitBounds(geojsonLayer.getBounds());
+      });
+
+      var legend = L.control({position: 'bottomleft'});
+      legend.onAdd = function(){
+        var div = L.DomUtil.create('div', 'bg-white shadow rounded p-2 border');
+        div.innerHTML = '<div class="text-center"><img src="favicon.png" alt="Vectoriazation protocol example" style="max-width:50px"/> Created by <a href="http://paths.uniroma1.it" target="_blank" title="PAThs / Julian Bogdani">Julian Bogdani @ PAThs</a>. <a href="../">Back to the docs</a></div>';
+        return div;
+      }
+      legend.addTo(map);
+
+    </script>
+  </body>
+</html>
