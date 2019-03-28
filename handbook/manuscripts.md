@@ -40,9 +40,13 @@ Ref.: `paths.manuscripts`
 - Name *par excellence* used to identify a manuscript (i.e. Codex Tchacos).
 - DB id: `alias`
 
-#### IS PRESERVED IN A SINGLE FRAGMENT?
+#### PRESERVED IN A SINGLE FRAGMENT
 - True or 1 if the manuscript is conserved in only one single fragment
 - DB id: `issinglefrag`
+
+#### ONLY BOOKBINDING PRESERVED
+- True or 1 if the manuscript if only the bookbinding is preserved
+- DB id: `isbookbinding`
 
 #### STRATIGRAPHY
 - Brief description of the stratigraphy of the codicological unit, following the method and terminology of P. Andrist, P. Canart, M. Maniaci, *La syntaxe du codex. Essai de codicologie structurale*, Turnhout 2013 [ISBN: 9782503543932]. Particular attention is given to 'Production Units' (UniProd) and 'Circulation Units' (UniCirc).

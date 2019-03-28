@@ -12,6 +12,7 @@ CREATE TABLE paths__manuscripts (
   lcbm             TEXT,
   alias            TEXT,
   issinglefrag     TEXT, -- 1|0
+  isbookbinding    TEXT, -- 1|0
   stratigraphy     TEXT,
   modernhistory    TEXT,
   contents         TEXT,

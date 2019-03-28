@@ -33,6 +33,7 @@ typographical misprint you may notice by opening a new [issue](https://github.co
 
 ## Changelog
 
+- v. **0.12** [2019-03-28] Added field `manuscripts`.`isbookbinding`
 - v. **0.11** [2019-03-17] Added first version of the vectorization protocol
 - v. **0.10** [2019-01-31] Doc updated:
   - Added documentation for `manuscripts`.`issinglefrag`
