@@ -1,0 +1,13 @@
+@prefix : <http://paths.uniroma1.it> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:paths a void:Dataset;
+  dcterms:title "PAThs";
+  dcterms:publisher "Sapienza Università di Roma";
+  foaf:homepage <http://paths.uniroma1.it/>;
+  dcterms:description "A database of Coptic Literary Manuscripts and Relevant Archaeologica Sites of Late Antique and Medieval Egypt";
+  dcterms:license <https://opendatacommons.org/licenses/odbl/>;
+  void:dataDump <https://raw.githubusercontent.com/paths-erc/docs/master/data/paths.places.ttl> ;
+  .
