@@ -1,4 +1,7 @@
-# Manual for the correct use and reading of the codicological description of the codicological units
+---
+title: "Manual for the correct use and reading of the codicological description of the codicological units"
+permalink: "/handbook/manuscripts"
+---
 
 This subfolder of PAThs’ main documentation repository provides a complete
 documentation for users and readers of the PAThs database, currently available at
@@ -283,7 +286,7 @@ The parchment side of the first page is noted (F for flesh side, and H for hair 
 - DB id: `quirepartype`
 
 #### QUIRE NOTES
-- Ancient quire-signature. Special characteristics of the structure and composition of the quire, e.g. →↓|→↓|↓→|→↓||↓→|→↓|↓→|↓→ or F H|H F|F H|F H||H F|H F|F H|H F, where | shows the passage from one leaf to the next; || shows the centre of the quire. For papyrus codices, the scheme →-↓ or ↓-→ indicates a change of fibre direction in the page, i.e. in case of a kollēsis: e.g. →-↓ ↓-→|↓-→ →-↓.
+- Ancient quire-signature. Special characteristics of the structure and composition of the quire, e.g. →↓\|→↓\|↓→\|→↓\|\|↓→\|→↓\|↓→\|↓→ or F H\|H F\|F H\|F H\|\|H F\|H F\|F H\|H F, where \| shows the passage from one leaf to the next; \|\| shows the centre of the quire. For papyrus codices, the scheme →-↓ or ↓-→ indicates a change of fibre direction in the page, i.e. in case of a kollēsis: e.g. →-↓ ↓-→\|↓-→ →-↓.
 - DB id: `quirenotes`
 
 ---

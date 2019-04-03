@@ -1,0 +1,13 @@
+[
+  { "id": 1, "name": "4085-Great Britain War Office-U.S. Army Map Service-1941-", "scale": "100.000", "year": 1941, "rs": "EPSG:22992", "license": "Public Domain", "source": "Perry-Castañeda Library Map Collection" },
+  { "id": 2, "name": "Survey of Egypt", "scale": "25.000", "year": 1950, "rs": "EPSG:22992", "license": "", "source": "Courtesy of Polish Centre of Mediterranean Archaeology of the University of Warsaw (PCMA) (Warsaw, Poland)"  },
+  { "id": 3, "name": "Africa 1000k", "scale": "1.000.000", "year": 1949, "rs": "EPSG:4326", "license": "Public Domain", "source": "Perry-Castañeda Library Map Collection"  },
+  { "id": 4, "name": "Series P502-U.S. Army Map Service-1954-", "scale": "250.000", "year": 1954, "rs": "EPSG:4229", "license": "Public Domain", "source": "Perry-Castañeda Library Map Collection"  },
+  { "id": 5, "name": "Series 1404-Great Britain War Office and Air Ministry", "scale": "500.000", "year": 1960, "rs": "EPSG:23035", "license": "Public Domain", "source": "Perry-Castañeda Library Map Collection"  },
+  { "id": 6, "name": "Survey of Egypt", "scale": "50.000", "year": 1970, "rs": "EPSG:4022", "license": "", "source": "Courtesy of Polish Centre of Mediterranean Archaeology of the University of Warsaw (PCMA) (Warsaw, Poland)" },
+  { "id": 7, "name": "Survey of Egypt", "scale": "2.500", "year": 1934, "rs": "EPSG:22992", "license": "", "source": "Courtesy of Polish Centre of Mediterranean Archaeology of the University of Warsaw (PCMA) (Warsaw, Poland)"  },
+  { "id": 8, "name": "Survey of Egypt", "scale": "500.000", "year": 1941, "rs": "EPSG:4022", "license": "", "source": "Courtesy of Polish Centre of Mediterranean Archaeology of the University of Warsaw (PCMA) (Warsaw, Poland)"  },
+  { "id": 9, "name": "Survey of Egypt - arabic", "scale": "100.000", "year": 1950, "rs": "EPSG:4022", "license": "", "source": "Courtesy of Polish Centre of Mediterranean Archaeology of the University of Warsaw (PCMA) (Warsaw, Poland)"  },
+  { "id": 10, "name": "IMV", "scale": "1.000.000", "year": 1960, "rs": "EPSG:4229", "license": "Public Domain", "source": "Perry-Castañeda Library Map Collection"  },
+  { "id": 11, "name": "Tactical Pilotage Map (TPC)", "scale": "500.000", "year": 1979, "rs": "EPSG: 4229", "license": "Public Domain", "source": "Perry-Castañeda Library Map Collection"  }
+]

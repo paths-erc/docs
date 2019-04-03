@@ -1,0 +1,14 @@
+menu_title: Main menu
+docs:
+
+- title: Introduction
+  url: ./
+
+- title: Simple Vectorization Protocol (SVP)
+  url: svp
+
+- title: Available raster data
+  url: rasters
+
+- title: Availabe vector data
+  url: vectors

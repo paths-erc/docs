@@ -1,0 +1,12 @@
+<div class="border-bottom border-top p-3 mb-5 bg-light">
+  <strong class="text-dark">Menu</strong>
+  <ul>
+  {% for item in site.data.gismenu.docs %}
+    <li>
+      <a href="{{ item.url }}" title="{{ item.title }}">
+        {{ item.title }}
+        </a>
+      </li>
+  {% endfor %}
+  </ul>
+</div>

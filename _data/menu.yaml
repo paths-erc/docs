@@ -13,5 +13,5 @@ docs:
 - title: DB structure
   url: /schema/
 
-- title: Vectorization protocol
-  url: /geodata/
+- title: GIS data
+  url: /gis/

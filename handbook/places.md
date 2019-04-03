@@ -1,4 +1,9 @@
-# Manual for the correct use and reading of the Places section of PAThs database
+---
+title: "Manual for the correct use and reading of the Places section of PAThs database"
+permalink: "/handbook/places"
+---
+
+
 
 This subfolder of PAThs’ main documentation repository provides a complete
 documentation for users and readers of the PAThs database, currently available at
@@ -80,11 +85,11 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 ### Ancient administrative position
 
-#### NOMÓS
+#### NOME
 - The pertinent Egyptian nome. The [Trismegistos’ list of the Egyptian nomes](https://www.trismegistos.org/geo/nomoi_lookup_nomoi.php?fieldname=Egyptian_Nomos&num=one), around 3rd Century CE is used.
 - DB id: `nomos`
 
-#### Capital of nomós
+#### Capital of nome
 - True if the site is the capital of the pertinent nome, false otherwise.
 - DB id: `isnomoscapital`
 
@@ -207,19 +212,15 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 ### Editorial information
 
-#### PLANS
-**Deprecated**
-
+**Deprecated**  
 ~~- Field reserved for internal use~~
 ~~- DB id: `hasplans`~~
 
-#### PHOTOS
-**Deprecated**
+**Deprecated**  
 ~~- Field reserved for internal use~~
 ~~- DB id: `hasphotos`~~
 
-#### POSITION ACCURACY
-**Deprecated**
+**Deprecated**  
 ~~- Field reserved for internal use~~
 ~~- DB id: `accuracy`~~
 

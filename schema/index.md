@@ -10,7 +10,7 @@ http://db.bradypus.net. The documentation is written in [Markdown](https://darin
 by the PAThs' team (Julian Bogdani) and is available in PDF format in
 [PAThs’ website](http://paths.uniroma1.it).
 
-If you are looking for the user & reader guide please go to [db-handbook/README](../db-handbook/README).
+If you are looking for the user & reader guide please [follow this link](/handbook/).
 
 
 The current database engine used by PAThs is [Sqlite](https://www.sqlite.org/),
