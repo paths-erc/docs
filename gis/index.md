@@ -8,22 +8,22 @@ permalink: /gis/
 
 
 These pages are aimed to provide a in-depth description of the GIS data currently
-being processed by PAThs and made freely available if copyright and license of
+being processed by PAThs and made freely available when copyright and license of
 the source data permits redistribution.
 
-At present, a great effort is being spent on georeferencing of previous cartographic
-material, freely available on the Internet or provided by partners. You are warmly
-invited to submit or report other cartographic material of any date relating to Egypt
+At present, a great effort is being spent on georeferencing cartographic
+material, freely available on the Internet or provided to PAThs by partners. You are warmly
+invited to submit or report cartographic sources of any date relating to Egypt
 and neighbour areas, that will be promptly georeferenced and made available on this page.
 
 There is also an ongoing vectorization process which is still in an early phase
 of implementation, and is focused mainly on christian religious building of Egypt (basilicas,
-churches, chapels, etc.) but that is soon going to be extended on other legacy data.
-One again, feel free to report or submit copyright free material that can be easily
-processed and published.
+churches, chapels, etc.) but that is soon going to be extended to other legacy data.
+One again, feel free [to report or submit](https://github.com/paths-erc/paths-docs/issues)
+copyright free material that can be easily processed and published.
 
 ## Spatial reference systems
-Egypt area uses historically [different coordinate systems](http://epsg.io/?q=egypt).
+[Different coordinate systems](http://epsg.io/?q=egypt) are historically being used for the Egyptian area.
 The most common are:
 - Geographical coordinate system [Egypt 1907 (EPSG:4229)](http://epsg.io/4229)
 - Projected coordinate system:
