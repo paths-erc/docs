@@ -4,18 +4,16 @@ layout: default
 permalink: /schema/
 ---
 
-This subfolder of PAThs’ main documentation repository provides a complete
-documentation of the PAThs database, currently available at
-http://db.bradypus.net. The documentation is written in [Markdown](https://daringfireball.net/projects/markdown/)
-by the PAThs' team (Julian Bogdani) and is available in PDF format in
-[PAThs’ website](http://paths.uniroma1.it).
+This section of PAThs’ documentation repository provides a complete
+documentation of PAThs database schema, currently implemented at
+http://db.bradypus.net.
 
 If you are looking for the user & reader guide please [follow this link](/handbook/).
 
-
 The current database engine used by PAThs is [Sqlite](https://www.sqlite.org/),
 «a self-contained, high-reliability, embedded, full-featured, public-domain,
-SQL database engine. SQLite is the most used database engine in the world» (https://www.sqlite.org). The [DDL](https://en.wikipedia.org/wiki/Data_definition_language)
+SQL database engine. SQLite is the most used database engine in the world» (https://www.sqlite.org).
+The [DDL](https://en.wikipedia.org/wiki/Data_definition_language)
 describing each table is standard SQL and will work—with minor changes—with other database engines, like
 [MySQL](https://www.mysql.com/), [PostgreSQL](https://www.postgresql.org/), etc.
 
