@@ -7,30 +7,30 @@ permalink: /gis/
 {% include gis-menu.html %}
 
 
-These pages are aimed to provide a in-depth description of the GIS data currently
-being processed by PAThs and made freely available when copyright and license of
-the source data permits redistribution.
+These pages aimed at providing an in-depth description of the GIS that are data currently
+being processed by “PAThs” and made freely available, when copyright and license of
+the source data permit redistribution.
 
 At present, a great effort is being spent on georeferencing cartographic
-material, freely available on the Internet or provided to PAThs by partners. You are warmly
-invited to submit or report cartographic sources of any date relating to Egypt
-and neighbour areas, that will be promptly georeferenced and made available on this page.
+material, freely available on the Internet or provided to “PAThs” by its scientific partners.
+You are therefore warmly invited to submit or report cartographic sources of any date relating to Egypt
+and neighbour areas, that will be promptly georeferenced and made available at this page.
 
-There is also an ongoing vectorization process which is still in an early phase
-of implementation, and is focused mainly on christian religious building of Egypt (basilicas,
-churches, chapels, etc.) but that is soon going to be extended to other legacy data.
-One again, feel free [to report or submit](https://github.com/paths-erc/paths-docs/issues)
+Moreover, a vectorization process, mainly focused on Christian Egyptian religious buildings
+(basilicas, churches, chapels, etc.) is ongoing. Such process is still in a preliminary phase of
+implementation, but will soon be extended to other legacy data.
+Once again, feel free [to report or submit](https://github.com/paths-erc/paths-docs/issues)
 copyright free material that can be easily processed and published.
 
 ## Spatial reference systems
-[Different coordinate systems](http://epsg.io/?q=egypt) are historically being used for the Egyptian area.
+[Different coordinate systems](http://epsg.io/?q=egypt) are historically being used for Egypt.
 The most common are:
 - Geographical coordinate system [Egypt 1907 (EPSG:4229)](http://epsg.io/4229)
 - Projected coordinate system:
   - [Egypt 1907 / Red Belt (EPSG:22992)](http://epsg.io/22992)
   - [ED50 / UTM zone 35N (EPSG:23035)](http://epsg.io/23035)
   - [WGS 84 / UTM zone 35N (EPSG:32637)](http://epsg.io/32637)
-- On the westernmost desert area the following projected system might be used:
+- For the westernmost desert area the following projected system might be used:
   - [Egypt 1907 / Purple Belt (EPSG:22993)](http://epsg.io/22993)
 
 
@@ -38,7 +38,7 @@ The most common are:
 A very precious source for [free maps (i.e. public domain)](https://legacy.lib.utexas.edu/maps/faq.html#3.html) has provided to be the
 [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) of
 the Texas University.
-In details, from the Perry-Castañeda library have been downloaded the following series:
+In particular, from the Perry-Castañeda library the following series have been downloaded:
 - [Series P502, 1:250,000, U.S. Army Map Service, 1954-](http://legacy.lib.utexas.edu/maps/ams/north_africa/)
 - [1:1,000,000 - Operational Navigation Chart Series U.S. Defense Mapping Agency Aerospace Center](http://legacy.lib.utexas.edu/maps/onc/)
 - [1:1,000,000 - International Map of the World U.S. Army Map Service](http://legacy.lib.utexas.edu/maps/imw/)
@@ -52,12 +52,12 @@ made available by [Polish Centre of Mediterranean Archaeology of the University 
 Many thanks to [Artur Obłuski](https://pcma.uw.edu.pl/o-nas/pracownicy/artur-obluski/),
 the Director of the Research Centre in Cairo, and to his staff who provided courteous help and support.
 
-This work would have not been possible without the fundamental help of the GIS
+The georeferencing work would have not been possible without the fundamental help of the GIS
 practical laboratories held at [Sapienza University of Rome](http://uniroma1.it).
 Many students have dedicated long hours of passionate and patient work to accurately
 index, georeference, and process cartographic data.
 
-A special thank to our younger collaborators, coordinated by **Paolo Rosati** and **Domizia d'Erasmo**:
+A special thank goes therefore to our younger collaborators, coordinated by **Paolo Rosati** and **Domizia d'Erasmo**:
 - Michele d'Agostini
 - Cecilia De Leone
 - Ariela Desio
@@ -70,7 +70,7 @@ A special thank to our younger collaborators, coordinated by **Paolo Rosati** an
 - Leonardo Vilona
 
 ## Join us
-If you want to collaborate with us, processing GIS data relative to Ancient Egypt,
+If you want to collaborate with us, processing GIS data related to Ancient Egypt,
 data that you want to freely distribute online, or if you have GIS ready material
 that you want to share with us, please drop us a line at:
 [julian.bogdani@uniroma1.it](mailto:julian.bogdani@uniroma1.it).

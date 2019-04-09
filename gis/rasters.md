@@ -8,9 +8,9 @@ permalink: /gis/rasters
 
 
 <h2><i class="far fa-image"></i> Cartographic coverage. Available series</h2>
-Follows here a continuously updated list of cartographic series and other sparse raster datasets, already processed by PAThs.
+Follows here a continuously updated list of cartographic series and other sparse raster datasets, already processed by “PAThs”.
 
-All datasets are available at PAThs central repository at Sapienza University of Rome.
+All datasets are available at “PAThs” central repository at Sapienza University of Rome.
 In the next few weeks some of the available themes will be made freely available as [Web Map Service (WMS)](https://en.wikipedia.org/wiki/Web_Map_Service).
 We are wishing to publish the entire processed archive, but at present we are verifying copyright and license issues.
 <ul class="list-group">

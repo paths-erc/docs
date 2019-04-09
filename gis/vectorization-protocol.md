@@ -7,7 +7,7 @@ permalink: /gis/svp
 {% include gis-menu.html %}
 
 
-**Warning: the Simple Vectorization Protocol (SVP) is in early stage of development and testing (`alpha`) and is going to change frequently in the near future. Do not rely on it for production use, but only for testing purposes**
+**Warning: the Simple Vectorization Protocol (SVP) is in an early stage of development and testing (`alpha`) and is going to change frequently in the near future. Do not rely on it for production use, but only for testing purposes**
 
 ## Caveat
 THE PROTOCOL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
@@ -27,13 +27,13 @@ Version 0.0.1-alpha
 
 By [Julian Bogdani](julian.bogdani@uniromai.it)
 
-This draft is meant to help users go through the vectorization process of legacy archaeological and architectonic data, consisting mainly in plans of various scales.
+This draft is meant to help users to go through the vectorization process of archaeological and architectonic legacy data, consisting mainly in plans of various scales.
 
 The **Simple Vectorization Protocol** (**SVP**) is intended to provide a rich, easy to implement, unified geographical data-entry system aimed at a rich output display, able to handle easily poor to very rich graphical representation.
 
 
 ### Data encapsulation format
-This protocol is not about defining a unique or the most efficient file-format for the vectorization process, but mainly about defining a common structure, independently from the file format. At PAThs [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) is being used as main vector file format, yet other formats can be used, like [Esri Shapefile](https://en.wikipedia.org/wiki/Shapefile), [spatialite](https://en.wikipedia.org/wiki/SpatiaLite), [PostGIS](https://en.wikipedia.org/wiki/PostGIS), [Geopackage](https://en.wikipedia.org/wiki/GeoPackage), etc.
+This protocol is not about defining a unique or the most efficient file-format for the vectorization process, but mainly about defining a common structure, independently from the file format. At “PAThs” [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) is being used as main vector file format, yet other formats can be used, like [Esri Shapefile](https://en.wikipedia.org/wiki/Shapefile), [spatialite](https://en.wikipedia.org/wiki/SpatiaLite), [PostGIS](https://en.wikipedia.org/wiki/PostGIS), [Geopackage](https://en.wikipedia.org/wiki/GeoPackage), etc.
 
 ### Data containers
 Data containers should be divided by geometry type: points, (poly)lines and polygons should be kept separated, not due to encoding limits (which exists since most formats accepts only one geometry type per layer/table), but mainly for styling/output reasons.
@@ -52,7 +52,7 @@ This protocol defines **data structure** and **best-practices** for digital enco
 ---
 
 ## Attribute list
-The definition of the attribute list, and values to use for each field, is the most important step of the entire process.
+The definition of the attribute list and values to use for each field is the most important step of the entire process.
 
 #### Identification / naming system
 - `place` (*Integer, 9*): Identifier of the place/site that the building being vectorized belongs to.
@@ -60,7 +60,7 @@ The definition of the attribute list, and values to use for each field, is the m
 
 #### Description
 - `reconstr` (*Integer, 1*): wheather the feature is/was visible/preserved or was hypothetically reconstructed when surveyed.
-  - **0** (**null**) if the feature was clearly visible and preserved when surveyed; usually a solid line is used to represent this features.
+  - **0** (**null**) if the feature was clearly visible and preserved when surveyed; usually a solid line is used to represent this feature.
   - **1** if the feature is not visible or preserved and has bee hypothetically reconstructed by the surveyor or the author of the source drawing; usually a dashed line is used to represent these features.
   - **2** if the feature is not visible or preserved and has been hypothetically reconstructed by the operator who vectorised the images
 - `part` (*Text, 10,0*): defines what part of the building the features is. This is not about the function of the feature in the architectonical complex (except but for a few cases), but about the conventional way of representation.
