@@ -7,7 +7,7 @@ permalink: /gis/
 {% include gis-menu.html %}
 
 
-These pages aimed at providing an in-depth description of the GIS that are data currently
+These pages aim at providing an in-depth description of the GIS that are data currently
 being processed by “PAThs” and made freely available, when copyright and license of
 the source data permit redistribution.
 
