@@ -21,11 +21,11 @@ OTHER DEALINGS IN THE PROTOCOL.
 
 ---
 
-Version 0.0.1-alpha
+Version 0.0.2
 
 ---
 
-By [Julian Bogdani](julian.bogdani@uniromai.it)
+By [Julian Bogdani](julian.bogdani@uniroma1.it)
 
 This draft is meant to help users to go through the vectorization process of archaeological and architectonic legacy data, consisting mainly in plans of various scales.
 
@@ -41,7 +41,7 @@ Data containers should be divided by geometry type: points, (poly)lines and poly
 Data containers of different geometries share the same structure. This is the most important point here, since structure defines semantics, not graphical output. This document always refers to polygon data, which are the most complex to draw and style, but also the most flexible and ductile to represent complex information.
 
 ### What does this protocol define?
-This protocol defines **data structure** and **best-practices** for digital encoding architectonical documentation in vector formats. It clears the path in the way the vectorisation process is performed, the data and metadata that are being recorded and defines a very simple yet powerful way of graphically describing archaeological data.
+This protocol defines **data structure** and **best-practices** for digital encoding architectonical documentation in vector formats. It clears the path in the way the vectorization process is performed, the data and metadata that are being recorded and defines a very simple yet powerful way of graphically describing archaeological data.
 
 ### What does this protocol define not?
 - This protocol **does not provide** actual technology for vectorizing raster data, nor shared platforms for their publication.
@@ -54,12 +54,12 @@ This protocol defines **data structure** and **best-practices** for digital enco
 ## Attribute list
 The definition of the attribute list and values to use for each field is the most important step of the entire process.
 
-#### Identification / naming system
-- `place` (*Integer, 9*): Identifier of the place/site that the building being vectorized belongs to.
-- `building` (*Text, 254*): Identifier of the sub-site building, structure or area that is being vectorized.
+#### Identification / Location
+- `place` (*Text, 255*): Identifier of the place/site where the building being vectorized is located. At PAThs the [Place ID](https://docs.paths-erc.eu/handbook/places#id) is being used.
+- `subplace` (*Text, 255*): Identifier, if applicable, of the sub-site building, structure or area that is being vectorized.
 
 #### Description
-- `reconstr` (*Integer, 1*): wheather the feature is/was visible/preserved or was hypothetically reconstructed when surveyed.
+- `reconstr` (*Integer, 1*): wether the feature is/was visible/preserved or was hypothetically reconstructed when surveyed.
   - **0** (**null**) if the feature was clearly visible and preserved when surveyed; usually a solid line is used to represent this feature.
   - **1** if the feature is not visible or preserved and has bee hypothetically reconstructed by the surveyor or the author of the source drawing; usually a dashed line is used to represent these features.
   - **2** if the feature is not visible or preserved and has been hypothetically reconstructed by the operator who vectorised the images
@@ -76,10 +76,10 @@ The definition of the attribute list and values to use for each field is the mos
 #### Other metadada
 - `visible` (*Integer, 1*), wether a feature is visible (**1**) or not (**0** or **null**). This is different from `reconstr` since a feature might be not reconstructed (reconstr = null\|0) but no more visible (visible = null\|0) because buried or damaged and lost.
 - `scale` (*Integer, 10*), the scale of the original plan from which the feature has been vectorized. Enter only the second part of the ratio scale, presuming that the first part is always 1, eg. for ratio scale **1:200000** enter **200000**.
-- `zoteroid` (*String, 30*), enter the textual id of the bibliographic record containing the original image in Zotero database.
-- `zoterodet` (*String, 255*), enter page number and or figure number of the bibliographic record containing the original image.
+- `source` (*String, 30*), contains the bibliographic or archive reference to the document used as the source for the vectorization. At PAThs, the Zotero identifier of [PAThs official bibliographic repository is being used](https://www.zotero.org/groups/2189557/erc-paths).
+- `subsource` (*String, 255*), enter page number and or figure number of the bibliographic record containing the original image.
 - `operator` (*String, 255*), name or codename of the operator who vectorised the image.
-- `date` (*Datetime*), Datetime of the vectorisation process.
+- `date` (*Datetime*), Datetime of the vectorization process.
 
 #### Elevation
 - `z` (*Double, 7,2*), elevation of the feature for extrusion purposes
@@ -103,14 +103,14 @@ Follows a geojson sample code extracted from the [demo geojson file](leaflet-exa
       "type": "Feature",
       "properties": {
         "place": 338,
-        "building": "Eastern Church",
+        "subplace": "Eastern Church",
         "reconstr": 0,
         "part": null,
         "phase": null,
         "visible": null,
         "scale": null,
-        "zoteroid": "BGQ6JNX2",
-        "zoterodet": null,
+        "source": "BGQ6JNX2",
+        "subsource": null,
         "operator": "JB",
         "date": null,
         "z": 3.1,

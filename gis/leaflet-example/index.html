@@ -116,7 +116,25 @@
             } else {
               l.addTo(overlays['Phase ' + f.properties.phase]);
             }
-            l.bindPopup('paths.places.' + f.properties.place + ' / ' + f.properties.building)
+            l.bindPopup('<table class="table table-bordered table-sm">' +
+              '<tr>' +
+                '<th>PAThs Place (place)</th>' +
+                '<td><a href="https://atlas.paths-erc.eu/places/' + f.properties.place + '">paths.places.' + f.properties.place + '</a></td>' +
+              '</tr>' +
+              '<tr>' +
+                '<th>Building / Area (subplace)</th>' +
+                '<td>' + f.properties.subplace + '</td>' +
+              '</tr>' +
+              '<tr>' +
+                '<th>Bibliographic reference (source)</th>' +
+                '<td><a href="https://www.zotero.org/groups/2189557/erc-paths/items/itemKey/' + f.properties.source + '">PAThs Zotero ' + f.properties.source + '</a></td>' +
+              '</tr>' +
+              '<tr>' +
+                '<th>Details of the bibliographic reference (subsource)</th>' +
+                '<td>' + f.properties.subsource + '</td>' +
+              '</tr>' +
+            '</table>'
+              )
           }
         });
         Object.keys(overlays).forEach( function(k){
