@@ -96,28 +96,32 @@
 
 
       loadGeoJSON('taposiris.geojson', function(gj){
-        var overlays = {
-          'Previous phases': L.layerGroup(),
-          'Main phase': L.layerGroup(),
-          'Successive phases': L.layerGroup()
-        };
+        var phases = [];
+        gj.features.forEach( function(f){
+          var ph = f.properties.phase ? f.properties.phase : '0';
+          if (phases.indexOf('Phase ' + ph) < 0){
+            phases.push('Phase ' + ph);
+          }
+        });
+        var overlays = {};
+        phases.sort().forEach(function(p){
+          overlays[p] = L.layerGroup();
+        });
 
         var geojsonLayer = new L.GeoJSON(gj, {
           style: getStyle,
           onEachFeature: function(f, l){
-            if (f.properties.phase < 0) {
-              l.addTo(overlays['Previous phases']);
-            } else if (f.properties.phase > 0) {
-              l.addTo(overlays['Successive phases']);
+            if (!f.properties.phase) {
+              l.addTo(overlays['Phase 0']);
             } else {
-              l.addTo(overlays['Main phase']);
+              l.addTo(overlays['Phase ' + f.properties.phase]);
             }
             l.bindPopup('paths.places.' + f.properties.place + ' / ' + f.properties.building)
           }
         });
-        overlays['Previous phases'].addTo(map);
-        overlays['Main phase'].addTo(map);
-        overlays['Successive phases'].addTo(map);
+        Object.keys(overlays).forEach( function(k){
+          overlays[k].addTo(map);
+        });
 
         L.control.layers(basemaps, overlays).addTo(map);
 
