@@ -44,13 +44,29 @@
           opacity = 0.8
         }
         switch(true){
-          case (p.phase < 0):
+          case (p.phase < -1):
             s.color = 'rgba(150, 150, 150, ' + opacity + ')';
             s.fillColor = 'rgba(150, 150, 150, .4)';
             break;
-          case (p.phase > 0):
+          case (p.phase == -1):
+            s.color = 'rgba(61, 90, 128, ' + opacity + ')';
+            s.fillColor = 'rgba(61, 90, 128, .4)';
+            break;
+            case (p.phase == 1):
             s.color = 'rgba(247, 110, 1, ' + opacity + ')';
             s.fillColor = 'rgba(247, 110, 1, .4)';
+            break;
+          case (p.phase == 2):
+            s.color = 'rgba(194, 0, 251, ' + opacity + ')';
+            s.fillColor = 'rgba(194, 0, 251, .4)';
+            break;
+          case (p.phase == 3):
+            s.color = 'rgba(56, 134, 89, ' + opacity + ')';
+            s.fillColor = 'rgba(56, 134, 89, .4)';
+            break;
+          case (p.phase > 3):
+            s.color = 'rgba(80, 47, 76, ' + opacity + ')';
+            s.fillColor = 'rgba(56, 134, 89, .4)';
             break;
           default:
             s.color = 'rgba(31, 120, 180, ' + opacity + ')';
@@ -79,23 +95,14 @@
         });
       }
 
-      var map = L.map('map', {
-        maxZoom: 25,
-      });
+      function GeoJsonOnMap(gj){
+        // Clean overlays & map
+        Object.keys(overlays).forEach( function(k){
+          map.removeLayer(overlays[k]);
+          controlLayers.removeLayer(overlays[k]);
+        });
+        overlays = {};
 
-      var basemaps = {
-        'OSM': L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-          // 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }),
-        'Pelagios': L.tileLayer('http://pelagios.org/tilesets/imperium/{z}/{x}/{y}.png', {
-          maxZoom: 11
-        })
-      };
-      basemaps['OSM'].addTo(map);
-
-
-      loadGeoJSON('taposiris.geojson', function(gj){
         var phases = [];
         gj.features.forEach( function(f){
           var ph = f.properties.phase ? f.properties.phase : '0';
@@ -103,7 +110,6 @@
             phases.push('Phase ' + ph);
           }
         });
-        var overlays = {};
         phases.sort().forEach(function(p){
           overlays[p] = L.layerGroup();
         });
@@ -133,26 +139,78 @@
                 '<th>Details of the bibliographic reference (subsource)</th>' +
                 '<td>' + f.properties.subsource + '</td>' +
               '</tr>' +
+              '<tr>' +
+                '<th>Phase</th>' +
+                '<td>' + f.properties.phase + '</td>' +
+              '</tr>' +
             '</table>'
               )
           }
         });
         Object.keys(overlays).forEach( function(k){
           overlays[k].addTo(map);
+          controlLayers.addOverlay(overlays[k], k);
         });
 
-        L.control.layers(basemaps, overlays).addTo(map);
-
         map.fitBounds(geojsonLayer.getBounds());
+      }
+
+      var map = L.map('map', {
+        maxZoom: 25,
       });
 
-      var legend = L.control({position: 'bottomleft'});
-      legend.onAdd = function(){
+      var basemaps = {
+        // https://stackoverflow.com/a/32391908/586449
+        'GoogleSat': L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+          maxZoom: 20,
+          subdomains:['mt0','mt1','mt2','mt3']
+        }),
+        'OSM': L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+          // 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }),
+        'Pelagios': L.tileLayer('http://pelagios.org/tilesets/imperium/{z}/{x}/{y}.png', {
+          maxZoom: 11
+        })
+      };
+      basemaps['GoogleSat'].addTo(map);
+
+      var controlLayers = L.control.layers(basemaps).addTo(map);
+      var overlays = {};
+
+
+
+
+      var sites = L.control({position: 'bottomleft'});
+      var avalaible_gj = [
+        'taposiris',
+        'taposiris-temple-church',
+        'taposiris-eastern-church',
+        'taposiris-southern-church',
+        '215-Deir-Abu-Hennes',
+
+      ];
+      sites.onAdd = function(){
         var div = L.DomUtil.create('div', 'bg-white shadow rounded p-2 border');
-        div.innerHTML = '<div class="text-center"><img src="favicon.png" alt="Vectoriazation protocol example" style="max-width:50px"/> Created by <a href="http://paths.uniroma1.it" target="_blank" title="PAThs / Julian Bogdani">Julian Bogdani @ PAThs</a>. <a href="../">Back to the docs</a></div>';
+        div.innerHTML = `<div class="text-center">
+        <div class="form-group">
+          <label for="sites">Select a site</label>
+          <select id="sites" class="form-control">
+          ${avalaible_gj.map( e => { return `<option>${e}</option>`; })}
+
+          </select>
+          </div>
+          <div class="text-center"><img src="favicon.png" alt="Vectoriazation protocol example" style="max-width:50px"/> Created by <a href="http://paths.uniroma1.it" target="_blank" title="PAThs / Julian Bogdani">Julian Bogdani @ PAThs</a>. <a href="../">Back to the docs</a></div>
+        </div>`;
         return div;
       }
-      legend.addTo(map);
+      sites.addTo(map);
+
+      document.querySelector('#sites').addEventListener('change',function(){
+        loadGeoJSON(`${this.value}.geojson`, GeoJsonOnMap);
+      });
+      loadGeoJSON(avalaible_gj[0] + '.geojson', GeoJsonOnMap);
+
 
     </script>
   </body>
