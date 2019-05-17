@@ -143,6 +143,10 @@
                 '<th>Phase</th>' +
                 '<td>' + f.properties.phase + '</td>' +
               '</tr>' +
+              '<tr>' +
+                '<th>Digitized by</th>' +
+                '<td>' + f.properties.operator + '</td>' +
+              '</tr>' +
             '</table>'
               )
           }
@@ -196,22 +200,30 @@
         <div class="form-group">
           <label for="sites">Select a site</label>
           <select id="sites" class="form-control">
-          ${avalaible_gj.map( e => { return `<option>${e}</option>`; })}
+          ${avalaible_gj.map( e => { return `<option ${ e == window.location.hash.split('#')[1] ? 'selected' : ''}>${e}</option>`; })}
 
           </select>
           </div>
-          <div class="text-center"><img src="favicon.png" alt="Vectoriazation protocol example" style="max-width:50px"/> Created by <a href="http://paths.uniroma1.it" target="_blank" title="PAThs / Julian Bogdani">Julian Bogdani @ PAThs</a>. <a href="../">Back to the docs</a></div>
+          <div class="text-center">
+            <img src="favicon.png" alt="Vectoriazation protocol example" style="max-width:50px"/>
+            Created by <a href="http://paths.uniroma1.it" target="_blank" title="PAThs / Julian Bogdani">Julian Bogdani @ PAThs</a>.
+            <a href="../">Back to the docs</a>
+          </div>
         </div>`;
         return div;
       }
       sites.addTo(map);
 
       document.querySelector('#sites').addEventListener('change',function(){
-        loadGeoJSON(`${this.value}.geojson`, GeoJsonOnMap);
+        window.location.hash = this.value;
       });
-      loadGeoJSON(avalaible_gj[0] + '.geojson', GeoJsonOnMap);
-
-
+      window.onhashchange = function () {
+        loadGeoJSON(`/data/geojson/${window.location.hash.split('#')[1]}.geojson`, GeoJsonOnMap);
+      }
+      if (!window.location.hash){
+        window.location.hash = avalaible_gj[0];
+      }
+      loadGeoJSON(`/data/geojson/${window.location.hash.split('#')[1]}.geojson`, GeoJsonOnMap);
     </script>
   </body>
 </html>
