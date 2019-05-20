@@ -19,7 +19,7 @@ Ref.: `paths.manuscripts`
 
 ### Manuscript identifiers
 
-#### CML
+#### CLM
 - Coptic Literary Manusctipt (CLM)identifier of the reconstructed codicological unit.
 - DB id: `id`
 
