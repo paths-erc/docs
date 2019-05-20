@@ -1,0 +1,363 @@
+"id","name","tm","pleiades","region"
+1,"Memphis",1344,736963,
+2,"Letopolis",1245,727149,"Lower Egypt (Delta)"
+3,"Sais",2072,727217,"Lower Egypt (Delta)"
+4,"Xois",2507,727256,"Lower Egypt (Delta)"
+5,"Hermopolis Mikra",817,727123,"Lower Egypt (Delta)"
+6,"Heroonpolis",2297,727124,
+7,"Bousiris",469,727090,"Lower Egypt (Delta)"
+8,"Athribis",369,727078,"Lower Egypt (Delta)"
+9,"Leontopolis (Tell el-Moqdam)",1238,727147,"Lower Egypt (Delta)"
+10,"Sebennytos",2104,727227,"Lower Egypt (Delta)"
+11,"Heliopolis",761,727117,
+12,"Tanis",2252,727236,
+13,"Hermopolis",815,727122,
+14,"Tell el-Balamun",575,727111,"Lower Egypt (Delta)"
+15,"Bubastis",462,727088,"Lower Egypt (Delta)"
+16,"Elephantine",621,786021,
+18,"Hierakonpolis",848,786037,
+19,"Luxor complex",576,786017,"Eastern Thebes"
+20,"Koptos",1159,786010,
+21,"Dendera",2312,786127,
+22,"Diospolis Mikra",577,756566,
+23,"Abydos",34,756512,
+24,"Panopolis",1589,756613,"Northern Upper Egypt"
+25,"Antaiopolis",188,756515,
+26,"Hypsele",864,756578,
+27,"Lykopolis",1271,756593,
+28,"Hermopolis Magna",816,756574,
+29,"Kynopolis",1196,736949,
+30,"Ankyropolis",182,736888,
+31,"Oxyrhynchos",1524,736983,
+32,"Herakleopolis Magna",801,736920,
+33,"Arsinoe",327,736948,"Fayyum"
+34,"Aphroditopolis",236,736889,
+35,"Thmouis",2405,727249,"Lower Egypt (Delta)"
+36,"Pelusium",1662,727192,
+37,"Taya",3075,727243,"Lower Egypt (Delta)"
+38,"Alexandria",100,727070,
+39,"Metelis",2640,727163,"Lower Egypt (Delta)"
+40,"Buto","3685, 10704, 10767",727094,"Lower Egypt (Delta)"
+41,"Herakleopolis Mikra",800,727121,
+42,"Kynopolis Inferior",5392,727144,
+43,"Pharbaithos",1751,727196,
+44,"Phakoussa",1729,727194,
+45,"Nikiou",1463,727174,"Lower Egypt (Delta)"
+46,"Phragonis",7961,727201,"Lower Egypt (Delta)"
+47,"Kabasa",2636,727133,"Lower Egypt (Delta)"
+48,"Panephysis",6258,727184,
+49,"Andronpolis","3108, 8505",727071,"Lower Egypt (Delta)"
+50,"Onouphis Kato",3093,730134,"Lower Egypt (Delta)"
+51,"Onouphis Ano",3093,730134,"Lower Egypt (Delta)"
+52,"Schedia",2096,727221,
+53,"Antinoupolis",2774,756518,"Middle Egypt"
+54,"Ptolemais",2018,373879,
+55,"Apollonopolis Parva",270,785975,
+56,"Koussai",1176,756588,
+57,"Neiloupolis",1433,736973,
+58,"Esna",1227,786059,
+59,"Tsine",,,
+60,"Tse",7741,759689,
+61,"Thbew",,,
+62,"Monchosis Thmoushons",5796,,
+63,"Pesterposen",,,
+64,"Chenoboskion",5089,756545,
+65,"Bekhne",,,
+66,"Tabennisis",7358,786125,
+67,"Maximianoupolis",952,786047,
+68,"Pbou",3843,756540,
+69,"Metanoia",5744,,
+70,"Hermonthis",812,786036,
+71,"Pispir",,,
+72,"Deir Anba Hadra / St. Simeon",2207,786106,
+73,"Bawit",10454,756663,
+74,"Naqlun",1418,736975,
+75,"Monastery of Apa Jeremiah",12916,736963,"Memphis"
+76,"Sketis",3375,727232,
+77,"Nitria",1473,727177,
+78,"Kellia",3375,727141,
+79,"Monastery of St. Paul",5104,746800,
+80,"Monastery St. Antony",3563,,
+82,"Western Thebes MMA 1152",1341,786067,"Western Thebes"
+83,"Nag Hammadi",2803,,"Northern Upper Egypt"
+84,"Berenike (Upper Egypt)",416,785986,
+85,"Farshut",5082,,
+86,"Deir el-Qaddis Abu Bifam",,756547,
+87,"Medinet Habu",1341,786067,"Western Thebes"
+88,"Petemout",1281,786088,
+89,"Ostrakine",1518,687993,
+90,"Naqada",2994,,
+91,"Monastery of St. Thomas at Wadi Sarga",12542,759543,"Northern Upper Egypt"
+92,"Deir el-Bala’izah",3025,756520,"Northern Upper Egypt"
+93,"Deir el-Moharraq",3122,,
+94,"Gebel Assiut el-Gharbi",1271,756593,
+95,"Hagr Edfu",4982,,"Southern upper Egypt"
+96,"Philae",17677,786089,
+97,"Deir el-Kubbaniya",2772,786056,"Southern upper Egypt"
+98,"Deir Qubbat el Hawa",4984,979588215,
+99,"Hamuli/Monastery of the Archangel Michael at Phantoou",50403,737001,"Fayyum"
+100,"Gebel el-Qalamun",11585,737030,"Fayyum"
+101,"Touton",2287,737072,"Fayyum"
+102,"Dishna",,,"Northern Upper Egypt"
+103,"This",2400,756659,
+104,"Medinet Madi",1421,736972,"Fayyum"
+105,"Bakchias",392,736896,"Fayyum"
+106,"Karanis",1008,736932,"Fayyum"
+107,"Soknopaiou Nesos",2157,737053,
+108,"Deir Abu Lifah",3506,756549,"Fayyum"
+109,"Deir Abu Hennes Wadi Gamus",3506,756549,
+110,"Wadi Natrun",3375,727104,
+111,"Sopehes",50405,,
+112,"Monastery of Shenoute at Atripe",3121,756530,"Northern Upper Egypt"
+113,"Red Monastery at Atripe",2820,,
+114,"Kellis",2762,776189,
+115,"Bagawat",2739,776156,
+116,"Abu Mina",2711,727105,
+117,"Marina el Alamein",8554,716524,
+118,"Ennaton",,,
+119,"Dionysias",565,736904,
+120,"Philoteris",1780,737010,
+121,"Theadelphia",2349,737081,
+122,"Hawara",747,736918,
+123,"El-Lahun",2024,737029,
+124,"Phthenetou",7865,,
+125,"Kleopatris",,,
+126,"Rinokoloura",2052,688016,
+127,"Pachnemounis",2674,727183,"Lower Egypt (Delta)"
+128,"Syene",2207,786123,
+129,"Achaia",12014,828238,
+130,"Stathmon",12696,573533,
+131,"Terenouthis",2318,727244,
+132,"Paralos",6313,727224,"Lower Egypt (Delta)"
+133,"Tamiathis",3054,727235,
+134,"Gerrae",,,
+135,"Daphnai",3607,727103,
+136,"Sethroites",3089,,
+137,"Boukolia",13247,,
+138,"Thennesos",3210,727247,
+139,"Aphnaioua",225,730089,
+140,"Clysma",2794,727101,
+141,"Naukratis",1424,727169,
+142,"Helearchia",4171,730114,
+143,"Marea",2718,727153,
+144,"Babylon",389,727082,
+145,"Hephaistos",4364,727119,
+146,"Skenai Mandrai",2149,737050,
+147,"Hamamieh",,,"Northern Upper Egypt"
+149,"Psinches",12015,,
+150,"Paraitonion",3668,716615,
+151,"Alexandreon Chora",2630,,
+152,"Zygrai",4299,716656,
+153,"Ammoniake",2575,716520,
+154,"Oasis Magna",619,776210,
+155,"Prosopites",3081,727206,
+156,"Sile",2109,727231,
+157,"Boreum",40348,363948,
+158,"Berenike (Lower Egypt)",831,373757,
+159,"Taucheira",3640,373736,
+160,"Barke",402,373750,
+161,"Eglibos?",,,
+162,"Antipyrgos",8550,716525,
+163,"Bassachitai?",3777,716534,
+164,"Hadrianopolis",10968,373824,
+165,"Erythron",664,373785,
+166,"Abydos Deir Abu Masis",,756550,
+169,"Manqabad",2993,,
+170,"Alexandria - Kom el Dikka",100,845040004,
+171,"Amarna",2767,149576487,
+172,"Beni Hassan",414,112509596,
+173,"Dakhleh",2753,776172,
+174,"Trimouthis",2733,776235,
+175,"Dakleh Ain el Gedida",3126,861854258,
+176,"Deir abu Matta",,667956220,
+178,"El-Mudil",3695,,
+179,"Tell Edfu",269,785974,"Southern upper Egypt"
+180,"Deir el Banat",14197,,"Fayyum"
+181,"Imbaba el Mansuriya ",,776197,
+182,"Karnak","576, 13524, 13525","786017, 786050","Eastern Thebes"
+183,"Kharga",619,776210,
+184,"El-Deir",14221,776167,
+185,"Hibis",2786,776181,
+186,"Kom Ombo",1499,786079,
+187,"Nag el Hagar",,,
+188,"Pharan",7832,746792,
+189,"Qasr Ibrim",1916,798094,
+191,"Western Thebes",1341,786067,
+192,"Deir el Bakhit",13098,786014,"Western Thebes"
+193,"Monastery of St. Phoibammon",11645,,"Western Thebes"
+194,"Monastery of Saint Isidorus Martyr at Deir el Medina",1341,864388873,"Western Thebes"
+195,"Deir el Rumi",1341,786067,"Western Thebes"
+196,"Western Thebes TT C3",1341,786067,"Western Thebes"
+198,"Monastery of Epiphanius",1341,786067,"Western Thebes"
+199,"Western Thebes TT 29",1341,786067,"Western Thebes"
+200,"Monastery of Cyriacus",1341,786067,"Western Thebes"
+201,"Monastery of St. Marcus",11200,786067,"Western Thebes"
+202,"Valley of the Kings",1341,384697574,
+203,"Wadi Araba",3463,805591,
+204,"Wadi Natrun Monastery of John the Little ",3375,727232,
+205,"Wadi Natrun Monastery of Baramus",3375,727232,
+206,"Wadi Natrun Monastery of the Syrians",3375,727232,
+207,"Wadi Natrun Monastery of Moses",3375,727232,
+208,"Wadi Natrun Monastery of St. Macarius",3375,727232,"Lower Egypt (Delta)"
+209,"Aphrodite",237,756532,
+210,"Topos of Apa Phoibammon in the Rock",1341,786067,"Western Thebes"
+211,"Philagris",1766,737001,"Fayyum"
+212,"Speos Artemidos",3203,756647,
+213,"Mallawi",1298,756599,
+214,"Deir el-Bersha",2834,,
+215,"Deir Abu Hennes",3506,756549,
+216,"Deir Sumbat",,,
+217,"Deir al-Dik",,,
+218,"Ptepouhar",,,"Fayyum"
+219,"Western Thebes TT 157",1341,786067,"Western Thebes"
+220,"Western Thebes TT 95",1341,786067,"Western Thebes"
+221,"Western Thebes TT 99",1341,786067,"Western Thebes"
+222,"Western Thebes Winlock - Crum site 26",13098,786014,"Western Thebes"
+223,"Western Thebes Winlock - Crum site 27",13098,786014,"Western Thebes"
+224,"Western Thebes TT 97",1341,786067,"Western Thebes"
+225,"Lykopolites nomòs",3027,756594,"Middle Egypt"
+226,"Western Thebes TT 56",1341,786067,"Western Thebes"
+227,"Western Thebes Winlock - Crum sites 30-32 (site 33)",13098,786014,"Western Thebes"
+228,"Western Thebes K 131 [K93.11] - K 130 [K93.12]",13098,786014,"Western Thebes"
+229,"Western Thebes TT 72",1341,786067,"Western Thebes"
+230,"Western Thebes Winlock - Crum site 29",1341,786067,"Western Thebes"
+232,"Western Thebes [K91.1]",1341,786067,"Western Thebes"
+233,"Western Thebes TT 75",1341,786067,"Western Thebes"
+234,"Western Thebes TT 230",1341,786067,"Western Thebes"
+235,"Western Thebes TT 225",1341,786067,"Western Thebes"
+236,"Western Thebes TT 82",1341,786067,"Western Thebes"
+237,"Western Thebes TT 35",1341,786067,"Western Thebes"
+239,"Western Thebes TT 96",1341,786067,"Western Thebes"
+240,"Western Thebes TT 160",1341,786067,"Western Thebes"
+241,"Western Thebes TT 158",1341,786067,"Western Thebes"
+242,"Western Thebes TT 282",1341,786067,"Western Thebes"
+243,"Oxyrhynchites nomòs",2722,736982,"Middle Egypt"
+244,"Western Thebes TT 288 - 289",1341,786067,"Western Thebes"
+245,"Western Thebes TT 20",1341,786067,"Western Thebes"
+246,"Western Thebes TT 109",1341,786067,"Western Thebes"
+247,"Western Thebes K 298",1341,786067,"Western Thebes"
+248,"Western Thebes TT 86",1341,786067,"Western Thebes"
+249,"Western Thebes TT 87",1341,786067,"Western Thebes"
+250,"Western Thebes TT 85, TT 87",1341,786067,"Western Thebes"
+251,"Western Thebes TT 84",1341,786067,"Western Thebes"
+252,"Western Thebes TT 94",1341,786067,"Western Thebes"
+253,"Western Thebes TT 92",1341,786067,"Western Thebes"
+254,"Western Thebes TT 367",1341,786067,"Western Thebes"
+255,"Western Thebes TT 39",1341,786067,"Western Thebes"
+256,"Western Thebes TT 373",1341,786067,"Western Thebes"
+257,"Western Thebes K 85",1341,786067,"Western Thebes"
+258,"Western Thebes TT 49",1341,786067,"Western Thebes"
+259,"Western Thebes KV 1",1341,384697574,"Western Thebes"
+260,"Western Thebes TT 32",1341,786067,"Western Thebes"
+261,"Western Thebes TT 183",1341,786067,"Western Thebes"
+262,"Western Thebes KV 3",1341,384697574,"Western Thebes"
+263,"Western Thebes KV 4",1341,384697574,"Western Thebes"
+264,"Ghoran",715,736942,"Middle Egypt"
+265,"Western Thebes TT 240 (=MMA 517)",1341,786067,"Western Thebes"
+266,"Western Thebes TT 312 (=MMA 509)",1341,786067,"Western Thebes"
+267,"Western Thebes TT 223",1341,786067,"Western Thebes"
+268,"Western Thebes KV 9",1341,384697574,"Western Thebes"
+269,"Western Thebes KV 2",1341,384697574,"Western Thebes"
+270,"Western Thebes KV 5",1341,384697574,"Western Thebes"
+271,"Western Thebes KV 6",1341,384697574,"Western Thebes"
+272,"Western Thebes KV 8",1341,384697574,"Western Thebes"
+273,"Western Thebes KV 24",1341,384697574,"Western Thebes"
+274,"Giza",716,442962448,"Memphis"
+275,"Western Thebes TT 310 (=MMA505)",1341,786067,"Western Thebes"
+277,"Western Thebes Mortuary complex of Ramses II",11334,963047542,"Western Thebes"
+278,"Western Thebes Mortuary Temple of Seti I",1341,786067,"Western Thebes"
+279,"Lepidotonpolis",3095,756591,
+280,"Northern Qurnet Murrai",1341,786067,"Western Thebes"
+281,"Deir el-Shelwit",1341,786067,"Western Thebes"
+282,"Perpnoute",2376,741626,"Fayyum"
+283,"Western Thebes Winlock - Crum site 6",1341,786067,"Western Thebes"
+284,"Western Thebes DeM 1437",1341,864388873,"Western Thebes"
+285,"Western Thebes DeM 1438",1341,864388873,"Western Thebes"
+286,"Western Thebes Ramesside votive chapel",1341,864388873,"Western Thebes"
+287,"el-Qalamun (Dakhla)",37062,776188,"El Dakhla oasis"
+288,"Western Thebes DeM 1450",1341,864388873,"Western Thebes"
+289,"Western Thebes DeM 1449",1341,864388873,"Western Thebes"
+290,"Western Thebes DeM 1447",1341,864388873,"Western Thebes"
+291,"Western Thebes QV 1",1341,786067,"Western Thebes"
+292,"Western Thebes DeM 1446",1341,864388873,"Western Thebes"
+293,"Western Thebes QV 2",1341,786067,"Western Thebes"
+294,"Western Thebes QV 12",1341,786067,"Western Thebes"
+295,"Western Thebes QV 22",1341,786067,"Western Thebes"
+296,"Western Thebes QV 21",1341,786067,"Western Thebes"
+297,"Western Thebes DeM 1451",1341,864388873,"Western Thebes"
+298,"Western Thebes QV 58",,,
+299,"Western Thebes QV 60",1341,786067,"Western Thebes"
+300,"Western Thebes QV 73",1341,786067,"Western Thebes"
+301,"Western Thebes QV 79",1341,786067,"Western Thebes"
+302,"Western Thebes DeM 1346",1341,864388873,"Western Thebes"
+303,"Western Thebes DeM 1006",1341,864388873,"Western Thebes"
+304,"Western Thebes TT 336",1341,864388873,"Western Thebes"
+305,"Western Thebes QV 44",1341,786067,"Western Thebes"
+307,"Western Thebes TT 46",1341,786067,"Western Thebes"
+308,"Western Thebes TT 52",1341,786067,"Western Thebes"
+309,"Western Thebes DeM 1147",1341,864388873,"Western Thebes"
+310,"Western Thebes DeM 1148",1341,864388873,"Western Thebes"
+311,"Western Thebes DeM 1150",1341,864388873,"Western Thebes"
+312,"Western Thebes DeM 1197",1341,864388873,"Western Thebes"
+313,"Western Thebes DeM 2002 - DeM 2003 - DeM 2004",1341,864388873,"Western Thebes"
+314,"Western Thebes TT 251",1341,786067,"Western Thebes"
+315,"Western Thebes C 6",1341,786067,"Western Thebes"
+316,"Qasr el-Agouz",1341,786067,"Western Thebes"
+317,"Western Thebes DeM 1401",1341,864788873,"Western Thebes"
+318,"Western Thebes C 7",1341,786067,"Western Thebes"
+319,"Western Thebes DeM 1400",1341,864388873,"Western Thebes"
+320,"Western Thebes C' 7",1341,786067,"Western Thebes"
+321,"Western Thebes QV hamlet",1341,786067,"Western Thebes"
+322,"Pshanti",,,"Fayyum"
+323,"Fayyum","332, 1255",736893,"Fayyum"
+324,"Deir el-Saqiyya",,,"Western Thebes"
+325,"Koprithis",5320,,"Lower Egypt (Delta)"
+326,"Kom Sidi Uqba",,,"Lower Egypt (Delta)"
+327,"Magdola",1284,736956,"Fayyum"
+328,"Leontopolis (Tell el-Yahudiya)",1239,727146,"Lower Egypt (Delta)"
+329,"Mendes",1351,727156,"Lower Egypt (Delta)"
+330,"Western Thebes MMA 803",1341,786067,"Western Thebes"
+331,"Western Thebes MMA 804",1341,786067,"Western Thebes"
+332,"Western Thebes MMA 1106",1341,786067,"Western Thebes"
+333,"Western Thebes MMA 1107 (=TT 22)",1341,786067,"Western Thebes"
+334,"Western Thebes MMA 1109",1341,786067,"Western Thebes"
+335,"Western Thebes MMA 1112",1341,786067,"Western Thebes"
+336,"Deir el-Hammam",2756,,"Fayyum"
+337,"Monastery of Apa Selbane in honour of the Virgin",,,"Fayyum"
+338,"Taposiris Magna",2260,7272741,
+339,"Female Monastery at Atripe",5162,756538,"Northern Upper Egypt"
+340,"Pseudo Deir Abu Lifah",,,"Fayyum"
+341,"El-Kanais",,,"Fayyum"
+342,"Upper Egypt",2766,,
+343,"Lower Egypt",2712,,
+344,"Monastery of Apa St. Sansnos",,,
+345,"Talit",2236,737065,"Fayyum"
+346,"Monastery (?) of St. Theodoros",,,"Fayyum"
+347,"Tahanhor",,,"Northern Upper Egypt"
+348,"Ousia of Apa Hafs",,,
+349,"Samalut","4834, 3222",737054,"Northern Upper Egypt"
+350,"Tell el-Burashiya",5128,,"Lower Egypt (Delta)"
+351,"Kom Yetwal wa Yuksur",,,"Lower Egypt (Delta)"
+352,"Monastery of Apa Epima at Pshonte",89,741414,"Fayyum"
+353,"Tmekra",42927,,"Northern Upper Egypt"
+354,"Monastery of St. Theodoros",,,"Fayyum"
+355,"Pishai",1836,737015,"Fayyum"
+356,"Phantoou Nerebe",5932,,"Northern Upper Egypt"
+357,"Tmouou ","2444, 1397",,"Fayyum"
+358,"Faras",3170,795838,"Nubia"
+359,"Dongola",5080,865674318,
+360,"Qasr el-Wizz",3481,,"Nubia"
+361,"Tidjephrone",,,
+362,"Abdallah-n Irqi",14237,,"Nubia"
+363,"Wadi Halfa",2499,,"Nubia"
+364,"Andoumana",3448,,"Nubia"
+365,"Thraso",2417,741593,"Fayyum"
+366,"Naga el-Sheima","3164, 3493",,"Nubia"
+367,"Deir Mar Tumas",3486,795886,"Northern Upper Egypt"
+368,"Upper Ansina",2774,756518,"Middle Egypt"
+369,"Wadi Sarga",2843,756676,"Northern Upper Egypt"
+370,"Helwan",4918,,"Memphis"
+371,"Deir el-Nasara",,,"Southern upper Egypt"
+372,"Deir el-Misaykra",,,"Southern upper Egypt"
+373,"Deir el-Namus",,,"Southern upper Egypt"
+374,"Deir el-Matmar",,,"Southern upper Egypt"
