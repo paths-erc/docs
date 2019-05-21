@@ -21,7 +21,7 @@ OTHER DEALINGS IN THE PROTOCOL.
 
 ---
 
-Version 0.0.2
+Version 0.0.3
 
 ---
 
@@ -82,11 +82,11 @@ The definition of the attribute list and values to use for each field is the mos
 - `date` (*Datetime*), Datetime of the vectorization process.
 
 #### Elevation
-- `z` (*Double, 7,2*), elevation of the feature for extrusion purposes
-- `offset` (*Integer, 10*), offset elevation of the feature for extrusion purposes
+- `height` (*Double, 7,2*), elevation of the feature for extrusion purposes
+- `minHeight` (*Integer, 10*), offset elevation of the feature for extrusion purposes
 
 ### Sample code
-Follows a geojson sample code extracted from the [demo geojson file](leaflet-example/taposiris.geojson):
+Follows a geojson sample code extracted from the [demo geojson file](/data/geojson/taposiris.geojson):
 
 ```json
 {
@@ -113,8 +113,8 @@ Follows a geojson sample code extracted from the [demo geojson file](leaflet-exa
         "subsource": null,
         "operator": "JB",
         "date": null,
-        "z": 3.1,
-        "offset": 0.1
+        "height": 3.1,
+        "minHeight": 0.1
         },
       "geometry": {
         "type": "MultiPolygon",
