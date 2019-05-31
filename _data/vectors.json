@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Coptic monasteries with coordinates",
+    "date_created":"2019-05-30",
+    "lang":"English",
+    "epsg": 4326,
+    "authors": [
+      {
+        "role": "Author",
+        "name": "Howard Middleton-Jones Coptic Multi Media Database project",
+        "web": "http://www.ambilacuk.com/coptic/index.html"
+      },
+      {
+        "role": "Format conversion",
+        "name": "Julian Bogdani",
+        "email": "julian.bogdani@unirom1.it",
+        "web": "https://www.lettere.uniroma1.it/users/julian-bogdani"
+      },
+      {
+        "role": "Format conversion",
+        "name": "Leonardo Vilona",
+        "email": "leonardo.vilona@gmail.com"
+      }
+    ],
+    "description": "A list of Monastic sites in Egypt with full geographic coordinates downloaded from http://www.ambilacuk.com/coptic/gpslist.html and further elaborated. The original source reports that while much effort has gone into checking the GPS coordinates, both on-site and with Google Earth etc., please use the GPS locations with caution and use as a general guide.",
+    "license": "All rights reserved",
+    "copyright": "Copyright 1998 Howard Middleton-Jones Coptic Multi Media Database project.",
+    "availability": {
+      "CSV": "/data/gis/coptic-monasteries-with-coordinates/coptic-monasteries-with-coordinates.csv",
+      "GeoJSON": "/data/gis/coptic-monasteries-with-coordinates/coptic-monasteries-with-coordinates.geojson"
+    }
+  },
+
+  {
+    "name": "Sacra famiglia in Egitto",
+    "date_created":"2019-05-09",
+    "lang":"Italian",
+    "authors": [
+      {
+        "role": "Autore",
+        "name": "Leonardo Vilona",
+        "email": "leonardo.vilona@gmail.com"
+      }
+    ],
+    "description": "A point theme extracted from William Lyster, Ǧaudat Ǧabrā and Norbert Schiller. 2002. <em>Be thou there: the Holy Family's journey in Egypt</em>, Cairo: The American University in Cairo Press, cop. The data are integrated by other sources and coordinates are extracted from PAThs daabase and from Google Maps. The theme has been developed in the context of a BA thesis by Leonardo Vilona under the supervision of Julian Bogdani at Sapienza Università di Roma",
+    "license": "CC BY 3 Italia",
+    "copyright": "Leonardo Vilona & PAThs team",
+    "availability": {
+      "CSV": "/data/gis/sacra-famiglia-in-egitto/sacra-famiglia-in-egitto.csv",
+      "GeoJSON": "/data/gis/sacra-famiglia-in-egitto/sacra-famiglia-in-egitto.geojson"
+    }
+  }
+]

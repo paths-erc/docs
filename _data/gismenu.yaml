@@ -7,6 +7,9 @@ docs:
 - title: Simple Vectorization Protocol (SVP)
   url: svp
 
+- title: SVP Demo
+  url: demo
+
 - title: Available raster data
   url: rasters
 

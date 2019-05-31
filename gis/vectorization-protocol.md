@@ -126,4 +126,4 @@ Follows a geojson sample code extracted from the [demo geojson file](/data/geojs
 ```
 
 ### Demo
-For a fully working example, built with [Leaflet](https://leafletjs.com) follow [this link](./leaflet-example/). It uses a sample geojson file following the most recent version of the protocol.
+For a fully working example, built with Leaflet follow [this link](./leaflet-example/). It uses a sample geojson file following the most recent version of the protocol.
