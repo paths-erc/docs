@@ -195,17 +195,29 @@
 
       var sites = L.control({position: 'bottomleft'});
       var avalaible_gj = [
-        'taposiris',
-        'taposiris-temple-church',
-        'taposiris-eastern-church',
-        'taposiris-southern-church',
-        '215-Deir-Abu-Hennes',
-        'BGQ6JNX2-21a1',
-        'BGQ6JNX2-21a2',
-        'BGQ6JNX2-21a3',
-        'BGQ6JNX2-21b',
-        'BGQ6JNX2-21b1',
-        'BGQ6JNX2-22'
+        'paths.places.19-Luxor-complex/BGQ6JNX2-69',
+        'paths.places.19-Luxor-complex/BGQ6JNX2-70',
+        'paths.places.19-Luxor-complex/BGQ6JNX2-71',
+        'paths.places.19-Luxor-complex/BGQ6JNX2-186',
+        'paths.places.20-Koptos/BGQ6JNX2-64',
+        'paths.places.21-Dendera/BGQ6JNX2-58',
+        'paths.places.21-Dendera/BGQ6JNX2-63',
+        'paths.places.24-Panopolis/BGQ6JNX2-63',
+        'paths.places.24-Panopolis/BGQ6JNX2-160',
+        'paths.places.28-Hermopolis-Magna/BGQ6JNX2-58',
+        'paths.places.28-Hermopolis-Magna/BGQ6JNX2-59',
+
+        'paths.places.116-Abu-Mina/BGQ6JNX2-21a1',
+        'paths.places.116-Abu-Mina/BGQ6JNX2-21a2',
+        'paths.places.116-Abu-Mina/BGQ6JNX2-21a3',
+        'paths.places.116-Abu-Mina/BGQ6JNX2-21b',
+        'paths.places.116-Abu-Mina/BGQ6JNX2-21b1',
+        'paths.places.116-Abu-Mina/BGQ6JNX2-22',
+        'paths.places.215-Deir-Abu-Hennes/BGQ6JNX2-141',
+        'paths.places.338-Taposiris-Magna/taposiris',
+        'paths.places.338-Taposiris-Magna/taposiris-temple-church',
+        'paths.places.338-Taposiris-Magna/taposiris-eastern-church',
+        'paths.places.338-Taposiris-Magna/taposiris-southern-church'
 
       ];
       sites.onAdd = function(){
@@ -214,7 +226,7 @@
         <div class="form-group">
           <label for="sites">Select a site</label>
           <select id="sites" class="form-control">
-          ${avalaible_gj.map( e => { return `<option ${ e == window.location.hash.split('#')[1] ? 'selected' : ''}>${e}</option>`; })}
+          ${avalaible_gj.map( e => { return `<option value="${e}" ${ e == window.location.hash.split('#')[1] ? 'selected' : ''}>${e.replace(/\-/g, ' ')}</option>`; })}
 
           </select>
           </div>
