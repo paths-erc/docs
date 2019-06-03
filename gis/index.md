@@ -71,6 +71,7 @@ A special thank goes therefore to our younger collaborators, coordinated by **Pa
 - Susanna Masci
 - Manuela Micheli
 - Federico Palmieri Di Pietro
+- Veronica Porzi
 - Cristian Piatanida
 - Laura Restelli
 - Lorenzo Ricci
