@@ -73,6 +73,7 @@ A special thank goes therefore to our younger collaborators, coordinated by **Pa
 - Federico Palmieri Di Pietro
 - Cristian Piatanida
 - Laura Restelli
+- Lorenzo Ricci
 - Leonardo Vilona
 
 ## Join us
