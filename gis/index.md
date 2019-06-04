@@ -65,6 +65,7 @@ A special thank goes therefore to our younger collaborators, coordinated by **Pa
 - Ilaria Bitti
 - Michele d'Agostini
 - Cecilia De Leone
+- Martina De Giuseppe
 - Annalaura De Santis
 - Ariela Desio
 - Arianna Giordano
