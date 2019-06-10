@@ -76,6 +76,7 @@ A special thank goes therefore to our younger collaborators, coordinated by **Pa
 - Cristian Piatanida
 - Laura Restelli
 - Lorenzo Ricci
+- Rebecca Santinelli
 - Leonardo Vilona
 
 ## Join us
