@@ -69,6 +69,7 @@ A special thank goes therefore to our younger collaborators, coordinated by **Pa
 - Annalaura De Santis
 - Ariela Desio
 - Arianna Giordano
+- Giulia Mariotti
 - Susanna Masci
 - Manuela Micheli
 - Federico Palmieri Di Pietro
