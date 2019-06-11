@@ -22,7 +22,8 @@
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
       integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
       crossorigin=""></script>
-      <script src="https://cdn.osmbuildings.org/classic/0.2.2b/OSMBuildings-Leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-plugins/3.0.3/layer/tile/Bing.min.js"></script>
+    <script src="https://cdn.osmbuildings.org/classic/0.2.2b/OSMBuildings-Leaflet.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
 
@@ -183,6 +184,10 @@
 
       var basemaps = {
         // https://stackoverflow.com/a/32391908/586449
+        'Bing': new L.BingLayer('Aq-XTwgJPPpTJNGBrW2yGvw2wGrI14YX5rDMbwcGYwvncAIFCTkZANh3n_Quup5q', {
+          type: 'Aerial',
+          maxZoom: 20
+        }),
         'GoogleSat': L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
           maxZoom: 20,
           subdomains:['mt0','mt1','mt2','mt3']
@@ -195,7 +200,8 @@
           maxZoom: 11
         })
       };
-      basemaps['GoogleSat'].addTo(map);
+      basemaps['Bing'].addTo(map);
+      // basemaps['GoogleSat'].addTo(map);
 
       var controlLayers = L.control.layers(basemaps).addTo(map);
       var overlays = {};
