@@ -105,7 +105,17 @@
         overlays = {};
 
         var phases = [];
-        gj.features.forEach( function(f){
+        gj.features.forEach( function(f, i){
+          // Set heights:
+          if (!f.properties.height){
+            if (f.properties.part === 'l' || f.properties.part === 'd'){
+              gj.features[i].properties.height = .1;
+            } else {
+              gj.features[i].properties.height = 1;
+            }
+            gj.features[i].properties.minHeight = 0;
+          }
+
           var ph = f.properties.phase ? f.properties.phase : '0';
           if (phases.indexOf('Phase ' + ph) < 0){
             phases.push('Phase ' + ph);
