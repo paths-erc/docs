@@ -1,9 +1,9 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix lawd: <http://lawd.info/ontology/> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix periodo: <http://n2t.net/ark:/99152/p0v#> .
 
@@ -16,9 +16,7 @@
 
 <http://paths.uniroma1.it/atlas/places/1>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736963> ;
-  dc:relation <http://pleiades.stoa.org/places/736963> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1344> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736963>, <https://www.trismegistos.org/place/1344> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT (31.255061 29.849491)" ] ;
   rdfs:label "Memphis"@en ;
   lawd:primaryForm "Memphis"@en ;
@@ -26,9 +24,7 @@
 
 <http://paths.uniroma1.it/atlas/places/2>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727149> ;
-  dc:relation <http://pleiades.stoa.org/places/727149> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1245> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727149>, <https://www.trismegistos.org/place/1245> ;
   dc:temporal "750/750" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "325" ;
@@ -41,9 +37,7 @@
 
 <http://paths.uniroma1.it/atlas/places/3>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727217> ;
-  dc:relation <http://pleiades.stoa.org/places/727217> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2072> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727217>, <https://www.trismegistos.org/place/2072> ;
   dc:temporal "1100/1100" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "326" ;
@@ -56,9 +50,7 @@
 
 <http://paths.uniroma1.it/atlas/places/4>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727256> ;
-  dc:relation <http://pleiades.stoa.org/places/727256> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2507> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727256>, <https://www.trismegistos.org/place/2507> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.95058917999268 31.08822202469153)" ] ;
   rdfs:label "Xois"@en ;
   lawd:primaryForm "Xois"@en ;
@@ -66,9 +58,7 @@
 
 <http://paths.uniroma1.it/atlas/places/5>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727123> ;
-  dc:relation <http://pleiades.stoa.org/places/727123> ;
-  skos:exactMatch <https://www.trismegistos.org/place/817> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727123>, <https://www.trismegistos.org/place/817> ;
   dc:temporal "1300/1300" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "325" ;
@@ -81,9 +71,7 @@
 
 <http://paths.uniroma1.it/atlas/places/6>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727124> ;
-  dc:relation <http://pleiades.stoa.org/places/727124> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2297> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727124>, <https://www.trismegistos.org/place/2297> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.099321 30.552892)" ] ;
   rdfs:label "Heroonpolis"@en ;
   lawd:primaryForm "Heroonpolis"@en ;
@@ -91,9 +79,7 @@
 
 <http://paths.uniroma1.it/atlas/places/7>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727090> ;
-  dc:relation <http://pleiades.stoa.org/places/727090> ;
-  skos:exactMatch <https://www.trismegistos.org/place/469> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727090>, <https://www.trismegistos.org/place/469> ;
   dc:temporal "1100/1100" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "301" ;
@@ -106,9 +92,7 @@
 
 <http://paths.uniroma1.it/atlas/places/8>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727078> ;
-  dc:relation <http://pleiades.stoa.org/places/727078> ;
-  skos:exactMatch <https://www.trismegistos.org/place/369> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727078>, <https://www.trismegistos.org/place/369> ;
   dc:temporal "1000/1000" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "301" ;
@@ -121,9 +105,7 @@
 
 <http://paths.uniroma1.it/atlas/places/9>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727147> ;
-  dc:relation <http://pleiades.stoa.org/places/727147> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1238> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727147>, <https://www.trismegistos.org/place/1238> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "301" ;
@@ -136,9 +118,7 @@
 
 <http://paths.uniroma1.it/atlas/places/10>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727227> ;
-  dc:relation <http://pleiades.stoa.org/places/727227> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2104> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727227>, <https://www.trismegistos.org/place/2104> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.239982 30.9641295)" ] ;
   rdfs:label "Sebennytos"@en ;
   lawd:primaryForm "Sebennytos"@en ;
@@ -146,9 +126,7 @@
 
 <http://paths.uniroma1.it/atlas/places/11>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727117> ;
-  dc:relation <http://pleiades.stoa.org/places/727117> ;
-  skos:exactMatch <https://www.trismegistos.org/place/761> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727117>, <https://www.trismegistos.org/place/761> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.284786 30.131757)" ] ;
   rdfs:label "Heliopolis"@en ;
   lawd:primaryForm "Heliopolis"@en ;
@@ -156,9 +134,7 @@
 
 <http://paths.uniroma1.it/atlas/places/12>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727236> ;
-  dc:relation <http://pleiades.stoa.org/places/727236> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2252> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727236>, <https://www.trismegistos.org/place/2252> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.874266 30.9758406667)" ] ;
   rdfs:label "Tanis"@en ;
   lawd:primaryForm "Tanis"@en ;
@@ -166,9 +142,7 @@
 
 <http://paths.uniroma1.it/atlas/places/13>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727122> ;
-  dc:relation <http://pleiades.stoa.org/places/727122> ;
-  skos:exactMatch <https://www.trismegistos.org/place/815> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727122>, <https://www.trismegistos.org/place/815> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.379406 31.037798)" ] ;
   rdfs:label "Hermopolis"@en ;
   lawd:primaryForm "Hermopolis"@en ;
@@ -176,9 +150,7 @@
 
 <http://paths.uniroma1.it/atlas/places/14>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727111> ;
-  dc:relation <http://pleiades.stoa.org/places/727111> ;
-  skos:exactMatch <https://www.trismegistos.org/place/575> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727111>, <https://www.trismegistos.org/place/575> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "301" ;
@@ -191,9 +163,7 @@
 
 <http://paths.uniroma1.it/atlas/places/15>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727088> ;
-  dc:relation <http://pleiades.stoa.org/places/727088> ;
-  skos:exactMatch <https://www.trismegistos.org/place/462> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727088>, <https://www.trismegistos.org/place/462> ;
   dc:temporal "1100/1100" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "326" ;
@@ -206,9 +176,7 @@
 
 <http://paths.uniroma1.it/atlas/places/16>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786021> ;
-  dc:relation <http://pleiades.stoa.org/places/786021> ;
-  skos:exactMatch <https://www.trismegistos.org/place/621> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786021>, <https://www.trismegistos.org/place/621> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.889 24.09)" ] ;
   rdfs:label "Elephantine"@en ;
   lawd:primaryForm "Elephantine"@en ;
@@ -216,9 +184,7 @@
 
 <http://paths.uniroma1.it/atlas/places/18>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786037> ;
-  dc:relation <http://pleiades.stoa.org/places/786037> ;
-  skos:exactMatch <https://www.trismegistos.org/place/848> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786037>, <https://www.trismegistos.org/place/848> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.7824705 25.0480345)" ] ;
   rdfs:label "Hierakonpolis"@en ;
   lawd:primaryForm "Hierakonpolis"@en ;
@@ -226,9 +192,7 @@
 
 <http://paths.uniroma1.it/atlas/places/19>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786017> ;
-  dc:relation <http://pleiades.stoa.org/places/786017> ;
-  skos:exactMatch <https://www.trismegistos.org/place/576> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786017>, <https://www.trismegistos.org/place/576> ;
   dc:temporal "1100/1100" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "576" ;
@@ -241,9 +205,7 @@
 
 <http://paths.uniroma1.it/atlas/places/20>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786010> ;
-  dc:relation <http://pleiades.stoa.org/places/786010> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1159> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786010>, <https://www.trismegistos.org/place/1159> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.815787 25.996402)" ] ;
   rdfs:label "Koptos"@en ;
   lawd:primaryForm "Koptos"@en ;
@@ -251,9 +213,7 @@
 
 <http://paths.uniroma1.it/atlas/places/21>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786127> ;
-  dc:relation <http://pleiades.stoa.org/places/786127> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2312> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786127>, <https://www.trismegistos.org/place/2312> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.6700972222 26.141775)" ] ;
   rdfs:label "Dendera"@en ;
   lawd:primaryForm "Dendera"@en ;
@@ -261,9 +221,7 @@
 
 <http://paths.uniroma1.it/atlas/places/22>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756566> ;
-  dc:relation <http://pleiades.stoa.org/places/756566> ;
-  skos:exactMatch <https://www.trismegistos.org/place/577> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756566>, <https://www.trismegistos.org/place/577> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.312497 26.016881)" ] ;
   rdfs:label "Diospolis Mikra"@en ;
   lawd:primaryForm "Diospolis Mikra"@en ;
@@ -271,9 +229,7 @@
 
 <http://paths.uniroma1.it/atlas/places/23>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756512> ;
-  dc:relation <http://pleiades.stoa.org/places/756512> ;
-  skos:exactMatch <https://www.trismegistos.org/place/34> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756512>, <https://www.trismegistos.org/place/34> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.91627145 26.1859907667)" ] ;
   rdfs:label "Abydos"@en ;
   lawd:primaryForm "Abydos"@en ;
@@ -281,9 +237,7 @@
 
 <http://paths.uniroma1.it/atlas/places/24>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756613> ;
-  dc:relation <http://pleiades.stoa.org/places/756613> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1589> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756613>, <https://www.trismegistos.org/place/1589> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.7451755 26.5648875)" ] ;
   rdfs:label "Panopolis"@en ;
   lawd:primaryForm "Panopolis"@en ;
@@ -291,9 +245,7 @@
 
 <http://paths.uniroma1.it/atlas/places/25>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756515> ;
-  dc:relation <http://pleiades.stoa.org/places/756515> ;
-  skos:exactMatch <https://www.trismegistos.org/place/188> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756515>, <https://www.trismegistos.org/place/188> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.517443 26.8992835)" ] ;
   rdfs:label "Antaiopolis"@en ;
   lawd:primaryForm "Antaiopolis"@en ;
@@ -301,9 +253,7 @@
 
 <http://paths.uniroma1.it/atlas/places/26>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756578> ;
-  dc:relation <http://pleiades.stoa.org/places/756578> ;
-  skos:exactMatch <https://www.trismegistos.org/place/864> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756578>, <https://www.trismegistos.org/place/864> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.234697 27.146592)" ] ;
   rdfs:label "Hypsele"@en ;
   lawd:primaryForm "Hypsele"@en ;
@@ -311,9 +261,7 @@
 
 <http://paths.uniroma1.it/atlas/places/27>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756593> ;
-  dc:relation <http://pleiades.stoa.org/places/756593> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1271> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756593>, <https://www.trismegistos.org/place/1271> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.1825335 27.181346)" ] ;
   rdfs:label "Lykopolis"@en ;
   lawd:primaryForm "Lykopolis"@en ;
@@ -321,9 +269,7 @@
 
 <http://paths.uniroma1.it/atlas/places/28>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756574> ;
-  dc:relation <http://pleiades.stoa.org/places/756574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/816> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756574>, <https://www.trismegistos.org/place/816> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.8035806072 27.7796202493)" ] ;
   rdfs:label "Hermopolis Magna"@en ;
   lawd:primaryForm "Hermopolis Magna"@en ;
@@ -331,9 +277,7 @@
 
 <http://paths.uniroma1.it/atlas/places/29>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736949> ;
-  dc:relation <http://pleiades.stoa.org/places/736949> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1196> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736949>, <https://www.trismegistos.org/place/1196> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.782897 28.479495)" ] ;
   rdfs:label "Kynopolis"@en ;
   lawd:primaryForm "Kynopolis"@en ;
@@ -341,9 +285,7 @@
 
 <http://paths.uniroma1.it/atlas/places/30>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736888> ;
-  dc:relation <http://pleiades.stoa.org/places/736888> ;
-  skos:exactMatch <https://www.trismegistos.org/place/182> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736888>, <https://www.trismegistos.org/place/182> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.916624 28.766518)" ] ;
   rdfs:label "Ankyropolis"@en ;
   lawd:primaryForm "Ankyropolis"@en ;
@@ -351,9 +293,7 @@
 
 <http://paths.uniroma1.it/atlas/places/31>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736983> ;
-  dc:relation <http://pleiades.stoa.org/places/736983> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1524> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736983>, <https://www.trismegistos.org/place/1524> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.65172 28.542574)" ] ;
   rdfs:label "Oxyrhynchos"@en ;
   lawd:primaryForm "Oxyrhynchos"@en ;
@@ -361,9 +301,7 @@
 
 <http://paths.uniroma1.it/atlas/places/32>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736920> ;
-  dc:relation <http://pleiades.stoa.org/places/736920> ;
-  skos:exactMatch <https://www.trismegistos.org/place/801> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736920>, <https://www.trismegistos.org/place/801> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.936518 29.0857433333)" ] ;
   rdfs:label "Herakleopolis Magna"@en ;
   lawd:primaryForm "Herakleopolis Magna"@en ;
@@ -371,9 +309,7 @@
 
 <http://paths.uniroma1.it/atlas/places/33>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736948> ;
-  dc:relation <http://pleiades.stoa.org/places/736948> ;
-  skos:exactMatch <https://www.trismegistos.org/place/327> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736948>, <https://www.trismegistos.org/place/327> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.8399565 29.3149635)" ] ;
   rdfs:label "Arsinoe"@en ;
   lawd:primaryForm "Arsinoe"@en ;
@@ -381,9 +317,7 @@
 
 <http://paths.uniroma1.it/atlas/places/34>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736889> ;
-  dc:relation <http://pleiades.stoa.org/places/736889> ;
-  skos:exactMatch <https://www.trismegistos.org/place/236> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736889>, <https://www.trismegistos.org/place/236> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.25167 29.408419)" ] ;
   rdfs:label "Aphroditopolis"@en ;
   lawd:primaryForm "Aphroditopolis"@en ;
@@ -391,9 +325,7 @@
 
 <http://paths.uniroma1.it/atlas/places/35>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727249> ;
-  dc:relation <http://pleiades.stoa.org/places/727249> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2405> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727249>, <https://www.trismegistos.org/place/2405> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "301" ;
@@ -406,9 +338,7 @@
 
 <http://paths.uniroma1.it/atlas/places/36>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727192> ;
-  dc:relation <http://pleiades.stoa.org/places/727192> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1662> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727192>, <https://www.trismegistos.org/place/1662> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.539700 31.041874)" ] ;
   rdfs:label "Pelusium"@en ;
   lawd:primaryForm "Pelusium"@en ;
@@ -416,9 +346,7 @@
 
 <http://paths.uniroma1.it/atlas/places/37>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727243> ;
-  dc:relation <http://pleiades.stoa.org/places/727243> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3075> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727243>, <https://www.trismegistos.org/place/3075> ;
   dc:temporal "1228/1228" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "325" ;
@@ -431,9 +359,7 @@
 
 <http://paths.uniroma1.it/atlas/places/38>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727070> ;
-  dc:relation <http://pleiades.stoa.org/places/727070> ;
-  skos:exactMatch <https://www.trismegistos.org/place/100> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727070>, <https://www.trismegistos.org/place/100> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(29.9079146667 31.1982456667)" ] ;
   rdfs:label "Alexandria"@en ;
   lawd:primaryForm "Alexandria"@en ;
@@ -441,9 +367,7 @@
 
 <http://paths.uniroma1.it/atlas/places/39>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727163> ;
-  dc:relation <http://pleiades.stoa.org/places/727163> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2640> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727163>, <https://www.trismegistos.org/place/2640> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.375411 31.12039)" ] ;
   rdfs:label "Metelis"@en ;
   lawd:primaryForm "Metelis"@en ;
@@ -451,9 +375,7 @@
 
 <http://paths.uniroma1.it/atlas/places/40>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727094> ;
-  dc:relation <http://pleiades.stoa.org/places/727094> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3685>, <https://www.trismegistos.org/place/10704>, <https://www.trismegistos.org/place/10767> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727094>, <https://www.trismegistos.org/place/3685>, <https://www.trismegistos.org/place/10704>, <https://www.trismegistos.org/place/10767> ;
   dc:temporal "825/825" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "301" ;
@@ -466,9 +388,7 @@
 
 <http://paths.uniroma1.it/atlas/places/41>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727121> ;
-  dc:relation <http://pleiades.stoa.org/places/727121> ;
-  skos:exactMatch <https://www.trismegistos.org/place/800> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727121>, <https://www.trismegistos.org/place/800> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.167572 30.982139)" ] ;
   rdfs:label "Herakleopolis Mikra"@en ;
   lawd:primaryForm "Herakleopolis Mikra"@en ;
@@ -476,9 +396,7 @@
 
 <http://paths.uniroma1.it/atlas/places/42>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727144> ;
-  dc:relation <http://pleiades.stoa.org/places/727144> ;
-  skos:exactMatch <https://www.trismegistos.org/place/5392> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727144>, <https://www.trismegistos.org/place/5392> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.234453 30.896044)" ] ;
   rdfs:label "Kynopolis Inferior"@en ;
   lawd:primaryForm "Kynopolis Inferior"@en ;
@@ -486,9 +404,7 @@
 
 <http://paths.uniroma1.it/atlas/places/43>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727196> ;
-  dc:relation <http://pleiades.stoa.org/places/727196> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1751> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727196>, <https://www.trismegistos.org/place/1751> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.620556 30.734257)" ] ;
   rdfs:label "Pharbaithos"@en ;
   lawd:primaryForm "Pharbaithos"@en ;
@@ -496,9 +412,7 @@
 
 <http://paths.uniroma1.it/atlas/places/44>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727194> ;
-  dc:relation <http://pleiades.stoa.org/places/727194> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1729> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727194>, <https://www.trismegistos.org/place/1729> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.672164 30.720511)" ] ;
   rdfs:label "Phakoussa"@en ;
   lawd:primaryForm "Phakoussa"@en ;
@@ -506,9 +420,7 @@
 
 <http://paths.uniroma1.it/atlas/places/45>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727174> ;
-  dc:relation <http://pleiades.stoa.org/places/727174> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1463> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727174>, <https://www.trismegistos.org/place/1463> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.851018 30.411529)" ] ;
   rdfs:label "Nikiou"@en ;
   lawd:primaryForm "Nikiou"@en ;
@@ -516,9 +428,7 @@
 
 <http://paths.uniroma1.it/atlas/places/46>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727201> ;
-  dc:relation <http://pleiades.stoa.org/places/727201> ;
-  skos:exactMatch <https://www.trismegistos.org/place/7961> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727201>, <https://www.trismegistos.org/place/7961> ;
   dc:temporal "1375/1375" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "325" ;
@@ -531,9 +441,7 @@
 
 <http://paths.uniroma1.it/atlas/places/47>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727133> ;
-  dc:relation <http://pleiades.stoa.org/places/727133> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2636> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727133>, <https://www.trismegistos.org/place/2636> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.74459 31.090569)" ] ;
   rdfs:label "Kabasa"@en ;
   lawd:primaryForm "Kabasa"@en ;
@@ -541,9 +449,7 @@
 
 <http://paths.uniroma1.it/atlas/places/48>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727184> ;
-  dc:relation <http://pleiades.stoa.org/places/727184> ;
-  skos:exactMatch <https://www.trismegistos.org/place/6258> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727184>, <https://www.trismegistos.org/place/6258> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.936 31.158072)" ] ;
   rdfs:label "Panephysis"@en ;
   lawd:primaryForm "Panephysis"@en ;
@@ -551,9 +457,7 @@
 
 <http://paths.uniroma1.it/atlas/places/49>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727071> ;
-  dc:relation <http://pleiades.stoa.org/places/727071> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3108>, <https://www.trismegistos.org/place/8505> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727071>, <https://www.trismegistos.org/place/3108>, <https://www.trismegistos.org/place/8505> ;
   dc:temporal "1100/1100" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "350" ;
@@ -566,9 +470,7 @@
 
 <http://paths.uniroma1.it/atlas/places/50>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/730134> ;
-  dc:relation <http://pleiades.stoa.org/places/730134> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3093> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/730134>, <https://www.trismegistos.org/place/3093> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.965652465820316 30.883001015521867)" ] ;
   rdfs:label "Onouphis Kato"@en ;
   lawd:primaryForm "Onouphis Kato"@en ;
@@ -576,9 +478,7 @@
 
 <http://paths.uniroma1.it/atlas/places/51>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/730134> ;
-  dc:relation <http://pleiades.stoa.org/places/730134> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3093> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/730134>, <https://www.trismegistos.org/place/3093> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.9345817565918 30.46643043369801)" ] ;
   rdfs:label "Onouphis Ano"@en ;
   lawd:primaryForm "Onouphis Ano"@en ;
@@ -586,9 +486,7 @@
 
 <http://paths.uniroma1.it/atlas/places/52>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727221> ;
-  dc:relation <http://pleiades.stoa.org/places/727221> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2096> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727221>, <https://www.trismegistos.org/place/2096> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.192032 31.13965)" ] ;
   rdfs:label "Schedia"@en ;
   lawd:primaryForm "Schedia"@en ;
@@ -596,9 +494,7 @@
 
 <http://paths.uniroma1.it/atlas/places/53>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756518> ;
-  dc:relation <http://pleiades.stoa.org/places/756518> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2774> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756518>, <https://www.trismegistos.org/place/2774> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "250" ;
@@ -611,9 +507,7 @@
 
 <http://paths.uniroma1.it/atlas/places/54>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/373879> ;
-  dc:relation <http://pleiades.stoa.org/places/373879> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2018> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/373879>, <https://www.trismegistos.org/place/2018> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(20.9507545 32.708807)" ] ;
   rdfs:label "Ptolemais"@en ;
   lawd:primaryForm "Ptolemais"@en ;
@@ -621,9 +515,7 @@
 
 <http://paths.uniroma1.it/atlas/places/55>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/785975> ;
-  dc:relation <http://pleiades.stoa.org/places/785975> ;
-  skos:exactMatch <https://www.trismegistos.org/place/270> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/785975>, <https://www.trismegistos.org/place/270> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.710142 25.854553)" ] ;
   rdfs:label "Apollonopolis Parva"@en ;
   lawd:primaryForm "Apollonopolis Parva"@en ;
@@ -631,9 +523,7 @@
 
 <http://paths.uniroma1.it/atlas/places/56>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756588> ;
-  dc:relation <http://pleiades.stoa.org/places/756588> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1176> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756588>, <https://www.trismegistos.org/place/1176> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.817991 27.438183)" ] ;
   rdfs:label "Koussai"@en ;
   lawd:primaryForm "Koussai"@en ;
@@ -641,9 +531,7 @@
 
 <http://paths.uniroma1.it/atlas/places/57>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736973> ;
-  dc:relation <http://pleiades.stoa.org/places/736973> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1433> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736973>, <https://www.trismegistos.org/place/1433> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.8214 29.529099)" ] ;
   rdfs:label "Neiloupolis"@en ;
   lawd:primaryForm "Neiloupolis"@en ;
@@ -651,9 +539,7 @@
 
 <http://paths.uniroma1.it/atlas/places/58>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786059> ;
-  dc:relation <http://pleiades.stoa.org/places/786059> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1227> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786059>, <https://www.trismegistos.org/place/1227> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.55649131 25.29355461)" ] ;
   rdfs:label "Esna"@en ;
   lawd:primaryForm "Esna"@en ;
@@ -667,9 +553,7 @@
 
 <http://paths.uniroma1.it/atlas/places/60>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/759689> ;
-  dc:relation <http://pleiades.stoa.org/places/759689> ;
-  skos:exactMatch <https://www.trismegistos.org/place/7741> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/759689>, <https://www.trismegistos.org/place/7741> ;
   rdfs:label "Tse"@en ;
   lawd:primaryForm "Tse"@en ;
   lawd:hasName [ lawd:variantForm "Τασῆ"@grc ], [ lawd:variantForm "ⲧⲥⲏ"@cop ], [ lawd:variantForm "ⲧⲥⲩ"@cop ], [ lawd:variantForm " إطسا"@arz ], [ lawd:variantForm "تسا "@arz ], [ lawd:variantForm "Tse"@eng ] .
@@ -695,9 +579,7 @@
 
 <http://paths.uniroma1.it/atlas/places/64>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756545> ;
-  dc:relation <http://pleiades.stoa.org/places/756545> ;
-  skos:exactMatch <https://www.trismegistos.org/place/5089> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756545>, <https://www.trismegistos.org/place/5089> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.307667 26.059231)" ] ;
   rdfs:label "Chenoboskion"@en ;
   lawd:primaryForm "Chenoboskion"@en ;
@@ -711,9 +593,7 @@
 
 <http://paths.uniroma1.it/atlas/places/66>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786125> ;
-  dc:relation <http://pleiades.stoa.org/places/786125> ;
-  skos:exactMatch <https://www.trismegistos.org/place/7358> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786125>, <https://www.trismegistos.org/place/7358> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.38018 26.0996985)" ] ;
   rdfs:label "Tabennisis"@en ;
   lawd:primaryForm "Tabennisis"@en ;
@@ -721,9 +601,7 @@
 
 <http://paths.uniroma1.it/atlas/places/67>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786047> ;
-  dc:relation <http://pleiades.stoa.org/places/786047> ;
-  skos:exactMatch <https://www.trismegistos.org/place/952> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786047>, <https://www.trismegistos.org/place/952> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.7018756667 26.1498853333)" ] ;
   rdfs:label "Maximianoupolis"@en ;
   lawd:primaryForm "Maximianoupolis"@en ;
@@ -731,9 +609,7 @@
 
 <http://paths.uniroma1.it/atlas/places/68>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756540> ;
-  dc:relation <http://pleiades.stoa.org/places/756540> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3843> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756540>, <https://www.trismegistos.org/place/3843> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.4029556 26.1125346)" ] ;
   rdfs:label "Pbou"@en ;
   lawd:primaryForm "Pbou"@en ;
@@ -748,9 +624,7 @@
 
 <http://paths.uniroma1.it/atlas/places/70>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786036> ;
-  dc:relation <http://pleiades.stoa.org/places/786036> ;
-  skos:exactMatch <https://www.trismegistos.org/place/812> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786036>, <https://www.trismegistos.org/place/812> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.543563842773445 25.622335085000202)" ] ;
   rdfs:label "Hermonthis"@en ;
   lawd:primaryForm "Hermonthis"@en ;
@@ -764,9 +638,7 @@
 
 <http://paths.uniroma1.it/atlas/places/72>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786106> ;
-  dc:relation <http://pleiades.stoa.org/places/786106> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2207> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786106>, <https://www.trismegistos.org/place/2207> ;
   dc:temporal "1300/1300" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "601" ;
@@ -779,9 +651,7 @@
 
 <http://paths.uniroma1.it/atlas/places/73>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756663> ;
-  dc:relation <http://pleiades.stoa.org/places/756663> ;
-  skos:exactMatch <https://www.trismegistos.org/place/10454> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756663>, <https://www.trismegistos.org/place/10454> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.7083435 27.5511327)" ] ;
   rdfs:label "Bawit"@en ;
   lawd:primaryForm "Bawit"@en ;
@@ -789,9 +659,7 @@
 
 <http://paths.uniroma1.it/atlas/places/74>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736975> ;
-  dc:relation <http://pleiades.stoa.org/places/736975> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1418> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736975>, <https://www.trismegistos.org/place/1418> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.876986 29.193771)" ] ;
   rdfs:label "Naqlun"@en ;
   lawd:primaryForm "Naqlun"@en ;
@@ -799,9 +667,7 @@
 
 <http://paths.uniroma1.it/atlas/places/75>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736963> ;
-  dc:relation <http://pleiades.stoa.org/places/736963> ;
-  skos:exactMatch <https://www.trismegistos.org/place/12916> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736963>, <https://www.trismegistos.org/place/12916> ;
   dc:temporal "950/950" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "451" ;
@@ -814,9 +680,7 @@
 
 <http://paths.uniroma1.it/atlas/places/76>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727232> ;
-  dc:relation <http://pleiades.stoa.org/places/727232> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727232>, <https://www.trismegistos.org/place/3375> ;
   dc:temporal "1450/1450" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "330" ;
@@ -829,9 +693,7 @@
 
 <http://paths.uniroma1.it/atlas/places/77>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727177> ;
-  dc:relation <http://pleiades.stoa.org/places/727177> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1473> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727177>, <https://www.trismegistos.org/place/1473> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.25 30.75)" ] ;
   rdfs:label "Nitria"@en ;
   lawd:primaryForm "Nitria"@en ;
@@ -839,9 +701,7 @@
 
 <http://paths.uniroma1.it/atlas/places/78>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727141> ;
-  dc:relation <http://pleiades.stoa.org/places/727141> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727141>, <https://www.trismegistos.org/place/3375> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.368868 30.776003)" ] ;
   rdfs:label "Kellia"@en ;
   lawd:primaryForm "Kellia"@en ;
@@ -849,9 +709,7 @@
 
 <http://paths.uniroma1.it/atlas/places/79>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/746800> ;
-  dc:relation <http://pleiades.stoa.org/places/746800> ;
-  skos:exactMatch <https://www.trismegistos.org/place/5104> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/746800>, <https://www.trismegistos.org/place/5104> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.5509023 28.84561505)" ] ;
   rdfs:label "Monastery of St. Paul"@en ;
   lawd:primaryForm "Monastery of St. Paul"@en ;
@@ -867,9 +725,7 @@
 
 <http://paths.uniroma1.it/atlas/places/82>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "750/750" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "551" ;
@@ -895,9 +751,7 @@
 
 <http://paths.uniroma1.it/atlas/places/84>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/785986> ;
-  dc:relation <http://pleiades.stoa.org/places/785986> ;
-  skos:exactMatch <https://www.trismegistos.org/place/416> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/785986>, <https://www.trismegistos.org/place/416> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(35.4737 23.9103)" ] ;
   rdfs:label "Berenike (Upper Egypt)"@en ;
   lawd:primaryForm "Berenike (Upper Egypt)"@en ;
@@ -912,8 +766,7 @@
 
 <http://paths.uniroma1.it/atlas/places/86>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756547> ;
-  dc:relation <http://pleiades.stoa.org/places/756547> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756547> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.883335 27.716657)" ] ;
   rdfs:label "Deir el-Qaddis Abu Bifam"@en ;
   lawd:primaryForm "Deir el-Qaddis Abu Bifam"@en ;
@@ -921,9 +774,7 @@
 
 <http://paths.uniroma1.it/atlas/places/87>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "551" ;
@@ -936,9 +787,7 @@
 
 <http://paths.uniroma1.it/atlas/places/88>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786088> ;
-  dc:relation <http://pleiades.stoa.org/places/786088> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1281> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786088>, <https://www.trismegistos.org/place/1281> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.710172 25.734239)" ] ;
   rdfs:label "Petemout"@en ;
   lawd:primaryForm "Petemout"@en ;
@@ -946,9 +795,7 @@
 
 <http://paths.uniroma1.it/atlas/places/89>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/687993> ;
-  dc:relation <http://pleiades.stoa.org/places/687993> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1518> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/687993>, <https://www.trismegistos.org/place/1518> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(33.430636 31.11593)" ] ;
   rdfs:label "Ostrakine"@en ;
   lawd:primaryForm "Ostrakine"@en ;
@@ -964,9 +811,7 @@
 
 <http://paths.uniroma1.it/atlas/places/91>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/759543> ;
-  dc:relation <http://pleiades.stoa.org/places/759543> ;
-  skos:exactMatch <https://www.trismegistos.org/place/12542> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/759543>, <https://www.trismegistos.org/place/12542> ;
   dc:temporal "715/715" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "551" ;
@@ -979,9 +824,7 @@
 
 <http://paths.uniroma1.it/atlas/places/92>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756520> ;
-  dc:relation <http://pleiades.stoa.org/places/756520> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3025> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756520>, <https://www.trismegistos.org/place/3025> ;
   dc:temporal "750/750" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "651" ;
@@ -1002,9 +845,7 @@
 
 <http://paths.uniroma1.it/atlas/places/94>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756593> ;
-  dc:relation <http://pleiades.stoa.org/places/756593> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1271> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756593>, <https://www.trismegistos.org/place/1271> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.172684803605087 27.162322814871555)" ] ;
   rdfs:label "Gebel Assiut el-Gharbi"@en ;
   lawd:primaryForm "Gebel Assiut el-Gharbi"@en ;
@@ -1025,9 +866,7 @@
 
 <http://paths.uniroma1.it/atlas/places/96>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786089> ;
-  dc:relation <http://pleiades.stoa.org/places/786089> ;
-  skos:exactMatch <https://www.trismegistos.org/place/17677> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786089>, <https://www.trismegistos.org/place/17677> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.884252 24.025031)" ] ;
   rdfs:label "Philae"@en ;
   lawd:primaryForm "Philae"@en ;
@@ -1035,9 +874,7 @@
 
 <http://paths.uniroma1.it/atlas/places/97>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786056> ;
-  dc:relation <http://pleiades.stoa.org/places/786056> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2772> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786056>, <https://www.trismegistos.org/place/2772> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.864404320716865 24.180182309792723)" ] ;
   rdfs:label "Deir el-Kubbaniya"@en ;
   lawd:primaryForm "Deir el-Kubbaniya"@en ;
@@ -1045,9 +882,7 @@
 
 <http://paths.uniroma1.it/atlas/places/98>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/979588215> ;
-  dc:relation <http://pleiades.stoa.org/places/979588215> ;
-  skos:exactMatch <https://www.trismegistos.org/place/4984> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/979588215>, <https://www.trismegistos.org/place/4984> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.890414 24.103476)" ] ;
   rdfs:label "Deir Qubbat el Hawa"@en ;
   lawd:primaryForm "Deir Qubbat el Hawa"@en ;
@@ -1055,9 +890,7 @@
 
 <http://paths.uniroma1.it/atlas/places/99>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737001> ;
-  dc:relation <http://pleiades.stoa.org/places/737001> ;
-  skos:exactMatch <https://www.trismegistos.org/place/50403> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737001>, <https://www.trismegistos.org/place/50403> ;
   dc:temporal "914/914" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "822" ;
@@ -1070,9 +903,7 @@
 
 <http://paths.uniroma1.it/atlas/places/100>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737030> ;
-  dc:relation <http://pleiades.stoa.org/places/737030> ;
-  skos:exactMatch <https://www.trismegistos.org/place/11585> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737030>, <https://www.trismegistos.org/place/11585> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.506483 28.910537)" ] ;
   rdfs:label "Gebel el-Qalamun"@en ;
   lawd:primaryForm "Gebel el-Qalamun"@en ;
@@ -1080,9 +911,7 @@
 
 <http://paths.uniroma1.it/atlas/places/101>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737072> ;
-  dc:relation <http://pleiades.stoa.org/places/737072> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2287> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737072>, <https://www.trismegistos.org/place/2287> ;
   dc:temporal "1020/1020" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "861" ;
@@ -1107,9 +936,7 @@
 
 <http://paths.uniroma1.it/atlas/places/103>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756659> ;
-  dc:relation <http://pleiades.stoa.org/places/756659> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2400> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756659>, <https://www.trismegistos.org/place/2400> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.841893 26.341487)" ] ;
   rdfs:label "This"@en ;
   lawd:primaryForm "This"@en ;
@@ -1117,9 +944,7 @@
 
 <http://paths.uniroma1.it/atlas/places/104>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736972> ;
-  dc:relation <http://pleiades.stoa.org/places/736972> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1421> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736972>, <https://www.trismegistos.org/place/1421> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "351" ;
@@ -1132,9 +957,7 @@
 
 <http://paths.uniroma1.it/atlas/places/105>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736896> ;
-  dc:relation <http://pleiades.stoa.org/places/736896> ;
-  skos:exactMatch <https://www.trismegistos.org/place/392> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736896>, <https://www.trismegistos.org/place/392> ;
   dc:temporal "650/650" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "451" ;
@@ -1147,9 +970,7 @@
 
 <http://paths.uniroma1.it/atlas/places/106>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736932> ;
-  dc:relation <http://pleiades.stoa.org/places/736932> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1008> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736932>, <https://www.trismegistos.org/place/1008> ;
   dc:temporal "650/650" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "325" ;
@@ -1162,9 +983,7 @@
 
 <http://paths.uniroma1.it/atlas/places/107>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737053> ;
-  dc:relation <http://pleiades.stoa.org/places/737053> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2157> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737053>, <https://www.trismegistos.org/place/2157> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.668916 29.5334745)" ] ;
   rdfs:label "Soknopaiou Nesos"@en ;
   lawd:primaryForm "Soknopaiou Nesos"@en ;
@@ -1172,9 +991,7 @@
 
 <http://paths.uniroma1.it/atlas/places/108>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756549> ;
-  dc:relation <http://pleiades.stoa.org/places/756549> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3506> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756549>, <https://www.trismegistos.org/place/3506> ;
   dc:temporal "858/858" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "686" ;
@@ -1187,9 +1004,7 @@
 
 <http://paths.uniroma1.it/atlas/places/109>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756549> ;
-  dc:relation <http://pleiades.stoa.org/places/756549> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3506> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756549>, <https://www.trismegistos.org/place/3506> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.906827 27.787299)" ] ;
   rdfs:label "Deir Abu Hennes Wadi Gamus"@en ;
   lawd:primaryForm "Deir Abu Hennes Wadi Gamus"@en ;
@@ -1197,9 +1012,7 @@
 
 <http://paths.uniroma1.it/atlas/places/110>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727104> ;
-  dc:relation <http://pleiades.stoa.org/places/727104> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727104>, <https://www.trismegistos.org/place/3375> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.476111 30.291389)" ] ;
   rdfs:label "Wadi Natrun"@en ;
   lawd:primaryForm "Wadi Natrun"@en ;
@@ -1214,9 +1027,7 @@
 
 <http://paths.uniroma1.it/atlas/places/112>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756530> ;
-  dc:relation <http://pleiades.stoa.org/places/756530> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3121> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756530>, <https://www.trismegistos.org/place/3121> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.644315719604496 26.534057544367265)" ] ;
   rdfs:label "Monastery of Shenoute at Atripe"@en ;
   lawd:primaryForm "Monastery of Shenoute at Atripe"@en ;
@@ -1232,9 +1043,7 @@
 
 <http://paths.uniroma1.it/atlas/places/114>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776189> ;
-  dc:relation <http://pleiades.stoa.org/places/776189> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2762> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776189>, <https://www.trismegistos.org/place/2762> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(29.0756475 25.517958)" ] ;
   rdfs:label "Kellis"@en ;
   lawd:primaryForm "Kellis"@en ;
@@ -1242,9 +1051,7 @@
 
 <http://paths.uniroma1.it/atlas/places/115>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776156> ;
-  dc:relation <http://pleiades.stoa.org/places/776156> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2739> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776156>, <https://www.trismegistos.org/place/2739> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.555041721090678 25.485793102583216)" ] ;
   rdfs:label "Bagawat"@en ;
   lawd:primaryForm "Bagawat"@en ;
@@ -1252,9 +1059,7 @@
 
 <http://paths.uniroma1.it/atlas/places/116>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727105> ;
-  dc:relation <http://pleiades.stoa.org/places/727105> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2711> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727105>, <https://www.trismegistos.org/place/2711> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(29.662742 30.841158)" ] ;
   rdfs:label "Abu Mina"@en ;
   lawd:primaryForm "Abu Mina"@en ;
@@ -1262,9 +1067,7 @@
 
 <http://paths.uniroma1.it/atlas/places/117>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/716524> ;
-  dc:relation <http://pleiades.stoa.org/places/716524> ;
-  skos:exactMatch <https://www.trismegistos.org/place/8554> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/716524>, <https://www.trismegistos.org/place/8554> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(29.012034 30.823446)" ] ;
   rdfs:label "Marina el Alamein"@en ;
   lawd:primaryForm "Marina el Alamein"@en ;
@@ -1278,9 +1081,7 @@
 
 <http://paths.uniroma1.it/atlas/places/119>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736904> ;
-  dc:relation <http://pleiades.stoa.org/places/736904> ;
-  skos:exactMatch <https://www.trismegistos.org/place/565> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736904>, <https://www.trismegistos.org/place/565> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.417435 29.40642)" ] ;
   rdfs:label "Dionysias"@en ;
   lawd:primaryForm "Dionysias"@en ;
@@ -1288,9 +1089,7 @@
 
 <http://paths.uniroma1.it/atlas/places/120>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737010> ;
-  dc:relation <http://pleiades.stoa.org/places/737010> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1780> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737010>, <https://www.trismegistos.org/place/1780> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.467953 29.383026)" ] ;
   rdfs:label "Philoteris"@en ;
   lawd:primaryForm "Philoteris"@en ;
@@ -1298,9 +1097,7 @@
 
 <http://paths.uniroma1.it/atlas/places/121>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737081> ;
-  dc:relation <http://pleiades.stoa.org/places/737081> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2349> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737081>, <https://www.trismegistos.org/place/2349> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.49696 29.348065)" ] ;
   rdfs:label "Theadelphia"@en ;
   lawd:primaryForm "Theadelphia"@en ;
@@ -1308,9 +1105,7 @@
 
 <http://paths.uniroma1.it/atlas/places/122>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736918> ;
-  dc:relation <http://pleiades.stoa.org/places/736918> ;
-  skos:exactMatch <https://www.trismegistos.org/place/747> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736918>, <https://www.trismegistos.org/place/747> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.899230 29.272822)" ] ;
   rdfs:label "Hawara"@en ;
   lawd:primaryForm "Hawara"@en ;
@@ -1318,9 +1113,7 @@
 
 <http://paths.uniroma1.it/atlas/places/123>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737029> ;
-  dc:relation <http://pleiades.stoa.org/places/737029> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2024> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737029>, <https://www.trismegistos.org/place/2024> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.968603 29.206382)" ] ;
   rdfs:label "El-Lahun"@en ;
   lawd:primaryForm "El-Lahun"@en ;
@@ -1341,9 +1134,7 @@
 
 <http://paths.uniroma1.it/atlas/places/126>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/688016> ;
-  dc:relation <http://pleiades.stoa.org/places/688016> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2052> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/688016>, <https://www.trismegistos.org/place/2052> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(33.796926 31.111755)" ] ;
   rdfs:label "Rinokoloura"@en ;
   lawd:primaryForm "Rinokoloura"@en ;
@@ -1351,9 +1142,7 @@
 
 <http://paths.uniroma1.it/atlas/places/127>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727183> ;
-  dc:relation <http://pleiades.stoa.org/places/727183> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2674> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727183>, <https://www.trismegistos.org/place/2674> ;
   dc:temporal "1000/1000" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "301" ;
@@ -1366,9 +1155,7 @@
 
 <http://paths.uniroma1.it/atlas/places/128>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786123> ;
-  dc:relation <http://pleiades.stoa.org/places/786123> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2207> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786123>, <https://www.trismegistos.org/place/2207> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.901491 24.0885745)" ] ;
   rdfs:label "Syene"@en ;
   lawd:primaryForm "Syene"@en ;
@@ -1376,27 +1163,21 @@
 
 <http://paths.uniroma1.it/atlas/places/129>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/828238> ;
-  dc:relation <http://pleiades.stoa.org/places/828238> ;
-  skos:exactMatch <https://www.trismegistos.org/place/12014> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/828238>, <https://www.trismegistos.org/place/12014> ;
   rdfs:label "Achaia"@en ;
   lawd:primaryForm "Achaia"@en ;
   lawd:hasName [ lawd:variantForm "Ἀχαία"@grc ], [ lawd:variantForm "Achaia"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/130>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/573533> ;
-  dc:relation <http://pleiades.stoa.org/places/573533> ;
-  skos:exactMatch <https://www.trismegistos.org/place/12696> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/573533>, <https://www.trismegistos.org/place/12696> ;
   rdfs:label "Stathmon"@en ;
   lawd:primaryForm "Stathmon"@en ;
   lawd:hasName [ lawd:variantForm "Στατμων"@grc ], [ lawd:variantForm "Statmon"@eng ], [ lawd:variantForm "Stathmon"@eng ], [ lawd:variantForm "Stathma"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/131>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727244> ;
-  dc:relation <http://pleiades.stoa.org/places/727244> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2318> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727244>, <https://www.trismegistos.org/place/2318> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.815779 30.432395)" ] ;
   rdfs:label "Terenouthis"@en ;
   lawd:primaryForm "Terenouthis"@en ;
@@ -1404,9 +1185,7 @@
 
 <http://paths.uniroma1.it/atlas/places/132>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727224> ;
-  dc:relation <http://pleiades.stoa.org/places/727224> ;
-  skos:exactMatch <https://www.trismegistos.org/place/6313> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727224>, <https://www.trismegistos.org/place/6313> ;
   dc:temporal "1100/1100" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "326" ;
@@ -1419,9 +1198,7 @@
 
 <http://paths.uniroma1.it/atlas/places/133>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727235> ;
-  dc:relation <http://pleiades.stoa.org/places/727235> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3054> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727235>, <https://www.trismegistos.org/place/3054> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.812588 31.417068)" ] ;
   rdfs:label "Tamiathis"@en ;
   lawd:primaryForm "Tamiathis"@en ;
@@ -1435,9 +1212,7 @@
 
 <http://paths.uniroma1.it/atlas/places/135>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727103> ;
-  dc:relation <http://pleiades.stoa.org/places/727103> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3607> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727103>, <https://www.trismegistos.org/place/3607> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.171528 30.8610335)" ] ;
   rdfs:label "Daphnai"@en ;
   lawd:primaryForm "Daphnai"@en ;
@@ -1459,9 +1234,7 @@
 
 <http://paths.uniroma1.it/atlas/places/138>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727247> ;
-  dc:relation <http://pleiades.stoa.org/places/727247> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3210> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727247>, <https://www.trismegistos.org/place/3210> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.292698 31.255258)" ] ;
   rdfs:label "Thennesos"@en ;
   lawd:primaryForm "Thennesos"@en ;
@@ -1469,18 +1242,14 @@
 
 <http://paths.uniroma1.it/atlas/places/139>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/730089> ;
-  dc:relation <http://pleiades.stoa.org/places/730089> ;
-  skos:exactMatch <https://www.trismegistos.org/place/225> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/730089>, <https://www.trismegistos.org/place/225> ;
   rdfs:label "Aphnaioua"@en ;
   lawd:primaryForm "Aphnaioua"@en ;
   lawd:hasName [ lawd:variantForm " Ἀφνάιον"@grc ], [ lawd:variantForm "Aphnaium"@lat ], [ lawd:variantForm "ⲫⲛⲁⲓⲟⲥ"@cop ], [ lawd:variantForm "ⲟⲫⲁⲓⲟⲥ"@cop ], [ lawd:variantForm "Aphnaion"@eng ], [ lawd:variantForm "Aphthaion"@eng ], [ lawd:variantForm "Apheis"@eng ], [ lawd:variantForm "Aphnaioua"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/140>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727101> ;
-  dc:relation <http://pleiades.stoa.org/places/727101> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2794> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727101>, <https://www.trismegistos.org/place/2794> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.5601425 29.9701405)" ] ;
   rdfs:label "Clysma"@en ;
   lawd:primaryForm "Clysma"@en ;
@@ -1488,9 +1257,7 @@
 
 <http://paths.uniroma1.it/atlas/places/141>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727169> ;
-  dc:relation <http://pleiades.stoa.org/places/727169> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1424> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727169>, <https://www.trismegistos.org/place/1424> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.5919275 30.900508)" ] ;
   rdfs:label "Naukratis"@en ;
   lawd:primaryForm "Naukratis"@en ;
@@ -1498,18 +1265,14 @@
 
 <http://paths.uniroma1.it/atlas/places/142>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/730114> ;
-  dc:relation <http://pleiades.stoa.org/places/730114> ;
-  skos:exactMatch <https://www.trismegistos.org/place/4171> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/730114>, <https://www.trismegistos.org/place/4171> ;
   rdfs:label "Helearchia"@en ;
   lawd:primaryForm "Helearchia"@en ;
   lawd:hasName [ lawd:variantForm "Ἐλεαρχία"@grc ], [ lawd:variantForm "Heliarchia"@lat ], [ lawd:variantForm "Heliarchia"@lat ], [ lawd:variantForm "Helearchia"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/143>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727153> ;
-  dc:relation <http://pleiades.stoa.org/places/727153> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2718> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727153>, <https://www.trismegistos.org/place/2718> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT (29.656394 30.99482)" ] ;
   rdfs:label "Marea"@en ;
   lawd:primaryForm "Marea"@en ;
@@ -1517,9 +1280,7 @@
 
 <http://paths.uniroma1.it/atlas/places/144>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727082> ;
-  dc:relation <http://pleiades.stoa.org/places/727082> ;
-  skos:exactMatch <https://www.trismegistos.org/place/389> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727082>, <https://www.trismegistos.org/place/389> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.2301075 30.005783)" ] ;
   rdfs:label "Babylon"@en ;
   lawd:primaryForm "Babylon"@en ;
@@ -1527,9 +1288,7 @@
 
 <http://paths.uniroma1.it/atlas/places/145>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727119> ;
-  dc:relation <http://pleiades.stoa.org/places/727119> ;
-  skos:exactMatch <https://www.trismegistos.org/place/4364> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727119>, <https://www.trismegistos.org/place/4364> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.850314 31.210588)" ] ;
   rdfs:label "Hephaistos"@en ;
   lawd:primaryForm "Hephaistos"@en ;
@@ -1537,9 +1296,7 @@
 
 <http://paths.uniroma1.it/atlas/places/146>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737050> ;
-  dc:relation <http://pleiades.stoa.org/places/737050> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2149> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737050>, <https://www.trismegistos.org/place/2149> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.302068 29.728688)" ] ;
   rdfs:label "Skenai Mandrai"@en ;
   lawd:primaryForm "Skenai Mandrai"@en ;
@@ -1561,9 +1318,7 @@
 
 <http://paths.uniroma1.it/atlas/places/150>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/716615> ;
-  dc:relation <http://pleiades.stoa.org/places/716615> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3668> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/716615>, <https://www.trismegistos.org/place/3668> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(27.2368445 31.350136)" ] ;
   rdfs:label "Paraitonion"@en ;
   lawd:primaryForm "Paraitonion"@en ;
@@ -1578,9 +1333,7 @@
 
 <http://paths.uniroma1.it/atlas/places/152>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/716656> ;
-  dc:relation <http://pleiades.stoa.org/places/716656> ;
-  skos:exactMatch <https://www.trismegistos.org/place/4299> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/716656>, <https://www.trismegistos.org/place/4299> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(26.409102 31.506636)" ] ;
   rdfs:label "Zygrai"@en ;
   lawd:primaryForm "Zygrai"@en ;
@@ -1588,18 +1341,14 @@
 
 <http://paths.uniroma1.it/atlas/places/153>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/716520> ;
-  dc:relation <http://pleiades.stoa.org/places/716520> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2575> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/716520>, <https://www.trismegistos.org/place/2575> ;
   rdfs:label "Ammoniake"@en ;
   lawd:primaryForm "Ammoniake"@en ;
   lawd:hasName [ lawd:variantForm "Ἀμμωνιακή"@grc ], [ lawd:variantForm "سيوة"@grc ], [ lawd:variantForm "Ammoniake"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/154>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776210> ;
-  dc:relation <http://pleiades.stoa.org/places/776210> ;
-  skos:exactMatch <https://www.trismegistos.org/place/619> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776210>, <https://www.trismegistos.org/place/619> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(25.5435296667 29.2051733333)" ] ;
   rdfs:label "Oasis Magna"@en ;
   lawd:primaryForm "Oasis Magna"@en ;
@@ -1607,9 +1356,7 @@
 
 <http://paths.uniroma1.it/atlas/places/155>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727206> ;
-  dc:relation <http://pleiades.stoa.org/places/727206> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3081> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727206>, <https://www.trismegistos.org/place/3081> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.75 30.25)" ] ;
   rdfs:label "Prosopites"@en ;
   lawd:primaryForm "Prosopites"@en ;
@@ -1617,9 +1364,7 @@
 
 <http://paths.uniroma1.it/atlas/places/156>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727231> ;
-  dc:relation <http://pleiades.stoa.org/places/727231> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2109> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727231>, <https://www.trismegistos.org/place/2109> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.366982 30.849572)" ] ;
   rdfs:label "Sile"@en ;
   lawd:primaryForm "Sile"@en ;
@@ -1627,9 +1372,7 @@
 
 <http://paths.uniroma1.it/atlas/places/157>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/363948> ;
-  dc:relation <http://pleiades.stoa.org/places/363948> ;
-  skos:exactMatch <https://www.trismegistos.org/place/40348> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/363948>, <https://www.trismegistos.org/place/40348> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(19.700194 30.475859)" ] ;
   rdfs:label "Boreum"@en ;
   lawd:primaryForm "Boreum"@en ;
@@ -1637,9 +1380,7 @@
 
 <http://paths.uniroma1.it/atlas/places/158>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/373757> ;
-  dc:relation <http://pleiades.stoa.org/places/373757> ;
-  skos:exactMatch <https://www.trismegistos.org/place/831> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/373757>, <https://www.trismegistos.org/place/831> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(20.0699815 32.1139055)" ] ;
   rdfs:label "Berenike (Lower Egypt)"@en ;
   lawd:primaryForm "Berenike (Lower Egypt)"@en ;
@@ -1647,9 +1388,7 @@
 
 <http://paths.uniroma1.it/atlas/places/159>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/373736> ;
-  dc:relation <http://pleiades.stoa.org/places/373736> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3640> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/373736>, <https://www.trismegistos.org/place/3640> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(20.5672976667 32.5363993333)" ] ;
   rdfs:label "Taucheira"@en ;
   lawd:primaryForm "Taucheira"@en ;
@@ -1657,9 +1396,7 @@
 
 <http://paths.uniroma1.it/atlas/places/160>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/373750> ;
-  dc:relation <http://pleiades.stoa.org/places/373750> ;
-  skos:exactMatch <https://www.trismegistos.org/place/402> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/373750>, <https://www.trismegistos.org/place/402> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(20.8717433333 32.4996533333)" ] ;
   rdfs:label "Barke"@en ;
   lawd:primaryForm "Barke"@en ;
@@ -1673,9 +1410,7 @@
 
 <http://paths.uniroma1.it/atlas/places/162>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/716525> ;
-  dc:relation <http://pleiades.stoa.org/places/716525> ;
-  skos:exactMatch <https://www.trismegistos.org/place/8550> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/716525>, <https://www.trismegistos.org/place/8550> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(23.961371 32.076457)" ] ;
   rdfs:label "Antipyrgos"@en ;
   lawd:primaryForm "Antipyrgos"@en ;
@@ -1683,9 +1418,7 @@
 
 <http://paths.uniroma1.it/atlas/places/163>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/716534> ;
-  dc:relation <http://pleiades.stoa.org/places/716534> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3777> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/716534>, <https://www.trismegistos.org/place/3777> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(24.5 31.5)" ] ;
   rdfs:label "Bassachitai?"@en ;
   lawd:primaryForm "Bassachitai?"@en ;
@@ -1693,9 +1426,7 @@
 
 <http://paths.uniroma1.it/atlas/places/164>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/373824> ;
-  dc:relation <http://pleiades.stoa.org/places/373824> ;
-  skos:exactMatch <https://www.trismegistos.org/place/10968> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/373824>, <https://www.trismegistos.org/place/10968> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(20.3072025 32.35204)" ] ;
   rdfs:label "Hadrianopolis"@en ;
   lawd:primaryForm "Hadrianopolis"@en ;
@@ -1703,9 +1434,7 @@
 
 <http://paths.uniroma1.it/atlas/places/165>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/373785> ;
-  dc:relation <http://pleiades.stoa.org/places/373785> ;
-  skos:exactMatch <https://www.trismegistos.org/place/664> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/373785>, <https://www.trismegistos.org/place/664> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(22.2786287667 32.869317)" ] ;
   rdfs:label "Erythron"@en ;
   lawd:primaryForm "Erythron"@en ;
@@ -1713,8 +1442,7 @@
 
 <http://paths.uniroma1.it/atlas/places/166>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756550> ;
-  dc:relation <http://pleiades.stoa.org/places/756550> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756550> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.91627145 26.1859907667)" ] ;
   rdfs:label "Abydos Deir Abu Masis"@en ;
   lawd:primaryForm "Abydos Deir Abu Masis"@en ;
@@ -1730,9 +1458,7 @@
 
 <http://paths.uniroma1.it/atlas/places/170>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/845040004> ;
-  dc:relation <http://pleiades.stoa.org/places/845040004> ;
-  skos:exactMatch <https://www.trismegistos.org/place/100> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/845040004>, <https://www.trismegistos.org/place/100> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(29.904133 31.195371)" ] ;
   rdfs:label "Alexandria - Kom el Dikka"@en ;
   lawd:primaryForm "Alexandria - Kom el Dikka"@en ;
@@ -1740,9 +1466,7 @@
 
 <http://paths.uniroma1.it/atlas/places/171>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/149576487> ;
-  dc:relation <http://pleiades.stoa.org/places/149576487> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2767> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/149576487>, <https://www.trismegistos.org/place/2767> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.899569 27.645956)" ] ;
   rdfs:label "Amarna"@en ;
   lawd:primaryForm "Amarna"@en ;
@@ -1750,9 +1474,7 @@
 
 <http://paths.uniroma1.it/atlas/places/172>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/112509596> ;
-  dc:relation <http://pleiades.stoa.org/places/112509596> ;
-  skos:exactMatch <https://www.trismegistos.org/place/414> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/112509596>, <https://www.trismegistos.org/place/414> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.875248 27.931376)" ] ;
   rdfs:label "Beni Hassan"@en ;
   lawd:primaryForm "Beni Hassan"@en ;
@@ -1760,9 +1482,7 @@
 
 <http://paths.uniroma1.it/atlas/places/173>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776172> ;
-  dc:relation <http://pleiades.stoa.org/places/776172> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2753> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776172>, <https://www.trismegistos.org/place/2753> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(28.8688762215 25.6674996828)" ] ;
   rdfs:label "Dakhleh"@en ;
   lawd:primaryForm "Dakhleh"@en ;
@@ -1770,9 +1490,7 @@
 
 <http://paths.uniroma1.it/atlas/places/174>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776235> ;
-  dc:relation <http://pleiades.stoa.org/places/776235> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2733> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776235>, <https://www.trismegistos.org/place/2733> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(28.8647631769 25.6667788988)" ] ;
   rdfs:label "Trimouthis"@en ;
   lawd:primaryForm "Trimouthis"@en ;
@@ -1780,9 +1498,7 @@
 
 <http://paths.uniroma1.it/atlas/places/175>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/861854258> ;
-  dc:relation <http://pleiades.stoa.org/places/861854258> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3126> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/861854258>, <https://www.trismegistos.org/place/3126> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(29.04524722 25.54008889)" ] ;
   rdfs:label "Dakleh Ain el Gedida"@en ;
   lawd:primaryForm "Dakleh Ain el Gedida"@en ;
@@ -1790,8 +1506,7 @@
 
 <http://paths.uniroma1.it/atlas/places/176>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/667956220> ;
-  dc:relation <http://pleiades.stoa.org/places/667956220> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/667956220> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(28.9120129 25.5936295)" ] ;
   rdfs:label "Deir abu Matta"@en ;
   lawd:primaryForm "Deir abu Matta"@en ;
@@ -1806,9 +1521,7 @@
 
 <http://paths.uniroma1.it/atlas/places/179>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/785974> ;
-  dc:relation <http://pleiades.stoa.org/places/785974> ;
-  skos:exactMatch <https://www.trismegistos.org/place/269> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/785974>, <https://www.trismegistos.org/place/269> ;
   dc:temporal "1050/1050" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -1833,8 +1546,7 @@
 
 <http://paths.uniroma1.it/atlas/places/181>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776197> ;
-  dc:relation <http://pleiades.stoa.org/places/776197> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776197> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.553208 24.697134)" ] ;
   rdfs:label "Imbaba el Mansuriya "@en ;
   lawd:primaryForm "Imbaba el Mansuriya "@en ;
@@ -1842,9 +1554,7 @@
 
 <http://paths.uniroma1.it/atlas/places/182>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786017> ;
-  dc:relation <http://pleiades.stoa.org/places/786017>, <http://pleiades.stoa.org/places/786050> ;
-  skos:exactMatch <http://pleiades.stoa.org/places/786050>, <https://www.trismegistos.org/place/576>, <https://www.trismegistos.org/place/13524>, <https://www.trismegistos.org/place/13525> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786017>, <http://pleiades.stoa.org/places/786050>, <https://www.trismegistos.org/place/576>, <https://www.trismegistos.org/place/13524>, <https://www.trismegistos.org/place/13525> ;
   dc:temporal "1300/1300" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "301" ;
@@ -1857,9 +1567,7 @@
 
 <http://paths.uniroma1.it/atlas/places/183>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776210> ;
-  dc:relation <http://pleiades.stoa.org/places/776210> ;
-  skos:exactMatch <https://www.trismegistos.org/place/619> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776210>, <https://www.trismegistos.org/place/619> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.7304627764 25.5967547643)" ] ;
   rdfs:label "Kharga"@en ;
   lawd:primaryForm "Kharga"@en ;
@@ -1867,9 +1575,7 @@
 
 <http://paths.uniroma1.it/atlas/places/184>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776167> ;
-  dc:relation <http://pleiades.stoa.org/places/776167> ;
-  skos:exactMatch <https://www.trismegistos.org/place/14221> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776167>, <https://www.trismegistos.org/place/14221> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.7304634591 25.5967488622)" ] ;
   rdfs:label "El-Deir"@en ;
   lawd:primaryForm "El-Deir"@en ;
@@ -1877,9 +1583,7 @@
 
 <http://paths.uniroma1.it/atlas/places/185>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776181> ;
-  dc:relation <http://pleiades.stoa.org/places/776181> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2786> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776181>, <https://www.trismegistos.org/place/2786> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.553476 25.438054)" ] ;
   rdfs:label "Hibis"@en ;
   lawd:primaryForm "Hibis"@en ;
@@ -1887,9 +1591,7 @@
 
 <http://paths.uniroma1.it/atlas/places/186>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786079> ;
-  dc:relation <http://pleiades.stoa.org/places/786079> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1499> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786079>, <https://www.trismegistos.org/place/1499> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.9282444444 24.4520527778)" ] ;
   rdfs:label "Kom Ombo"@en ;
   lawd:primaryForm "Kom Ombo"@en ;
@@ -1904,9 +1606,7 @@
 
 <http://paths.uniroma1.it/atlas/places/188>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/746792> ;
-  dc:relation <http://pleiades.stoa.org/places/746792> ;
-  skos:exactMatch <https://www.trismegistos.org/place/7832> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/746792>, <https://www.trismegistos.org/place/7832> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(33.634729385375984 28.704177127753187)" ] ;
   rdfs:label "Pharan"@en ;
   lawd:primaryForm "Pharan"@en ;
@@ -1914,18 +1614,14 @@
 
 <http://paths.uniroma1.it/atlas/places/189>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/798094> ;
-  dc:relation <http://pleiades.stoa.org/places/798094> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1916> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/798094>, <https://www.trismegistos.org/place/1916> ;
   rdfs:label "Qasr Ibrim"@en ;
   lawd:primaryForm "Qasr Ibrim"@en ;
   lawd:hasName [ lawd:variantForm " Πριμις "@grc ], [ lawd:variantForm "Πρημνις "@grc ], [ lawd:variantForm "Πρῖμα"@grc ], [ lawd:variantForm " Primi "@lat ], [ lawd:variantForm "Pidema "@lat ], [ lawd:variantForm "Pindis"@lat ], [ lawd:variantForm "ⲫⲣⲓⲙ"@cop ], [ lawd:variantForm "قصر ابريم"@arz ], [ lawd:variantForm "Qasr Ibrim"@eng ], [ lawd:variantForm "Primis "@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/191>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.61875152587891 25.726921100398066)" ] ;
   rdfs:label "Western Thebes"@en ;
   lawd:primaryForm "Western Thebes"@en ;
@@ -1933,9 +1629,7 @@
 
 <http://paths.uniroma1.it/atlas/places/192>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786014> ;
-  dc:relation <http://pleiades.stoa.org/places/786014> ;
-  skos:exactMatch <https://www.trismegistos.org/place/13098> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786014>, <https://www.trismegistos.org/place/13098> ;
   dc:temporal "925/925" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "576" ;
@@ -1961,9 +1655,7 @@
 
 <http://paths.uniroma1.it/atlas/places/194>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -1976,9 +1668,7 @@
 
 <http://paths.uniroma1.it/atlas/places/195>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -1991,9 +1681,7 @@
 
 <http://paths.uniroma1.it/atlas/places/196>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "701" ;
@@ -2006,9 +1694,7 @@
 
 <http://paths.uniroma1.it/atlas/places/198>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "750/750" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "576" ;
@@ -2021,9 +1707,7 @@
 
 <http://paths.uniroma1.it/atlas/places/199>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "750/750" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "601" ;
@@ -2036,9 +1720,7 @@
 
 <http://paths.uniroma1.it/atlas/places/200>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2051,9 +1733,7 @@
 
 <http://paths.uniroma1.it/atlas/places/201>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/11200> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/11200> ;
   dc:temporal "750/750" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2066,9 +1746,7 @@
 
 <http://paths.uniroma1.it/atlas/places/202>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.60210037231446 25.7409301569811)" ] ;
   rdfs:label "Valley of the Kings"@en ;
   lawd:primaryForm "Valley of the Kings"@en ;
@@ -2076,9 +1754,7 @@
 
 <http://paths.uniroma1.it/atlas/places/203>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/805591> ;
-  dc:relation <http://pleiades.stoa.org/places/805591> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3463> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/805591>, <https://www.trismegistos.org/place/3463> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(33.190286 16.570227)" ] ;
   rdfs:label "Wadi Araba"@en ;
   lawd:primaryForm "Wadi Araba"@en ;
@@ -2086,9 +1762,7 @@
 
 <http://paths.uniroma1.it/atlas/places/204>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727232> ;
-  dc:relation <http://pleiades.stoa.org/places/727232> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727232>, <https://www.trismegistos.org/place/3375> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.379225 30.300424)" ] ;
   rdfs:label "Wadi Natrun Monastery of John the Little "@en ;
   lawd:primaryForm "Wadi Natrun Monastery of John the Little "@en ;
@@ -2096,9 +1770,7 @@
 
 <http://paths.uniroma1.it/atlas/places/205>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727232> ;
-  dc:relation <http://pleiades.stoa.org/places/727232> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727232>, <https://www.trismegistos.org/place/3375> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.270818592980508 30.357098369275192)" ] ;
   rdfs:label "Wadi Natrun Monastery of Baramus"@en ;
   lawd:primaryForm "Wadi Natrun Monastery of Baramus"@en ;
@@ -2106,9 +1778,7 @@
 
 <http://paths.uniroma1.it/atlas/places/206>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727232> ;
-  dc:relation <http://pleiades.stoa.org/places/727232> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727232>, <https://www.trismegistos.org/place/3375> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.3600404 30.3190634)" ] ;
   rdfs:label "Wadi Natrun Monastery of the Syrians"@en ;
   lawd:primaryForm "Wadi Natrun Monastery of the Syrians"@en ;
@@ -2116,9 +1786,7 @@
 
 <http://paths.uniroma1.it/atlas/places/207>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727232> ;
-  dc:relation <http://pleiades.stoa.org/places/727232> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727232>, <https://www.trismegistos.org/place/3375> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.25 30.75)" ] ;
   rdfs:label "Wadi Natrun Monastery of Moses"@en ;
   lawd:primaryForm "Wadi Natrun Monastery of Moses"@en ;
@@ -2126,9 +1794,7 @@
 
 <http://paths.uniroma1.it/atlas/places/208>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727232> ;
-  dc:relation <http://pleiades.stoa.org/places/727232> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727232>, <https://www.trismegistos.org/place/3375> ;
   dc:temporal "1374/1374" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "330" ;
@@ -2141,9 +1807,7 @@
 
 <http://paths.uniroma1.it/atlas/places/209>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756532> ;
-  dc:relation <http://pleiades.stoa.org/places/756532> ;
-  skos:exactMatch <https://www.trismegistos.org/place/237> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756532>, <https://www.trismegistos.org/place/237> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.416623 26.833145)" ] ;
   rdfs:label "Aphrodite"@en ;
   lawd:primaryForm "Aphrodite"@en ;
@@ -2151,9 +1815,7 @@
 
 <http://paths.uniroma1.it/atlas/places/210>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2166,9 +1828,7 @@
 
 <http://paths.uniroma1.it/atlas/places/211>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737001> ;
-  dc:relation <http://pleiades.stoa.org/places/737001> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1766> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737001>, <https://www.trismegistos.org/place/1766> ;
   dc:temporal "914/914" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "822" ;
@@ -2181,9 +1841,7 @@
 
 <http://paths.uniroma1.it/atlas/places/212>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756647> ;
-  dc:relation <http://pleiades.stoa.org/places/756647> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3203> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756647>, <https://www.trismegistos.org/place/3203> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.866656 27.899952)" ] ;
   rdfs:label "Speos Artemidos"@en ;
   lawd:primaryForm "Speos Artemidos"@en ;
@@ -2191,9 +1849,7 @@
 
 <http://paths.uniroma1.it/atlas/places/213>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756599> ;
-  dc:relation <http://pleiades.stoa.org/places/756599> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1298> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756599>, <https://www.trismegistos.org/place/1298> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.84577 27.730769)" ] ;
   rdfs:label "Mallawi"@en ;
   lawd:primaryForm "Mallawi"@en ;
@@ -2209,9 +1865,7 @@
 
 <http://paths.uniroma1.it/atlas/places/215>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756549> ;
-  dc:relation <http://pleiades.stoa.org/places/756549> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3506> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756549>, <https://www.trismegistos.org/place/3506> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.906827 27.787299)" ] ;
   rdfs:label "Deir Abu Hennes"@en ;
   lawd:primaryForm "Deir Abu Hennes"@en ;
@@ -2244,9 +1898,7 @@
 
 <http://paths.uniroma1.it/atlas/places/219>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "790/790" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2259,9 +1911,7 @@
 
 <http://paths.uniroma1.it/atlas/places/220>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2274,9 +1924,7 @@
 
 <http://paths.uniroma1.it/atlas/places/221>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2289,9 +1937,7 @@
 
 <http://paths.uniroma1.it/atlas/places/222>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786014> ;
-  dc:relation <http://pleiades.stoa.org/places/786014> ;
-  skos:exactMatch <https://www.trismegistos.org/place/13098> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786014>, <https://www.trismegistos.org/place/13098> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "451" ;
@@ -2304,9 +1950,7 @@
 
 <http://paths.uniroma1.it/atlas/places/223>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786014> ;
-  dc:relation <http://pleiades.stoa.org/places/786014> ;
-  skos:exactMatch <https://www.trismegistos.org/place/13098> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786014>, <https://www.trismegistos.org/place/13098> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "451" ;
@@ -2319,9 +1963,7 @@
 
 <http://paths.uniroma1.it/atlas/places/224>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "601" ;
@@ -2334,9 +1976,7 @@
 
 <http://paths.uniroma1.it/atlas/places/225>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756594> ;
-  dc:relation <http://pleiades.stoa.org/places/756594> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3027> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756594>, <https://www.trismegistos.org/place/3027> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.75 27.25)" ] ;
   rdfs:label "Lykopolites nomòs"@en ;
   lawd:primaryForm "Lykopolites nomòs"@en ;
@@ -2344,9 +1984,7 @@
 
 <http://paths.uniroma1.it/atlas/places/226>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2359,9 +1997,7 @@
 
 <http://paths.uniroma1.it/atlas/places/227>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786014> ;
-  dc:relation <http://pleiades.stoa.org/places/786014> ;
-  skos:exactMatch <https://www.trismegistos.org/place/13098> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786014>, <https://www.trismegistos.org/place/13098> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2374,9 +2010,7 @@
 
 <http://paths.uniroma1.it/atlas/places/228>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786014> ;
-  dc:relation <http://pleiades.stoa.org/places/786014> ;
-  skos:exactMatch <https://www.trismegistos.org/place/13098> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786014>, <https://www.trismegistos.org/place/13098> ;
   dc:temporal "925/925" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "476" ;
@@ -2389,9 +2023,7 @@
 
 <http://paths.uniroma1.it/atlas/places/229>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2404,9 +2036,7 @@
 
 <http://paths.uniroma1.it/atlas/places/230>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2419,9 +2049,7 @@
 
 <http://paths.uniroma1.it/atlas/places/232>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2434,9 +2062,7 @@
 
 <http://paths.uniroma1.it/atlas/places/233>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2449,18 +2075,14 @@
 
 <http://paths.uniroma1.it/atlas/places/234>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   rdfs:label "Western Thebes TT 230"@en ;
   lawd:primaryForm "Western Thebes TT 230"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 230"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/235>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2473,9 +2095,7 @@
 
 <http://paths.uniroma1.it/atlas/places/236>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2488,9 +2108,7 @@
 
 <http://paths.uniroma1.it/atlas/places/237>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2503,9 +2121,7 @@
 
 <http://paths.uniroma1.it/atlas/places/239>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2518,9 +2134,7 @@
 
 <http://paths.uniroma1.it/atlas/places/240>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2533,9 +2147,7 @@
 
 <http://paths.uniroma1.it/atlas/places/241>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2548,9 +2160,7 @@
 
 <http://paths.uniroma1.it/atlas/places/242>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2563,9 +2173,7 @@
 
 <http://paths.uniroma1.it/atlas/places/243>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736982> ;
-  dc:relation <http://pleiades.stoa.org/places/736982> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2722> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736982>, <https://www.trismegistos.org/place/2722> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT (30.75 28.25)" ] ;
   rdfs:label "Oxyrhynchites nomòs"@en ;
   lawd:primaryForm "Oxyrhynchites nomòs"@en ;
@@ -2573,9 +2181,7 @@
 
 <http://paths.uniroma1.it/atlas/places/244>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2588,9 +2194,7 @@
 
 <http://paths.uniroma1.it/atlas/places/245>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2603,9 +2207,7 @@
 
 <http://paths.uniroma1.it/atlas/places/246>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2617,9 +2219,7 @@
 
 <http://paths.uniroma1.it/atlas/places/247>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2631,9 +2231,7 @@
 
 <http://paths.uniroma1.it/atlas/places/248>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2646,18 +2244,14 @@
 
 <http://paths.uniroma1.it/atlas/places/249>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   rdfs:label "Western Thebes TT 87"@en ;
   lawd:primaryForm "Western Thebes TT 87"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 87"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/250>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "725/725" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2670,9 +2264,7 @@
 
 <http://paths.uniroma1.it/atlas/places/251>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2685,9 +2277,7 @@
 
 <http://paths.uniroma1.it/atlas/places/252>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2700,9 +2290,7 @@
 
 <http://paths.uniroma1.it/atlas/places/253>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2715,9 +2303,7 @@
 
 <http://paths.uniroma1.it/atlas/places/254>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "1200/1200" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "1101" ;
@@ -2730,9 +2316,7 @@
 
 <http://paths.uniroma1.it/atlas/places/255>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2745,9 +2329,7 @@
 
 <http://paths.uniroma1.it/atlas/places/256>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2760,9 +2342,7 @@
 
 <http://paths.uniroma1.it/atlas/places/257>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -2775,9 +2355,7 @@
 
 <http://paths.uniroma1.it/atlas/places/258>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2790,9 +2368,7 @@
 
 <http://paths.uniroma1.it/atlas/places/259>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "625/625" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2805,9 +2381,7 @@
 
 <http://paths.uniroma1.it/atlas/places/260>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2820,9 +2394,7 @@
 
 <http://paths.uniroma1.it/atlas/places/261>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2835,9 +2407,7 @@
 
 <http://paths.uniroma1.it/atlas/places/262>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2850,9 +2420,7 @@
 
 <http://paths.uniroma1.it/atlas/places/263>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "625/625" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2865,9 +2433,7 @@
 
 <http://paths.uniroma1.it/atlas/places/264>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736942> ;
-  dc:relation <http://pleiades.stoa.org/places/736942> ;
-  skos:exactMatch <https://www.trismegistos.org/place/715> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736942>, <https://www.trismegistos.org/place/715> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.628713 29.19691)" ] ;
   rdfs:label "Ghoran"@en ;
   lawd:primaryForm "Ghoran"@en ;
@@ -2875,9 +2441,7 @@
 
 <http://paths.uniroma1.it/atlas/places/265>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2890,9 +2454,7 @@
 
 <http://paths.uniroma1.it/atlas/places/266>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2905,9 +2467,7 @@
 
 <http://paths.uniroma1.it/atlas/places/267>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2920,9 +2480,7 @@
 
 <http://paths.uniroma1.it/atlas/places/268>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "625/625" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2935,9 +2493,7 @@
 
 <http://paths.uniroma1.it/atlas/places/269>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "625/625" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2950,9 +2506,7 @@
 
 <http://paths.uniroma1.it/atlas/places/270>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "625/625" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2965,9 +2519,7 @@
 
 <http://paths.uniroma1.it/atlas/places/271>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "625/625" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2980,9 +2532,7 @@
 
 <http://paths.uniroma1.it/atlas/places/272>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "625/625" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -2995,9 +2545,7 @@
 
 <http://paths.uniroma1.it/atlas/places/273>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
-  dc:relation <http://pleiades.stoa.org/places/384697574> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/384697574>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "625/625" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "601" ;
@@ -3010,9 +2558,7 @@
 
 <http://paths.uniroma1.it/atlas/places/274>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/442962448> ;
-  dc:relation <http://pleiades.stoa.org/places/442962448> ;
-  skos:exactMatch <https://www.trismegistos.org/place/716> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/442962448>, <https://www.trismegistos.org/place/716> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.1436592126 29.9660697534)" ] ;
   rdfs:label "Giza"@en ;
   lawd:primaryForm "Giza"@en ;
@@ -3020,9 +2566,7 @@
 
 <http://paths.uniroma1.it/atlas/places/275>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3035,9 +2579,7 @@
 
 <http://paths.uniroma1.it/atlas/places/277>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/963047542> ;
-  dc:relation <http://pleiades.stoa.org/places/963047542> ;
-  skos:exactMatch <https://www.trismegistos.org/place/11334> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/963047542>, <https://www.trismegistos.org/place/11334> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3050,9 +2592,7 @@
 
 <http://paths.uniroma1.it/atlas/places/278>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3065,18 +2605,14 @@
 
 <http://paths.uniroma1.it/atlas/places/279>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756591> ;
-  dc:relation <http://pleiades.stoa.org/places/756591> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3095> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756591>, <https://www.trismegistos.org/place/3095> ;
   rdfs:label "Lepidotonpolis"@en ;
   lawd:primaryForm "Lepidotonpolis"@en ;
   lawd:hasName [ lawd:variantForm "Λεπιδότων πόλις"@grc ], [ lawd:variantForm "Nag‘ el-Mashaikh"@eng ], [ lawd:variantForm "Lepidotonpolis"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/280>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3089,9 +2625,7 @@
 
 <http://paths.uniroma1.it/atlas/places/281>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.57839500904084 25.69523154326589)" ] ;
   rdfs:label "Deir el-Shelwit"@en ;
   lawd:primaryForm "Deir el-Shelwit"@en ;
@@ -3099,18 +2633,14 @@
 
 <http://paths.uniroma1.it/atlas/places/282>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/741626> ;
-  dc:relation <http://pleiades.stoa.org/places/741626> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2376> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/741626>, <https://www.trismegistos.org/place/2376> ;
   rdfs:label "Perpnoute"@en ;
   lawd:primaryForm "Perpnoute"@en ;
   lawd:hasName [ lawd:variantForm " Pȝ-ỉ.ỉr-pȝ-nṯr"@egy ], [ lawd:variantForm " Θεογονίς "@grc ], [ lawd:variantForm "Θεαγενίς"@grc ], [ lawd:variantForm "ⲡⲉⲣⲡⲛⲟⲩⲧⲉ"@cop ], [ lawd:variantForm " ⲑⲉⲱⲕⲉⲛⲓⲥ "@cop ], [ lawd:variantForm "Perpnoute"@eng ], [ lawd:variantForm "Theogonis"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/283>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3123,9 +2653,7 @@
 
 <http://paths.uniroma1.it/atlas/places/284>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3138,9 +2666,7 @@
 
 <http://paths.uniroma1.it/atlas/places/285>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3153,9 +2679,7 @@
 
 <http://paths.uniroma1.it/atlas/places/286>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3168,9 +2692,7 @@
 
 <http://paths.uniroma1.it/atlas/places/287>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/776188> ;
-  dc:relation <http://pleiades.stoa.org/places/776188> ;
-  skos:exactMatch <https://www.trismegistos.org/place/37062> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776188>, <https://www.trismegistos.org/place/37062> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(28.907661 25.548988)" ] ;
   rdfs:label "el-Qalamun (Dakhla)"@en ;
   lawd:primaryForm "el-Qalamun (Dakhla)"@en ;
@@ -3178,9 +2700,7 @@
 
 <http://paths.uniroma1.it/atlas/places/288>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3193,9 +2713,7 @@
 
 <http://paths.uniroma1.it/atlas/places/289>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3208,9 +2726,7 @@
 
 <http://paths.uniroma1.it/atlas/places/290>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3223,9 +2739,7 @@
 
 <http://paths.uniroma1.it/atlas/places/291>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3238,9 +2752,7 @@
 
 <http://paths.uniroma1.it/atlas/places/292>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3253,9 +2765,7 @@
 
 <http://paths.uniroma1.it/atlas/places/293>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.594262957572944 25.727730568231827)" ] ;
   rdfs:label "Western Thebes QV 2"@en ;
   lawd:primaryForm "Western Thebes QV 2"@en ;
@@ -3263,9 +2773,7 @@
 
 <http://paths.uniroma1.it/atlas/places/294>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.5935434550047 25.72766834813862)" ] ;
   rdfs:label "Western Thebes QV 12"@en ;
   lawd:primaryForm "Western Thebes QV 12"@en ;
@@ -3273,9 +2781,7 @@
 
 <http://paths.uniroma1.it/atlas/places/295>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.59325847029687 25.727470814228866)" ] ;
   rdfs:label "Western Thebes QV 22"@en ;
   lawd:primaryForm "Western Thebes QV 22"@en ;
@@ -3283,9 +2789,7 @@
 
 <http://paths.uniroma1.it/atlas/places/296>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3298,9 +2802,7 @@
 
 <http://paths.uniroma1.it/atlas/places/297>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3320,9 +2822,7 @@
 
 <http://paths.uniroma1.it/atlas/places/299>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3335,9 +2835,7 @@
 
 <http://paths.uniroma1.it/atlas/places/300>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3350,9 +2848,7 @@
 
 <http://paths.uniroma1.it/atlas/places/301>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.59387269616128 25.727992737975658)" ] ;
   rdfs:label "Western Thebes QV 79"@en ;
   lawd:primaryForm "Western Thebes QV 79"@en ;
@@ -3360,9 +2856,7 @@
 
 <http://paths.uniroma1.it/atlas/places/302>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3375,9 +2869,7 @@
 
 <http://paths.uniroma1.it/atlas/places/303>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3390,9 +2882,7 @@
 
 <http://paths.uniroma1.it/atlas/places/304>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3405,9 +2895,7 @@
 
 <http://paths.uniroma1.it/atlas/places/305>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3420,9 +2908,7 @@
 
 <http://paths.uniroma1.it/atlas/places/307>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3435,9 +2921,7 @@
 
 <http://paths.uniroma1.it/atlas/places/308>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3450,9 +2934,7 @@
 
 <http://paths.uniroma1.it/atlas/places/309>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3465,9 +2947,7 @@
 
 <http://paths.uniroma1.it/atlas/places/310>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3480,9 +2960,7 @@
 
 <http://paths.uniroma1.it/atlas/places/311>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3495,9 +2973,7 @@
 
 <http://paths.uniroma1.it/atlas/places/312>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3510,9 +2986,7 @@
 
 <http://paths.uniroma1.it/atlas/places/313>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3525,9 +2999,7 @@
 
 <http://paths.uniroma1.it/atlas/places/314>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3540,9 +3012,7 @@
 
 <http://paths.uniroma1.it/atlas/places/315>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "650/650" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3554,9 +3024,7 @@
 
 <http://paths.uniroma1.it/atlas/places/316>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "551" ;
@@ -3569,9 +3037,7 @@
 
 <http://paths.uniroma1.it/atlas/places/317>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864788873> ;
-  dc:relation <http://pleiades.stoa.org/places/864788873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864788873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3584,9 +3050,7 @@
 
 <http://paths.uniroma1.it/atlas/places/318>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "650/650" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3598,9 +3062,7 @@
 
 <http://paths.uniroma1.it/atlas/places/319>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/864388873> ;
-  dc:relation <http://pleiades.stoa.org/places/864388873> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/864388873>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3613,9 +3075,7 @@
 
 <http://paths.uniroma1.it/atlas/places/320>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "650/650" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3627,9 +3087,7 @@
 
 <http://paths.uniroma1.it/atlas/places/321>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -3648,9 +3106,7 @@
 
 <http://paths.uniroma1.it/atlas/places/323>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736893> ;
-  dc:relation <http://pleiades.stoa.org/places/736893> ;
-  skos:exactMatch <https://www.trismegistos.org/place/332>, <https://www.trismegistos.org/place/1255> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736893>, <https://www.trismegistos.org/place/332>, <https://www.trismegistos.org/place/1255> ;
   rdfs:label "Fayyum"@en ;
   lawd:primaryForm "Fayyum"@en ;
   lawd:hasName [ lawd:variantForm "Tȝ-š"@egy ], [ lawd:variantForm "ⲡⲟⲗⲓⲥ, ⲡⲉⲓⲟⲙ, ⲡⲓⲁⲙ, ⲡⲓⲱⲙ, ⲫⲓⲟⲙ"@cop ], [ lawd:variantForm "   الفيوم"@arz ], [ lawd:variantForm "ⲫⲓⲟⲙ"@cop ], [ lawd:variantForm "ⲡⲓⲱⲙ"@cop ], [ lawd:variantForm "ⲡⲓⲁⲙ"@cop ], [ lawd:variantForm "ⲡⲉⲓⲟⲙ"@cop ], [ lawd:variantForm "ⲡⲟⲗⲓⲥ"@cop ], [ lawd:variantForm "ⲡⲉⲓⲟⲙ"@cop ], [ lawd:variantForm "Š-Sbk"@egy ], [ lawd:variantForm "Λιμνίτης"@grc ], [ lawd:variantForm "Λίμνη"@grc ], [ lawd:variantForm "Ἀρσινοίτης"@grc ], [ lawd:variantForm "Ἀρσενοίτης"@grc ], [ lawd:variantForm "Wȝḏ-wr"@egy ], [ lawd:variantForm "Pȝ-ym"@egy ], [ lawd:variantForm "Š-rsy š-mḥty"@egy ], [ lawd:variantForm "Fayyum"@eng ] .
@@ -3693,9 +3149,7 @@
 
 <http://paths.uniroma1.it/atlas/places/327>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/736956> ;
-  dc:relation <http://pleiades.stoa.org/places/736956> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1284> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736956>, <https://www.trismegistos.org/place/1284> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "856" ;
@@ -3708,9 +3162,7 @@
 
 <http://paths.uniroma1.it/atlas/places/328>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727146> ;
-  dc:relation <http://pleiades.stoa.org/places/727146> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1239> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727146>, <https://www.trismegistos.org/place/1239> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.332707405069876 30.293479158379245)" ] ;
   rdfs:label "Leontopolis (Tell el-Yahudiya)"@en ;
   lawd:primaryForm "Leontopolis (Tell el-Yahudiya)"@en ;
@@ -3718,9 +3170,7 @@
 
 <http://paths.uniroma1.it/atlas/places/329>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/727156> ;
-  dc:relation <http://pleiades.stoa.org/places/727156> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1351> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727156>, <https://www.trismegistos.org/place/1351> ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "301" ;
@@ -3733,18 +3183,14 @@
 
 <http://paths.uniroma1.it/atlas/places/330>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   rdfs:label "Western Thebes MMA 803"@en ;
   lawd:primaryForm "Western Thebes MMA 803"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes MMA 803"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/331>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3756,9 +3202,7 @@
 
 <http://paths.uniroma1.it/atlas/places/332>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3770,9 +3214,7 @@
 
 <http://paths.uniroma1.it/atlas/places/333>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3784,9 +3226,7 @@
 
 <http://paths.uniroma1.it/atlas/places/334>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3798,9 +3238,7 @@
 
 <http://paths.uniroma1.it/atlas/places/335>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786067>, <https://www.trismegistos.org/place/1341> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "501" ;
@@ -3836,9 +3274,7 @@
 
 <http://paths.uniroma1.it/atlas/places/338>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/7272741> ;
-  dc:relation <http://pleiades.stoa.org/places/7272741> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2260> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/7272741>, <https://www.trismegistos.org/place/2260> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(29.518675804138184 30.946236829182347)" ] ;
   rdfs:label "Taposiris Magna"@en ;
   lawd:primaryForm "Taposiris Magna"@en ;
@@ -3846,9 +3282,7 @@
 
 <http://paths.uniroma1.it/atlas/places/339>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756538> ;
-  dc:relation <http://pleiades.stoa.org/places/756538> ;
-  skos:exactMatch <https://www.trismegistos.org/place/5162> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756538>, <https://www.trismegistos.org/place/5162> ;
   dc:temporal "650/650" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "381" ;
@@ -3908,9 +3342,7 @@
 
 <http://paths.uniroma1.it/atlas/places/345>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737065> ;
-  dc:relation <http://pleiades.stoa.org/places/737065> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2236> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737065>, <https://www.trismegistos.org/place/2236> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.723889 29.121111)" ] ;
   rdfs:label "Talit"@en ;
   lawd:primaryForm "Talit"@en ;
@@ -3936,9 +3368,7 @@
 
 <http://paths.uniroma1.it/atlas/places/349>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737054> ;
-  dc:relation <http://pleiades.stoa.org/places/737054> ;
-  skos:exactMatch <https://www.trismegistos.org/place/4834>, <https://www.trismegistos.org/place/3222> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737054>, <https://www.trismegistos.org/place/4834>, <https://www.trismegistos.org/place/3222> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT (30.713324 28.299147)" ] ;
   rdfs:label "Samalut"@en ;
   lawd:primaryForm "Samalut"@en ;
@@ -3961,9 +3391,7 @@
 
 <http://paths.uniroma1.it/atlas/places/352>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/741414> ;
-  dc:relation <http://pleiades.stoa.org/places/741414> ;
-  skos:exactMatch <https://www.trismegistos.org/place/89> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/741414>, <https://www.trismegistos.org/place/89> ;
   rdfs:label "Monastery of Apa Epima at Pshonte"@en ;
   lawd:primaryForm "Monastery of Apa Epima at Pshonte"@en ;
   lawd:hasName [ lawd:variantForm "Ἀκανθῶνος χωρίον"@grc ], [ lawd:variantForm "ⲁⲅⲓⲟⲩ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲩ ⲁⲃⲃⲁ̣ ⲁⲡⲁ ⲉⲡⲓⲙⲁ ⲙⲡϣⲱⲛⲧⲉ"@cop ], [ lawd:variantForm " ⲡϣⲁⲛⲧⲓ"@cop ], [ lawd:variantForm "Monastery of Apa Epima at Pshonte"@eng ], [ lawd:variantForm "Pshonte"@eng ], [ lawd:variantForm "Akanthonos Chorion"@eng ], [ lawd:variantForm "Ankathonos "@eng ], [ lawd:variantForm "Agathonos"@eng ] .
@@ -3983,9 +3411,7 @@
 
 <http://paths.uniroma1.it/atlas/places/355>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/737015> ;
-  dc:relation <http://pleiades.stoa.org/places/737015> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1836> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/737015>, <https://www.trismegistos.org/place/1836> ;
   rdfs:label "Pishai"@en ;
   lawd:primaryForm "Pishai"@en ;
   lawd:hasName [ lawd:variantForm " Pȝy-Šȝy "@egy ], [ lawd:variantForm "Pȝy-Šy"@egy ], [ lawd:variantForm " Πισαις"@grc ], [ lawd:variantForm "ⲡⲓϣⲁⲉⲓ"@cop ], [ lawd:variantForm "ⲡⲓϣⲁⲓ"@cop ], [ lawd:variantForm "Ibshaway"@eng ], [ lawd:variantForm "Pisais "@eng ], [ lawd:variantForm "Pisaei "@eng ], [ lawd:variantForm "Pishai "@eng ], [ lawd:variantForm "Pisaitos Epoikion"@eng ], [ lawd:variantForm "Pisaei Chorion"@eng ], [ lawd:variantForm "Abshay(a) "@eng ], [ lawd:variantForm "Abshaih"@eng ], [ lawd:variantForm "Abshway"@eng ], [ lawd:variantForm "Ibshwai "@eng ], [ lawd:variantForm "Ibshawai "@eng ], [ lawd:variantForm "Abschajet er-Rumman"@eng ] .
@@ -4011,9 +3437,7 @@
 
 <http://paths.uniroma1.it/atlas/places/358>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/795838> ;
-  dc:relation <http://pleiades.stoa.org/places/795838> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3170> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/795838>, <https://www.trismegistos.org/place/3170> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.498587 22.204049)" ] ;
   rdfs:label "Faras"@en ;
   lawd:primaryForm "Faras"@en ;
@@ -4021,9 +3445,7 @@
 
 <http://paths.uniroma1.it/atlas/places/359>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/865674318> ;
-  dc:relation <http://pleiades.stoa.org/places/865674318> ;
-  skos:exactMatch <https://www.trismegistos.org/place/5080> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/865674318>, <https://www.trismegistos.org/place/5080> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.740191 18.199038)" ] ;
   rdfs:label "Dongola"@en ;
   lawd:primaryForm "Dongola"@en ;
@@ -4070,9 +3492,7 @@
 
 <http://paths.uniroma1.it/atlas/places/365>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/741593> ;
-  dc:relation <http://pleiades.stoa.org/places/741593> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2417> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/741593>, <https://www.trismegistos.org/place/2417> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "801" ;
@@ -4092,9 +3512,7 @@
 
 <http://paths.uniroma1.it/atlas/places/367>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/795886> ;
-  dc:relation <http://pleiades.stoa.org/places/795886> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3486> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/795886>, <https://www.trismegistos.org/place/3486> ;
   dc:temporal "1300/1300" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "1201" ;
@@ -4107,9 +3525,7 @@
 
 <http://paths.uniroma1.it/atlas/places/368>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756518> ;
-  dc:relation <http://pleiades.stoa.org/places/756518> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2774> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756518>, <https://www.trismegistos.org/place/2774> ;
   dc:temporal "800/800" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "401" ;
@@ -4122,9 +3538,7 @@
 
 <http://paths.uniroma1.it/atlas/places/369>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756676> ;
-  dc:relation <http://pleiades.stoa.org/places/756676> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2843> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756676>, <https://www.trismegistos.org/place/2843> ;
   rdfs:label "Wadi Sarga"@en ;
   lawd:primaryForm "Wadi Sarga"@en .
 
