@@ -14,7 +14,7 @@
   foaf:homepage "http://www.lettere.uniroma1.it/users/julian-bogdani" ;
   foaf:depiction "http://www.lettere.uniroma1.it/sites/default/files/pictures/picture-1844-1508316765.jpg" .
 
-<http://paths.uniroma1.it/atlas/places/1>
+<https://paths.uniroma.it/paths/places/1>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736963> ;
   dc:relation <http://pleiades.stoa.org/places/736963> ;
@@ -24,7 +24,7 @@
   lawd:primaryForm "Memphis"@en ;
   lawd:hasName [ lawd:variantForm "Ineb-Ḥedjet"@egy ], [ lawd:variantForm "Men-nefer"@egy ], [ lawd:variantForm "Ỉnb-ḥḏ"@egy ], [ lawd:variantForm "Ỉnb-ḥt"@egy ], [ lawd:variantForm "Ḥw.t-kȝ-Ptḥ"@egy ], [ lawd:variantForm "Mḫȝ.t-tȝ.wy"@egy ], [ lawd:variantForm "Ms-ṱḥny"@egy ], [ lawd:variantForm "Μέμφις"@grc ], [ lawd:variantForm "Μέμφη"@grc ], [ lawd:variantForm "ⲙⲛⲫⲉ"@cop ], [ lawd:variantForm "ⲉⲕⲉⲡϯⲁ"@cop ], [ lawd:variantForm "ⲙⲉⲃⲉ"@cop ], [ lawd:variantForm "ⲙⲉⲙⲃⲉ"@cop ], [ lawd:variantForm "ⲙⲉⲛⲃⲉ"@cop ], [ lawd:variantForm "ⲙⲉⲛϥ"@cop ], [ lawd:variantForm "ⲙⲉⲛϥⲓ"@cop ], [ lawd:variantForm "ⲙⲉϥⲉ"@cop ], [ lawd:variantForm "ⲙⲉϥⲓ"@cop ], [ lawd:variantForm "ⲙⲏⲃⲉ"@cop ], [ lawd:variantForm "منف"@arz ], [ lawd:variantForm "Manf"@eng ], [ lawd:variantForm "Memphis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/2>
+<https://paths.uniroma.it/paths/places/2>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727149> ;
   dc:relation <http://pleiades.stoa.org/places/727149> ;
@@ -39,7 +39,7 @@
   lawd:primaryForm "Letopolis"@en ;
   lawd:hasName [ lawd:variantForm "Sḫm"@egy ], [ lawd:variantForm "Pr-Ḥr-nb-Sḫm"@egy ], [ lawd:variantForm "Sšm"@egy ], [ lawd:variantForm "Šm"@egy ], [ lawd:variantForm "Ḫm"@egy ], [ lawd:variantForm "Ḥs"@egy ], [ lawd:variantForm "ȝy"@egy ], [ lawd:variantForm " Λητοῦς Πόλις"@grc ], [ lawd:variantForm "Λέτους"@grc ], [ lawd:variantForm "Λητοῦ"@grc ], [ lawd:variantForm "Λιτούς"@grc ], [ lawd:variantForm "ⲃⲟⲩϣⲏⲙ"@cop ], [ lawd:variantForm "ⲉⲩⲥⲓⲙ"@cop ], [ lawd:variantForm "أوسيم"@arz ], [ lawd:variantForm "Letopolis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/3>
+<https://paths.uniroma.it/paths/places/3>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727217> ;
   dc:relation <http://pleiades.stoa.org/places/727217> ;
@@ -54,7 +54,7 @@
   lawd:primaryForm "Sais"@en ;
   lawd:hasName [ lawd:variantForm "Sȝw "@egy ], [ lawd:variantForm "Sȝy "@egy ], [ lawd:variantForm "Sy"@egy ], [ lawd:variantForm " Ḥw.t-byt"@egy ], [ lawd:variantForm "Σαΐϛ"@grc ], [ lawd:variantForm "Σάης"@grc ], [ lawd:variantForm "ⲥⲁⲓ"@cop ], [ lawd:variantForm "ⲥⲁⲓ̈"@cop ], [ lawd:variantForm "ⲥⲟⲓ̈"@cop ], [ lawd:variantForm "صا الحجر"@arz ], [ lawd:variantForm "Sais"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/4>
+<https://paths.uniroma.it/paths/places/4>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727256> ;
   dc:relation <http://pleiades.stoa.org/places/727256> ;
@@ -64,7 +64,7 @@
   lawd:primaryForm "Xois"@en ;
   lawd:hasName [ lawd:variantForm "Sakha"@eng ], [ lawd:variantForm "Ḫȝswwt "@egy ], [ lawd:variantForm "Ḫȝsw"@egy ], [ lawd:variantForm "Ζωῆς"@grc ], [ lawd:variantForm "Ξέος"@grc ], [ lawd:variantForm "Ξέως"@grc ], [ lawd:variantForm "Ξόις"@grc ], [ lawd:variantForm "ⲥⲉⲕⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲥⲉϧⲱⲟⲩ"@cop ], [ lawd:variantForm "ⲥϧⲱⲟⲩ"@cop ], [ lawd:variantForm "سخا"@arz ], [ lawd:variantForm "Xois"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/5>
+<https://paths.uniroma.it/paths/places/5>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727123> ;
   dc:relation <http://pleiades.stoa.org/places/727123> ;
@@ -79,7 +79,7 @@
   lawd:primaryForm "Hermopolis Mikra"@en ;
   lawd:hasName [ lawd:variantForm "Pȝ-dmỉ-Ḥr"@egy ], [ lawd:variantForm "Pr-dmỉ-Ḥr"@egy ], [ lawd:variantForm "Ἑρμόκατου"@grc ], [ lawd:variantForm "Ἑρομύκατου"@grc ], [ lawd:variantForm "Ἑρμούπολις μικρά"@grc ], [ lawd:variantForm "ϯⲙⲓⲛϩⲱⲣ"@cop ], [ lawd:variantForm "ⲡⲁⲓⲙⲉⲛϩⲟⲩⲣ"@cop ], [ lawd:variantForm "ⲡⲁⲓⲙⲉⲛϩⲱⲣ"@cop ], [ lawd:variantForm "ⲡⲓⲁⲓⲙⲉⲛϩⲱⲣ"@cop ], [ lawd:variantForm "ⲡⲧⲓⲙⲉⲛϩⲟⲩⲣ"@cop ], [ lawd:variantForm "ⲡⲧⲓⲙⲉⲛϩⲱⲣ"@cop ], [ lawd:variantForm " ردمنهو"@arz ], [ lawd:variantForm "Hermopolis Mikra"@eng ], [ lawd:variantForm "Damanhur"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/6>
+<https://paths.uniroma.it/paths/places/6>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727124> ;
   dc:relation <http://pleiades.stoa.org/places/727124> ;
@@ -89,7 +89,7 @@
   lawd:primaryForm "Heroonpolis"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Ỉtm"@egy ], [ lawd:variantForm "Πάτουμος"@grc ], [ lawd:variantForm "Πιθωμ"@grc ], [ lawd:variantForm "تل المسخوطة  "@arz ], [ lawd:variantForm "Heroonpolis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/7>
+<https://paths.uniroma.it/paths/places/7>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727090> ;
   dc:relation <http://pleiades.stoa.org/places/727090> ;
@@ -104,7 +104,7 @@
   lawd:primaryForm "Bousiris"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Wsỉr"@egy ], [ lawd:variantForm "Ḏd.t"@egy ], [ lawd:variantForm "Ḏdw"@egy ], [ lawd:variantForm "Ḏtw"@egy ], [ lawd:variantForm "Twtw"@egy ], [ lawd:variantForm "Pȝ-pr-Wsỉr-nb-Ttw"@egy ], [ lawd:variantForm "Βουσῖρις"@grc ], [ lawd:variantForm "ⲃⲟⲩⲥⲓⲣⲓ"@cop ], [ lawd:variantForm "ⲡⲟⲩⲥⲓⲣⲓ"@cop ], [ lawd:variantForm "ⲃⲟⲩϣⲉⲙ"@cop ], [ lawd:variantForm "ⲃⲟⲩϣⲏⲙ"@cop ], [ lawd:variantForm "ⲟⲩϣⲏⲙ"@cop ], [ lawd:variantForm "أبو صير ’"@arz ], [ lawd:variantForm "Bousiris"@eng ], [ lawd:variantForm "Busiris"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/8>
+<https://paths.uniroma.it/paths/places/8>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727078> ;
   dc:relation <http://pleiades.stoa.org/places/727078> ;
@@ -119,7 +119,7 @@
   lawd:primaryForm "Athribis"@en ;
   lawd:hasName [ lawd:variantForm "Ḥw.t-ḥry-ỉb"@egy ], [ lawd:variantForm "Ḥw.t-tȝ-ḥry-ỉb"@egy ], [ lawd:variantForm "Km"@egy ], [ lawd:variantForm "Ἀθρίβης"@grc ], [ lawd:variantForm "Ἀθρῖβις"@grc ], [ lawd:variantForm "Ἀθριβίς"@grc ], [ lawd:variantForm "Ἀθλῖβις"@grc ], [ lawd:variantForm "Ἀθρίδης"@grc ], [ lawd:variantForm "ⲁⲑⲗⲏⲃⲉ"@cop ], [ lawd:variantForm "ⲁⲑⲗⲏⲃⲏ"@cop ], [ lawd:variantForm "ⲁⲑⲣⲉⲃⲓ"@cop ], [ lawd:variantForm "ⲁⲑⲣⲏⲃⲉ"@cop ], [ lawd:variantForm "ⲁⲑⲣⲏⲃⲓ"@cop ], [ lawd:variantForm "ⲁⲑⲣⲏⲡⲉ"@cop ], [ lawd:variantForm "ⲁⲑⲣⲓⲃⲉ"@cop ], [ lawd:variantForm "ⲁⲧⲣⲩⲡⲉ"@cop ], [ lawd:variantForm "ⲑⲣⲁⲃⲁ"@cop ], [ lawd:variantForm "ⲑⲣⲉⲃⲓ"@cop ], [ lawd:variantForm "ⲑⲣⲏⲃⲉ"@cop ], [ lawd:variantForm "ⲁⲑⲣⲉⲡⲓ"@cop ], [ lawd:variantForm "اتريب"@arz ], [ lawd:variantForm "Tell el-Atrib"@eng ], [ lawd:variantForm "Benha"@eng ], [ lawd:variantForm "Athribis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/9>
+<https://paths.uniroma.it/paths/places/9>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727147> ;
   dc:relation <http://pleiades.stoa.org/places/727147> ;
@@ -134,7 +134,7 @@
   lawd:primaryForm "Leontopolis (Tell el-Moqdam)"@en ;
   lawd:hasName [ lawd:variantForm "Tȝ-rmw"@egy ], [ lawd:variantForm "Tnt-rmw"@egy ], [ lawd:variantForm "Λεοντώ"@grc ], [ lawd:variantForm "Λεοντῶ"@grc ], [ lawd:variantForm "Λεοντίου"@grc ], [ lawd:variantForm "Λεόντων Πόλις"@grc ], [ lawd:variantForm "ⲗⲉⲱⲛⲧⲓⲟⲩ"@cop ], [ lawd:variantForm "ⲗⲁⲓⲱⲛⲧⲓⲱⲛ"@cop ], [ lawd:variantForm "ⲛⲁⲑⲱ(?)"@cop ], [ lawd:variantForm "ⲛⲑⲱ(?)"@cop ], [ lawd:variantForm "تل المقدم"@arz ], [ lawd:variantForm "Leontopolis"@eng ], [ lawd:variantForm "Tell el-Moqdam"@eng ], [ lawd:variantForm "Tell el-Muqdam"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/10>
+<https://paths.uniroma.it/paths/places/10>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727227> ;
   dc:relation <http://pleiades.stoa.org/places/727227> ;
@@ -144,7 +144,7 @@
   lawd:primaryForm "Sebennytos"@en ;
   lawd:hasName [ lawd:variantForm "Ṯb-nṯr "@egy ], [ lawd:variantForm "Tbn-nṯr"@egy ], [ lawd:variantForm "Sbn-nṯr "@egy ], [ lawd:variantForm "Ḏdb-n-nṯr"@egy ], [ lawd:variantForm "Σεβειννέτος"@grc ], [ lawd:variantForm "Σεβεννῦτος"@grc ], [ lawd:variantForm "Σεβονῦτος"@grc ], [ lawd:variantForm "ϫⲉⲙⲛⲟⲩϯ"@cop ], [ lawd:variantForm "ϫⲉⲙⲛⲟⲩⲧ"@cop ], [ lawd:variantForm "ϫⲉⲛⲛⲟⲩϯ"@cop ], [ lawd:variantForm "سمنود / سمانود "@arz ], [ lawd:variantForm "Sebennytos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/11>
+<https://paths.uniroma.it/paths/places/11>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727117> ;
   dc:relation <http://pleiades.stoa.org/places/727117> ;
@@ -154,7 +154,7 @@
   lawd:primaryForm "Heliopolis"@en ;
   lawd:hasName [ lawd:variantForm "Ỉwnw"@egy ], [ lawd:variantForm "Ỉwnw-mḥty"@egy ], [ lawd:variantForm "Ỉwnw-wr"@egy ], [ lawd:variantForm "Ỉwnw-nw.t-Ỉtm"@egy ], [ lawd:variantForm "Ỉwnw-Rʿ"@egy ], [ lawd:variantForm "Pr-Rʿ"@egy ], [ lawd:variantForm "Ỉnb-ḥḏ-ỉȝbt"@egy ], [ lawd:variantForm "Ἡλιούπολις"@grc ], [ lawd:variantForm "Ἡλίους"@grc ], [ lawd:variantForm "ⲱⲛ"@cop ], [ lawd:variantForm "ⲡⲉⲧⲫⲣⲉ"@cop ], [ lawd:variantForm "الحصن"@arz ], [ lawd:variantForm "Heliopolis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/12>
+<https://paths.uniroma.it/paths/places/12>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727236> ;
   dc:relation <http://pleiades.stoa.org/places/727236> ;
@@ -164,7 +164,7 @@
   lawd:primaryForm "Tanis"@en ;
   lawd:hasName [ lawd:variantForm "Ḏʿn.t "@egy ], [ lawd:variantForm "Tʿny"@egy ], [ lawd:variantForm "Τάνης"@grc ], [ lawd:variantForm "Τάνις"@grc ], [ lawd:variantForm "ϫⲁⲁⲛⲉ"@cop ], [ lawd:variantForm "ϫⲁⲛⲓ"@cop ], [ lawd:variantForm "صان الحجر"@arz ], [ lawd:variantForm "Tanis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/13>
+<https://paths.uniroma.it/paths/places/13>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727122> ;
   dc:relation <http://pleiades.stoa.org/places/727122> ;
@@ -174,7 +174,7 @@
   lawd:primaryForm "Hermopolis"@en ;
   lawd:hasName [ lawd:variantForm "Bʿḥ"@egy ], [ lawd:variantForm "Pr-Ḏḥwty-wp-rḥ.wy"@egy ], [ lawd:variantForm "البقلية"@arz ], [ lawd:variantForm "Hermopolis"@eng ], [ lawd:variantForm "al-Baqliyah"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/14>
+<https://paths.uniroma.it/paths/places/14>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727111> ;
   dc:relation <http://pleiades.stoa.org/places/727111> ;
@@ -189,7 +189,7 @@
   lawd:primaryForm "Tell el-Balamun"@en ;
   lawd:hasName [ lawd:variantForm "Smȝ-bḥdt"@egy ], [ lawd:variantForm "Pȝ-ỉw-n-Ỉmn"@egy ], [ lawd:variantForm "Wȝs.t-Mḥt"@egy ], [ lawd:variantForm "Διόσπολις κάτω"@grc ], [ lawd:variantForm "Διόσπολις Μικρά"@grc ], [ lawd:variantForm "Diospolis"@lat ], [ lawd:variantForm "Diospolis Inferior"@lat ], [ lawd:variantForm "ⲡⲟⲩⲛⲉⲛⲟⲩ"@cop ], [ lawd:variantForm "البلامون"@arz ], [ lawd:variantForm "Tell el-Balamun"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/15>
+<https://paths.uniroma.it/paths/places/15>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727088> ;
   dc:relation <http://pleiades.stoa.org/places/727088> ;
@@ -204,7 +204,7 @@
   lawd:primaryForm "Bubastis"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Bȝst.t"@egy ], [ lawd:variantForm "Bȝst"@egy ], [ lawd:variantForm "Βούβαστος"@grc ], [ lawd:variantForm "Βούβαστις"@grc ], [ lawd:variantForm "ⲡⲟⲩⲃⲁⲥϯ"@cop ], [ lawd:variantForm "ⲡⲟⲩⲁⲥϯ"@cop ], [ lawd:variantForm "تل بسطة"@arz ], [ lawd:variantForm "Boubastis"@eng ], [ lawd:variantForm "Bubastis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/16>
+<https://paths.uniroma.it/paths/places/16>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786021> ;
   dc:relation <http://pleiades.stoa.org/places/786021> ;
@@ -214,16 +214,17 @@
   lawd:primaryForm "Elephantine"@en ;
   lawd:hasName [ lawd:variantForm "Ybȝ"@egy ], [ lawd:variantForm "ȝbw"@egy ], [ lawd:variantForm "Ỉȝbw"@egy ], [ lawd:variantForm "Ỉb"@egy ], [ lawd:variantForm "Νῆσος Ἐλεφαντίνης"@grc ], [ lawd:variantForm "(ⲧⲙⲟⲩ(ⲉ)ⲓ(ⲛ)) (ⲉ)ⲓⲏⲃ"@cop ], [ lawd:variantForm "جزيرة الفنتين"@arz ], [ lawd:variantForm "Elephantine"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/18>
+<https://paths.uniroma.it/paths/places/18>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786037> ;
   dc:relation <http://pleiades.stoa.org/places/786037> ;
+  skos:exactMatch <https://www.trismegistos.org/place/848> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.7824705 25.0480345)" ] ;
   rdfs:label "Hierakonpolis"@en ;
   lawd:primaryForm "Hierakonpolis"@en ;
-  lawd:hasName [ lawd:variantForm "Nḫn"@egy ], [ lawd:variantForm "Mḫn"@grc ], [ lawd:variantForm "الكوم الأحمر"@arz ], [ lawd:variantForm "Hierakonpolis"@eng ], [ lawd:variantForm "el-Kum el-Akhmar"@eng ] .
+  lawd:hasName [ lawd:variantForm "Nḫn"@egy ], [ lawd:variantForm "Mḫn"@egy ], [ lawd:variantForm "Ἱεράκων πόλις"@grc ], [ lawd:variantForm "Theraco"@lat ], [ lawd:variantForm "الكوم الأحمر"@arz ], [ lawd:variantForm "Hierakonpolis"@eng ], [ lawd:variantForm "el-Kum el-Akhmar"@eng ], [ lawd:variantForm "Kom el-Ahmar"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/19>
+<https://paths.uniroma.it/paths/places/19>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786017> ;
   dc:relation <http://pleiades.stoa.org/places/786017> ;
@@ -238,7 +239,7 @@
   lawd:primaryForm "Luxor complex"@en ;
   lawd:hasName [ lawd:variantForm "Eastern Thebes"@eng ], [ lawd:variantForm "Nw.t"@egy ], [ lawd:variantForm "Nw.t-rsy.t"@egy ], [ lawd:variantForm "Nw.t-n-Ỉmn"@egy ], [ lawd:variantForm "Pȝ-dmỉ-Ỉmn"@egy ], [ lawd:variantForm "Ỉwnw-Šmʿ"@egy ], [ lawd:variantForm "Διόσπολις μεγάλη"@grc ], [ lawd:variantForm "Θῆβαι"@grc ], [ lawd:variantForm "πόλις τριῶν κάστρων"@grc ], [ lawd:variantForm "Diospolis Magna"@lat ], [ lawd:variantForm "Thebai"@lat ], [ lawd:variantForm "ⲛⲏ"@cop ], [ lawd:variantForm "ⲛⲉ"@cop ], [ lawd:variantForm "ⲧⲡⲟⲗⲓⲥ ⲡⲁⲡⲉ"@cop ], [ lawd:variantForm "ⲡϣⲟⲙⲧ ⲛⲕⲁⲥⲧⲣⲟⲛ"@cop ], [ lawd:variantForm "الأقصر"@arz ], [ lawd:variantForm "Luxor complex"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/20>
+<https://paths.uniroma.it/paths/places/20>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786010> ;
   dc:relation <http://pleiades.stoa.org/places/786010> ;
@@ -248,7 +249,7 @@
   lawd:primaryForm "Koptos"@en ;
   lawd:hasName [ lawd:variantForm "Gbt"@egy ], [ lawd:variantForm "ⲕⲉⲃⲧⲱ"@cop ], [ lawd:variantForm "قفط‎‎"@arz ], [ lawd:variantForm "ⲕϥⲧ(ⲉ)"@cop ], [ lawd:variantForm "ⲕⲩⲃⲏⲧ"@cop ], [ lawd:variantForm "ⲕⲏϥⲧ"@cop ], [ lawd:variantForm "ⲕⲉϥⲧ"@cop ], [ lawd:variantForm "ⲕⲉⲃⲧ(ⲱ)"@cop ], [ lawd:variantForm "ⲕⲃⲧ"@cop ], [ lawd:variantForm "Ἰουστινιανούπολις"@grc ], [ lawd:variantForm "Gbtyw"@egy ], [ lawd:variantForm "Κώπτος"@grc ], [ lawd:variantForm "Κοπτώ"@grc ], [ lawd:variantForm "Κόπτος"@grc ], [ lawd:variantForm "Κοντώ"@grc ], [ lawd:variantForm "Kbty"@egy ], [ lawd:variantForm "Kbt"@egy ], [ lawd:variantForm "Qbt"@egy ], [ lawd:variantForm "Koptos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/21>
+<https://paths.uniroma.it/paths/places/21>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786127> ;
   dc:relation <http://pleiades.stoa.org/places/786127> ;
@@ -258,7 +259,7 @@
   lawd:primaryForm "Dendera"@en ;
   lawd:hasName [ lawd:variantForm "Tentyris"@eng ], [ lawd:variantForm "Ỉwn.t-n-Ptḥ "@egy ], [ lawd:variantForm "Ỉwn.t"@egy ], [ lawd:variantForm "Ỉwn"@egy ], [ lawd:variantForm "Ỉwn.t-tȝ-nṯr.t"@egy ], [ lawd:variantForm "Ỉwn.t-n-pȝ-nṯr"@egy ], [ lawd:variantForm " Ỉwn.t-n-Nw.t"@egy ], [ lawd:variantForm "Tȝ-bẖn-n-Ḥw.t-Ḥr?"@egy ], [ lawd:variantForm "Τέντυρον"@grc ], [ lawd:variantForm "Τεντύρα"@grc ], [ lawd:variantForm "Τεντυρίς"@grc ], [ lawd:variantForm "ⲧⲉⲛⲧⲱⲣⲓ"@cop ], [ lawd:variantForm "ⲛⲓⲧⲛⲧⲱⲣⲉ"@cop ], [ lawd:variantForm "ⲛⲓⲧⲉⲛⲧⲱⲣⲓ"@cop ], [ lawd:variantForm "ⲕⲉⲛⲧⲱⲣ -ⲉ -ⲓ"@cop ], [ lawd:variantForm "ⲕⲩⲛⲧⲩⲣⲟⲛ"@cop ], [ lawd:variantForm "ⲕⲉⲣⲧⲱⲣⲓ"@cop ], [ lawd:variantForm "ⲛⲓⲕⲉⲛⲧⲱⲣⲉ(ⲓ)"@cop ], [ lawd:variantForm "دندرة"@arz ], [ lawd:variantForm "Dendera"@eng ], [ lawd:variantForm "Dendara"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/22>
+<https://paths.uniroma.it/paths/places/22>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756566> ;
   dc:relation <http://pleiades.stoa.org/places/756566> ;
@@ -268,7 +269,7 @@
   lawd:primaryForm "Diospolis Mikra"@en ;
   lawd:hasName [ lawd:variantForm "Ḥw.t-Sḫm"@egy ], [ lawd:variantForm "Ḥw.t"@egy ], [ lawd:variantForm "Ḥw.t-sšm.w"@egy ], [ lawd:variantForm "Διόσπολις Ἄνο"@grc ], [ lawd:variantForm "Διόσπολις μικρά"@grc ], [ lawd:variantForm "ϩⲟⲩ"@cop ], [ lawd:variantForm "ϩⲱ"@cop ], [ lawd:variantForm "هو"@arz ], [ lawd:variantForm "Diospolis Mikra"@eng ], [ lawd:variantForm "Diospolis Micra"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/23>
+<https://paths.uniroma.it/paths/places/23>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756512> ;
   dc:relation <http://pleiades.stoa.org/places/756512> ;
@@ -278,7 +279,7 @@
   lawd:primaryForm "Abydos"@en ;
   lawd:hasName [ lawd:variantForm "Ỉbd"@egy ], [ lawd:variantForm "Ỉbt"@egy ], [ lawd:variantForm "ȝbt"@egy ], [ lawd:variantForm "pȝ tš n Ỉbt"@egy ], [ lawd:variantForm "ȝbḏw"@egy ], [ lawd:variantForm "Ἀβυδος"@grc ], [ lawd:variantForm "ⲉⲃⲱⲧ"@cop ], [ lawd:variantForm "ⲁⲃⲱⲧ"@cop ], [ lawd:variantForm "العرابة المدفونة‎‎"@arz ], [ lawd:variantForm "البَليَنا"@arz ], [ lawd:variantForm "Abydos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/24>
+<https://paths.uniroma.it/paths/places/24>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756613> ;
   dc:relation <http://pleiades.stoa.org/places/756613> ;
@@ -288,7 +289,7 @@
   lawd:primaryForm "Panopolis"@en ;
   lawd:hasName [ lawd:variantForm "Ḫnty-Mỉn"@egy ], [ lawd:variantForm "Šmn"@egy ], [ lawd:variantForm "Ḫby?"@egy ], [ lawd:variantForm "Ỉpw"@egy ], [ lawd:variantForm "Χέμμις"@grc ], [ lawd:variantForm "Πάνους"@grc ], [ lawd:variantForm "Πάννος"@grc ], [ lawd:variantForm "Πάνος"@grc ], [ lawd:variantForm "Πανός"@grc ], [ lawd:variantForm "ⲁϣⲙⲓⲛ"@cop ], [ lawd:variantForm "ⲭⲏⲓⲛ"@cop ], [ lawd:variantForm "ⲭⲙⲓⲛ"@cop ], [ lawd:variantForm "ⲉϣⲙⲓⲛ"@cop ], [ lawd:variantForm "ϣⲙⲓⲛ"@cop ], [ lawd:variantForm "أخميم"@arz ], [ lawd:variantForm "Panopolis"@eng ], [ lawd:variantForm "Akhmim"@eng ], [ lawd:variantForm "Achmim"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/25>
+<https://paths.uniroma.it/paths/places/25>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756515> ;
   dc:relation <http://pleiades.stoa.org/places/756515> ;
@@ -298,7 +299,7 @@
   lawd:primaryForm "Antaiopolis"@en ;
   lawd:hasName [ lawd:variantForm "Ṯbw"@egy ], [ lawd:variantForm "Tbtȝ"@egy ], [ lawd:variantForm "Ḏw-qȝw"@egy ], [ lawd:variantForm "Ἀνταίου"@grc ], [ lawd:variantForm "Ἀνταιούπολις"@grc ], [ lawd:variantForm "Ἀντέου"@grc ], [ lawd:variantForm "ⲧⲕⲱⲟⲩ"@cop ], [ lawd:variantForm "ⲧⲕⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲧⲭⲱⲃⲓ"@cop ], [ lawd:variantForm "قاو الكبير"@arz ], [ lawd:variantForm "Antaiopolis"@eng ], [ lawd:variantForm "Antaeopolis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/26>
+<https://paths.uniroma.it/paths/places/26>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756578> ;
   dc:relation <http://pleiades.stoa.org/places/756578> ;
@@ -308,7 +309,7 @@
   lawd:primaryForm "Hypsele"@en ;
   lawd:hasName [ lawd:variantForm "Šȝs-ḥtp"@egy ], [ lawd:variantForm "Š-ỉw=s-ḥtp"@egy ], [ lawd:variantForm "Šỉs-ḥtp"@egy ], [ lawd:variantForm "Šḥy?"@egy ], [ lawd:variantForm "Ὕψελις"@grc ], [ lawd:variantForm "Ὑψηλή"@grc ], [ lawd:variantForm "Ὕψηλις"@grc ], [ lawd:variantForm "Ὕψιλις"@grc ], [ lawd:variantForm "ϣⲟⲧⲡ"@cop ], [ lawd:variantForm "ϣⲱⲧⲡ"@cop ], [ lawd:variantForm "شطب"@arz ], [ lawd:variantForm "Hypsele"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/27>
+<https://paths.uniroma.it/paths/places/27>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756593> ;
   dc:relation <http://pleiades.stoa.org/places/756593> ;
@@ -318,7 +319,7 @@
   lawd:primaryForm "Lykopolis"@en ;
   lawd:hasName [ lawd:variantForm "Sywt"@egy ], [ lawd:variantForm "Sȝwt"@egy ], [ lawd:variantForm "Λεγοῦ"@grc ], [ lawd:variantForm "Λεχοῦ"@grc ], [ lawd:variantForm "Λεκώ"@grc ], [ lawd:variantForm "Λικών"@grc ], [ lawd:variantForm "Λυκός"@grc ], [ lawd:variantForm "Λύκων"@grc ], [ lawd:variantForm "ⲥⲓⲟⲟⲩⲧ"@cop ], [ lawd:variantForm "ⲥⲓⲟⲟⲩⲑ"@cop ], [ lawd:variantForm "ⲥⲓⲱⲟⲩⲧ"@cop ], [ lawd:variantForm "أسيوط‎‎"@arz ], [ lawd:variantForm "Lykopolis"@eng ], [ lawd:variantForm "Asyut"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/28>
+<https://paths.uniroma.it/paths/places/28>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756574> ;
   dc:relation <http://pleiades.stoa.org/places/756574> ;
@@ -328,7 +329,7 @@
   lawd:primaryForm "Hermopolis Magna"@en ;
   lawd:hasName [ lawd:variantForm "Ḫmnw"@egy ], [ lawd:variantForm "Ἑρμούη"@grc ], [ lawd:variantForm "Ἑρμούπολις"@grc ], [ lawd:variantForm "ϣⲙⲟⲩⲛ"@cop ], [ lawd:variantForm "ⲥⲙⲟⲩⲛ"@cop ], [ lawd:variantForm "ϣⲙⲟⲩⲛ(ⲓⲛ)"@cop ], [ lawd:variantForm "الأشمونين‎‎"@arz ], [ lawd:variantForm "Hermopolis Magna"@eng ], [ lawd:variantForm "el-Ashmunein"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/29>
+<https://paths.uniroma.it/paths/places/29>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736949> ;
   dc:relation <http://pleiades.stoa.org/places/736949> ;
@@ -338,16 +339,17 @@
   lawd:primaryForm "Kynopolis"@en ;
   lawd:hasName [ lawd:variantForm "Ỉnpwt"@egy ], [ lawd:variantForm "Ḥnw"@egy ], [ lawd:variantForm "Sȝ-kȝ"@egy ], [ lawd:variantForm "Sȝkȝ"@egy ], [ lawd:variantForm "Κόις"@grc ], [ lawd:variantForm "Κυνόπολις"@grc ], [ lawd:variantForm "Κυνώ ἄνω"@grc ], [ lawd:variantForm "ⲕⲁⲓⲥ"@cop ], [ lawd:variantForm "ⲕⲉⲓⲥ"@cop ], [ lawd:variantForm "ⲕⲟⲓⲥ"@cop ], [ lawd:variantForm "ⲕⲱⲉⲓⲥ"@cop ], [ lawd:variantForm "القيس"@arz ], [ lawd:variantForm "Kynopolis"@eng ], [ lawd:variantForm "Sko"@eng ], [ lawd:variantForm "Euergetis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/30>
+<https://paths.uniroma.it/paths/places/30>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736888> ;
   dc:relation <http://pleiades.stoa.org/places/736888> ;
+  skos:exactMatch <https://www.trismegistos.org/place/182> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.916624 28.766518)" ] ;
   rdfs:label "Ankyropolis"@en ;
   lawd:primaryForm "Ankyropolis"@en ;
   lawd:hasName [ lawd:variantForm "Tȝy=w-ḏy"@egy ], [ lawd:variantForm "Dhnt Wrt"@egy ], [ lawd:variantForm "Ἀγκυρῶν Πόλις"@grc ], [ lawd:variantForm "El-Hiba"@eng ], [ lawd:variantForm "Ankyropolis"@eng ], [ lawd:variantForm "Ankyronpolis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/31>
+<https://paths.uniroma.it/paths/places/31>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736983> ;
   dc:relation <http://pleiades.stoa.org/places/736983> ;
@@ -357,7 +359,7 @@
   lawd:primaryForm "Oxyrhynchos"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Mḏd"@egy ], [ lawd:variantForm "Pr-Mḏ"@egy ], [ lawd:variantForm "Ἐξερίκου"@grc ], [ lawd:variantForm "Ἐξερίχου"@grc ], [ lawd:variantForm "Ὀξίρυγχος"@grc ], [ lawd:variantForm "Ὀξύρυγχος"@grc ], [ lawd:variantForm "Ὀξυρίγχω"@grc ], [ lawd:variantForm "Πέπτη"@grc ], [ lawd:variantForm "ⲡⲉⲙϫⲉ"@cop ], [ lawd:variantForm "ⲡⲉⲙϫⲏ"@cop ], [ lawd:variantForm "البهنسة"@arz ], [ lawd:variantForm "Oxyrhynchos"@eng ], [ lawd:variantForm "el-Behnasa"@eng ], [ lawd:variantForm "al-Bahnasa"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/32>
+<https://paths.uniroma.it/paths/places/32>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736920> ;
   dc:relation <http://pleiades.stoa.org/places/736920> ;
@@ -367,7 +369,7 @@
   lawd:primaryForm "Herakleopolis Magna"@en ;
   lawd:hasName [ lawd:variantForm "Ḥw.t-nn-nsw"@egy ], [ lawd:variantForm "Nn-nsw"@egy ], [ lawd:variantForm "Ḥw.t-nsw"@egy ], [ lawd:variantForm "Ἡρακλεούπολις"@grc ], [ lawd:variantForm "Ἡρακλέους"@grc ], [ lawd:variantForm "Ἡρακλέος"@grc ], [ lawd:variantForm "ϩⲛⲏⲥ"@cop ], [ lawd:variantForm "ϩⲛⲉⲥ"@cop ], [ lawd:variantForm "ⲉⲛⲏ(ϩ)ⲉⲥ"@cop ], [ lawd:variantForm "ⲉϩⲛⲉⲥ"@cop ], [ lawd:variantForm "(ⲉ)ϩⲛⲓⲥ"@cop ], [ lawd:variantForm "ϩ(ⲉ)ⲛⲛⲥ"@cop ], [ lawd:variantForm "إهناسيا"@arz ], [ lawd:variantForm "Herakleopolis Magna"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/33>
+<https://paths.uniroma.it/paths/places/33>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736948> ;
   dc:relation <http://pleiades.stoa.org/places/736948> ;
@@ -377,7 +379,7 @@
   lawd:primaryForm "Arsinoe"@en ;
   lawd:hasName [ lawd:variantForm "Šdt"@egy ], [ lawd:variantForm "Šty"@egy ], [ lawd:variantForm "ȝrsynȝ"@egy ], [ lawd:variantForm "Κροκοδίλων Πόλις"@grc ], [ lawd:variantForm "Πτολεμαὶς Εὐεργέτις"@grc ], [ lawd:variantForm "Ἀρσινοιτῶν Πόλις"@grc ], [ lawd:variantForm "Ἀρσινόη"@grc ], [ lawd:variantForm "ⲡⲉⲓⲟⲙ ⲡⲟⲗⲓⲥ"@cop ], [ lawd:variantForm "ⲡⲉⲓⲟⲙ"@cop ], [ lawd:variantForm "ⲡⲓⲁⲙ"@cop ], [ lawd:variantForm "ⲡⲓⲱⲙ, ⲫⲓⲟⲙ"@cop ], [ lawd:variantForm "ⲡⲓⲱⲙ"@cop ], [ lawd:variantForm "ⲫⲓⲟⲙ"@cop ], [ lawd:variantForm "مدينة الفيوم"@arz ], [ lawd:variantForm "Arsinoe"@eng ], [ lawd:variantForm "Krokodilopolis"@eng ], [ lawd:variantForm "Medinet el Fayyum"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/34>
+<https://paths.uniroma.it/paths/places/34>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736889> ;
   dc:relation <http://pleiades.stoa.org/places/736889> ;
@@ -387,7 +389,7 @@
   lawd:primaryForm "Aphroditopolis"@en ;
   lawd:hasName [ lawd:variantForm "Tp-ỉḥ.w"@egy ], [ lawd:variantForm "Tp-ỉḥ"@egy ], [ lawd:variantForm "Tp-nȝ-ỉḥ.w"@egy ], [ lawd:variantForm "Pr-nb.t-Tp-ỉḥ.w"@egy ], [ lawd:variantForm "Pȝ-w"@egy ], [ lawd:variantForm "Ἀφροδιτόπολις"@grc ], [ lawd:variantForm "Ἀφροδιτώ"@grc ], [ lawd:variantForm "Ἀφροδίτης Πόλις"@grc ], [ lawd:variantForm "ⲡⲉⲧⲡⲉϩ"@cop ], [ lawd:variantForm "ⲡⲉⲧⲡⲏϩ"@cop ], [ lawd:variantForm "ⲡⲉⲧⲫⲉϩ"@cop ], [ lawd:variantForm "ⲧⲡⲏϩ"@cop ], [ lawd:variantForm "ⲧⲡⲩϩ"@cop ], [ lawd:variantForm "أطفيح"@arz ], [ lawd:variantForm "Aphroditopolis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/35>
+<https://paths.uniroma.it/paths/places/35>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727249> ;
   dc:relation <http://pleiades.stoa.org/places/727249> ;
@@ -402,17 +404,17 @@
   lawd:primaryForm "Thmouis"@en ;
   lawd:hasName [ lawd:variantForm "Tȝ-mȝy.t"@egy ], [ lawd:variantForm "Tȝ-mȝw.t"@egy ], [ lawd:variantForm "Θμούης"@grc ], [ lawd:variantForm "Θμοῦις"@grc ], [ lawd:variantForm "ⲑⲙⲟⲩⲓ"@cop ], [ lawd:variantForm "تل تمي"@arz ], [ lawd:variantForm "Thmuis"@eng ], [ lawd:variantForm "Tell Timai "@eng ], [ lawd:variantForm "Tmai el-Amdid"@eng ], [ lawd:variantForm "Tell Ibn el-Salam"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/36>
+<https://paths.uniroma.it/paths/places/36>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727192> ;
   dc:relation <http://pleiades.stoa.org/places/727192> ;
   skos:exactMatch <https://www.trismegistos.org/place/1662> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.600128 31.049917)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.539700 31.041874)" ] ;
   rdfs:label "Pelusium"@en ;
   lawd:primaryForm "Pelusium"@en ;
   lawd:hasName [ lawd:variantForm "Pr-ỉr-Ỉmn "@egy ], [ lawd:variantForm "Pȝ-ỉ.ỉr-Ỉmn"@egy ], [ lawd:variantForm "Πελούσιον"@grc ], [ lawd:variantForm "Πελούσιν"@grc ], [ lawd:variantForm "Πηλούσιον"@grc ], [ lawd:variantForm "Φυλόσιον"@grc ], [ lawd:variantForm " Pelusium"@lat ], [ lawd:variantForm "ⲃⲁⲣⲁⲙⲟⲩⲛ"@cop ], [ lawd:variantForm "ⲃⲁⲣⲉⲙⲟⲩⲛ"@cop ], [ lawd:variantForm "ⲃⲁⲣⲙⲟⲩⲛ"@cop ], [ lawd:variantForm "ⲡⲉⲣⲉⲙⲟⲩⲛ"@cop ], [ lawd:variantForm "الفرما"@arz ], [ lawd:variantForm "Pelusium"@eng ], [ lawd:variantForm "Pelousion "@eng ], [ lawd:variantForm "Tell el-Farama"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/37>
+<https://paths.uniroma.it/paths/places/37>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727243> ;
   dc:relation <http://pleiades.stoa.org/places/727243> ;
@@ -427,7 +429,7 @@
   lawd:primaryForm "Taya"@en ;
   lawd:hasName [ lawd:variantForm "Ταύα"@grc ], [ lawd:variantForm "Taua"@lat ], [ lawd:variantForm "ⲧⲁⲩⲃⲁϩ "@cop ], [ lawd:variantForm "تندة"@arz ], [ lawd:variantForm "Taya"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/38>
+<https://paths.uniroma.it/paths/places/38>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727070> ;
   dc:relation <http://pleiades.stoa.org/places/727070> ;
@@ -437,7 +439,7 @@
   lawd:primaryForm "Alexandria"@en ;
   lawd:hasName [ lawd:variantForm "Rʿ-qd"@egy ], [ lawd:variantForm "Rʿ-qt"@egy ], [ lawd:variantForm "Pȝ-ʿ.wy-n-ȝlgsȝntrs - Pȝ-sbt-n-Ỉrgsndrs"@egy ], [ lawd:variantForm "Pȝ-ʿ.wy-n-ȝlgsȝntrs"@egy ], [ lawd:variantForm "Pȝ-sbt-n-Ỉrgsndrs"@egy ], [ lawd:variantForm "Ἀλεξάνδρεια"@grc ], [ lawd:variantForm "ⲣⲁⲕⲟⲧⲉ"@cop ], [ lawd:variantForm "ⲣⲁⲕⲟϯ"@cop ], [ lawd:variantForm "الإسكندرية "@arz ], [ lawd:variantForm "Alexandria"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/39>
+<https://paths.uniroma.it/paths/places/39>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727163> ;
   dc:relation <http://pleiades.stoa.org/places/727163> ;
@@ -447,7 +449,7 @@
   lawd:primaryForm "Metelis"@en ;
   lawd:hasName [ lawd:variantForm "Mtlȝ"@egy ], [ lawd:variantForm "Mtl"@egy ], [ lawd:variantForm "Μελέτης"@grc ], [ lawd:variantForm "Μετέλις"@grc ], [ lawd:variantForm "Μέτελος"@grc ], [ lawd:variantForm "ⲙⲉϫⲛⲗ"@cop ], [ lawd:variantForm "ⲙⲉⲗⲉϫ"@cop ], [ lawd:variantForm "تل النجيلي"@arz ], [ lawd:variantForm "Metelis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/40>
+<https://paths.uniroma.it/paths/places/40>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727094> ;
   dc:relation <http://pleiades.stoa.org/places/727094> ;
@@ -462,7 +464,7 @@
   lawd:primaryForm "Buto"@en ;
   lawd:hasName [ lawd:variantForm "P"@egy ], [ lawd:variantForm "ⲡⲟⲩⲧ(ⲱ)ⲟ(ⲩ)"@cop ], [ lawd:variantForm "Tell el-Fara'in"@eng ], [ lawd:variantForm "Buto"@eng ], [ lawd:variantForm "Bouto"@eng ], [ lawd:variantForm "بطوا"@arz ], [ lawd:variantForm "بطو"@arz ], [ lawd:variantForm "ⲃⲟⲩⲧⲱⲟⲩ"@cop ], [ lawd:variantForm "ⲃⲟⲩⲧⲉ"@cop ], [ lawd:variantForm "ⲡⲟⲩⲧⲟ"@cop ], [ lawd:variantForm "ⲃⲟⲩⲧⲟ"@cop ], [ lawd:variantForm "ⲡⲟⲩⲧⲱ"@cop ], [ lawd:variantForm "Dp"@egy ], [ lawd:variantForm "Φθενοτου"@grc ], [ lawd:variantForm "Φθενετου"@grc ], [ lawd:variantForm "Κόστος"@grc ], [ lawd:variantForm "Βουτώ"@grc ], [ lawd:variantForm "Βοῦτος"@grc ], [ lawd:variantForm "Ḏbʿwt"@egy ], [ lawd:variantForm "Pr-Wʿt.t"@egy ], [ lawd:variantForm "Pr-Wt.t"@egy ], [ lawd:variantForm "Pr-Wȝḏy.t"@egy ], [ lawd:variantForm "Buto"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/41>
+<https://paths.uniroma.it/paths/places/41>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727121> ;
   dc:relation <http://pleiades.stoa.org/places/727121> ;
@@ -472,7 +474,7 @@
   lawd:primaryForm "Herakleopolis Mikra"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Ḥry-šf-nb-Nn-nsw"@egy ], [ lawd:variantForm "Ἡρακλεόπολις μικρά"@grc ], [ lawd:variantForm "Σεθρόη πόλις"@grc ], [ lawd:variantForm "ⲏⲣⲁⲕⲗⲉ(ⲟ)ⲩⲥ"@cop ], [ lawd:variantForm "ⲥⲉⲑⲣⲟⲓⲧⲏⲥ"@cop ], [ lawd:variantForm "[ⲥⲉ]ⲑⲣⲟⲓⲇⲟⲥ"@cop ], [ lawd:variantForm "ⲯⲉⲑⲟⲣ"@cop ], [ lawd:variantForm "وسرمن  "@arz ], [ lawd:variantForm "وسرمت "@arz ], [ lawd:variantForm "Herakleopolis Mikra"@eng ], [ lawd:variantForm "Sethroe"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/42>
+<https://paths.uniroma.it/paths/places/42>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727144> ;
   dc:relation <http://pleiades.stoa.org/places/727144> ;
@@ -482,7 +484,7 @@
   lawd:primaryForm "Kynopolis Inferior"@en ;
   lawd:hasName [ lawd:variantForm "Κοινώ"@grc ], [ lawd:variantForm "Κουνό<πολις> κατώ"@grc ], [ lawd:variantForm "Κουνώ<πολις> κατώ"@grc ], [ lawd:variantForm "Κυνόπολις κατώ"@grc ], [ lawd:variantForm "Κυνῶν"@grc ], [ lawd:variantForm "Kynopolis Inferior"@lat ], [ lawd:variantForm "Nova Iustiniana"@lat ], [ lawd:variantForm "ⲡⲁⲛⲁⲩ"@cop ], [ lawd:variantForm "ⲡⲓⲛⲁⲩ"@cop ], [ lawd:variantForm "منية ابن خصيب"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/43>
+<https://paths.uniroma.it/paths/places/43>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727196> ;
   dc:relation <http://pleiades.stoa.org/places/727196> ;
@@ -492,7 +494,7 @@
   lawd:primaryForm "Pharbaithos"@en ;
   lawd:hasName [ lawd:variantForm "ⲫ(ⲁ)ⲣⲁⲃ(ⲁ)(ⲓ)ⲧ"@cop ], [ lawd:variantForm "ⲫⲁⲗⲃⲁⲓⲧ"@cop ], [ lawd:variantForm "قربيط"@arz ], [ lawd:variantForm "فربيط"@arz ], [ lawd:variantForm "Pharbaithos"@eng ], [ lawd:variantForm "Šdnw"@egy ], [ lawd:variantForm "Štȝn"@egy ], [ lawd:variantForm "Pr-Ḥr-mr.ty"@egy ], [ lawd:variantForm "Φάρβαιθος"@grc ], [ lawd:variantForm "Φαρβέθος"@grc ], [ lawd:variantForm "Φάρζιθος"@grc ], [ lawd:variantForm "Κάρβευθος"@grc ] .
 
-<http://paths.uniroma1.it/atlas/places/44>
+<https://paths.uniroma.it/paths/places/44>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727194> ;
   dc:relation <http://pleiades.stoa.org/places/727194> ;
@@ -502,7 +504,7 @@
   lawd:primaryForm "Phakoussa"@en ;
   lawd:hasName [ lawd:variantForm "Φάκουσα"@grc ], [ lawd:variantForm "Φακούσσαι"@grc ], [ lawd:variantForm " Phaguse"@lat ], [ lawd:variantForm "فاقوس"@arz ], [ lawd:variantForm "Phakoussa"@eng ], [ lawd:variantForm "Phakoussai"@eng ], [ lawd:variantForm "Faqus"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/45>
+<https://paths.uniroma.it/paths/places/45>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727174> ;
   dc:relation <http://pleiades.stoa.org/places/727174> ;
@@ -512,7 +514,7 @@
   lawd:primaryForm "Nikiou"@en ;
   lawd:hasName [ lawd:variantForm "Νικεύς"@grc ], [ lawd:variantForm "Νικιεός"@grc ], [ lawd:variantForm "Νικίου ἡ πόλις"@grc ], [ lawd:variantForm "Νικίους"@cop ], [ lawd:variantForm "ⲡϣⲁⲧ(ⲉ)ⲓ"@cop ], [ lawd:variantForm "ⲡϣⲁϯ"@cop ], [ lawd:variantForm "زاوية رزين"@arz ], [ lawd:variantForm " Kom Manous"@eng ], [ lawd:variantForm "Nikiou"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/46>
+<https://paths.uniroma.it/paths/places/46>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727201> ;
   dc:relation <http://pleiades.stoa.org/places/727201> ;
@@ -527,7 +529,7 @@
   lawd:primaryForm "Phragonis"@en ;
   lawd:hasName [ lawd:variantForm "Φραγόνις "@grc ], [ lawd:variantForm "Φλαβώνιας"@grc ], [ lawd:variantForm "Φραυόνις"@grc ], [ lawd:variantForm "Φραγωνέα"@grc ], [ lawd:variantForm "Φραγώνιν"@grc ], [ lawd:variantForm "Φραυύνης"@grc ], [ lawd:variantForm "Fragonis "@lat ], [ lawd:variantForm "Flauonis"@lat ], [ lawd:variantForm "ⲫⲉⲣⲟⲩⲱⲓⲛⲓ"@cop ], [ lawd:variantForm "ⲡⲁⲣⲟⲩⲟⲓⲛⲓ"@cop ], [ lawd:variantForm "ⲡⲗⲁⲕⲱⲛⲉⲟⲥ"@cop ], [ lawd:variantForm "الفر(ا)جين"@cop ], [ lawd:variantForm "Phragonis"@eng ], [ lawd:variantForm "El-Farragin"@eng ], [ lawd:variantForm "Kom el-Khawalid"@eng ], [ lawd:variantForm "Kom al-Khawaled"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/47>
+<https://paths.uniroma.it/paths/places/47>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727133> ;
   dc:relation <http://pleiades.stoa.org/places/727133> ;
@@ -537,33 +539,32 @@
   lawd:primaryForm "Kabasa"@en ;
   lawd:hasName [ lawd:variantForm "Ἀκάβασος"@grc ], [ lawd:variantForm "Γαβάσεος"@grc ], [ lawd:variantForm "Γαβάσσων"@grc ], [ lawd:variantForm "Κάβασος"@grc ], [ lawd:variantForm "Κάβασα"@grc ], [ lawd:variantForm "ϫⲁⲃⲁⲥⲉⲛ"@cop ], [ lawd:variantForm "ϫⲁⲡⲁⲥⲓ"@cop ], [ lawd:variantForm "ϫⲉⲡⲁⲥⲉⲛ"@cop ], [ lawd:variantForm "شباس الشهداء "@arz ], [ lawd:variantForm "Kabasa"@eng ], [ lawd:variantForm "Shabas el-Shuhada"@eng ], [ lawd:variantForm "Shabas esh-Shuhada"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/48>
+<https://paths.uniroma.it/paths/places/48>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727184> ;
   dc:relation <http://pleiades.stoa.org/places/727184> ;
+  skos:exactMatch <https://www.trismegistos.org/place/6258> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.936 31.158072)" ] ;
   rdfs:label "Panephysis"@en ;
   lawd:primaryForm "Panephysis"@en ;
   lawd:hasName [ lawd:variantForm "Πανέφυσις"@grc ], [ lawd:variantForm "ⲡⲁⲛⲉⲫⲉⲥⲟⲛ"@cop ], [ lawd:variantForm "ⲡⲁⲛⲉⲫⲱⲥⲓ"@cop ], [ lawd:variantForm "المنزلة"@arz ], [ lawd:variantForm "al-Manzalah"@eng ], [ lawd:variantForm "Panephysis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/49>
+<https://paths.uniroma.it/paths/places/49>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727071> ;
   dc:relation <http://pleiades.stoa.org/places/727071> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3108> ;
-  skos:exactMatch <https://www.trismegistos.org/place/725> ;
-  skos:exactMatch <https://www.trismegistos.org/place/8505> ;
+  skos:exactMatch <https://www.trismegistos.org/place/3108>, <https://www.trismegistos.org/place/8505> ;
   dc:temporal "1100/1100" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "350" ;
     periodo:latestYear "1100"
   ] ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.67065238952637 30.74840099714537)" ] ;
-  rdfs:label "Andropolis"@en ;
-  lawd:primaryForm "Andropolis"@en ;
-  lawd:hasName [ lawd:variantForm "Ἀνδρόπολις"@grc ], [ lawd:variantForm "Ἀνδρῶν πόλις"@grc ], [ lawd:variantForm "Ἀνδρῶν"@grc ], [ lawd:variantForm "ⲁⲣⲃⲁⲧ"@cop ], [ lawd:variantForm "ⲁⲣⲃⲁⲑ"@cop ], [ lawd:variantForm "ⲉⲣⲃⲁⲧ"@cop ], [ lawd:variantForm "ⲣⲁⲃⲁⲧ"@cop ], [ lawd:variantForm "خربتا"@arz ], [ lawd:variantForm "ارواط"@arz ], [ lawd:variantForm "Andropolis"@eng ], [ lawd:variantForm "Khirbeta"@eng ], [ lawd:variantForm "Kharibta"@eng ], [ lawd:variantForm "Khirbitah"@eng ] .
+  rdfs:label "Andronpolis"@en ;
+  lawd:primaryForm "Andronpolis"@en ;
+  lawd:hasName [ lawd:variantForm "Ἀνδρόπολις"@grc ], [ lawd:variantForm "Ἀνδρῶν πόλις"@grc ], [ lawd:variantForm "Ἀνδρῶν"@grc ], [ lawd:variantForm "Androca"@lat ], [ lawd:variantForm "ⲁⲣⲃⲁⲧ"@cop ], [ lawd:variantForm "ⲁⲣⲃⲁⲑ"@cop ], [ lawd:variantForm "ⲉⲣⲃⲁⲧ"@cop ], [ lawd:variantForm "ⲣⲁⲃⲁⲧ"@cop ], [ lawd:variantForm "خربتا"@arz ], [ lawd:variantForm "ارواط"@arz ], [ lawd:variantForm "Andropolis"@eng ], [ lawd:variantForm "Khirbeta"@eng ], [ lawd:variantForm "Kharibta"@eng ], [ lawd:variantForm "Khirbitah"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/50>
+<https://paths.uniroma.it/paths/places/50>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/730134> ;
   dc:relation <http://pleiades.stoa.org/places/730134> ;
@@ -573,7 +574,7 @@
   lawd:primaryForm "Onouphis Kato"@en ;
   lawd:hasName [ lawd:variantForm "Ὄνουφις κάτω"@cop ], [ lawd:variantForm "ⲡⲙⲁⲛⲟⲩϥ ϧⲉⲧ"@cop ], [ lawd:variantForm "محلة منوف  "@arz ], [ lawd:variantForm "Onouphis Kato"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/51>
+<https://paths.uniroma.it/paths/places/51>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/730134> ;
   dc:relation <http://pleiades.stoa.org/places/730134> ;
@@ -583,7 +584,7 @@
   lawd:primaryForm "Onouphis Ano"@en ;
   lawd:hasName [ lawd:variantForm "(Pr-)Inbw (?)"@cop ], [ lawd:variantForm "Ὄνουφις"@cop ], [ lawd:variantForm "ⲁⲛⲟⲩϥⲉ"@cop ], [ lawd:variantForm "ⲉⲛⲟⲩϥⲓ"@cop ], [ lawd:variantForm "ⲟⲛⲟⲩϥⲉ"@cop ], [ lawd:variantForm "ⲡⲁⲛⲟϥ ⲣⲏⲥ"@cop ], [ lawd:variantForm "محلة منوف  "@arz ], [ lawd:variantForm "Onouphis Ano"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/52>
+<https://paths.uniroma.it/paths/places/52>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727221> ;
   dc:relation <http://pleiades.stoa.org/places/727221> ;
@@ -593,7 +594,7 @@
   lawd:primaryForm "Schedia"@en ;
   lawd:hasName [ lawd:variantForm "Σχεδία"@grc ], [ lawd:variantForm "Μενελαίτης?"@grc ], [ lawd:variantForm "Schedia"@eng ], [ lawd:variantForm "Chaireon"@eng ], [ lawd:variantForm "Menelais?"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/53>
+<https://paths.uniroma.it/paths/places/53>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756518> ;
   dc:relation <http://pleiades.stoa.org/places/756518> ;
@@ -608,7 +609,7 @@
   lawd:primaryForm "Antinoupolis"@en ;
   lawd:hasName [ lawd:variantForm "Ἀντινώ"@grc ], [ lawd:variantForm "Ἀντινῶ"@grc ], [ lawd:variantForm "Ἀντινόου"@grc ], [ lawd:variantForm " Ἀντινόου πόλις"@grc ], [ lawd:variantForm "Νέοι Ἕλληνες"@grc ], [ lawd:variantForm "Antinou"@lat ], [ lawd:variantForm "Antenou"@lat ], [ lawd:variantForm "ⲁⲛⲧⲓⲛⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲁⲛϯⲓⲛⲱⲟⲩ"@cop ], [ lawd:variantForm "انصنا"@arz ], [ lawd:variantForm "الشيخ عبادة"@arz ], [ lawd:variantForm "Antinoopolis"@eng ], [ lawd:variantForm "Antinopolis"@eng ], [ lawd:variantForm "El-Sheikh Ibada"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/54>
+<https://paths.uniroma.it/paths/places/54>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/373879> ;
   dc:relation <http://pleiades.stoa.org/places/373879> ;
@@ -618,7 +619,7 @@
   lawd:primaryForm "Ptolemais"@en ;
   lawd:hasName [ lawd:variantForm "Πτολεμαΐς"@grc ], [ lawd:variantForm " Ptolemais "@lat ], [ lawd:variantForm "Ptolomais"@lat ], [ lawd:variantForm "ⲡⲥⲟⲓ"@cop ], [ lawd:variantForm "ⲡⲥⲱⲓ"@cop ], [ lawd:variantForm "ϯⲟⲓ"@cop ], [ lawd:variantForm "ϯⲱⲓ"@cop ], [ lawd:variantForm "ابصاي "@arz ], [ lawd:variantForm "ابساي "@arz ], [ lawd:variantForm "ابشاي"@arz ], [ lawd:variantForm "Ptolemais"@eng ], [ lawd:variantForm "Tolmeita"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/55>
+<https://paths.uniroma.it/paths/places/55>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/785975> ;
   dc:relation <http://pleiades.stoa.org/places/785975> ;
@@ -628,7 +629,7 @@
   lawd:primaryForm "Apollonopolis Parva"@en ;
   lawd:hasName [ lawd:variantForm "Gs"@egy ], [ lawd:variantForm "Gsȝ"@egy ], [ lawd:variantForm "Gsy"@egy ], [ lawd:variantForm "Διοκλητιανούπολις"@grc ], [ lawd:variantForm "Ἀπόλλωνος Πόλις Μικρά"@grc ], [ lawd:variantForm "Διοκλητιανοῦ Πόλις"@grc ], [ lawd:variantForm "Apollonopolis Parva"@lat ], [ lawd:variantForm "Diocletianopolis"@lat ], [ lawd:variantForm "ⲕⲟⲟⲥ ⲃⲣⲃⲉⲣ"@cop ], [ lawd:variantForm "ⲕⲟⲥ"@cop ], [ lawd:variantForm "ⲕⲱⲥ"@cop ], [ lawd:variantForm "ⲃⲁⲣⲏⲓⲣ"@cop ], [ lawd:variantForm "ⲃⲓⲣⲃⲓⲣ"@cop ], [ lawd:variantForm "قوص"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/56>
+<https://paths.uniroma.it/paths/places/56>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756588> ;
   dc:relation <http://pleiades.stoa.org/places/756588> ;
@@ -638,7 +639,7 @@
   lawd:primaryForm "Koussai"@en ;
   lawd:hasName [ lawd:variantForm "Qys"@egy ], [ lawd:variantForm "Qsỉȝ"@egy ], [ lawd:variantForm "Qs"@egy ], [ lawd:variantForm "Ks"@egy ], [ lawd:variantForm "Ἀκούασα"@grc ], [ lawd:variantForm "Κοῦσαι"@grc ], [ lawd:variantForm "Κοῦσσαι"@grc ], [ lawd:variantForm "Κώς"@grc ], [ lawd:variantForm "Χούσαι"@grc ], [ lawd:variantForm "ⲕⲱⲥ"@cop ], [ lawd:variantForm "ⲕⲱⲥⲕⲁⲙ"@cop ], [ lawd:variantForm "ⲕⲱⲥⲕⲟⲱ"@cop ], [ lawd:variantForm "ⲕⲟⲥⲅⲁⲙ"@cop ], [ lawd:variantForm "ⲕⲟⲥⲕⲁⲙ"@cop ], [ lawd:variantForm "القوصية"@arz ], [ lawd:variantForm "Koussai"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/57>
+<https://paths.uniroma.it/paths/places/57>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736973> ;
   dc:relation <http://pleiades.stoa.org/places/736973> ;
@@ -648,50 +649,51 @@
   lawd:primaryForm "Neiloupolis"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Ḥʿpy"@egy ], [ lawd:variantForm "Νειλούπολις"@grc ], [ lawd:variantForm "تل الرصاص"@arz ], [ lawd:variantForm "Neiloupolis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/58>
+<https://paths.uniroma.it/paths/places/58>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786059> ;
   dc:relation <http://pleiades.stoa.org/places/786059> ;
   skos:exactMatch <https://www.trismegistos.org/place/1227> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.545454175 25.273504425)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.55649131 25.29355461)" ] ;
   rdfs:label "Esna"@en ;
   lawd:primaryForm "Esna"@en ;
   lawd:hasName [ lawd:variantForm "Ỉwny.t"@egy ], [ lawd:variantForm "Sn.t"@egy ], [ lawd:variantForm "Tȝ-Sn.t"@egy ], [ lawd:variantForm "Snỉ a"@egy ], [ lawd:variantForm "Sn"@egy ], [ lawd:variantForm "Λάττων"@grc ], [ lawd:variantForm "Λατώ"@grc ], [ lawd:variantForm "ⲥⲛⲏ"@cop ], [ lawd:variantForm "ⲗⲁⲧⲱⲛ"@cop ], [ lawd:variantForm "ⲥⲛⲉ"@cop ], [ lawd:variantForm "ⲥⲛⲙ"@cop ], [ lawd:variantForm "إسنا "@arz ], [ lawd:variantForm "Latopolis"@eng ], [ lawd:variantForm "Esna"@eng ], [ lawd:variantForm "Isna"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/59>
+<https://paths.uniroma.it/paths/places/59>
   a lawd:Place ;
   rdfs:label "Tsine"@en ;
   lawd:primaryForm "Tsine"@en ;
   lawd:hasName [ lawd:variantForm "ⲧⲥⲓ ⲛϩⲓⲛⲏ[...] ?"@cop ], [ lawd:variantForm "Tsine"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/60>
+<https://paths.uniroma.it/paths/places/60>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/759689> ;
   dc:relation <http://pleiades.stoa.org/places/759689> ;
+  skos:exactMatch <https://www.trismegistos.org/place/7741> ;
   rdfs:label "Tse"@en ;
   lawd:primaryForm "Tse"@en ;
-  lawd:hasName [ lawd:variantForm "ⲧⲥⲏ"@cop ], [ lawd:variantForm "ⲧⲥⲩ"@cop ], [ lawd:variantForm "Τασῆ"@grc ], [ lawd:variantForm " إطسا"@arz ], [ lawd:variantForm "تسا "@arz ], [ lawd:variantForm "Tse"@eng ] .
+  lawd:hasName [ lawd:variantForm "Τασῆ"@grc ], [ lawd:variantForm "ⲧⲥⲏ"@cop ], [ lawd:variantForm "ⲧⲥⲩ"@cop ], [ lawd:variantForm " إطسا"@arz ], [ lawd:variantForm "تسا "@arz ], [ lawd:variantForm "Tse"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/61>
+<https://paths.uniroma.it/paths/places/61>
   a lawd:Place ;
   rdfs:label "Thbew"@en ;
   lawd:primaryForm "Thbew"@en ;
   lawd:hasName [ lawd:variantForm "Θβεῦ"@grc ], [ lawd:variantForm "Τηβεῦ"@grc ], [ lawd:variantForm "Τηβευε (sic)"@grc ], [ lawd:variantForm "ⲧⲃⲏⲩⲉ"@cop ], [ lawd:variantForm "ⲧⲃⲩⲉ"@cop ], [ lawd:variantForm "ⲑⲃⲏⲟⲩ"@cop ], [ lawd:variantForm "ⲑⲃⲟⲩⲉ"@cop ], [ lawd:variantForm "إتواوى"@arz ], [ lawd:variantForm "Thbew"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/62>
+<https://paths.uniroma.it/paths/places/62>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/5796> ;
   rdfs:label "Monchosis Thmoushons"@en ;
   lawd:primaryForm "Monchosis Thmoushons"@en ;
   lawd:hasName [ lawd:variantForm "Μουνχοῦσις"@grc ], [ lawd:variantForm "Μονχόση"@grc ], [ lawd:variantForm "ⲧⲙⲟⲩϣⲟⲛⲥ"@cop ], [ lawd:variantForm "ⲑⲙⲟⲩϣⲟⲛⲥ"@cop ], [ lawd:variantForm "اتموشيس"@arz ], [ lawd:variantForm "بحانس"@arz ], [ lawd:variantForm "منحوسيس"@arz ], [ lawd:variantForm "Monchosis Thmoushons"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/63>
+<https://paths.uniroma.it/paths/places/63>
   a lawd:Place ;
   rdfs:label "Pesterposen"@en ;
   lawd:primaryForm "Pesterposen"@en ;
   lawd:hasName [ lawd:variantForm "Pesterposen"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/64>
+<https://paths.uniroma.it/paths/places/64>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756545> ;
   dc:relation <http://pleiades.stoa.org/places/756545> ;
@@ -701,13 +703,13 @@
   lawd:primaryForm "Chenoboskion"@en ;
   lawd:hasName [ lawd:variantForm "Šn.w-n-St"@egy ], [ lawd:variantForm "Šny-n-Stḫ"@egy ], [ lawd:variantForm "Nȝ-šnỉ?"@egy ], [ lawd:variantForm "Χηνοβόσκιον"@grc ], [ lawd:variantForm "Χηνοβοσκία"@grc ], [ lawd:variantForm "ϣⲉⲛⲉⲥⲏⲧ"@cop ], [ lawd:variantForm "ϣⲛⲉⲥⲏⲧ"@cop ], [ lawd:variantForm "القصر والصيد"@arz ], [ lawd:variantForm "Chenoboskion"@eng ], [ lawd:variantForm "Sheneset"@eng ], [ lawd:variantForm "Seni-n-Setech"@eng ], [ lawd:variantForm "N-sheni"@eng ], [ lawd:variantForm "Qasr el-Saiyad"@eng ], [ lawd:variantForm "el-Qasr, el-Saijad"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/65>
+<https://paths.uniroma.it/paths/places/65>
   a lawd:Place ;
   rdfs:label "Bekhne"@en ;
   lawd:primaryForm "Bekhne"@en ;
   lawd:hasName [ lawd:variantForm "Bekhne"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/66>
+<https://paths.uniroma.it/paths/places/66>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786125> ;
   dc:relation <http://pleiades.stoa.org/places/786125> ;
@@ -717,7 +719,7 @@
   lawd:primaryForm "Tabennisis"@en ;
   lawd:hasName [ lawd:variantForm "Ταβέννησις"@grc ], [ lawd:variantForm "Ταβένησις"@grc ], [ lawd:variantForm "Ταβένησος"@grc ], [ lawd:variantForm "ⲧⲁⲃⲉⲛⲏⲥⲉ"@cop ], [ lawd:variantForm "ⲧⲁⲃⲉⲛⲛⲏⲥⲓ"@cop ], [ lawd:variantForm "ⲧⲁⲃⲉⲛⲛⲏⲥⲏ"@cop ], [ lawd:variantForm "طبانسين"@arz ], [ lawd:variantForm "Tabennisis"@eng ], [ lawd:variantForm "Tabennese "@eng ], [ lawd:variantForm "*Tabennisis"@eng ], [ lawd:variantForm "Tafnis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/67>
+<https://paths.uniroma.it/paths/places/67>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786047> ;
   dc:relation <http://pleiades.stoa.org/places/786047> ;
@@ -727,42 +729,43 @@
   lawd:primaryForm "Maximianoupolis"@en ;
   lawd:hasName [ lawd:variantForm "Καινή"@grc ], [ lawd:variantForm "Μαξιμιανοῦ Πόλις"@grc ], [ lawd:variantForm "Μαξιμιανούπολις"@grc ], [ lawd:variantForm "Maximianoupolis"@lat ], [ lawd:variantForm "قنا"@arz ], [ lawd:variantForm "قنة "@arz ], [ lawd:variantForm "Qena"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/68>
+<https://paths.uniroma.it/paths/places/68>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756540> ;
   dc:relation <http://pleiades.stoa.org/places/756540> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.3689775 26.0715495)" ] ;
+  skos:exactMatch <https://www.trismegistos.org/place/3843> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.4029556 26.1125346)" ] ;
   rdfs:label "Pbou"@en ;
   lawd:primaryForm "Pbou"@en ;
-  lawd:hasName [ lawd:variantForm "Βαῦ"@grc ], [ lawd:variantForm "Παβαύ"@grc ], [ lawd:variantForm "Παβού"@grc ], [ lawd:variantForm "Παβώ"@grc ], [ lawd:variantForm "Πβόου"@grc ], [ lawd:variantForm "Πιβοῦ"@grc ], [ lawd:variantForm "ⲡⲃⲁⲩ"@cop ], [ lawd:variantForm "ⲡⲃⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲡⲃⲱⲟⲩ"@cop ], [ lawd:variantForm "ⲫⲃⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲫⲃⲱⲟⲩ"@cop ], [ lawd:variantForm "فاو"@arz ], [ lawd:variantForm "Pbou"@eng ] .
+  lawd:hasName [ lawd:variantForm "Βαῦ"@grc ], [ lawd:variantForm "Παβαύ"@grc ], [ lawd:variantForm "Παβού"@grc ], [ lawd:variantForm "Παβώ"@grc ], [ lawd:variantForm "Πβόου"@grc ], [ lawd:variantForm "Πιβοῦ"@grc ], [ lawd:variantForm "Βοπος"@grc ], [ lawd:variantForm "ⲡⲃⲁⲩ"@cop ], [ lawd:variantForm "ⲡⲃⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲡⲃⲱⲟⲩ"@cop ], [ lawd:variantForm "ⲫⲃⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲫⲃⲱⲟⲩ"@cop ], [ lawd:variantForm "فاو"@arz ], [ lawd:variantForm "Pbou"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/69>
+<https://paths.uniroma.it/paths/places/69>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/5744> ;
   rdfs:label "Metanoia"@en ;
   lawd:primaryForm "Metanoia"@en ;
   lawd:hasName [ lawd:variantForm "Κάνωβος"@grc ], [ lawd:variantForm "Κάνωπος"@grc ], [ lawd:variantForm "Μετανοίας Μοναστήριον"@grc ], [ lawd:variantForm "ⲡⲕⲁⲛⲱⲡⲟⲥ"@cop ], [ lawd:variantForm "ⲡⲕⲁⲛⲱⲡⲟⲥ"@cop ], [ lawd:variantForm "ⲡⲕⲱⲛⲟⲡⲟⲥ"@cop ], [ lawd:variantForm "بوقير"@arz ], [ lawd:variantForm "قانوبوس"@arz ], [ lawd:variantForm "Metanoia"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/70>
+<https://paths.uniroma.it/paths/places/70>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786036> ;
   dc:relation <http://pleiades.stoa.org/places/786036> ;
   skos:exactMatch <https://www.trismegistos.org/place/812> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.508054 25.550269)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.543563842773445 25.622335085000202)" ] ;
   rdfs:label "Hermonthis"@en ;
   lawd:primaryForm "Hermonthis"@en ;
   lawd:hasName [ lawd:variantForm "Ỉwny"@egy ], [ lawd:variantForm "ⲉⲣⲙⲟⲛⲧ"@cop ], [ lawd:variantForm "Armant"@eng ], [ lawd:variantForm "Hermonthis"@eng ], [ lawd:variantForm "ارمنت "@arz ], [ lawd:variantForm "ارمند"@arz ], [ lawd:variantForm "ⲉⲣⲙⲉⲛⲧⲓ"@cop ], [ lawd:variantForm "(ⲉ)ⲣⲙⲁⲛⲧ"@cop ], [ lawd:variantForm "ⲁϩⲣⲏⲙⲛⲧ"@cop ], [ lawd:variantForm "ⲁⲣⲙⲟⲛ"@cop ], [ lawd:variantForm "ⲣⲙⲟⲛⲧ"@cop ], [ lawd:variantForm "Ἑρμῶνθις"@grc ], [ lawd:variantForm "Ỉwn"@egy ], [ lawd:variantForm "Ἑρμοῦθις"@grc ], [ lawd:variantForm "Ἑρμόνθις"@grc ], [ lawd:variantForm "Pr-Mnṱ"@egy ], [ lawd:variantForm "Pr-Mnṯw"@egy ], [ lawd:variantForm "Ỉwn-Mnṱ"@egy ], [ lawd:variantForm "Ỉwnw-Mnṯw"@egy ], [ lawd:variantForm "Ỉwnw-Šmʿ"@egy ], [ lawd:variantForm "Armand"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/71>
+<https://paths.uniroma.it/paths/places/71>
   a lawd:Place ;
   rdfs:label "Pispir"@en ;
   lawd:primaryForm "Pispir"@en ;
   lawd:hasName [ lawd:variantForm "Πίσπιρ"@grc ], [ lawd:variantForm "Πίρπηρ"@grc ], [ lawd:variantForm "Πίσπις"@grc ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲉⲧϩⲓⲃⲟⲗ"@cop ], [ lawd:variantForm "دير الميمون"@arz ], [ lawd:variantForm "Pispir"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/72>
+<https://paths.uniroma.it/paths/places/72>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786123> ;
-  dc:relation <http://pleiades.stoa.org/places/786123> ;
+  dc:spatial <http://pleiades.stoa.org/places/786106> ;
+  dc:relation <http://pleiades.stoa.org/places/786106> ;
   skos:exactMatch <https://www.trismegistos.org/place/2207> ;
   dc:temporal "1300/1300" ;
   time:hasDateTimeDescription [
@@ -774,17 +777,17 @@
   lawd:primaryForm "Deir Anba Hadra / St. Simeon"@en ;
   lawd:hasName [ lawd:variantForm "Ἀβᾶ Ἁτρῆς (Gen.)"@grc ], [ lawd:variantForm "دير الأنبا هدرا"@arz ], [ lawd:variantForm "Deir Anba Hatre"@eng ], [ lawd:variantForm "Deir Anba Hatre"@eng ], [ lawd:variantForm "Monastery of St. Simeon"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/73>
+<https://paths.uniroma.it/paths/places/73>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756663> ;
   dc:relation <http://pleiades.stoa.org/places/756663> ;
   skos:exactMatch <https://www.trismegistos.org/place/10454> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.72925 27.532343)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.7083435 27.5511327)" ] ;
   rdfs:label "Bawit"@en ;
   lawd:primaryForm "Bawit"@en ;
   lawd:hasName [ lawd:variantForm "باويط"@arz ], [ lawd:variantForm "Ἀββᾶ Ἀπόλλωτος Μοναστήριον "@grc ], [ lawd:variantForm " μοναστήρ(ιον) ἁγίου Ἀββᾶ Ἀπόλλωτ(ος)"@grc ], [ lawd:variantForm "ⲡⲁⲩⲏⲧ"@cop ], [ lawd:variantForm "ⲧⲟⲡⲟⲥ ⲛⲁⲡⲁ ⲁⲡⲟⲗⲗⲱ"@cop ], [ lawd:variantForm "ⲡⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ ⲛⲫⲁⲅⲓⲟⲥ"@cop ], [ lawd:variantForm " ⲛⲡϩⲁⲅⲓⲟⲥ ⲁⲡⲁ ⲁⲡⲟⲗⲗⲱ"@cop ], [ lawd:variantForm "ⲡⲁⲩⲏⲧ"@cop ], [ lawd:variantForm "ⲡⲟⲩⲁⲓⲧ "@cop ], [ lawd:variantForm "Titkois "@eng ], [ lawd:variantForm "Bawit"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/74>
+<https://paths.uniroma.it/paths/places/74>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736975> ;
   dc:relation <http://pleiades.stoa.org/places/736975> ;
@@ -794,7 +797,7 @@
   lawd:primaryForm "Naqlun"@en ;
   lawd:hasName [ lawd:variantForm "Ὄρος Κελλῶν"@grc ], [ lawd:variantForm "Νεκλόνιον"@grc ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲛϯⲟⲟⲩⲕⲟϩ"@cop ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲛⲧⲉⲧⲕⲟⲟϩ"@cop ], [ lawd:variantForm "دير النقلون"@arz ], [ lawd:variantForm "Neklone"@eng ], [ lawd:variantForm "Naqlun"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/75>
+<https://paths.uniroma.it/paths/places/75>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736963> ;
   dc:relation <http://pleiades.stoa.org/places/736963> ;
@@ -809,7 +812,7 @@
   lawd:primaryForm "Monastery of Apa Jeremiah"@en ;
   lawd:hasName [ lawd:variantForm "Monastery of Apa Jeremiah"@eng ], [ lawd:variantForm "Saqqara"@eng ], [ lawd:variantForm "Ἁγίου Ἰερημίου Μοναστήριον"@grc ], [ lawd:variantForm "ⲁⲡⲁ ⲓⲉⲣⲏⲙⲓⲁⲥ"@cop ], [ lawd:variantForm "ⲁⲡⲁ ⲓⲉⲣⲏⲙⲓⲁⲥ"@cop ] .
 
-<http://paths.uniroma1.it/atlas/places/76>
+<https://paths.uniroma.it/paths/places/76>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727232> ;
   dc:relation <http://pleiades.stoa.org/places/727232> ;
@@ -824,25 +827,27 @@
   lawd:primaryForm "Sketis"@en ;
   lawd:hasName [ lawd:variantForm "Sḫ.t"@egy ], [ lawd:variantForm "Σκιαθίς"@grc ], [ lawd:variantForm "Σκήτις"@grc ], [ lawd:variantForm "Σκήτη"@grc ], [ lawd:variantForm "وادي النطرون"@arz ], [ lawd:variantForm "Sketis"@eng ], [ lawd:variantForm "Skiathis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/77>
+<https://paths.uniroma.it/paths/places/77>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727177> ;
   dc:relation <http://pleiades.stoa.org/places/727177> ;
+  skos:exactMatch <https://www.trismegistos.org/place/1473> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.25 30.75)" ] ;
   rdfs:label "Nitria"@en ;
   lawd:primaryForm "Nitria"@en ;
-  lawd:hasName [ lawd:variantForm "Τὸ ὄρος τῆς Νιτρίας"@grc ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲙⲡⲓϩⲟⲥⲙ"@cop ], [ lawd:variantForm "ⲡⲧⲱⲟⲩ ⲙⲡϩⲟⲥⲙ"@cop ], [ lawd:variantForm "ⲙⲡⲉⲣⲛⲟⲩϫ"@cop ], [ lawd:variantForm "جبل برنوج"@arz ], [ lawd:variantForm "Nitria"@eng ] .
+  lawd:hasName [ lawd:variantForm "Τὸ ὄρος τῆς Νιτρίας"@grc ], [ lawd:variantForm "Νιτρίαι"@grc ], [ lawd:variantForm "Nitria"@lat ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲙⲡⲓϩⲟⲥⲙ"@cop ], [ lawd:variantForm "ⲡⲧⲱⲟⲩ ⲙⲡϩⲟⲥⲙ"@cop ], [ lawd:variantForm "ⲙⲡⲉⲣⲛⲟⲩϫ"@cop ], [ lawd:variantForm "جبل برنوج"@arz ], [ lawd:variantForm "Nitria"@eng ], [ lawd:variantForm "Tell el-Barnugi"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/78>
+<https://paths.uniroma.it/paths/places/78>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727141> ;
   dc:relation <http://pleiades.stoa.org/places/727141> ;
+  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.368868 30.776003)" ] ;
   rdfs:label "Kellia"@en ;
   lawd:primaryForm "Kellia"@en ;
   lawd:hasName [ lawd:variantForm "Τὰ Κελλία"@grc ], [ lawd:variantForm "ⲡⲧⲟⲱⲩ ⲛⲣⲓ"@cop ], [ lawd:variantForm "قلالي"@arz ], [ lawd:variantForm "جبل منى"@arz ], [ lawd:variantForm "Kellia"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/79>
+<https://paths.uniroma.it/paths/places/79>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/746800> ;
   dc:relation <http://pleiades.stoa.org/places/746800> ;
@@ -852,7 +857,7 @@
   lawd:primaryForm "Monastery of St. Paul"@en ;
   lawd:hasName [ lawd:variantForm "Monastery of St. Paul"@eng ], [ lawd:variantForm "Qubba"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/80>
+<https://paths.uniroma.it/paths/places/80>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/3563> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.35 28.923889)" ] ;
@@ -860,7 +865,7 @@
   lawd:primaryForm "Monastery St. Antony"@en ;
   lawd:hasName [ lawd:variantForm "Τὸ ὄρος τὸ ἔξω"@grc ], [ lawd:variantForm "τό ὄρος τοῦ μεγάλου Ἀντωνίου"@grc ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲉⲧϩⲓϩⲟⲩⲛ"@cop ], [ lawd:variantForm "ⲛⲁⲡⲁ"@cop ], [ lawd:variantForm "دير انبا انطونيوس"@arz ], [ lawd:variantForm "انطونيوس جبل"@arz ], [ lawd:variantForm "Monastery St. Antony"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/82>
+<https://paths.uniroma.it/paths/places/82>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -875,7 +880,7 @@
   lawd:primaryForm "Western Thebes MMA 1152"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes MMA 1152"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/83>
+<https://paths.uniroma.it/paths/places/83>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2803> ;
   dc:temporal "500/500" ;
@@ -888,7 +893,7 @@
   lawd:primaryForm "Nag Hammadi"@en ;
   lawd:hasName [ lawd:variantForm "نجع حمادي"@arz ], [ lawd:variantForm "Nag Hammadi"@eng ], [ lawd:variantForm "Gebel el-Tarif"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/84>
+<https://paths.uniroma.it/paths/places/84>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/785986> ;
   dc:relation <http://pleiades.stoa.org/places/785986> ;
@@ -898,14 +903,14 @@
   lawd:primaryForm "Berenike (Upper Egypt)"@en ;
   lawd:hasName [ lawd:variantForm "Βερενίκη"@grc ], [ lawd:variantForm "ⲃⲉⲣ<ⲉ>ⲛⲓⲕⲉ"@cop ], [ lawd:variantForm "ⲃⲉⲣ(ⲉ)ⲛⲓⲕⲏ"@cop ], [ lawd:variantForm "بندر الكبير"@arz ], [ lawd:variantForm "برنيس"@arz ], [ lawd:variantForm "Bender el-Kebir"@eng ], [ lawd:variantForm "Berenike"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/85>
+<https://paths.uniroma.it/paths/places/85>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/5082> ;
   rdfs:label "Farshut"@en ;
   lawd:primaryForm "Farshut"@en ;
   lawd:hasName [ lawd:variantForm "Θεβυρχυθ?"@grc ], [ lawd:variantForm "ⲃⲉⲣϭⲟⲟⲩⲧ"@cop ], [ lawd:variantForm "ⲧⲃⲉⲣϭⲱⲧ"@cop ], [ lawd:variantForm "فرشوط"@arz ], [ lawd:variantForm "Farshut"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/86>
+<https://paths.uniroma.it/paths/places/86>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756547> ;
   dc:relation <http://pleiades.stoa.org/places/756547> ;
@@ -914,7 +919,7 @@
   lawd:primaryForm "Deir el-Qaddis Abu Bifam"@en ;
   lawd:hasName [ lawd:variantForm "ⲁⲡⲁ ⲫⲟⲓⲃⲁⲙⲙⲟⲛⲱⲛ"@cop ], [ lawd:variantForm "ديرالقديس ابو بفام"@arz ], [ lawd:variantForm "Dayr al-Qaddis Abu Bifam"@eng ], [ lawd:variantForm "Apa Phoibamon"@eng ], [ lawd:variantForm "Deir el-Qaddis Abu Bifam"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/87>
+<https://paths.uniroma.it/paths/places/87>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -929,7 +934,7 @@
   lawd:primaryForm "Medinet Habu"@en ;
   lawd:hasName [ lawd:variantForm "Μεμνοεῖα"@grc ], [ lawd:variantForm "ⲧϫⲏⲏⲙⲉ"@cop ], [ lawd:variantForm "Medinet Habu"@eng ], [ lawd:variantForm " جبل شامة"@arz ], [ lawd:variantForm "مدينة هابو"@arz ], [ lawd:variantForm "ϭⲏⲙⲓ"@cop ], [ lawd:variantForm "ϫⲏⲙⲏ"@cop ], [ lawd:variantForm "ϫⲏⲙⲉ"@cop ], [ lawd:variantForm "ϫⲏⲏⲙⲉ"@cop ], [ lawd:variantForm "ϫⲉⲙⲏ"@cop ], [ lawd:variantForm "ϫⲉⲙⲉ"@cop ], [ lawd:variantForm "ϫⲉⲙⲁ"@cop ], [ lawd:variantForm "ⲧϫⲉⲙⲉ"@cop ], [ lawd:variantForm "Μεμνονία"@grc ], [ lawd:variantForm "ⲧϣⲏⲙⲉ"@cop ], [ lawd:variantForm "ⲕⲏⲙⲉ"@cop ], [ lawd:variantForm "ⲕⲉⲓⲙⲉ"@cop ], [ lawd:variantForm "Κάστρον Μεμνονίωνος"@grc ], [ lawd:variantForm "Κάστρον Μεμνώνου/Μεμνονίωνος"@grc ], [ lawd:variantForm "Κάστρον Μεμνίων"@grc ], [ lawd:variantForm "Κάστρον Μεμνονίου"@grc ], [ lawd:variantForm "Κάστρον Μεμνωνίων"@grc ], [ lawd:variantForm "Κάστρον Μεμνωνίου"@grc ], [ lawd:variantForm "Μεμνονίων"@grc ], [ lawd:variantForm "Jeme"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/88>
+<https://paths.uniroma.it/paths/places/88>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786088> ;
   dc:relation <http://pleiades.stoa.org/places/786088> ;
@@ -939,7 +944,7 @@
   lawd:primaryForm "Petemout"@en ;
   lawd:hasName [ lawd:variantForm "Mȝdw "@egy ], [ lawd:variantForm "Mȝd "@egy ], [ lawd:variantForm "Mȝt "@egy ], [ lawd:variantForm "Mȝtn "@egy ], [ lawd:variantForm "Mtn"@egy ], [ lawd:variantForm "Pr-Mnṯw-nb-Mȝtn"@egy ], [ lawd:variantForm "τὰ Κεραμεῖα"@grc ], [ lawd:variantForm " Ceramice"@lat ], [ lawd:variantForm "ⲡⲉⲧⲉⲙⲟⲩⲧ"@cop ], [ lawd:variantForm "نجع المدامود"@arz ], [ lawd:variantForm "Petemout"@eng ], [ lawd:variantForm "Kerameia "@eng ], [ lawd:variantForm "Madou "@eng ], [ lawd:variantForm "Nag’ el-Madamud"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/89>
+<https://paths.uniroma.it/paths/places/89>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/687993> ;
   dc:relation <http://pleiades.stoa.org/places/687993> ;
@@ -949,7 +954,7 @@
   lawd:primaryForm "Ostrakine"@en ;
   lawd:hasName [ lawd:variantForm "Ὀστρακίνη"@cop ], [ lawd:variantForm "ⲟⲥⲧⲣⲁⲕⲓⲛⲏ"@cop ], [ lawd:variantForm "ⲧⲣⲁⲕⲓⲛⲏ"@cop ], [ lawd:variantForm "ⲟⲩⲥⲧⲣⲁⲧⲣⲁⲕⲓⲛⲏ"@cop ], [ lawd:variantForm "El-Felusiyat"@eng ], [ lawd:variantForm "Ostrakine"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/90>
+<https://paths.uniroma.it/paths/places/90>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2994> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.716666 25.9)" ] ;
@@ -957,11 +962,11 @@
   lawd:primaryForm "Naqada"@en ;
   lawd:hasName [ lawd:variantForm "Ὄμβοι"@grc ], [ lawd:variantForm "ⲛⲃⲱ"@cop ], [ lawd:variantForm "ⲛⲃⲱⲩ"@cop ], [ lawd:variantForm "نقادة"@arz ], [ lawd:variantForm "Naqada"@eng ], [ lawd:variantForm "Nagada"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/91>
+<https://paths.uniroma.it/paths/places/91>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/756676> ;
-  dc:relation <http://pleiades.stoa.org/places/756676> ;
-  skos:exactMatch <https://www.trismegistos.org/place/2843> ;
+  dc:spatial <http://pleiades.stoa.org/places/759543> ;
+  dc:relation <http://pleiades.stoa.org/places/759543> ;
+  skos:exactMatch <https://www.trismegistos.org/place/12542> ;
   dc:temporal "715/715" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "551" ;
@@ -972,7 +977,7 @@
   lawd:primaryForm "Monastery of St. Thomas at Wadi Sarga"@en ;
   lawd:hasName [ lawd:variantForm "وادي سرجة"@arz ], [ lawd:variantForm "Monastery St. Thomas at Wadi Sarga"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/92>
+<https://paths.uniroma.it/paths/places/92>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756520> ;
   dc:relation <http://pleiades.stoa.org/places/756520> ;
@@ -982,12 +987,12 @@
     periodo:earliestYear "651" ;
     periodo:latestYear "750"
   ] ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(31.247166 27.020147)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(31.233417391777042 27.032623439070143)" ] ;
   rdfs:label "Deir el-Bala’izah"@en ;
   lawd:primaryForm "Deir el-Bala’izah"@en ;
   lawd:hasName [ lawd:variantForm "Ἀββᾶ Ἀπολλῶ Μοναστήριον"@grc ], [ lawd:variantForm "Ἀββᾶ Πουλει Πἐτρα"@grc ], [ lawd:variantForm "μοναστήριον Ἀββ(ᾶ) Ἀπόλλω(νος)"@grc ], [ lawd:variantForm "πέτρα Ἀββᾶ Πούλε(ι)"@grc ], [ lawd:variantForm "ⲡⲙⲟⲛⲁⲥⲧⲏ(ⲣⲓⲟⲛ) ⲛⲁⲡⲁ ⲁⲡⲟⲗⲗⲱ"@cop ], [ lawd:variantForm "ⲡϩⲁⲅⲓⲟⲥ ⲁⲡⲁ ⲁⲡⲟⲗⲗⲱ"@cop ], [ lawd:variantForm "ⲧⲡⲉⲧⲣⲁ ⲁⲡⲁ ⲁⲡⲟⲗⲗⲱ"@cop ], [ lawd:variantForm "ⲁⲡⲁ <ⲁ>ⲡⲟⲗⲉ/ⲁⲡⲟⲩⲗⲱ"@cop ], [ lawd:variantForm "Deir el-Bala’izah"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/93>
+<https://paths.uniroma.it/paths/places/93>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/3122> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.816667 27.444444)" ] ;
@@ -995,14 +1000,17 @@
   lawd:primaryForm "Deir el-Moharraq"@en ;
   lawd:hasName [ lawd:variantForm "ديرالمحرق"@arz ], [ lawd:variantForm "Qusqam "@eng ], [ lawd:variantForm "Deir el-Moharraq"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/94>
+<https://paths.uniroma.it/paths/places/94>
   a lawd:Place ;
+  dc:spatial <http://pleiades.stoa.org/places/756593> ;
+  dc:relation <http://pleiades.stoa.org/places/756593> ;
+  skos:exactMatch <https://www.trismegistos.org/place/1271> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.172684803605087 27.162322814871555)" ] ;
   rdfs:label "Gebel Assiut el-Gharbi"@en ;
   lawd:primaryForm "Gebel Assiut el-Gharbi"@en ;
-  lawd:hasName [ lawd:variantForm "جبل اسيوط الغربي "@arz ], [ lawd:variantForm "Gebel Assiut el-Gharbi"@eng ] .
+  lawd:hasName [ lawd:variantForm "جبل اسيوط الغربي "@arz ], [ lawd:variantForm "Gebel Assiut el-Gharbi"@eng ], [ lawd:variantForm "Gebel Asyut el-Gharbi"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/95>
+<https://paths.uniroma.it/paths/places/95>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/4982> ;
   dc:temporal "1100/1100" ;
@@ -1015,7 +1023,7 @@
   lawd:primaryForm "Hagr Edfu"@en ;
   lawd:hasName [ lawd:variantForm "Hagr Edfu"@eng ], [ lawd:variantForm "ⲡⲧⲟⲟυ ⲛ ⲧⲃⲱ"@cop ], [ lawd:variantForm "حجر إدفو"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/96>
+<https://paths.uniroma.it/paths/places/96>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786089> ;
   dc:relation <http://pleiades.stoa.org/places/786089> ;
@@ -1025,17 +1033,17 @@
   lawd:primaryForm "Philae"@en ;
   lawd:hasName [ lawd:variantForm "Pȝ-lq"@egy ], [ lawd:variantForm "Pr-rq"@egy ], [ lawd:variantForm "Ỉw-ȝḫ-mnw"@egy ], [ lawd:variantForm "Pȝ-ỉȝ.t-rq"@egy ], [ lawd:variantForm "Pȝ-ỉw-rk"@egy ], [ lawd:variantForm "Pr-ỉw-rq"@egy ], [ lawd:variantForm "Pr-ỉy-rq"@egy ], [ lawd:variantForm "Pr-ỉy-lq"@egy ], [ lawd:variantForm "Pȝ-ỉy-lq"@egy ], [ lawd:variantForm "Φίλη"@grc ], [ lawd:variantForm "Φύλων"@grc ], [ lawd:variantForm "Φίλαι"@grc ], [ lawd:variantForm " Philae"@lat ], [ lawd:variantForm "Filae"@lat ], [ lawd:variantForm "ⲡⲓⲗⲁⲕ"@cop ], [ lawd:variantForm "ⲡⲓⲗⲁⲭ"@cop ], [ lawd:variantForm "ⲡ(ⲉ)ⲓⲗⲁⲕϩ"@cop ], [ lawd:variantForm "ⲡⲉⲗⲏⲕ"@cop ], [ lawd:variantForm "ⲡⲉⲗⲁⲕ"@cop ], [ lawd:variantForm "ⲡⲉⲓⲗⲁⲕ"@cop ], [ lawd:variantForm "بولاق "@arz ], [ lawd:variantForm "بلاق"@arz ], [ lawd:variantForm "بلق"@arz ], [ lawd:variantForm "Philae"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/97>
+<https://paths.uniroma.it/paths/places/97>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786056> ;
   dc:relation <http://pleiades.stoa.org/places/786056> ;
   skos:exactMatch <https://www.trismegistos.org/place/2772> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.858861 24.196115)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.864404320716865 24.180182309792723)" ] ;
   rdfs:label "Deir el-Kubbaniya"@en ;
   lawd:primaryForm "Deir el-Kubbaniya"@en ;
   lawd:hasName [ lawd:variantForm "Ἰσιείου ὄρος"@grc ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲛ ⲏⲥⲁⲓⲁⲱ"@cop ], [ lawd:variantForm "دير الشيحة"@arz ], [ lawd:variantForm "Deir el-Kubbaniya"@eng ], [ lawd:variantForm "Deir el-Shichah"@eng ], [ lawd:variantForm "Ἰσιείου ὄρος"@grc ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲛ ⲏⲥⲁⲓⲁⲱ"@cop ], [ lawd:variantForm "دير الشيحة"@arz ], [ lawd:variantForm "Deir el-Kubbaniya"@eng ], [ lawd:variantForm "Deir el-Shichah"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/98>
+<https://paths.uniroma.it/paths/places/98>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/979588215> ;
   dc:relation <http://pleiades.stoa.org/places/979588215> ;
@@ -1045,7 +1053,7 @@
   lawd:primaryForm "Deir Qubbat el Hawa"@en ;
   lawd:hasName [ lawd:variantForm "قبة الهوا "@arz ], [ lawd:variantForm "Deir Qubbat el Hawa"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/99>
+<https://paths.uniroma.it/paths/places/99>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737001> ;
   dc:relation <http://pleiades.stoa.org/places/737001> ;
@@ -1060,7 +1068,7 @@
   lawd:primaryForm "Hamuli/Monastery of the Archangel Michael at Phantoou"@en ;
   lawd:hasName [ lawd:variantForm "ⲡϩⲁⲛⲧⲁⲩ"@cop ], [ lawd:variantForm "ⲡϩⲁⲛⲧⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲡϩⲟⲛⲧⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲫⲁⲛⲇⲁⲩ"@cop ], [ lawd:variantForm "ⲫⲁⲛⲧⲁⲩ"@cop ], [ lawd:variantForm "ⲫⲁⲛⲧⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲡⲙⲟⲛⲏ ⲛⲁⲗⲗⲓ "@cop ], [ lawd:variantForm "ⲧⲙⲟⲩⲛⲏ ⲛⲁⲗⲗⲓ "@cop ], [ lawd:variantForm "Hamuli/Monastery of the Archangel Michael at Phantoou"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/100>
+<https://paths.uniroma.it/paths/places/100>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737030> ;
   dc:relation <http://pleiades.stoa.org/places/737030> ;
@@ -1070,7 +1078,7 @@
   lawd:primaryForm "Gebel el-Qalamun"@en ;
   lawd:hasName [ lawd:variantForm "Ptoou Nkalamon"@eng ], [ lawd:variantForm "Τὸ ὄρος τοῦ Καλαμῶνος"@grc ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲛ̄ⲕⲁⲗⲁⲙⲟⲩⲛ"@cop ], [ lawd:variantForm "القلمون"@arz ], [ lawd:variantForm "Gebel el-Qalamun"@eng ], [ lawd:variantForm "El-Qalamun"@eng ], [ lawd:variantForm "Kalamon"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/101>
+<https://paths.uniroma.it/paths/places/101>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737072> ;
   dc:relation <http://pleiades.stoa.org/places/737072> ;
@@ -1085,7 +1093,7 @@
   lawd:primaryForm "Touton"@en ;
   lawd:hasName [ lawd:variantForm "Tp-Tn "@egy ], [ lawd:variantForm "Tȝ-Tn"@egy ], [ lawd:variantForm "Tn "@egy ], [ lawd:variantForm "Tȝ-bnt "@egy ], [ lawd:variantForm "Tȝ-btn"@egy ], [ lawd:variantForm "Dbȝ-Tn "@egy ], [ lawd:variantForm "Tȝ-nb-Tp-Tn"@egy ], [ lawd:variantForm "Tȝ-nb.t-tȝ-Tn"@egy ], [ lawd:variantForm "Τεβτύνις"@grc ], [ lawd:variantForm "Τεπτύνις"@grc ], [ lawd:variantForm "Θεοδοσιούπολις"@grc ], [ lawd:variantForm "ⲧⲟⲩⲧⲱⲛ"@cop ], [ lawd:variantForm "ⲧⲟⲧⲟⲩⲛ"@cop ], [ lawd:variantForm "أم البريجات"@arz ], [ lawd:variantForm "Touton "@eng ], [ lawd:variantForm "Tebtynis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/102>
+<https://paths.uniroma.it/paths/places/102>
   a lawd:Place ;
   dc:temporal "700/700" ;
   time:hasDateTimeDescription [
@@ -1097,7 +1105,7 @@
   lawd:primaryForm "Dishna"@en ;
   lawd:hasName [ lawd:variantForm "دشنا"@arz ], [ lawd:variantForm "Dishna"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/103>
+<https://paths.uniroma.it/paths/places/103>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756659> ;
   dc:relation <http://pleiades.stoa.org/places/756659> ;
@@ -1107,7 +1115,7 @@
   lawd:primaryForm "This"@en ;
   lawd:hasName [ lawd:variantForm "This"@eng ], [ lawd:variantForm "Ṯny "@egy ], [ lawd:variantForm "Tn "@egy ], [ lawd:variantForm "Tny "@egy ], [ lawd:variantForm "Dny"@egy ], [ lawd:variantForm "Θίς "@grc ], [ lawd:variantForm "ⲧⲓⲛ"@cop ], [ lawd:variantForm "جرجا"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/104>
+<https://paths.uniroma.it/paths/places/104>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736972> ;
   dc:relation <http://pleiades.stoa.org/places/736972> ;
@@ -1122,7 +1130,7 @@
   lawd:primaryForm "Medinet Madi"@en ;
   lawd:hasName [ lawd:variantForm "D3"@egy ], [ lawd:variantForm "Ναρμοῦθις"@grc ], [ lawd:variantForm "ⲛⲁⲣⲙⲟⲩⲇⲓ"@cop ], [ lawd:variantForm "ⲛⲁⲣⲙⲟⲩⲧⲉ"@cop ], [ lawd:variantForm "ⲛⲁⲣⲙⲟⲩϯ"@cop ], [ lawd:variantForm "مدينة ماضي"@arz ], [ lawd:variantForm "Medinet Madi"@eng ], [ lawd:variantForm "Narmouthis"@eng ], [ lawd:variantForm "Nw.t-Rnn.t"@egy ] .
 
-<http://paths.uniroma1.it/atlas/places/105>
+<https://paths.uniroma.it/paths/places/105>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736896> ;
   dc:relation <http://pleiades.stoa.org/places/736896> ;
@@ -1137,7 +1145,7 @@
   lawd:primaryForm "Bakchias"@en ;
   lawd:hasName [ lawd:variantForm "Gnw.t - Km-wr"@egy ], [ lawd:variantForm "Βακχιάς"@grc ], [ lawd:variantForm "أم الأتل"@arz ], [ lawd:variantForm "Bakchias"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/106>
+<https://paths.uniroma.it/paths/places/106>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736932> ;
   dc:relation <http://pleiades.stoa.org/places/736932> ;
@@ -1152,7 +1160,7 @@
   lawd:primaryForm "Karanis"@en ;
   lawd:hasName [ lawd:variantForm "Καρανίς"@grc ], [ lawd:variantForm "كوم اوشيم"@arz ], [ lawd:variantForm "Karanis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/107>
+<https://paths.uniroma.it/paths/places/107>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737053> ;
   dc:relation <http://pleiades.stoa.org/places/737053> ;
@@ -1162,7 +1170,7 @@
   lawd:primaryForm "Soknopaiou Nesos"@en ;
   lawd:hasName [ lawd:variantForm "Tȝ-mȝy.t-n-Sbk-nb-Pay"@egy ], [ lawd:variantForm "Tȝ-mȝy.t"@egy ], [ lawd:variantForm "Σοκνοπαιου Νῆσος"@grc ], [ lawd:variantForm "Soknopaiou Nesos"@eng ], [ lawd:variantForm "Dimeh"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/108>
+<https://paths.uniroma.it/paths/places/108>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756549> ;
   dc:relation <http://pleiades.stoa.org/places/756549> ;
@@ -1177,7 +1185,7 @@
   lawd:primaryForm "Deir Abu Lifah"@en ;
   lawd:hasName [ lawd:variantForm "χ(ώριον) Πανουγ"@grc ], [ lawd:variantForm "Πανο(υ)κ’"@grc ], [ lawd:variantForm "Παννουκι"@grc ], [ lawd:variantForm "دير ابو ليفة"@arz ], [ lawd:variantForm "Deir Abu Lifah"@eng ], [ lawd:variantForm "Deir Abu Banukh"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/109>
+<https://paths.uniroma.it/paths/places/109>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756549> ;
   dc:relation <http://pleiades.stoa.org/places/756549> ;
@@ -1187,23 +1195,24 @@
   lawd:primaryForm "Deir Abu Hennes Wadi Gamus"@en ;
   lawd:hasName [ lawd:variantForm "εὔνη τοῦ ἁγίου Μακαρίου"@grc ], [ lawd:variantForm "ⲧⲟⲡⲟⲥ ⲙⲡϩⲁⲅⲓⲟⲥ"@cop ], [ lawd:variantForm "ⲁⲡⲁ ⲙⲁⲕⲁⲣⲉ"@cop ], [ lawd:variantForm "دير ابو حنس"@arz ], [ lawd:variantForm "Deir Abu Hennes Wadi Gamus"@eng ], [ lawd:variantForm "Apa Makarios"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/110>
+<https://paths.uniroma.it/paths/places/110>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727104> ;
   dc:relation <http://pleiades.stoa.org/places/727104> ;
+  skos:exactMatch <https://www.trismegistos.org/place/3375> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.476111 30.291389)" ] ;
   rdfs:label "Wadi Natrun"@en ;
   lawd:primaryForm "Wadi Natrun"@en ;
-  lawd:hasName [ lawd:variantForm "Wadi Natrun"@eng ] .
+  lawd:hasName [ lawd:variantForm "Σκιαθίς"@grc ], [ lawd:variantForm "Σκήτις"@grc ], [ lawd:variantForm "Σκήτη"@grc ], [ lawd:variantForm "Νιτρία"@grc ], [ lawd:variantForm "Κελλία"@grc ], [ lawd:variantForm "Wadi Natrun"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/111>
+<https://paths.uniroma.it/paths/places/111>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/50405> ;
   rdfs:label "Sopehes"@en ;
   lawd:primaryForm "Sopehes"@en ;
   lawd:hasName [ lawd:variantForm "Sopehes"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/112>
+<https://paths.uniroma.it/paths/places/112>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756530> ;
   dc:relation <http://pleiades.stoa.org/places/756530> ;
@@ -1213,7 +1222,7 @@
   lawd:primaryForm "Monastery of Shenoute at Atripe"@en ;
   lawd:hasName [ lawd:variantForm "Ḫwt"@egy ], [ lawd:variantForm "Rpyt"@egy ], [ lawd:variantForm "μοναστήριον/τόπος Σενούθου"@grc ], [ lawd:variantForm "Σενουθίου"@grc ], [ lawd:variantForm "ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ/ⲙⲟⲛⲏ ⲁⲡⲁ ϣⲉⲛⲟⲩⲧⲉ/ϣⲉⲛⲟⲩϯ"@cop ], [ lawd:variantForm "ⲡⲧⲟⲟⲩ ⲛⲁⲇⲧⲣⲓⲡⲉ"@cop ], [ lawd:variantForm "ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ"@cop ], [ lawd:variantForm "ⲁⲧⲣⲓⲡⲉ"@cop ], [ lawd:variantForm "دير الأبيض"@arz ], [ lawd:variantForm "Atripe"@eng ], [ lawd:variantForm "White Monastery"@eng ], [ lawd:variantForm "Monastery of Shenoute"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/113>
+<https://paths.uniroma.it/paths/places/113>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2820> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.619686 26.554931)" ] ;
@@ -1221,7 +1230,7 @@
   lawd:primaryForm "Red Monastery at Atripe"@en ;
   lawd:hasName [ lawd:variantForm "دير الأحمر"@arz ], [ lawd:variantForm "Red Monastery"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/114>
+<https://paths.uniroma.it/paths/places/114>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776189> ;
   dc:relation <http://pleiades.stoa.org/places/776189> ;
@@ -1231,17 +1240,17 @@
   lawd:primaryForm "Kellis"@en ;
   lawd:hasName [ lawd:variantForm "Κέλλις"@grc ], [ lawd:variantForm "اسمنت الخراب"@arz ], [ lawd:variantForm "Kellis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/115>
+<https://paths.uniroma.it/paths/places/115>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776156> ;
   dc:relation <http://pleiades.stoa.org/places/776156> ;
   skos:exactMatch <https://www.trismegistos.org/place/2739> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.55331465 25.48307415)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.555041721090678 25.485793102583216)" ] ;
   rdfs:label "Bagawat"@en ;
   lawd:primaryForm "Bagawat"@en ;
   lawd:hasName [ lawd:variantForm "البجوات"@arz ], [ lawd:variantForm "Bagawat"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/116>
+<https://paths.uniroma.it/paths/places/116>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727105> ;
   dc:relation <http://pleiades.stoa.org/places/727105> ;
@@ -1251,7 +1260,7 @@
   lawd:primaryForm "Abu Mina"@en ;
   lawd:hasName [ lawd:variantForm "ابو مینا"@arz ], [ lawd:variantForm "Abu Mina"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/117>
+<https://paths.uniroma.it/paths/places/117>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/716524> ;
   dc:relation <http://pleiades.stoa.org/places/716524> ;
@@ -1261,13 +1270,13 @@
   lawd:primaryForm "Marina el Alamein"@en ;
   lawd:hasName [ lawd:variantForm "Ἀντίφραι (?)"@grc ], [ lawd:variantForm "مارينا العلمين"@arz ], [ lawd:variantForm "Marina el Alamein"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/118>
+<https://paths.uniroma.it/paths/places/118>
   a lawd:Place ;
   rdfs:label "Ennaton"@en ;
   lawd:primaryForm "Ennaton"@en ;
   lawd:hasName [ lawd:variantForm "Ennaton"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/119>
+<https://paths.uniroma.it/paths/places/119>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736904> ;
   dc:relation <http://pleiades.stoa.org/places/736904> ;
@@ -1277,7 +1286,7 @@
   lawd:primaryForm "Dionysias"@en ;
   lawd:hasName [ lawd:variantForm "Tywnss"@egy ], [ lawd:variantForm "Pȝ-dmỉ-n-mȝy"@egy ], [ lawd:variantForm "Pȝ-dmỉ-mȝy"@egy ], [ lawd:variantForm "Διονυσιάς"@grc ], [ lawd:variantForm "قصر قارون"@arz ], [ lawd:variantForm "Dionysias"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/120>
+<https://paths.uniroma.it/paths/places/120>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737010> ;
   dc:relation <http://pleiades.stoa.org/places/737010> ;
@@ -1287,7 +1296,7 @@
   lawd:primaryForm "Philoteris"@en ;
   lawd:hasName [ lawd:variantForm "Pȝ-ʿ.wy-n-Pltrȝ"@egy ], [ lawd:variantForm "Pȝ-ʿ.wy-n-Pyltr"@egy ], [ lawd:variantForm "Φιλωτερίς"@grc ], [ lawd:variantForm "ودفة"@arz ], [ lawd:variantForm "Philoteris"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/121>
+<https://paths.uniroma.it/paths/places/121>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737081> ;
   dc:relation <http://pleiades.stoa.org/places/737081> ;
@@ -1297,17 +1306,17 @@
   lawd:primaryForm "Theadelphia"@en ;
   lawd:hasName [ lawd:variantForm "Pȝ-ʿ.wy-n-sn.t"@egy ], [ lawd:variantForm "Θεαδέλφεια"@grc ], [ lawd:variantForm "بطن اهريت"@arz ], [ lawd:variantForm "Theadelphia"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/122>
+<https://paths.uniroma.it/paths/places/122>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736918> ;
   dc:relation <http://pleiades.stoa.org/places/736918> ;
   skos:exactMatch <https://www.trismegistos.org/place/747> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.895832 29.253514)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.899230 29.272822)" ] ;
   rdfs:label "Hawara"@en ;
   lawd:primaryForm "Hawara"@en ;
   lawd:hasName [ lawd:variantForm "Ḥw.t-wr.t"@egy ], [ lawd:variantForm "Ḥw.t-wry"@egy ], [ lawd:variantForm "Ḥw.t-wly"@egy ], [ lawd:variantForm "Αὑηρις"@grc ], [ lawd:variantForm "هوارة"@arz ], [ lawd:variantForm "Hawara"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/123>
+<https://paths.uniroma.it/paths/places/123>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737029> ;
   dc:relation <http://pleiades.stoa.org/places/737029> ;
@@ -1317,20 +1326,20 @@
   lawd:primaryForm "El-Lahun"@en ;
   lawd:hasName [ lawd:variantForm "Rȝ-tȝ-ḥny.t-n-Mȝ-wr "@egy ], [ lawd:variantForm "Pȝ-sḥ-Ptwlmys"@egy ], [ lawd:variantForm "Pȝ-sy-ḥt?"@egy ], [ lawd:variantForm "Πτολεμαῒς Ὅρμου"@grc ], [ lawd:variantForm " Ptolemaidonar"@lat ], [ lawd:variantForm "ⲗⲉϩⲱⲛⲉ"@cop ], [ lawd:variantForm "اللاهون"@arz ], [ lawd:variantForm "Ptolemais Hormou"@eng ], [ lawd:variantForm "El-Lahun"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/124>
+<https://paths.uniroma.it/paths/places/124>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/7865> ;
   rdfs:label "Phthenetou"@en ;
   lawd:primaryForm "Phthenetou"@en ;
   lawd:hasName [ lawd:variantForm " *Pȝ-tȝ-n-Wȝḏy.t"@egy ], [ lawd:variantForm "Φθένετος"@grc ], [ lawd:variantForm "Φθένοτυ"@grc ], [ lawd:variantForm " Ptenethus"@lat ], [ lawd:variantForm "ⲡ(ⲉ)ⲧⲉⲛⲉ(ⲛ)ⲧⲱ"@cop ], [ lawd:variantForm "ⲡ(ⲉ)ⲧⲉⲛ(ⲧ)ⲥ(ⲧ)ⲱ"@cop ], [ lawd:variantForm "دنطوا"@arz ], [ lawd:variantForm "Phthenetou"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/125>
+<https://paths.uniroma.it/paths/places/125>
   a lawd:Place ;
   rdfs:label "Kleopatris"@en ;
   lawd:primaryForm "Kleopatris"@en ;
   lawd:hasName [ lawd:variantForm "Kleopatris"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/126>
+<https://paths.uniroma.it/paths/places/126>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/688016> ;
   dc:relation <http://pleiades.stoa.org/places/688016> ;
@@ -1340,7 +1349,7 @@
   lawd:primaryForm "Rinokoloura"@en ;
   lawd:hasName [ lawd:variantForm "Ῥεινοκόλουρα"@grc ], [ lawd:variantForm "Ῥηνοκούρουρα"@grc ], [ lawd:variantForm "Ῥινοκόλουρα"@grc ], [ lawd:variantForm "Ῥινοκόρουρα"@grc ], [ lawd:variantForm "Ῥινοκούρουρα"@grc ], [ lawd:variantForm "ϩⲣⲓⲛⲟⲕⲟⲣⲟⲩⲣⲁ"@cop ], [ lawd:variantForm "ϩⲣⲓⲛⲟⲣⲟⲩⲣⲁ"@cop ], [ lawd:variantForm "ϩⲣⲓⲛⲟⲕⲟⲩⲣⲁ"@cop ], [ lawd:variantForm "ϩⲣⲏⲛⲟⲕⲟⲣⲟⲩⲣⲁ"@cop ], [ lawd:variantForm "العريش"@arz ], [ lawd:variantForm "Rinokoloura"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/127>
+<https://paths.uniroma.it/paths/places/127>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727183> ;
   dc:relation <http://pleiades.stoa.org/places/727183> ;
@@ -1355,7 +1364,7 @@
   lawd:primaryForm "Pachnemounis"@en ;
   lawd:hasName [ lawd:variantForm "Παχνέμουνις"@grc ], [ lawd:variantForm " كوم الخنزيري"@arz ], [ lawd:variantForm "Kom el-Khanziri"@eng ], [ lawd:variantForm "Pachnemounis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/128>
+<https://paths.uniroma.it/paths/places/128>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786123> ;
   dc:relation <http://pleiades.stoa.org/places/786123> ;
@@ -1365,22 +1374,25 @@
   lawd:primaryForm "Syene"@en ;
   lawd:hasName [ lawd:variantForm "Swn "@egy ], [ lawd:variantForm "Swnw"@egy ], [ lawd:variantForm "Συήνη"@grc ], [ lawd:variantForm "Σήννη"@grc ], [ lawd:variantForm "Σύνη"@grc ], [ lawd:variantForm "Σηύνη"@grc ], [ lawd:variantForm "Συίνη"@grc ], [ lawd:variantForm " Syene "@lat ], [ lawd:variantForm "Siene"@lat ], [ lawd:variantForm "ⲥⲟⲩⲁⲛ"@cop ], [ lawd:variantForm "أسوان"@arz ], [ lawd:variantForm "Syene"@eng ], [ lawd:variantForm "Aswan"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/129>
+<https://paths.uniroma.it/paths/places/129>
   a lawd:Place ;
+  dc:spatial <http://pleiades.stoa.org/places/828238> ;
+  dc:relation <http://pleiades.stoa.org/places/828238> ;
   skos:exactMatch <https://www.trismegistos.org/place/12014> ;
   rdfs:label "Achaia"@en ;
   lawd:primaryForm "Achaia"@en ;
   lawd:hasName [ lawd:variantForm "Ἀχαία"@grc ], [ lawd:variantForm "Achaia"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/130>
+<https://paths.uniroma.it/paths/places/130>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/573533> ;
   dc:relation <http://pleiades.stoa.org/places/573533> ;
-  rdfs:label "Stathma"@en ;
-  lawd:primaryForm "Stathma"@en ;
-  lawd:hasName [ lawd:variantForm "Stathma"@eng ] .
+  skos:exactMatch <https://www.trismegistos.org/place/12696> ;
+  rdfs:label "Stathmon"@en ;
+  lawd:primaryForm "Stathmon"@en ;
+  lawd:hasName [ lawd:variantForm "Στατμων"@grc ], [ lawd:variantForm "Statmon"@eng ], [ lawd:variantForm "Stathmon"@eng ], [ lawd:variantForm "Stathma"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/131>
+<https://paths.uniroma.it/paths/places/131>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727244> ;
   dc:relation <http://pleiades.stoa.org/places/727244> ;
@@ -1390,17 +1402,22 @@
   lawd:primaryForm "Terenouthis"@en ;
   lawd:hasName [ lawd:variantForm "Terenouthis"@eng ], [ lawd:variantForm "Pr-Ḥw.t-Ḥr-nb.t-Mfkȝt"@egy ], [ lawd:variantForm "Pȝ-Ḥw.t-tȝ-Ḥr-mfky - Mfkt"@egy ], [ lawd:variantForm "Θερενοῦτις"@grc ], [ lawd:variantForm "Τερενοῦθις"@grc ], [ lawd:variantForm "ⲧⲉⲣⲉⲛⲟⲩⲧⲉ"@cop ], [ lawd:variantForm "ⲧⲉⲣⲉⲛⲟⲩⲧⲓ"@cop ], [ lawd:variantForm "ⲧⲉⲣⲉⲛⲟⲩⲑⲓ"@cop ], [ lawd:variantForm "ⲑⲉⲣⲉⲛⲟⲩϯ"@cop ], [ lawd:variantForm "ترنوط"@arz ], [ lawd:variantForm " طرنوط"@arz ], [ lawd:variantForm "الطرانة   "@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/132>
+<https://paths.uniroma.it/paths/places/132>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727224> ;
   dc:relation <http://pleiades.stoa.org/places/727224> ;
   skos:exactMatch <https://www.trismegistos.org/place/6313> ;
+  dc:temporal "1100/1100" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "326" ;
+    periodo:latestYear "1100"
+  ] ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.02028 31.58128)" ] ;
   rdfs:label "Paralos"@en ;
   lawd:primaryForm "Paralos"@en ;
   lawd:hasName [ lawd:variantForm "Παραλέος"@grc ], [ lawd:variantForm "Παράλιος"@grc ], [ lawd:variantForm "Παράλου"@grc ], [ lawd:variantForm "Παράλλου"@grc ], [ lawd:variantForm "Σεβεννυτικὸν Στόμα"@grc ], [ lawd:variantForm "Πάραλος"@grc ], [ lawd:variantForm " Sebennyticum"@lat ], [ lawd:variantForm "(ⲧ)ⲡⲁⲣϩⲁⲗⲁⲓⲟⲥ"@cop ], [ lawd:variantForm "ⲧⲡⲁⲣϩⲁⲗⲟⲥ"@cop ], [ lawd:variantForm "ϯⲡⲁⲣⲁⲗⲓⲁ"@cop ], [ lawd:variantForm "البرلس"@arz ], [ lawd:variantForm "Paralos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/133>
+<https://paths.uniroma.it/paths/places/133>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727235> ;
   dc:relation <http://pleiades.stoa.org/places/727235> ;
@@ -1410,13 +1427,13 @@
   lawd:primaryForm "Tamiathis"@en ;
   lawd:hasName [ lawd:variantForm "دمياط"@arz ], [ lawd:variantForm "Ταμιάθη"@grc ], [ lawd:variantForm "Ταμιάθις "@grc ], [ lawd:variantForm "ⲇⲁⲙⲓⲁⲑⲓ"@cop ], [ lawd:variantForm "ⲧⲁⲙⲓⲁ(ⲓ)"@cop ], [ lawd:variantForm "ⲧⲁⲙⲓⲁϯ"@cop ], [ lawd:variantForm "Damietta"@eng ], [ lawd:variantForm "Tamiathis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/134>
+<https://paths.uniroma.it/paths/places/134>
   a lawd:Place ;
   rdfs:label "Gerrae"@en ;
   lawd:primaryForm "Gerrae"@en ;
   lawd:hasName [ lawd:variantForm "Gerrae"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/135>
+<https://paths.uniroma.it/paths/places/135>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727103> ;
   dc:relation <http://pleiades.stoa.org/places/727103> ;
@@ -1426,21 +1443,21 @@
   lawd:primaryForm "Daphnai"@en ;
   lawd:hasName [ lawd:variantForm "Tbn"@egy ], [ lawd:variantForm "Tȝ-ỉḥ.t-n-pȝ-nḥs"@egy ], [ lawd:variantForm "Tȝ-ʿȝm-n-pȝ-nḥs"@egy ], [ lawd:variantForm "Tȝy=w-ʿȝm-n-nḥs"@egy ], [ lawd:variantForm "Τάφναι"@grc ], [ lawd:variantForm "Τάφνας"@grc ], [ lawd:variantForm "Δάφναι"@grc ], [ lawd:variantForm "Δάφνη"@grc ], [ lawd:variantForm "ⲧⲁⲫⲛⲁⲥ"@cop ], [ lawd:variantForm "تل دفانة"@arz ], [ lawd:variantForm "دفناس"@arz ], [ lawd:variantForm "Daphnai"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/136>
+<https://paths.uniroma.it/paths/places/136>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/3089> ;
   rdfs:label "Sethroites"@en ;
   lawd:primaryForm "Sethroites"@en ;
   lawd:hasName [ lawd:variantForm "Σεθρωίτης"@grc ], [ lawd:variantForm "Sethroites"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/137>
+<https://paths.uniroma.it/paths/places/137>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/13247> ;
   rdfs:label "Boukolia"@en ;
   lawd:primaryForm "Boukolia"@en ;
   lawd:hasName [ lawd:variantForm "τὰ Βουκόλια"@grc ], [ lawd:variantForm "Boukolia"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/138>
+<https://paths.uniroma.it/paths/places/138>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727247> ;
   dc:relation <http://pleiades.stoa.org/places/727247> ;
@@ -1450,15 +1467,16 @@
   lawd:primaryForm "Thennesos"@en ;
   lawd:hasName [ lawd:variantForm "Thennesos"@eng ], [ lawd:variantForm "Θέννησος"@grc ], [ lawd:variantForm "Θένησσος"@grc ], [ lawd:variantForm "Τένεσος"@grc ], [ lawd:variantForm "ⲑⲉⲛⲛⲉⲥⲓ"@cop ], [ lawd:variantForm "ⲑⲉⲛⲛⲏⲥⲓ"@cop ], [ lawd:variantForm "تينس "@arz ], [ lawd:variantForm "تنيس"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/139>
+<https://paths.uniroma.it/paths/places/139>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/730089> ;
   dc:relation <http://pleiades.stoa.org/places/730089> ;
+  skos:exactMatch <https://www.trismegistos.org/place/225> ;
   rdfs:label "Aphnaioua"@en ;
   lawd:primaryForm "Aphnaioua"@en ;
-  lawd:hasName [ lawd:variantForm "Aphnaioua"@eng ] .
+  lawd:hasName [ lawd:variantForm " Ἀφνάιον"@grc ], [ lawd:variantForm "Aphnaium"@lat ], [ lawd:variantForm "ⲫⲛⲁⲓⲟⲥ"@cop ], [ lawd:variantForm "ⲟⲫⲁⲓⲟⲥ"@cop ], [ lawd:variantForm "Aphnaion"@eng ], [ lawd:variantForm "Aphthaion"@eng ], [ lawd:variantForm "Apheis"@eng ], [ lawd:variantForm "Aphnaioua"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/140>
+<https://paths.uniroma.it/paths/places/140>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727101> ;
   dc:relation <http://pleiades.stoa.org/places/727101> ;
@@ -1468,7 +1486,7 @@
   lawd:primaryForm "Clysma"@en ;
   lawd:hasName [ lawd:variantForm "Κλῦσμα"@grc ], [ lawd:variantForm "ⲡⲉⲕⲗⲟⲩⲥⲙⲁ"@cop ], [ lawd:variantForm "ⲡⲓⲕⲗ(ⲁ)ⲩⲥⲙⲁ"@cop ], [ lawd:variantForm "ⲕⲗⲟⲩⲥⲙⲁ"@cop ], [ lawd:variantForm "قلزم"@arz ], [ lawd:variantForm "Clysma"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/141>
+<https://paths.uniroma.it/paths/places/141>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727169> ;
   dc:relation <http://pleiades.stoa.org/places/727169> ;
@@ -1478,15 +1496,16 @@
   lawd:primaryForm "Naukratis"@en ;
   lawd:hasName [ lawd:variantForm "Nȝy=w-Krḏ"@egy ], [ lawd:variantForm "Nȝ-Krṯ - Na-Krḏ"@egy ], [ lawd:variantForm "Bȝ-dd"@egy ], [ lawd:variantForm "Ναύκρατις"@grc ], [ lawd:variantForm "ⲛⲁⲩⲕⲣⲁⲧⲏⲥ"@cop ], [ lawd:variantForm "Naukratis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/142>
+<https://paths.uniroma.it/paths/places/142>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/730114> ;
   dc:relation <http://pleiades.stoa.org/places/730114> ;
+  skos:exactMatch <https://www.trismegistos.org/place/4171> ;
   rdfs:label "Helearchia"@en ;
   lawd:primaryForm "Helearchia"@en ;
-  lawd:hasName [ lawd:variantForm "Helearchia"@eng ] .
+  lawd:hasName [ lawd:variantForm "Ἐλεαρχία"@grc ], [ lawd:variantForm "Heliarchia"@lat ], [ lawd:variantForm "Heliarchia"@lat ], [ lawd:variantForm "Helearchia"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/143>
+<https://paths.uniroma.it/paths/places/143>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727153> ;
   dc:relation <http://pleiades.stoa.org/places/727153> ;
@@ -1496,7 +1515,7 @@
   lawd:primaryForm "Marea"@en ;
   lawd:hasName [ lawd:variantForm "Μαρεώτης"@grc ], [ lawd:variantForm "Μαρεώτος"@grc ], [ lawd:variantForm "ⲛⲉⲓⲡⲁⲉⲓⲁⲧ"@cop ], [ lawd:variantForm "ⲛⲓⲫⲁⲓⲁⲧ"@cop ], [ lawd:variantForm "ⲛⲉⲡⲁⲓⲉⲧ"@cop ], [ lawd:variantForm "ⲛⲓⲡⲁⲓⲁⲧ"@cop ], [ lawd:variantForm "ⲛⲏⲡⲁⲓⲁⲧ"@cop ], [ lawd:variantForm "ⲛⲫⲁⲓⲁⲧ"@cop ], [ lawd:variantForm "مريوط"@arz ], [ lawd:variantForm "Marea"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/144>
+<https://paths.uniroma.it/paths/places/144>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727082> ;
   dc:relation <http://pleiades.stoa.org/places/727082> ;
@@ -1506,7 +1525,7 @@
   lawd:primaryForm "Babylon"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Ḥʿpy-n-Ỉwn"@egy ], [ lawd:variantForm "Βαβυλών"@grc ], [ lawd:variantForm "Φοσσᾶτον"@grc ], [ lawd:variantForm "ⲃⲁⲃⲩⲗⲱⲛ"@cop ], [ lawd:variantForm "ⲃⲁⲃⲓⲗⲱⲛ"@cop ], [ lawd:variantForm "ⲡⲁⲃⲓⲗⲱⲛ"@cop ], [ lawd:variantForm "الفسطاط "@arz ], [ lawd:variantForm "Babylon"@eng ], [ lawd:variantForm "el-Fustat"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/145>
+<https://paths.uniroma.it/paths/places/145>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727119> ;
   dc:relation <http://pleiades.stoa.org/places/727119> ;
@@ -1516,7 +1535,7 @@
   lawd:primaryForm "Hephaistos"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Ptḥ"@egy ], [ lawd:variantForm "Ḥw.t-nṯr-Ptḥ"@egy ], [ lawd:variantForm "Ỉnb-Ptḥ"@egy ], [ lawd:variantForm "Pr-Ỉnb-Ptḥ"@egy ], [ lawd:variantForm "Ἡφαιστεῖον"@egy ], [ lawd:variantForm "Ἡφαίστου Οἶκος"@grc ], [ lawd:variantForm "ⲡ(ⲥ)ⲉⲛϩⲱⲣ"@cop ], [ lawd:variantForm "ⲥ(ⲩ)ⲛϩⲱⲣ(ⲓ)"@cop ], [ lawd:variantForm "τⲥⲩⲛϩⲱⲣ  "@cop ], [ lawd:variantForm "سنهور"@arz ], [ lawd:variantForm "Hephaistos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/146>
+<https://paths.uniroma.it/paths/places/146>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737050> ;
   dc:relation <http://pleiades.stoa.org/places/737050> ;
@@ -1526,21 +1545,21 @@
   lawd:primaryForm "Skenai Mandrai"@en ;
   lawd:hasName [ lawd:variantForm "Σκηναὶ Μάνδραι"@grc ], [ lawd:variantForm "Σκηναὶ Μάνδρων"@grc ], [ lawd:variantForm " Scenae Mandrorum"@lat ], [ lawd:variantForm "Scenae Mandrae"@lat ], [ lawd:variantForm "تل ﺍﻟﻤﻨﻴﺎ"@arz ], [ lawd:variantForm "Skenai Mandrai"@eng ], [ lawd:variantForm "Tell el-Minya Shurafa"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/147>
+<https://paths.uniroma.it/paths/places/147>
   a lawd:Place ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT (31.483333 26.916667)" ] ;
   rdfs:label "Hamamieh"@en ;
   lawd:primaryForm "Hamamieh"@en ;
   lawd:hasName [ lawd:variantForm "الحمامية"@arz ], [ lawd:variantForm "Hamamieh"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/149>
+<https://paths.uniroma.it/paths/places/149>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/12015> ;
   rdfs:label "Psinches"@en ;
   lawd:primaryForm "Psinches"@en ;
   lawd:hasName [ lawd:variantForm "Ψίγχους"@grc ], [ lawd:variantForm "Ψίνχης"@grc ], [ lawd:variantForm " Psinches"@lat ], [ lawd:variantForm "Psinches"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/150>
+<https://paths.uniroma.it/paths/places/150>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/716615> ;
   dc:relation <http://pleiades.stoa.org/places/716615> ;
@@ -1550,14 +1569,14 @@
   lawd:primaryForm "Paraitonion"@en ;
   lawd:hasName [ lawd:variantForm "Παραιτόνιον"@grc ], [ lawd:variantForm "Ἀμμωνία"@grc ], [ lawd:variantForm " Paraetonium "@lat ], [ lawd:variantForm "Paratonion "@lat ], [ lawd:variantForm "Paretonio"@lat ], [ lawd:variantForm "مرسى مطروح"@arz ], [ lawd:variantForm "Paraitonion"@eng ], [ lawd:variantForm "Mersa Matruh"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/151>
+<https://paths.uniroma.it/paths/places/151>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2630> ;
   rdfs:label "Alexandreon Chora"@en ;
   lawd:primaryForm "Alexandreon Chora"@en ;
   lawd:hasName [ lawd:variantForm "pȝ tš n ȝlgsntrs"@egy ], [ lawd:variantForm "ⲁⲗⲉⲝⲁⲛⲇⲣⲟⲩ ⲡⲟⲗⲓⲥ"@grc ], [ lawd:variantForm "الحفن"@arz ], [ lawd:variantForm "Alexandreon Chora"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/152>
+<https://paths.uniroma.it/paths/places/152>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/716656> ;
   dc:relation <http://pleiades.stoa.org/places/716656> ;
@@ -1567,7 +1586,7 @@
   lawd:primaryForm "Zygrai"@en ;
   lawd:hasName [ lawd:variantForm "Ζυγρίς"@grc ], [ lawd:variantForm "ⲍⲩⲅⲣⲁⲓⲥ"@cop ], [ lawd:variantForm "مرسى باقوش"@arz ], [ lawd:variantForm "Zygrai"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/153>
+<https://paths.uniroma.it/paths/places/153>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/716520> ;
   dc:relation <http://pleiades.stoa.org/places/716520> ;
@@ -1576,7 +1595,7 @@
   lawd:primaryForm "Ammoniake"@en ;
   lawd:hasName [ lawd:variantForm "Ἀμμωνιακή"@grc ], [ lawd:variantForm "سيوة"@grc ], [ lawd:variantForm "Ammoniake"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/154>
+<https://paths.uniroma.it/paths/places/154>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776210> ;
   dc:relation <http://pleiades.stoa.org/places/776210> ;
@@ -1586,7 +1605,7 @@
   lawd:primaryForm "Oasis Magna"@en ;
   lawd:hasName [ lawd:variantForm "Wḥy-rsy"@egy ], [ lawd:variantForm "Wḥy"@egy ], [ lawd:variantForm "Knm.t"@egy ], [ lawd:variantForm "Gnm.t"@egy ], [ lawd:variantForm "Ἄνω Ὄασις"@grc ], [ lawd:variantForm "Μεγάλη Ὄασις"@grc ], [ lawd:variantForm "Ὄασις Θηβαίδος"@grc ], [ lawd:variantForm "Oasis Magna"@lat ], [ lawd:variantForm "Oasis Maior"@lat ], [ lawd:variantForm "الواح الداخلة"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/155>
+<https://paths.uniroma.it/paths/places/155>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727206> ;
   dc:relation <http://pleiades.stoa.org/places/727206> ;
@@ -1596,7 +1615,7 @@
   lawd:primaryForm "Prosopites"@en ;
   lawd:hasName [ lawd:variantForm "Προσωπίτης"@grc ], [ lawd:variantForm " Prosopites"@lat ], [ lawd:variantForm "Prosopites"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/156>
+<https://paths.uniroma.it/paths/places/156>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727231> ;
   dc:relation <http://pleiades.stoa.org/places/727231> ;
@@ -1606,7 +1625,7 @@
   lawd:primaryForm "Sile"@en ;
   lawd:hasName [ lawd:variantForm "Ṯȝrw"@egy ], [ lawd:variantForm "Σέλη"@grc ], [ lawd:variantForm "ϩⲗⲗⲏ"@cop ], [ lawd:variantForm "ⲛⲗⲏ"@cop ], [ lawd:variantForm "ⲥⲉⲗⲏ"@cop ], [ lawd:variantForm "تل ابو صيفة"@arz ], [ lawd:variantForm "Sile"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/157>
+<https://paths.uniroma.it/paths/places/157>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/363948> ;
   dc:relation <http://pleiades.stoa.org/places/363948> ;
@@ -1616,7 +1635,7 @@
   lawd:primaryForm "Boreum"@en ;
   lawd:hasName [ lawd:variantForm "Boreum"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/158>
+<https://paths.uniroma.it/paths/places/158>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/373757> ;
   dc:relation <http://pleiades.stoa.org/places/373757> ;
@@ -1626,7 +1645,7 @@
   lawd:primaryForm "Berenike (Lower Egypt)"@en ;
   lawd:hasName [ lawd:variantForm "Ἑσπερίς"@grc ], [ lawd:variantForm "Βερενίκη"@grc ], [ lawd:variantForm "ⲃⲉⲣ(ⲉ)ⲛⲓⲕⲏ"@cop ], [ lawd:variantForm "بنغازي"@arz ], [ lawd:variantForm "Berenike"@eng ], [ lawd:variantForm "Hesperis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/159>
+<https://paths.uniroma.it/paths/places/159>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/373736> ;
   dc:relation <http://pleiades.stoa.org/places/373736> ;
@@ -1636,7 +1655,7 @@
   lawd:primaryForm "Taucheira"@en ;
   lawd:hasName [ lawd:variantForm "Taucheira"@eng ], [ lawd:variantForm "Ταύχειρα"@grc ], [ lawd:variantForm "Τεύχειρα"@grc ], [ lawd:variantForm "Ἀρσινόη"@grc ], [ lawd:variantForm "توكرة"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/160>
+<https://paths.uniroma.it/paths/places/160>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/373750> ;
   dc:relation <http://pleiades.stoa.org/places/373750> ;
@@ -1646,13 +1665,13 @@
   lawd:primaryForm "Barke"@en ;
   lawd:hasName [ lawd:variantForm "Βάρκη"@grc ], [ lawd:variantForm "Barke"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/161>
+<https://paths.uniroma.it/paths/places/161>
   a lawd:Place ;
   rdfs:label "Eglibos?"@en ;
   lawd:primaryForm "Eglibos?"@en ;
   lawd:hasName [ lawd:variantForm "Eglibos?"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/162>
+<https://paths.uniroma.it/paths/places/162>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/716525> ;
   dc:relation <http://pleiades.stoa.org/places/716525> ;
@@ -1662,34 +1681,37 @@
   lawd:primaryForm "Antipyrgos"@en ;
   lawd:hasName [ lawd:variantForm "Ἀντίπυργος"@grc ], [ lawd:variantForm "ⲁⲛⲧⲓⲡⲩⲣⲅⲟⲥ"@cop ], [ lawd:variantForm "طبرق"@arz ], [ lawd:variantForm "Antipyrgos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/163>
+<https://paths.uniroma.it/paths/places/163>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/716534> ;
   dc:relation <http://pleiades.stoa.org/places/716534> ;
+  skos:exactMatch <https://www.trismegistos.org/place/3777> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(24.5 31.5)" ] ;
   rdfs:label "Bassachitai?"@en ;
   lawd:primaryForm "Bassachitai?"@en ;
   lawd:hasName [ lawd:variantForm "Βάσσαχις"@grc ], [ lawd:variantForm "Bassachitai?"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/164>
+<https://paths.uniroma.it/paths/places/164>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/373824> ;
   dc:relation <http://pleiades.stoa.org/places/373824> ;
+  skos:exactMatch <https://www.trismegistos.org/place/10968> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(20.3072025 32.35204)" ] ;
   rdfs:label "Hadrianopolis"@en ;
   lawd:primaryForm "Hadrianopolis"@en ;
-  lawd:hasName [ lawd:variantForm "Hadrianopolis"@lat ] .
+  lawd:hasName [ lawd:variantForm "Ἁδριανή"@grc ], [ lawd:variantForm "Hadrianopolis"@lat ], [ lawd:variantForm "Adriane"@lat ], [ lawd:variantForm "Kaukalou Kome"@eng ], [ lawd:variantForm "Driana"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/165>
+<https://paths.uniroma.it/paths/places/165>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/373785> ;
   dc:relation <http://pleiades.stoa.org/places/373785> ;
+  skos:exactMatch <https://www.trismegistos.org/place/664> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(22.2786287667 32.869317)" ] ;
   rdfs:label "Erythron"@en ;
   lawd:primaryForm "Erythron"@en ;
-  lawd:hasName [ lawd:variantForm "Erythron"@eng ] .
+  lawd:hasName [ lawd:variantForm "Ἐρύθραια"@grc ], [ lawd:variantForm "Erythra"@eng ], [ lawd:variantForm "Erythron"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/166>
+<https://paths.uniroma.it/paths/places/166>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756550> ;
   dc:relation <http://pleiades.stoa.org/places/756550> ;
@@ -1698,7 +1720,7 @@
   lawd:primaryForm "Abydos Deir Abu Masis"@en ;
   lawd:hasName [ lawd:variantForm "ȝbḏw"@egy ], [ lawd:variantForm "Ỉbd"@egy ], [ lawd:variantForm "Ỉbt"@egy ], [ lawd:variantForm "ȝbt"@egy ], [ lawd:variantForm "pȝ tš n Ỉbt?"@egy ], [ lawd:variantForm "Ἄβυδος"@grc ], [ lawd:variantForm "ⲉⲃⲱⲧ"@cop ], [ lawd:variantForm "ⲁⲃⲱⲧ"@cop ], [ lawd:variantForm "أم القعاب‎‎"@arz ], [ lawd:variantForm "Abydos Umm el Qab"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/169>
+<https://paths.uniroma.it/paths/places/169>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2993> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.113055 27.183617)" ] ;
@@ -1706,7 +1728,7 @@
   lawd:primaryForm "Manqabad"@en ;
   lawd:hasName [ lawd:variantForm "ⲙⲁⲛⲕⲁⲡⲱⲧ"@cop ], [ lawd:variantForm "منقباد "@arz ], [ lawd:variantForm "Manqabad"@eng ], [ lawd:variantForm "Abba Nefer"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/170>
+<https://paths.uniroma.it/paths/places/170>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/845040004> ;
   dc:relation <http://pleiades.stoa.org/places/845040004> ;
@@ -1716,7 +1738,7 @@
   lawd:primaryForm "Alexandria - Kom el Dikka"@en ;
   lawd:hasName [ lawd:variantForm "Rʿ-qd"@egy ], [ lawd:variantForm "Rʿ-qt"@egy ], [ lawd:variantForm "Pȝ-ʿ.wy-n-ȝlgsȝntrs"@egy ], [ lawd:variantForm "Pȝ-sbt-n-Ỉrgsndrs"@egy ], [ lawd:variantForm "Ἀλεξάνδρεια"@grc ], [ lawd:variantForm "ⲣⲁⲕⲟⲧⲉ"@cop ], [ lawd:variantForm "ⲣⲁⲕⲟϯ"@cop ], [ lawd:variantForm " الإسكندرية"@arz ], [ lawd:variantForm "Alexandria - Kom el Dikka"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/171>
+<https://paths.uniroma.it/paths/places/171>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/149576487> ;
   dc:relation <http://pleiades.stoa.org/places/149576487> ;
@@ -1726,7 +1748,7 @@
   lawd:primaryForm "Amarna"@en ;
   lawd:hasName [ lawd:variantForm "ȝḫt-Ỉtn"@egy ], [ lawd:variantForm "العمارنة"@arz ], [ lawd:variantForm "Amarna"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/172>
+<https://paths.uniroma.it/paths/places/172>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/112509596> ;
   dc:relation <http://pleiades.stoa.org/places/112509596> ;
@@ -1736,7 +1758,7 @@
   lawd:primaryForm "Beni Hassan"@en ;
   lawd:hasName [ lawd:variantForm "بني حسن"@arz ], [ lawd:variantForm "Beni Hassan"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/173>
+<https://paths.uniroma.it/paths/places/173>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776172> ;
   dc:relation <http://pleiades.stoa.org/places/776172> ;
@@ -1746,7 +1768,7 @@
   lawd:primaryForm "Dakhleh"@en ;
   lawd:hasName [ lawd:variantForm "Ὄασις ἡ Ἐσωτέρω"@grc ], [ lawd:variantForm "ἡ Ἐσω Ὄασις"@grc ], [ lawd:variantForm "ἡ Ἐσωτέρα Ὄασις"@grc ], [ lawd:variantForm "Ὄασις μεγάλη "@grc ], [ lawd:variantForm "الواح الداخلة"@arz ], [ lawd:variantForm "Dakhleh"@eng ], [ lawd:variantForm "Dakla"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/174>
+<https://paths.uniroma.it/paths/places/174>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776235> ;
   dc:relation <http://pleiades.stoa.org/places/776235> ;
@@ -1756,7 +1778,7 @@
   lawd:primaryForm "Trimouthis"@en ;
   lawd:hasName [ lawd:variantForm "Τριμοῦθις"@grc ], [ lawd:variantForm "Trimouthis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/175>
+<https://paths.uniroma.it/paths/places/175>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/861854258> ;
   dc:relation <http://pleiades.stoa.org/places/861854258> ;
@@ -1766,23 +1788,23 @@
   lawd:primaryForm "Dakleh Ain el Gedida"@en ;
   lawd:hasName [ lawd:variantForm "Dakleh Ain el Gedida"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/176>
+<https://paths.uniroma.it/paths/places/176>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/667956220> ;
   dc:relation <http://pleiades.stoa.org/places/667956220> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(28.91679722 25.63017222)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(28.9120129 25.5936295)" ] ;
   rdfs:label "Deir abu Matta"@en ;
   lawd:primaryForm "Deir abu Matta"@en ;
   lawd:hasName [ lawd:variantForm "دير ﺍﺑﻮ ﻣﺘﺎ "@arz ], [ lawd:variantForm "Deir abu Matta"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/178>
+<https://paths.uniroma.it/paths/places/178>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/3695> ;
   rdfs:label "El-Mudil"@en ;
   lawd:primaryForm "El-Mudil"@en ;
   lawd:hasName [ lawd:variantForm "El-Mudil"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/179>
+<https://paths.uniroma.it/paths/places/179>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/785974> ;
   dc:relation <http://pleiades.stoa.org/places/785974> ;
@@ -1797,7 +1819,7 @@
   lawd:primaryForm "Tell Edfu"@en ;
   lawd:hasName [ lawd:variantForm "Ḏbȝ "@egy ], [ lawd:variantForm "Tbȝ "@egy ], [ lawd:variantForm "Dbȝ"@egy ], [ lawd:variantForm "Bḥdt "@egy ], [ lawd:variantForm "Bḥt"@egy ], [ lawd:variantForm "Msn"@egy ], [ lawd:variantForm "Ἀπόλλωνος  "@grc ], [ lawd:variantForm "Ἀπολλωνίας"@grc ], [ lawd:variantForm "Ἀπόλλωνος "@grc ], [ lawd:variantForm "Ἀπόλλωνος Πόλις Μεγάλη"@grc ], [ lawd:variantForm "Βάχθις"@grc ], [ lawd:variantForm "Πόλις Φοίβου"@grc ], [ lawd:variantForm "Apollonopolis Magna"@lat ], [ lawd:variantForm "(ⲁ)ⲧⲃⲱ"@cop ], [ lawd:variantForm "ⲑⲃⲱ"@cop ], [ lawd:variantForm "ⲧⲃⲱ"@cop ], [ lawd:variantForm "ⲧⲃⲟ"@cop ], [ lawd:variantForm "ⲉⲧⲃⲟ"@cop ], [ lawd:variantForm "إدفو"@arz ], [ lawd:variantForm "Edfu"@eng ], [ lawd:variantForm "Idfu"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/180>
+<https://paths.uniroma.it/paths/places/180>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/14197> ;
   dc:temporal "1050/1050" ;
@@ -1809,7 +1831,7 @@
   lawd:primaryForm "Deir el Banat"@en ;
   lawd:hasName [ lawd:variantForm "دير البنات"@arz ], [ lawd:variantForm "Deir el Banat"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/181>
+<https://paths.uniroma.it/paths/places/181>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776197> ;
   dc:relation <http://pleiades.stoa.org/places/776197> ;
@@ -1818,7 +1840,7 @@
   lawd:primaryForm "Imbaba el Mansuriya "@en ;
   lawd:hasName [ lawd:variantForm "إمبابة"@arz ], [ lawd:variantForm "Imbaba el Mansuriya "@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/182>
+<https://paths.uniroma.it/paths/places/182>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786017> ;
   dc:relation <http://pleiades.stoa.org/places/786017>, <http://pleiades.stoa.org/places/786050> ;
@@ -1833,7 +1855,7 @@
   lawd:primaryForm "Karnak"@en ;
   lawd:hasName [ lawd:variantForm "Ỉp.t-sw.t"@egy ], [ lawd:variantForm "Ns.wt-tȝ.wy"@egy ], [ lawd:variantForm "Nsw.t-tȝ.wy"@egy ], [ lawd:variantForm "Διὸς Πόλις Μεγάλη"@grc ], [ lawd:variantForm "Θῆβαι"@grc ], [ lawd:variantForm "ⲛⲏ"@cop ], [ lawd:variantForm "ⲛⲉ"@cop ], [ lawd:variantForm "ⲧⲡⲟⲗⲓⲥ ⲡⲁⲡⲉ"@cop ], [ lawd:variantForm "كرنك"@arz ], [ lawd:variantForm "Karnak"@eng ], [ lawd:variantForm "Eastern Thebes"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/183>
+<https://paths.uniroma.it/paths/places/183>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776210> ;
   dc:relation <http://pleiades.stoa.org/places/776210> ;
@@ -1843,7 +1865,7 @@
   lawd:primaryForm "Kharga"@en ;
   lawd:hasName [ lawd:variantForm "Wḥy-rsy"@egy ], [ lawd:variantForm "Wḥy"@egy ], [ lawd:variantForm "Knm.t"@egy ], [ lawd:variantForm "Gnm.t"@egy ], [ lawd:variantForm "ἡ ἄνω/μεγάλη Ὄασις"@grc ], [ lawd:variantForm "ⲃⲁϩ"@cop ], [ lawd:variantForm "ⲟⲩⲁϩ"@cop ], [ lawd:variantForm "ⲯⲟⲓ"@cop ], [ lawd:variantForm "الواح الخارجة"@arz ], [ lawd:variantForm "Kharga"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/184>
+<https://paths.uniroma.it/paths/places/184>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776167> ;
   dc:relation <http://pleiades.stoa.org/places/776167> ;
@@ -1853,7 +1875,7 @@
   lawd:primaryForm "El-Deir"@en ;
   lawd:hasName [ lawd:variantForm "Pȝ-sy?"@egy ], [ lawd:variantForm "الدير"@arz ], [ lawd:variantForm "El-Deir"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/185>
+<https://paths.uniroma.it/paths/places/185>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776181> ;
   dc:relation <http://pleiades.stoa.org/places/776181> ;
@@ -1863,7 +1885,7 @@
   lawd:primaryForm "Hibis"@en ;
   lawd:hasName [ lawd:variantForm "Ἥβις"@grc ], [ lawd:variantForm "Ἵβις"@grc ], [ lawd:variantForm "ϩⲏⲃ"@cop ], [ lawd:variantForm "ϩⲓϥⲉ?"@cop ], [ lawd:variantForm "Hibis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/186>
+<https://paths.uniroma.it/paths/places/186>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786079> ;
   dc:relation <http://pleiades.stoa.org/places/786079> ;
@@ -1873,24 +1895,24 @@
   lawd:primaryForm "Kom Ombo"@en ;
   lawd:hasName [ lawd:variantForm "Ἴαμβων"@grc ], [ lawd:variantForm "Ὄμβοι"@grc ], [ lawd:variantForm "Ὤμβοι"@grc ], [ lawd:variantForm "(ϯⲃⲁⲕⲓ) ⲉⲙⲃⲱ"@cop ], [ lawd:variantForm "Kom Ombo"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/187>
+<https://paths.uniroma.it/paths/places/187>
   a lawd:Place ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.858 24.2261)" ] ;
   rdfs:label "Nag el Hagar"@en ;
   lawd:primaryForm "Nag el Hagar"@en ;
   lawd:hasName [ lawd:variantForm "نجع الحجر"@arz ], [ lawd:variantForm "Nag el Hagar"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/188>
+<https://paths.uniroma.it/paths/places/188>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/746792> ;
   dc:relation <http://pleiades.stoa.org/places/746792> ;
   skos:exactMatch <https://www.trismegistos.org/place/7832> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(33.609633 28.717525)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(33.634729385375984 28.704177127753187)" ] ;
   rdfs:label "Pharan"@en ;
   lawd:primaryForm "Pharan"@en ;
   lawd:hasName [ lawd:variantForm "Φαραν"@grc ], [ lawd:variantForm "فاران"@arz ], [ lawd:variantForm "Pharan"@eng ], [ lawd:variantForm "Faran"@eng ], [ lawd:variantForm "Φαραν"@grc ], [ lawd:variantForm "Faran "@lat ], [ lawd:variantForm "Phara"@lat ], [ lawd:variantForm "فاران"@arz ], [ lawd:variantForm "Pharan"@eng ], [ lawd:variantForm "Feiran"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/189>
+<https://paths.uniroma.it/paths/places/189>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/798094> ;
   dc:relation <http://pleiades.stoa.org/places/798094> ;
@@ -1899,7 +1921,7 @@
   lawd:primaryForm "Qasr Ibrim"@en ;
   lawd:hasName [ lawd:variantForm " Πριμις "@grc ], [ lawd:variantForm "Πρημνις "@grc ], [ lawd:variantForm "Πρῖμα"@grc ], [ lawd:variantForm " Primi "@lat ], [ lawd:variantForm "Pidema "@lat ], [ lawd:variantForm "Pindis"@lat ], [ lawd:variantForm "ⲫⲣⲓⲙ"@cop ], [ lawd:variantForm "قصر ابريم"@arz ], [ lawd:variantForm "Qasr Ibrim"@eng ], [ lawd:variantForm "Primis "@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/191>
+<https://paths.uniroma.it/paths/places/191>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -1909,7 +1931,7 @@
   lawd:primaryForm "Western Thebes"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/192>
+<https://paths.uniroma.it/paths/places/192>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786014> ;
   dc:relation <http://pleiades.stoa.org/places/786014> ;
@@ -1924,7 +1946,7 @@
   lawd:primaryForm "Deir el Bakhit"@en ;
   lawd:hasName [ lawd:variantForm "Καῦκοι"@grc ], [ lawd:variantForm "ⲡⲕⲉⲗⲱⲗ"@cop ], [ lawd:variantForm "ⲡⲕⲟⲩⲗⲱⲗ"@cop ], [ lawd:variantForm "دير البخيت"@arz ], [ lawd:variantForm "Deir el Bakhit"@eng ], [ lawd:variantForm "Deir el Bachit"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/193>
+<https://paths.uniroma.it/paths/places/193>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/11645> ;
   dc:temporal "800/800" ;
@@ -1937,7 +1959,7 @@
   lawd:primaryForm "Monastery of St. Phoibammon"@en ;
   lawd:hasName [ lawd:variantForm "djeser-djeseru"@egy ], [ lawd:variantForm "ἁγίος τόπος τοῦ ἀθλοφόρου μάρτυρος Ἀββᾶ Φοιβάμμωνος"@grc ], [ lawd:variantForm "ⲡⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ"@cop ], [ lawd:variantForm "ⲡⲧⲟⲡⲟⲥ ⲉⲧⲟⲩⲁⲁⲃ (ⲛ) ⲁⲡⲁ ⲫⲟⲓⲃⲁⲙⲙⲱⲛ"@cop ], [ lawd:variantForm "ⲡⲧⲟⲡⲟⲥ ⲛⲁⲡⲁ ⲫⲟⲓⲃⲁⲙⲙⲱⲛ"@cop ], [ lawd:variantForm "ⲧⲗⲁⲩⲣⲁ ⲙⲫⲟⲓⲃⲁⲙⲙⲱⲛ"@cop ], [ lawd:variantForm "دير البحري"@arz ], [ lawd:variantForm "Deir el Bahari"@eng ], [ lawd:variantForm "Monastery of St. Phoibammon"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/194>
+<https://paths.uniroma.it/paths/places/194>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -1952,7 +1974,7 @@
   lawd:primaryForm "Monastery of Saint Isidorus Martyr at Deir el Medina"@en ;
   lawd:hasName [ lawd:variantForm "pƷ dmj"@egy ], [ lawd:variantForm "دير المدينة"@arz ], [ lawd:variantForm "Deir el Medina"@eng ], [ lawd:variantForm "Monastery of Saint Isidorus Martyr"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/195>
+<https://paths.uniroma.it/paths/places/195>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -1967,7 +1989,7 @@
   lawd:primaryForm "Deir el Rumi"@en ;
   lawd:hasName [ lawd:variantForm "دير الرومي"@arz ], [ lawd:variantForm "Deir el Rumi"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/196>
+<https://paths.uniroma.it/paths/places/196>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -1982,7 +2004,7 @@
   lawd:primaryForm "Western Thebes TT C3"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT C3"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/198>
+<https://paths.uniroma.it/paths/places/198>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -1997,7 +2019,7 @@
   lawd:primaryForm "Monastery of Epiphanius"@en ;
   lawd:hasName [ lawd:variantForm "ⲡⲙⲁ ⲛⲁⲡⲁ ⲉⲡⲉⲫⲁⲛⲓⲟⲥ"@cop ], [ lawd:variantForm "ⲉⲡⲓⲫⲁⲛⲓⲟⲥ"@cop ], [ lawd:variantForm "شيخ عبدالقرنة"@arz ], [ lawd:variantForm "Monastery of Epiphanius"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/199>
+<https://paths.uniroma.it/paths/places/199>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2012,7 +2034,7 @@
   lawd:primaryForm "Western Thebes TT 29"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 29"@eng ], [ lawd:variantForm "ⲧⲉϩⲣⲏⲃⲉ ?"@cop ], [ lawd:variantForm "ⲧⲉϩⲣⲉⲃⲉ ?"@cop ] .
 
-<http://paths.uniroma1.it/atlas/places/200>
+<https://paths.uniroma.it/paths/places/200>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2027,7 +2049,7 @@
   lawd:primaryForm "Monastery of Cyriacus"@en ;
   lawd:hasName [ lawd:variantForm "ⲡⲙⲁ ⲛⲁⲡⲁ ⲕⲩⲣⲓ<ⲁ>ⲕⲟⲥ"@cop ], [ lawd:variantForm "ⲡⲙⲁ ⲛⲁⲡⲁ ⲕⲩⲣⲓⲁⲕⲟⲥ"@cop ], [ lawd:variantForm "Monastery of Cyriacus"@eng ], [ lawd:variantForm "Sheik Abd el-Qurna"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/201>
+<https://paths.uniroma.it/paths/places/201>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2042,17 +2064,17 @@
   lawd:primaryForm "Monastery of St. Marcus"@en ;
   lawd:hasName [ lawd:variantForm "ⲡⲧⲟⲡⲟⲥ ... ⲙⲁⲣⲕⲟⲥ ⲡⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ"@cop ], [ lawd:variantForm "Monastery of St. Marcus"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/202>
+<https://paths.uniroma.it/paths/places/202>
   a lawd:Place ;
-  dc:spatial <http://pleiades.stoa.org/places/786067> ;
-  dc:relation <http://pleiades.stoa.org/places/786067> ;
+  dc:spatial <http://pleiades.stoa.org/places/384697574> ;
+  dc:relation <http://pleiades.stoa.org/places/384697574> ;
   skos:exactMatch <https://www.trismegistos.org/place/1341> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.60210037231446 25.7409301569811)" ] ;
   rdfs:label "Valley of the Kings"@en ;
   lawd:primaryForm "Valley of the Kings"@en ;
   lawd:hasName [ lawd:variantForm " Syringes"@grc ], [ lawd:variantForm "وادي الملوك"@arz ], [ lawd:variantForm "وادي ابواب المملوك"@arz ], [ lawd:variantForm "Valley of the Kings"@eng ], [ lawd:variantForm "Wadi el-Muluk"@eng ], [ lawd:variantForm "Biban el-Muluk"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/203>
+<https://paths.uniroma.it/paths/places/203>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/805591> ;
   dc:relation <http://pleiades.stoa.org/places/805591> ;
@@ -2062,37 +2084,37 @@
   lawd:primaryForm "Wadi Araba"@en ;
   lawd:hasName [ lawd:variantForm "Wadi Araba"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/204>
+<https://paths.uniroma.it/paths/places/204>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727232> ;
   dc:relation <http://pleiades.stoa.org/places/727232> ;
   skos:exactMatch <https://www.trismegistos.org/place/3375> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.25 30.75)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.379225 30.300424)" ] ;
   rdfs:label "Wadi Natrun Monastery of John the Little "@en ;
   lawd:primaryForm "Wadi Natrun Monastery of John the Little "@en ;
   lawd:hasName [ lawd:variantForm "Wadi Natrun Monastery of John the Little "@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/205>
+<https://paths.uniroma.it/paths/places/205>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727232> ;
   dc:relation <http://pleiades.stoa.org/places/727232> ;
   skos:exactMatch <https://www.trismegistos.org/place/3375> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.25 30.75)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.270818592980508 30.357098369275192)" ] ;
   rdfs:label "Wadi Natrun Monastery of Baramus"@en ;
   lawd:primaryForm "Wadi Natrun Monastery of Baramus"@en ;
   lawd:hasName [ lawd:variantForm "Wadi Natrun Monastery of Baramus"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/206>
+<https://paths.uniroma.it/paths/places/206>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727232> ;
   dc:relation <http://pleiades.stoa.org/places/727232> ;
   skos:exactMatch <https://www.trismegistos.org/place/3375> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.25 30.75)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.3600404 30.3190634)" ] ;
   rdfs:label "Wadi Natrun Monastery of the Syrians"@en ;
   lawd:primaryForm "Wadi Natrun Monastery of the Syrians"@en ;
   lawd:hasName [ lawd:variantForm "دير السريان"@arz ], [ lawd:variantForm "Wadi Natrun Monastery of the Syrians"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/207>
+<https://paths.uniroma.it/paths/places/207>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727232> ;
   dc:relation <http://pleiades.stoa.org/places/727232> ;
@@ -2102,7 +2124,7 @@
   lawd:primaryForm "Wadi Natrun Monastery of Moses"@en ;
   lawd:hasName [ lawd:variantForm "Wadi Natrun Monastery of Moses"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/208>
+<https://paths.uniroma.it/paths/places/208>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727232> ;
   dc:relation <http://pleiades.stoa.org/places/727232> ;
@@ -2117,7 +2139,7 @@
   lawd:primaryForm "Wadi Natrun Monastery of St. Macarius"@en ;
   lawd:hasName [ lawd:variantForm "دير الأنبا مقار"@arz ], [ lawd:variantForm "Wadi Natrun Monastery of St. Macarius"@eng ], [ lawd:variantForm "Deir el-Anba Maqar"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/209>
+<https://paths.uniroma.it/paths/places/209>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756532> ;
   dc:relation <http://pleiades.stoa.org/places/756532> ;
@@ -2127,7 +2149,7 @@
   lawd:primaryForm "Aphrodite"@en ;
   lawd:hasName [ lawd:variantForm "κώμη Ἀφροδίτης"@grc ], [ lawd:variantForm "Ἀφροδιτώ"@grc ], [ lawd:variantForm "ⲧϫⲕⲱⲟⲩ"@cop ], [ lawd:variantForm "ⲧϣⲕⲟⲟⲩ"@cop ], [ lawd:variantForm "ϫⲉⲕⲱⲟⲩ"@cop ], [ lawd:variantForm "ϫⲕⲱⲟⲩ"@cop ], [ lawd:variantForm "كوم اشقاو"@arz ], [ lawd:variantForm "Aphrodite"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/210>
+<https://paths.uniroma.it/paths/places/210>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2142,7 +2164,7 @@
   lawd:primaryForm "Topos of Apa Phoibammon in the Rock"@en ;
   lawd:hasName [ lawd:variantForm "ⲡⲧⲟⲡⲟⲥ ⲛⲁⲡⲁ ⲫⲟⲓⲃⲁⲙⲙⲱⲛ"@cop ], [ lawd:variantForm "ⲧⲗⲁⲩⲣⲁ ⲙⲫⲟⲓⲃⲁⲙⲙⲱⲛ"@cop ], [ lawd:variantForm "Laura of Phoibammon"@eng ], [ lawd:variantForm "Topos of Apa Phoibammon in the Rock"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/211>
+<https://paths.uniroma.it/paths/places/211>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737001> ;
   dc:relation <http://pleiades.stoa.org/places/737001> ;
@@ -2157,7 +2179,7 @@
   lawd:primaryForm "Philagris"@en ;
   lawd:hasName [ lawd:variantForm " Pr-grg-n-Ḏḥwty"@egy ], [ lawd:variantForm "*Pȝ-grg-n-Ḏḥwty"@egy ], [ lawd:variantForm "Φιλαγρίς"@grc ], [ lawd:variantForm "Περκεθαῦτ"@grc ], [ lawd:variantForm "Περκεθαοῦτ"@grc ], [ lawd:variantForm "ⲡⲉⲣⲕⲉⲑⲁⲩⲧ"@cop ], [ lawd:variantForm "ⲡⲉⲣⲕⲉⲧⲁⲩⲧ"@cop ], [ lawd:variantForm "Hamuli"@eng ], [ lawd:variantForm "Philagris"@eng ], [ lawd:variantForm "Perkethayt"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/212>
+<https://paths.uniroma.it/paths/places/212>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756647> ;
   dc:relation <http://pleiades.stoa.org/places/756647> ;
@@ -2167,7 +2189,7 @@
   lawd:primaryForm "Speos Artemidos"@en ;
   lawd:hasName [ lawd:variantForm "Σπέος Ἀρτέμιδος"@grc ], [ lawd:variantForm "إسطبل عنتر"@arz ], [ lawd:variantForm "Speos Artemidos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/213>
+<https://paths.uniroma.it/paths/places/213>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756599> ;
   dc:relation <http://pleiades.stoa.org/places/756599> ;
@@ -2177,7 +2199,7 @@
   lawd:primaryForm "Mallawi"@en ;
   lawd:hasName [ lawd:variantForm "ⲙⲁⲛⲗⲁⲩ"@cop ], [ lawd:variantForm "Manlau"@eng ], [ lawd:variantForm "Mallawi"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/214>
+<https://paths.uniroma.it/paths/places/214>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2834> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.9 27.75)" ] ;
@@ -2185,7 +2207,7 @@
   lawd:primaryForm "Deir el-Bersha"@en ;
   lawd:hasName [ lawd:variantForm "Deir el-Bersha"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/215>
+<https://paths.uniroma.it/paths/places/215>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756549> ;
   dc:relation <http://pleiades.stoa.org/places/756549> ;
@@ -2195,21 +2217,21 @@
   lawd:primaryForm "Deir Abu Hennes"@en ;
   lawd:hasName [ lawd:variantForm "Deir Abu Hennes"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/216>
+<https://paths.uniroma.it/paths/places/216>
   a lawd:Place ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.878834724426273 27.825641516193073)" ] ;
   rdfs:label "Deir Sumbat"@en ;
   lawd:primaryForm "Deir Sumbat"@en ;
   lawd:hasName [ lawd:variantForm "Deir Sumbat"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/217>
+<https://paths.uniroma.it/paths/places/217>
   a lawd:Place ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.844722 27.8625)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.8612058 27.8293788)" ] ;
   rdfs:label "Deir al-Dik"@en ;
   lawd:primaryForm "Deir al-Dik"@en ;
   lawd:hasName [ lawd:variantForm "Deir al-Dik"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/218>
+<https://paths.uniroma.it/paths/places/218>
   a lawd:Place ;
   dc:temporal "893/893" ;
   time:hasDateTimeDescription [
@@ -2220,7 +2242,7 @@
   lawd:primaryForm "Ptepouhar"@en ;
   lawd:hasName [ lawd:variantForm "Ⲡⲧⲉⲡⲟⲩϩⲁⲣ"@cop ], [ lawd:variantForm "Ptepouhar"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/219>
+<https://paths.uniroma.it/paths/places/219>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2235,7 +2257,7 @@
   lawd:primaryForm "Western Thebes TT 157"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 157"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/220>
+<https://paths.uniroma.it/paths/places/220>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2250,7 +2272,7 @@
   lawd:primaryForm "Western Thebes TT 95"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 95"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/221>
+<https://paths.uniroma.it/paths/places/221>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2265,7 +2287,7 @@
   lawd:primaryForm "Western Thebes TT 99"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 99"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/222>
+<https://paths.uniroma.it/paths/places/222>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786014> ;
   dc:relation <http://pleiades.stoa.org/places/786014> ;
@@ -2280,7 +2302,7 @@
   lawd:primaryForm "Western Thebes Winlock - Crum site 26"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes Winlock - Crum site 26"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/223>
+<https://paths.uniroma.it/paths/places/223>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786014> ;
   dc:relation <http://pleiades.stoa.org/places/786014> ;
@@ -2295,7 +2317,7 @@
   lawd:primaryForm "Western Thebes Winlock - Crum site 27"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes Winlock - Crum site 27"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/224>
+<https://paths.uniroma.it/paths/places/224>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2310,7 +2332,7 @@
   lawd:primaryForm "Western Thebes TT 97"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 97"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/225>
+<https://paths.uniroma.it/paths/places/225>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756594> ;
   dc:relation <http://pleiades.stoa.org/places/756594> ;
@@ -2320,7 +2342,7 @@
   lawd:primaryForm "Lykopolites nomòs"@en ;
   lawd:hasName [ lawd:variantForm "Λυκοπολίτης"@grc ], [ lawd:variantForm "Lykopolites nomòs"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/226>
+<https://paths.uniroma.it/paths/places/226>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2335,7 +2357,7 @@
   lawd:primaryForm "Western Thebes TT 56"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 56"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/227>
+<https://paths.uniroma.it/paths/places/227>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786014> ;
   dc:relation <http://pleiades.stoa.org/places/786014> ;
@@ -2350,7 +2372,7 @@
   lawd:primaryForm "Western Thebes Winlock - Crum sites 30-32 (site 33)"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes Winlock - Crum sites 30-32 (site 33)"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/228>
+<https://paths.uniroma.it/paths/places/228>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786014> ;
   dc:relation <http://pleiades.stoa.org/places/786014> ;
@@ -2365,7 +2387,7 @@
   lawd:primaryForm "Western Thebes K 131 [K93.11] - K 130 [K93.12]"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes K131 [K93.11]"@eng ], [ lawd:variantForm "Western Thebes K130 [K93.12]"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/229>
+<https://paths.uniroma.it/paths/places/229>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2380,7 +2402,7 @@
   lawd:primaryForm "Western Thebes TT 72"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 72"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/230>
+<https://paths.uniroma.it/paths/places/230>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2395,7 +2417,7 @@
   lawd:primaryForm "Western Thebes Winlock - Crum site 29"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes Winlock - Crum site 29"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/232>
+<https://paths.uniroma.it/paths/places/232>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2410,7 +2432,7 @@
   lawd:primaryForm "Western Thebes [K91.1]"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes [K91.1]"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/233>
+<https://paths.uniroma.it/paths/places/233>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2425,7 +2447,7 @@
   lawd:primaryForm "Western Thebes TT 75"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes  TT 75"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/234>
+<https://paths.uniroma.it/paths/places/234>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2434,7 +2456,7 @@
   lawd:primaryForm "Western Thebes TT 230"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 230"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/235>
+<https://paths.uniroma.it/paths/places/235>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2449,7 +2471,7 @@
   lawd:primaryForm "Western Thebes TT 225"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 225"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/236>
+<https://paths.uniroma.it/paths/places/236>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2464,7 +2486,7 @@
   lawd:primaryForm "Western Thebes TT 82"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 82"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/237>
+<https://paths.uniroma.it/paths/places/237>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2479,7 +2501,7 @@
   lawd:primaryForm "Western Thebes TT 35"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 35"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/239>
+<https://paths.uniroma.it/paths/places/239>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2494,7 +2516,7 @@
   lawd:primaryForm "Western Thebes TT 96"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 96"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/240>
+<https://paths.uniroma.it/paths/places/240>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2509,7 +2531,7 @@
   lawd:primaryForm "Western Thebes TT 160"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 160"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/241>
+<https://paths.uniroma.it/paths/places/241>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2524,7 +2546,7 @@
   lawd:primaryForm "Western Thebes TT 158"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 158"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/242>
+<https://paths.uniroma.it/paths/places/242>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2539,7 +2561,7 @@
   lawd:primaryForm "Western Thebes TT 282"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 282"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/243>
+<https://paths.uniroma.it/paths/places/243>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736982> ;
   dc:relation <http://pleiades.stoa.org/places/736982> ;
@@ -2549,7 +2571,7 @@
   lawd:primaryForm "Oxyrhynchites nomòs"@en ;
   lawd:hasName [ lawd:variantForm "Ὀξυρυγχίτης"@grc ], [ lawd:variantForm "Oxyrhynchites nomòs"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/244>
+<https://paths.uniroma.it/paths/places/244>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2564,7 +2586,7 @@
   lawd:primaryForm "Western Thebes TT 288 - 289"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 288"@eng ], [ lawd:variantForm "Western Thebes TT 289"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/245>
+<https://paths.uniroma.it/paths/places/245>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2579,7 +2601,7 @@
   lawd:primaryForm "Western Thebes TT 20"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 20"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/246>
+<https://paths.uniroma.it/paths/places/246>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2593,7 +2615,7 @@
   lawd:primaryForm "Western Thebes TT 109"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 109"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/247>
+<https://paths.uniroma.it/paths/places/247>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2607,7 +2629,7 @@
   lawd:primaryForm "Western Thebes K 298"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes K298"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/248>
+<https://paths.uniroma.it/paths/places/248>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2622,7 +2644,7 @@
   lawd:primaryForm "Western Thebes TT 86"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 86"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/249>
+<https://paths.uniroma.it/paths/places/249>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2631,7 +2653,7 @@
   lawd:primaryForm "Western Thebes TT 87"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 87"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/250>
+<https://paths.uniroma.it/paths/places/250>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2646,7 +2668,7 @@
   lawd:primaryForm "Western Thebes TT 85, TT 87"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes  TT 85"@eng ], [ lawd:variantForm "Western Thebes  TT 87"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/251>
+<https://paths.uniroma.it/paths/places/251>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2661,7 +2683,7 @@
   lawd:primaryForm "Western Thebes TT 84"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 84"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/252>
+<https://paths.uniroma.it/paths/places/252>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2676,7 +2698,7 @@
   lawd:primaryForm "Western Thebes TT 94"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 94"@eng ], [ lawd:variantForm "Western Thebes TT 94"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/253>
+<https://paths.uniroma.it/paths/places/253>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2691,7 +2713,7 @@
   lawd:primaryForm "Western Thebes TT 92"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 92"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/254>
+<https://paths.uniroma.it/paths/places/254>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2706,7 +2728,7 @@
   lawd:primaryForm "Western Thebes TT 367"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 367"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/255>
+<https://paths.uniroma.it/paths/places/255>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2721,7 +2743,7 @@
   lawd:primaryForm "Western Thebes TT 39"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 39"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/256>
+<https://paths.uniroma.it/paths/places/256>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2736,7 +2758,7 @@
   lawd:primaryForm "Western Thebes TT 373"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 373"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/257>
+<https://paths.uniroma.it/paths/places/257>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2751,7 +2773,7 @@
   lawd:primaryForm "Western Thebes K 85"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes K85"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/258>
+<https://paths.uniroma.it/paths/places/258>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2766,7 +2788,7 @@
   lawd:primaryForm "Western Thebes TT 49"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 49"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/259>
+<https://paths.uniroma.it/paths/places/259>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/384697574> ;
   dc:relation <http://pleiades.stoa.org/places/384697574> ;
@@ -2781,7 +2803,7 @@
   lawd:primaryForm "Western Thebes KV 1"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes KV1"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/260>
+<https://paths.uniroma.it/paths/places/260>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2796,7 +2818,7 @@
   lawd:primaryForm "Western Thebes TT 32"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT32"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/261>
+<https://paths.uniroma.it/paths/places/261>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2811,7 +2833,7 @@
   lawd:primaryForm "Western Thebes TT 183"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 183"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/262>
+<https://paths.uniroma.it/paths/places/262>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/384697574> ;
   dc:relation <http://pleiades.stoa.org/places/384697574> ;
@@ -2826,7 +2848,7 @@
   lawd:primaryForm "Western Thebes KV 3"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes KV3"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/263>
+<https://paths.uniroma.it/paths/places/263>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/384697574> ;
   dc:relation <http://pleiades.stoa.org/places/384697574> ;
@@ -2841,7 +2863,7 @@
   lawd:primaryForm "Western Thebes KV 4"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes KV4"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/264>
+<https://paths.uniroma.it/paths/places/264>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736942> ;
   dc:relation <http://pleiades.stoa.org/places/736942> ;
@@ -2851,7 +2873,7 @@
   lawd:primaryForm "Ghoran"@en ;
   lawd:hasName [ lawd:variantForm "Ghoran"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/265>
+<https://paths.uniroma.it/paths/places/265>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2866,7 +2888,7 @@
   lawd:primaryForm "Western Thebes TT 240 (=MMA 517)"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 240"@eng ], [ lawd:variantForm "Western Thebes MMA 517"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/266>
+<https://paths.uniroma.it/paths/places/266>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2881,7 +2903,7 @@
   lawd:primaryForm "Western Thebes TT 312 (=MMA 509)"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 312"@eng ], [ lawd:variantForm "Western Thebes MMA 509"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/267>
+<https://paths.uniroma.it/paths/places/267>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -2896,7 +2918,7 @@
   lawd:primaryForm "Western Thebes TT 223"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 223"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/268>
+<https://paths.uniroma.it/paths/places/268>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/384697574> ;
   dc:relation <http://pleiades.stoa.org/places/384697574> ;
@@ -2911,7 +2933,7 @@
   lawd:primaryForm "Western Thebes KV 9"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes KV9"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/269>
+<https://paths.uniroma.it/paths/places/269>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/384697574> ;
   dc:relation <http://pleiades.stoa.org/places/384697574> ;
@@ -2926,7 +2948,7 @@
   lawd:primaryForm "Western Thebes KV 2"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes KV2"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/270>
+<https://paths.uniroma.it/paths/places/270>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/384697574> ;
   dc:relation <http://pleiades.stoa.org/places/384697574> ;
@@ -2941,7 +2963,7 @@
   lawd:primaryForm "Western Thebes KV 5"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes KV5"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/271>
+<https://paths.uniroma.it/paths/places/271>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/384697574> ;
   dc:relation <http://pleiades.stoa.org/places/384697574> ;
@@ -2956,7 +2978,7 @@
   lawd:primaryForm "Western Thebes KV 6"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes KV6"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/272>
+<https://paths.uniroma.it/paths/places/272>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/384697574> ;
   dc:relation <http://pleiades.stoa.org/places/384697574> ;
@@ -2971,7 +2993,7 @@
   lawd:primaryForm "Western Thebes KV 8"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes KV8"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/273>
+<https://paths.uniroma.it/paths/places/273>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/384697574> ;
   dc:relation <http://pleiades.stoa.org/places/384697574> ;
@@ -2986,7 +3008,7 @@
   lawd:primaryForm "Western Thebes KV 24"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes KV24"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/274>
+<https://paths.uniroma.it/paths/places/274>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/442962448> ;
   dc:relation <http://pleiades.stoa.org/places/442962448> ;
@@ -2996,7 +3018,7 @@
   lawd:primaryForm "Giza"@en ;
   lawd:hasName [ lawd:variantForm "Πυραμίδες"@grc ], [ lawd:variantForm "الجيزة"@arz ], [ lawd:variantForm "Giza"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/275>
+<https://paths.uniroma.it/paths/places/275>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3011,7 +3033,7 @@
   lawd:primaryForm "Western Thebes TT 310 (=MMA505)"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 310"@eng ], [ lawd:variantForm "Western Thebes MMA505"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/277>
+<https://paths.uniroma.it/paths/places/277>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/963047542> ;
   dc:relation <http://pleiades.stoa.org/places/963047542> ;
@@ -3026,7 +3048,7 @@
   lawd:primaryForm "Western Thebes Mortuary complex of Ramses II"@en ;
   lawd:hasName [ lawd:variantForm "H̱nm-Wsr"@egy ], [ lawd:variantForm "H̱nm.t-Wȝs.t"@egy ], [ lawd:variantForm "Western Thebes Mortuary complex of Ramses II"@eng ], [ lawd:variantForm "Western Thebes Ramesseum"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/278>
+<https://paths.uniroma.it/paths/places/278>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3041,7 +3063,7 @@
   lawd:primaryForm "Western Thebes Mortuary Temple of Seti I"@en ;
   lawd:hasName [ lawd:variantForm "ḫft-ḥr nb.s"@egy ], [ lawd:variantForm "Western Thebes Mortuary Temple of Seti I"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/279>
+<https://paths.uniroma.it/paths/places/279>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756591> ;
   dc:relation <http://pleiades.stoa.org/places/756591> ;
@@ -3050,7 +3072,7 @@
   lawd:primaryForm "Lepidotonpolis"@en ;
   lawd:hasName [ lawd:variantForm "Λεπιδότων πόλις"@grc ], [ lawd:variantForm "Nag‘ el-Mashaikh"@eng ], [ lawd:variantForm "Lepidotonpolis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/280>
+<https://paths.uniroma.it/paths/places/280>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3065,7 +3087,7 @@
   lawd:primaryForm "Northern Qurnet Murrai"@en ;
   lawd:hasName [ lawd:variantForm "Northern Qurnet Murrai"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/281>
+<https://paths.uniroma.it/paths/places/281>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3075,7 +3097,7 @@
   lawd:primaryForm "Deir el-Shelwit"@en ;
   lawd:hasName [ lawd:variantForm "Dayr Katreh"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/282>
+<https://paths.uniroma.it/paths/places/282>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/741626> ;
   dc:relation <http://pleiades.stoa.org/places/741626> ;
@@ -3084,7 +3106,7 @@
   lawd:primaryForm "Perpnoute"@en ;
   lawd:hasName [ lawd:variantForm " Pȝ-ỉ.ỉr-pȝ-nṯr"@egy ], [ lawd:variantForm " Θεογονίς "@grc ], [ lawd:variantForm "Θεαγενίς"@grc ], [ lawd:variantForm "ⲡⲉⲣⲡⲛⲟⲩⲧⲉ"@cop ], [ lawd:variantForm " ⲑⲉⲱⲕⲉⲛⲓⲥ "@cop ], [ lawd:variantForm "Perpnoute"@eng ], [ lawd:variantForm "Theogonis"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/283>
+<https://paths.uniroma.it/paths/places/283>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3099,7 +3121,7 @@
   lawd:primaryForm "Western Thebes Winlock - Crum site 6"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes Winlock- Crum site 6"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/284>
+<https://paths.uniroma.it/paths/places/284>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3114,7 +3136,7 @@
   lawd:primaryForm "Western Thebes DeM 1437"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1437"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/285>
+<https://paths.uniroma.it/paths/places/285>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3129,7 +3151,7 @@
   lawd:primaryForm "Western Thebes DeM 1438"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1438"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/286>
+<https://paths.uniroma.it/paths/places/286>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3144,7 +3166,7 @@
   lawd:primaryForm "Western Thebes Ramesside votive chapel"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes Ramesside votive chapel"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/287>
+<https://paths.uniroma.it/paths/places/287>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/776188> ;
   dc:relation <http://pleiades.stoa.org/places/776188> ;
@@ -3154,7 +3176,7 @@
   lawd:primaryForm "el-Qalamun (Dakhla)"@en ;
   lawd:hasName [ lawd:variantForm "Kalamon"@eng ], [ lawd:variantForm "el-Qalamun"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/288>
+<https://paths.uniroma.it/paths/places/288>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3169,7 +3191,7 @@
   lawd:primaryForm "Western Thebes DeM 1450"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1450"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/289>
+<https://paths.uniroma.it/paths/places/289>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3184,7 +3206,7 @@
   lawd:primaryForm "Western Thebes DeM 1449"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1449"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/290>
+<https://paths.uniroma.it/paths/places/290>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3199,7 +3221,7 @@
   lawd:primaryForm "Western Thebes DeM 1447"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1447"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/291>
+<https://paths.uniroma.it/paths/places/291>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3214,7 +3236,7 @@
   lawd:primaryForm "Western Thebes QV 1"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 1"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/292>
+<https://paths.uniroma.it/paths/places/292>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3229,7 +3251,7 @@
   lawd:primaryForm "Western Thebes DeM 1446"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1446"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/293>
+<https://paths.uniroma.it/paths/places/293>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3239,7 +3261,7 @@
   lawd:primaryForm "Western Thebes QV 2"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 2"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/294>
+<https://paths.uniroma.it/paths/places/294>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3249,7 +3271,7 @@
   lawd:primaryForm "Western Thebes QV 12"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 12"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/295>
+<https://paths.uniroma.it/paths/places/295>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3259,7 +3281,7 @@
   lawd:primaryForm "Western Thebes QV 22"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 22"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/296>
+<https://paths.uniroma.it/paths/places/296>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3274,7 +3296,7 @@
   lawd:primaryForm "Western Thebes QV 21"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 21"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/297>
+<https://paths.uniroma.it/paths/places/297>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3289,14 +3311,14 @@
   lawd:primaryForm "Western Thebes DeM 1451"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1451"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/298>
+<https://paths.uniroma.it/paths/places/298>
   a lawd:Place ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.59252756834031 25.72767136853225)" ] ;
   rdfs:label "Western Thebes QV 58"@en ;
   lawd:primaryForm "Western Thebes QV 58"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 58"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/299>
+<https://paths.uniroma.it/paths/places/299>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3311,7 +3333,7 @@
   lawd:primaryForm "Western Thebes QV 60"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 60"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/300>
+<https://paths.uniroma.it/paths/places/300>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3326,7 +3348,7 @@
   lawd:primaryForm "Western Thebes QV 73"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 73"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/301>
+<https://paths.uniroma.it/paths/places/301>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3336,7 +3358,7 @@
   lawd:primaryForm "Western Thebes QV 79"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 79"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/302>
+<https://paths.uniroma.it/paths/places/302>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3351,7 +3373,7 @@
   lawd:primaryForm "Western Thebes DeM 1346"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1346"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/303>
+<https://paths.uniroma.it/paths/places/303>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3366,7 +3388,7 @@
   lawd:primaryForm "Western Thebes DeM 1006"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1006"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/304>
+<https://paths.uniroma.it/paths/places/304>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3381,7 +3403,7 @@
   lawd:primaryForm "Western Thebes TT 336"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 336"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/305>
+<https://paths.uniroma.it/paths/places/305>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3396,7 +3418,7 @@
   lawd:primaryForm "Western Thebes QV 44"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes QV 44"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/307>
+<https://paths.uniroma.it/paths/places/307>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3411,7 +3433,7 @@
   lawd:primaryForm "Western Thebes TT 46"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT46"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/308>
+<https://paths.uniroma.it/paths/places/308>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3426,7 +3448,7 @@
   lawd:primaryForm "Western Thebes TT 52"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 52"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/309>
+<https://paths.uniroma.it/paths/places/309>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3441,7 +3463,7 @@
   lawd:primaryForm "Western Thebes DeM 1147"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1147"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/310>
+<https://paths.uniroma.it/paths/places/310>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3456,7 +3478,7 @@
   lawd:primaryForm "Western Thebes DeM 1148"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1148"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/311>
+<https://paths.uniroma.it/paths/places/311>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3471,7 +3493,7 @@
   lawd:primaryForm "Western Thebes DeM 1150"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1150"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/312>
+<https://paths.uniroma.it/paths/places/312>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3486,7 +3508,7 @@
   lawd:primaryForm "Western Thebes DeM 1197"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1197"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/313>
+<https://paths.uniroma.it/paths/places/313>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3501,7 +3523,7 @@
   lawd:primaryForm "Western Thebes DeM 2002 - DeM 2003 - DeM 2004"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 2002"@eng ], [ lawd:variantForm "Western Thebes DeM 2003"@eng ], [ lawd:variantForm "Western Thebes DeM 2004"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/314>
+<https://paths.uniroma.it/paths/places/314>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3516,7 +3538,7 @@
   lawd:primaryForm "Western Thebes TT 251"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes TT 251"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/315>
+<https://paths.uniroma.it/paths/places/315>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3530,7 +3552,7 @@
   lawd:primaryForm "Western Thebes C 6"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes C 6 "@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/316>
+<https://paths.uniroma.it/paths/places/316>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3545,7 +3567,7 @@
   lawd:primaryForm "Qasr el-Agouz"@en ;
   lawd:hasName [ lawd:variantForm "Qasr el-Agouz"@eng ], [ lawd:variantForm "Kasr el-Agouz "@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/317>
+<https://paths.uniroma.it/paths/places/317>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864788873> ;
   dc:relation <http://pleiades.stoa.org/places/864788873> ;
@@ -3560,7 +3582,7 @@
   lawd:primaryForm "Western Thebes DeM 1401"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1401"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/318>
+<https://paths.uniroma.it/paths/places/318>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3574,7 +3596,7 @@
   lawd:primaryForm "Western Thebes C 7"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes C 7"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/319>
+<https://paths.uniroma.it/paths/places/319>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/864388873> ;
   dc:relation <http://pleiades.stoa.org/places/864388873> ;
@@ -3589,7 +3611,7 @@
   lawd:primaryForm "Western Thebes DeM 1400"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes DeM 1346"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/320>
+<https://paths.uniroma.it/paths/places/320>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3603,7 +3625,7 @@
   lawd:primaryForm "Western Thebes C' 7"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes C'7"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/321>
+<https://paths.uniroma.it/paths/places/321>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3618,13 +3640,13 @@
   lawd:primaryForm "Western Thebes QV hamlet"@en ;
   lawd:hasName [ lawd:variantForm "whyt"@egy ], [ lawd:variantForm "Western Thebes QV hamlet"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/322>
+<https://paths.uniroma.it/paths/places/322>
   a lawd:Place ;
   rdfs:label "Pshanti"@en ;
   lawd:primaryForm "Pshanti"@en ;
   lawd:hasName [ lawd:variantForm "Pshanti"@eng ], [ lawd:variantForm "Ἀκανθῶνος"@grc ], [ lawd:variantForm "ⲡϣⲁⲛⲧⲓ "@cop ], [ lawd:variantForm "ⲡϣⲱⲛⲧⲉ"@cop ], [ lawd:variantForm "Pšanti"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/323>
+<https://paths.uniroma.it/paths/places/323>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736893> ;
   dc:relation <http://pleiades.stoa.org/places/736893> ;
@@ -3633,7 +3655,7 @@
   lawd:primaryForm "Fayyum"@en ;
   lawd:hasName [ lawd:variantForm "Tȝ-š"@egy ], [ lawd:variantForm "ⲡⲟⲗⲓⲥ, ⲡⲉⲓⲟⲙ, ⲡⲓⲁⲙ, ⲡⲓⲱⲙ, ⲫⲓⲟⲙ"@cop ], [ lawd:variantForm "   الفيوم"@arz ], [ lawd:variantForm "ⲫⲓⲟⲙ"@cop ], [ lawd:variantForm "ⲡⲓⲱⲙ"@cop ], [ lawd:variantForm "ⲡⲓⲁⲙ"@cop ], [ lawd:variantForm "ⲡⲉⲓⲟⲙ"@cop ], [ lawd:variantForm "ⲡⲟⲗⲓⲥ"@cop ], [ lawd:variantForm "ⲡⲉⲓⲟⲙ"@cop ], [ lawd:variantForm "Š-Sbk"@egy ], [ lawd:variantForm "Λιμνίτης"@grc ], [ lawd:variantForm "Λίμνη"@grc ], [ lawd:variantForm "Ἀρσινοίτης"@grc ], [ lawd:variantForm "Ἀρσενοίτης"@grc ], [ lawd:variantForm "Wȝḏ-wr"@egy ], [ lawd:variantForm "Pȝ-ym"@egy ], [ lawd:variantForm "Š-rsy š-mḥty"@egy ], [ lawd:variantForm "Fayyum"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/324>
+<https://paths.uniroma.it/paths/places/324>
   a lawd:Place ;
   dc:temporal "450/450" ;
   time:hasDateTimeDescription [
@@ -3644,7 +3666,7 @@
   lawd:primaryForm "Deir el-Saqiyya"@en ;
   lawd:hasName [ lawd:variantForm "Dayr al-Saqiyya"@eng ], [ lawd:variantForm "Deir el-Saqiyya"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/325>
+<https://paths.uniroma.it/paths/places/325>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/5320> ;
   dc:temporal "700/700" ;
@@ -3657,7 +3679,7 @@
   lawd:primaryForm "Koprithis"@en ;
   lawd:hasName [ lawd:variantForm "Κοπρῖθις"@grc ], [ lawd:variantForm "Κοπρίϑειος κώμη"@grc ], [ lawd:variantForm "Ⲕⲟⲡⲣⲉⲧ"@cop ], [ lawd:variantForm "قبريط"@arz ], [ lawd:variantForm "Koprithis"@eng ], [ lawd:variantForm "Tell Qabrit"@eng ], [ lawd:variantForm "Kom Qabrit"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/326>
+<https://paths.uniroma.it/paths/places/326>
   a lawd:Place ;
   dc:temporal "1000/1000" ;
   time:hasDateTimeDescription [
@@ -3669,7 +3691,7 @@
   lawd:primaryForm "Kom Sidi Uqba"@en ;
   lawd:hasName [ lawd:variantForm "Ⲧⲕⲉⲗⲗⲟ (?)"@cop ], [ lawd:variantForm "دكلوبا"@arz ], [ lawd:variantForm "Kom Sidi Uqba"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/327>
+<https://paths.uniroma.it/paths/places/327>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/736956> ;
   dc:relation <http://pleiades.stoa.org/places/736956> ;
@@ -3684,7 +3706,7 @@
   lawd:primaryForm "Magdola"@en ;
   lawd:hasName [ lawd:variantForm "Nȝ-mktlȝ"@egy ], [ lawd:variantForm "mkt3l"@egy ], [ lawd:variantForm "Mgtl?"@egy ], [ lawd:variantForm " Μαγδωλα"@grc ], [ lawd:variantForm "Μάγδολα"@grc ], [ lawd:variantForm "ⲙⲓⲕⲧⲁⲁⲗ"@cop ], [ lawd:variantForm "ⲙⲓⲧⲁⲁⲗ"@cop ], [ lawd:variantForm "Miktaal"@eng ], [ lawd:variantForm "Magdola"@eng ], [ lawd:variantForm "Medinet Nehas"@eng ], [ lawd:variantForm "Miktaal"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/328>
+<https://paths.uniroma.it/paths/places/328>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727146> ;
   dc:relation <http://pleiades.stoa.org/places/727146> ;
@@ -3694,7 +3716,7 @@
   lawd:primaryForm "Leontopolis (Tell el-Yahudiya)"@en ;
   lawd:hasName [ lawd:variantForm "Nȝ-n-tȝ-ḥw.t"@egy ], [ lawd:variantForm "Λεοντώ"@grc ], [ lawd:variantForm "Λεοντῶ"@grc ], [ lawd:variantForm "Λεοντίου"@grc ], [ lawd:variantForm "Λεόντων Πόλις"@grc ], [ lawd:variantForm "ⲗⲉⲱⲛⲧⲓⲟⲩ"@cop ], [ lawd:variantForm "ⲗⲁⲓⲱⲛⲧⲓⲱⲛ"@cop ], [ lawd:variantForm "ⲛⲁⲑⲱ(?)"@cop ], [ lawd:variantForm "ⲛⲑⲱ(?)"@cop ], [ lawd:variantForm "ثل اليهوديه"@arz ], [ lawd:variantForm "Leontopolis"@eng ], [ lawd:variantForm "Tell el-Yahudiya"@eng ], [ lawd:variantForm "Tell el-Jahudijah"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/329>
+<https://paths.uniroma.it/paths/places/329>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/727156> ;
   dc:relation <http://pleiades.stoa.org/places/727156> ;
@@ -3709,7 +3731,7 @@
   lawd:primaryForm "Mendes"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Bȝ-nb-Ḏd.t"@egy ], [ lawd:variantForm "Ḏd.t"@egy ], [ lawd:variantForm "Pr-B.tt"@egy ], [ lawd:variantForm "Pr-Bn-twtw"@egy ], [ lawd:variantForm "ʿnp.t"@egy ], [ lawd:variantForm "Μένδης"@grc ], [ lawd:variantForm "ⲡ(ϭⲓ)ⲙⲉⲛⲧⲏϯ"@cop ], [ lawd:variantForm "  تل الربع مندادة منديد"@arz ], [ lawd:variantForm "Mendes"@eng ], [ lawd:variantForm "Tell el-Rub’a"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/330>
+<https://paths.uniroma.it/paths/places/330>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3718,7 +3740,7 @@
   lawd:primaryForm "Western Thebes MMA 803"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes MMA 803"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/331>
+<https://paths.uniroma.it/paths/places/331>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3732,7 +3754,7 @@
   lawd:primaryForm "Western Thebes MMA 804"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes MMA 804"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/332>
+<https://paths.uniroma.it/paths/places/332>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3746,7 +3768,7 @@
   lawd:primaryForm "Western Thebes MMA 1106"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes MMA 1106"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/333>
+<https://paths.uniroma.it/paths/places/333>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3760,7 +3782,7 @@
   lawd:primaryForm "Western Thebes MMA 1107 (=TT 22)"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes MMA 1107"@eng ], [ lawd:variantForm "Western Thebes TT 22"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/334>
+<https://paths.uniroma.it/paths/places/334>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3774,7 +3796,7 @@
   lawd:primaryForm "Western Thebes MMA 1109"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes MMA 1109"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/335>
+<https://paths.uniroma.it/paths/places/335>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/786067> ;
   dc:relation <http://pleiades.stoa.org/places/786067> ;
@@ -3788,7 +3810,7 @@
   lawd:primaryForm "Western Thebes MMA 1112"@en ;
   lawd:hasName [ lawd:variantForm "Western Thebes MMA  1112"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/336>
+<https://paths.uniroma.it/paths/places/336>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2756> ;
   dc:temporal "900/900" ;
@@ -3801,7 +3823,7 @@
   lawd:primaryForm "Deir el-Hammam"@en ;
   lawd:hasName [ lawd:variantForm "دير الحمام "@arz ], [ lawd:variantForm "Dayr el-Hammam"@eng ], [ lawd:variantForm "Deir el-Hammam"@eng ], [ lawd:variantForm "Deir Abu Ishaq"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/337>
+<https://paths.uniroma.it/paths/places/337>
   a lawd:Place ;
   dc:temporal "914/914" ;
   time:hasDateTimeDescription [
@@ -3812,7 +3834,7 @@
   lawd:primaryForm "Monastery of Apa Selbane in honour of the Virgin"@en ;
   lawd:hasName [ lawd:variantForm "ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̄ⲁⲡⲁ ⲥⲉⲗ[ⲃ]ⲁⲛⲉ ⲛ̄[****] ϩⲙ̄ⲡⲧⲁϣ ⲡⲓⲁⲙ"@cop ], [ lawd:variantForm "Monastery of Apa Selbane in honour of the Virgin"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/338>
+<https://paths.uniroma.it/paths/places/338>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/7272741> ;
   dc:relation <http://pleiades.stoa.org/places/7272741> ;
@@ -3822,7 +3844,7 @@
   lawd:primaryForm "Taposiris Magna"@en ;
   lawd:hasName [ lawd:variantForm "Abusir"@eng ], [ lawd:variantForm "Ταποσιρις Μαγνὰ"@grc ], [ lawd:variantForm "أبو صير‎"@arz ], [ lawd:variantForm "Taposiris Magna"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/339>
+<https://paths.uniroma.it/paths/places/339>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/756538> ;
   dc:relation <http://pleiades.stoa.org/places/756538> ;
@@ -3837,7 +3859,7 @@
   lawd:primaryForm "Female Monastery at Atripe"@en ;
   lawd:hasName [ lawd:variantForm "Ḥw.t-Rpy.t"@egy ], [ lawd:variantForm "Tȝ-Rpy.t"@egy ], [ lawd:variantForm "Rpy.t"@egy ], [ lawd:variantForm "Τριφεῖον"@grc ], [ lawd:variantForm "Τριπε"@grc ], [ lawd:variantForm "Ἀθριβη"@grc ], [ lawd:variantForm "ⲁⲧⲣⲓⲡⲉ"@cop ], [ lawd:variantForm "ⲁⲑⲣⲏⲃⲓ"@cop ], [ lawd:variantForm "Atripe / Female Monastery"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/340>
+<https://paths.uniroma.it/paths/places/340>
   a lawd:Place ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
@@ -3848,7 +3870,7 @@
   lawd:primaryForm "Pseudo Deir Abu Lifah"@en ;
   lawd:hasName [ lawd:variantForm "Pseudo Deir Abu Lifah"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/341>
+<https://paths.uniroma.it/paths/places/341>
   a lawd:Place ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
@@ -3859,21 +3881,21 @@
   lawd:primaryForm "El-Kanais"@en ;
   lawd:hasName [ lawd:variantForm "El-Kanais"@eng ], [ lawd:variantForm "Iluet el-Kanais el-Kabirah"@eng ], [ lawd:variantForm "‘Iluet al-Kana’is al-Kabirah"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/342>
+<https://paths.uniroma.it/paths/places/342>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2766> ;
   rdfs:label "Upper Egypt"@en ;
   lawd:primaryForm "Upper Egypt"@en ;
   lawd:hasName [ lawd:variantForm "Šmʿ"@egy ], [ lawd:variantForm "Šmȝ "@egy ], [ lawd:variantForm "Tȝ-šmʿ.w"@egy ], [ lawd:variantForm "ʿ-rsy"@egy ], [ lawd:variantForm "*Mȝʿ-rs"@egy ], [ lawd:variantForm "Ἄνω Αἴγυπτος "@grc ], [ lawd:variantForm "Ἄνω Χώρα "@grc ], [ lawd:variantForm "Ἑρμῆς"@grc ], [ lawd:variantForm "صعيد مصر"@arz ], [ lawd:variantForm "Upper Egypt"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/343>
+<https://paths.uniroma.it/paths/places/343>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2712> ;
   rdfs:label "Lower Egypt"@en ;
   lawd:primaryForm "Lower Egypt"@en ;
   lawd:hasName [ lawd:variantForm "Mḥw"@egy ], [ lawd:variantForm "Mḥy"@egy ], [ lawd:variantForm "Tȝ-Mḥy"@egy ], [ lawd:variantForm "Mḥȝ"@egy ], [ lawd:variantForm "ʿ-mḥty"@egy ], [ lawd:variantForm "ʿ-mḥṱ)"@egy ], [ lawd:variantForm "Κάτω Αἴγυπτος"@grc ], [ lawd:variantForm "مصر السفلى"@arz ], [ lawd:variantForm "Lower Egypt"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/344>
+<https://paths.uniroma.it/paths/places/344>
   a lawd:Place ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
@@ -3884,7 +3906,7 @@
   lawd:primaryForm "Monastery of Apa St. Sansnos"@en ;
   lawd:hasName [ lawd:variantForm "ⲧⲟⲡⲟⲥ ⲙⲡ Ϩⲁⲅⲓⲟⲥ ⲁⲡⲁ ⲥⲁⲛⲥ[ⲛ]ⲟⲥ ⲛ ⲧⲉⲣⲥⲱ ⲉⲧϣⲏϥ"@cop ], [ lawd:variantForm "Monastery of Apa St. Sansnos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/345>
+<https://paths.uniroma.it/paths/places/345>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737065> ;
   dc:relation <http://pleiades.stoa.org/places/737065> ;
@@ -3894,36 +3916,35 @@
   lawd:primaryForm "Talit"@en ;
   lawd:hasName [ lawd:variantForm " Tȝ-ʿlṱ"@egy ], [ lawd:variantForm "Tȝ-ȝlyt"@egy ], [ lawd:variantForm " Ταλιθις "@grc ], [ lawd:variantForm "Ταλει"@grc ], [ lawd:variantForm "ⲧⲁⲗⲓ̇ⲧ"@cop ], [ lawd:variantForm "Talit"@eng ], [ lawd:variantForm "Kom Talit"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/346>
+<https://paths.uniroma.it/paths/places/346>
   a lawd:Place ;
   rdfs:label "Monastery (?) of St. Theodoros"@en ;
   lawd:primaryForm "Monastery (?) of St. Theodoros"@en ;
   lawd:hasName [ lawd:variantForm "ⲫⲁⲅⲓⲟⲥ ⲑⲉⲱⲇⲱⲣⲟⲥ"@cop ], [ lawd:variantForm "Monastery of St. Theodoros"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/347>
+<https://paths.uniroma.it/paths/places/347>
   a lawd:Place ;
   rdfs:label "Tahanhor"@en ;
   lawd:primaryForm "Tahanhor"@en ;
   lawd:hasName [ lawd:variantForm "ⲧⲁϩⲁⲛϩⲱⲣ"@cop ], [ lawd:variantForm "Tahanhor"@eng ], [ lawd:variantForm "Tahanhur"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/348>
+<https://paths.uniroma.it/paths/places/348>
   a lawd:Place ;
   rdfs:label "Ousia of Apa Hafs"@en ;
   lawd:primaryForm "Ousia of Apa Hafs"@en ;
   lawd:hasName [ lawd:variantForm "ⲟⲩⲥⲓⲁ ⲉⲛⲁⲡⲁ ϩⲁϥⲥ"@cop ], [ lawd:variantForm "Ousia of Apa Hafs"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/349>
+<https://paths.uniroma.it/paths/places/349>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737054> ;
   dc:relation <http://pleiades.stoa.org/places/737054> ;
-  skos:exactMatch <https://www.trismegistos.org/place/4834> ;
-  skos:exactMatch <https://www.trismegistos.org/place/3222> ;
+  skos:exactMatch <https://www.trismegistos.org/place/4834>, <https://www.trismegistos.org/place/3222> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT (30.713324 28.299147)" ] ;
   rdfs:label "Samalut"@en ;
   lawd:primaryForm "Samalut"@en ;
   lawd:hasName [ lawd:variantForm "Σομολω "@grc ], [ lawd:variantForm "Τσυμουλοτ "@grc ], [ lawd:variantForm "Τισυμουλοτ"@grc ], [ lawd:variantForm "ⲧⲥⲉⲙⲟⲩⲗⲟⲩ "@cop ], [ lawd:variantForm "ⲧⲥⲩⲙⲃⲟⲩⲗⲟⲧ "@cop ], [ lawd:variantForm "ⲧⲥⲩⲙⲟⲩⲗⲱⲧ"@cop ], [ lawd:variantForm "سمالوط"@arz ], [ lawd:variantForm "Samalut"@eng ], [ lawd:variantForm "Samallut"@eng ], [ lawd:variantForm "Somolo"@eng ], [ lawd:variantForm "Semolo"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/350>
+<https://paths.uniroma.it/paths/places/350>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/5128> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.75558141406214 31.24163511257972)" ] ;
@@ -3931,14 +3952,14 @@
   lawd:primaryForm "Tell el-Burashiya"@en ;
   lawd:hasName [ lawd:variantForm "Tell el-Burashiya"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/351>
+<https://paths.uniroma.it/paths/places/351>
   a lawd:Place ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.316721439341116 31.244874686005723)" ] ;
   rdfs:label "Kom Yetwal wa Yuksur"@en ;
   lawd:primaryForm "Kom Yetwal wa Yuksur"@en ;
   lawd:hasName [ lawd:variantForm "Kom Yetwal wa Yuksur"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/352>
+<https://paths.uniroma.it/paths/places/352>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/741414> ;
   dc:relation <http://pleiades.stoa.org/places/741414> ;
@@ -3947,20 +3968,20 @@
   lawd:primaryForm "Monastery of Apa Epima at Pshonte"@en ;
   lawd:hasName [ lawd:variantForm "Ἀκανθῶνος χωρίον"@grc ], [ lawd:variantForm "ⲁⲅⲓⲟⲩ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲩ ⲁⲃⲃⲁ̣ ⲁⲡⲁ ⲉⲡⲓⲙⲁ ⲙⲡϣⲱⲛⲧⲉ"@cop ], [ lawd:variantForm " ⲡϣⲁⲛⲧⲓ"@cop ], [ lawd:variantForm "Monastery of Apa Epima at Pshonte"@eng ], [ lawd:variantForm "Pshonte"@eng ], [ lawd:variantForm "Akanthonos Chorion"@eng ], [ lawd:variantForm "Ankathonos "@eng ], [ lawd:variantForm "Agathonos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/353>
+<https://paths.uniroma.it/paths/places/353>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/42927> ;
   rdfs:label "Tmekra"@en ;
   lawd:primaryForm "Tmekra"@en ;
   lawd:hasName [ lawd:variantForm "ⲧⲙⲉⲕⲣⲁ"@cop ], [ lawd:variantForm "Tmekra"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/354>
+<https://paths.uniroma.it/paths/places/354>
   a lawd:Place ;
   rdfs:label "Monastery of St. Theodoros"@en ;
   lawd:primaryForm "Monastery of St. Theodoros"@en ;
   lawd:hasName [ lawd:variantForm "ⲫⲁⲅⲓⲟⲥ ⲑⲉⲱⲇⲱⲣⲟⲥ"@cop ], [ lawd:variantForm "Monastery of St. Theodoros"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/355>
+<https://paths.uniroma.it/paths/places/355>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/737015> ;
   dc:relation <http://pleiades.stoa.org/places/737015> ;
@@ -3969,17 +3990,16 @@
   lawd:primaryForm "Pishai"@en ;
   lawd:hasName [ lawd:variantForm " Pȝy-Šȝy "@egy ], [ lawd:variantForm "Pȝy-Šy"@egy ], [ lawd:variantForm " Πισαις"@grc ], [ lawd:variantForm "ⲡⲓϣⲁⲉⲓ"@cop ], [ lawd:variantForm "ⲡⲓϣⲁⲓ"@cop ], [ lawd:variantForm "Ibshaway"@eng ], [ lawd:variantForm "Pisais "@eng ], [ lawd:variantForm "Pisaei "@eng ], [ lawd:variantForm "Pishai "@eng ], [ lawd:variantForm "Pisaitos Epoikion"@eng ], [ lawd:variantForm "Pisaei Chorion"@eng ], [ lawd:variantForm "Abshay(a) "@eng ], [ lawd:variantForm "Abshaih"@eng ], [ lawd:variantForm "Abshway"@eng ], [ lawd:variantForm "Ibshwai "@eng ], [ lawd:variantForm "Ibshawai "@eng ], [ lawd:variantForm "Abschajet er-Rumman"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/356>
+<https://paths.uniroma.it/paths/places/356>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/5932> ;
   rdfs:label "Phantoou Nerebe"@en ;
   lawd:primaryForm "Phantoou Nerebe"@en ;
   lawd:hasName [ lawd:variantForm " Νερηβις"@grc ], [ lawd:variantForm "ⲡϩⲁⲛⲧⲟⲟⲩ ⲛⲉⲣⲏⲃⲉ"@cop ], [ lawd:variantForm "Phantoou Nerebe"@eng ], [ lawd:variantForm "Nerebis "@eng ], [ lawd:variantForm "Nerebeos"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/357>
+<https://paths.uniroma.it/paths/places/357>
   a lawd:Place ;
-  skos:exactMatch <https://www.trismegistos.org/place/2444> ;
-  skos:exactMatch <https://www.trismegistos.org/place/1397> ;
+  skos:exactMatch <https://www.trismegistos.org/place/2444>, <https://www.trismegistos.org/place/1397> ;
   dc:temporal "900/900" ;
   time:hasDateTimeDescription [
     periodo:earliestYear "801" ;
@@ -3989,7 +4009,7 @@
   lawd:primaryForm "Tmouou "@en ;
   lawd:hasName [ lawd:variantForm " *Mȝy.t"@egy ], [ lawd:variantForm " *Tȝ-mȝy.t"@egy ], [ lawd:variantForm " Μουει"@grc ], [ lawd:variantForm "Τμουει χωρίον"@grc ], [ lawd:variantForm " ⲙⲟⲩⲉⲓ"@cop ], [ lawd:variantForm "ⲧⲙⲟⲩⲟⲩ"@cop ], [ lawd:variantForm "Mouei  "@eng ], [ lawd:variantForm "Mouei Chorion"@eng ], [ lawd:variantForm "Epoikion"@eng ], [ lawd:variantForm "Tmouei Chorion"@eng ], [ lawd:variantForm "Thmouei"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/358>
+<https://paths.uniroma.it/paths/places/358>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/795838> ;
   dc:relation <http://pleiades.stoa.org/places/795838> ;
@@ -3999,7 +4019,7 @@
   lawd:primaryForm "Faras"@en ;
   lawd:hasName [ lawd:variantForm "Pḫrse - Pe-ỉrs?"@egy ], [ lawd:variantForm "Παχωρα"@grc ], [ lawd:variantForm "Tapros - Phitorga?"@lat ], [ lawd:variantForm "ⲡⲁⲭⲱⲣⲁⲥ"@cop ] .
 
-<http://paths.uniroma1.it/atlas/places/359>
+<https://paths.uniroma.it/paths/places/359>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/865674318> ;
   dc:relation <http://pleiades.stoa.org/places/865674318> ;
@@ -4009,13 +4029,13 @@
   lawd:primaryForm "Dongola"@en ;
   lawd:hasName [ lawd:variantForm "ⲧⲟⲩⲅⲅⲟⲩⲗ - ⲧⲟⲩⲅⲅⲟⲩⲗⲁ - ⲧⲟⲩⲅⲅⲓⲗⲓ - ⲇⲁⲛⲅ( ) - ⲇⲉⲩⲅ( )"@cop ] .
 
-<http://paths.uniroma1.it/atlas/places/360>
+<https://paths.uniroma.it/paths/places/360>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/3481> ;
   rdfs:label "Qasr el-Wizz"@en ;
   lawd:primaryForm "Qasr el-Wizz"@en .
 
-<http://paths.uniroma1.it/atlas/places/361>
+<https://paths.uniroma.it/paths/places/361>
   a lawd:Place ;
   dc:temporal "1000/1000" ;
   time:hasDateTimeDescription [
@@ -4026,7 +4046,7 @@
   lawd:primaryForm "Tidjephrone"@en ;
   lawd:hasName [ lawd:variantForm "ϯϫⲉⲫⲣⲟⲛⲉ"@cop ], [ lawd:variantForm "Tidjephrone"@eng ], [ lawd:variantForm "Tičephrone"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/362>
+<https://paths.uniroma.it/paths/places/362>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/14237> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.623992 22.379013)" ] ;
@@ -4034,20 +4054,21 @@
   lawd:primaryForm "Abdallah-n Irqi"@en ;
   lawd:hasName [ lawd:variantForm "Abdallah-n Irqi"@eng ], [ lawd:variantForm "Abdallah Nirqi"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/363>
+<https://paths.uniroma.it/paths/places/363>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/2499> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (31.2833333333333333 21.7666666666666667)" ] ;
   rdfs:label "Wadi Halfa"@en ;
   lawd:primaryForm "Wadi Halfa"@en .
 
-<http://paths.uniroma1.it/atlas/places/364>
+<https://paths.uniroma.it/paths/places/364>
   a lawd:Place ;
   skos:exactMatch <https://www.trismegistos.org/place/3448> ;
   rdfs:label "Andoumana"@en ;
   lawd:primaryForm "Andoumana"@en ;
   lawd:hasName [ lawd:variantForm "Arminna West"@arz ] .
 
-<http://paths.uniroma1.it/atlas/places/365>
+<https://paths.uniroma.it/paths/places/365>
   a lawd:Place ;
   dc:spatial <http://pleiades.stoa.org/places/741593> ;
   dc:relation <http://pleiades.stoa.org/places/741593> ;
@@ -4061,9 +4082,127 @@
   lawd:primaryForm "Thraso"@en ;
   lawd:hasName [ lawd:variantForm "Trswȝ "@egy ], [ lawd:variantForm "*Tȝ-rsy"@egy ], [ lawd:variantForm "Θρασω "@grc ], [ lawd:variantForm "Σαθρω"@grc ], [ lawd:variantForm "ⲧⲉⲣⲥⲱ "@cop ], [ lawd:variantForm "Thraso "@eng ], [ lawd:variantForm "Sathro"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/366>
+<https://paths.uniroma.it/paths/places/366>
   a lawd:Place ;
-  skos:exactMatch <https://www.trismegistos.org/place/3493> ;
+  skos:exactMatch <https://www.trismegistos.org/place/3164>, <https://www.trismegistos.org/place/3493> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.370000 22.570000)" ] ;
   rdfs:label "Naga el-Sheima"@en ;
   lawd:primaryForm "Naga el-Sheima"@en ;
   lawd:hasName [ lawd:variantForm "Sheima Amalika"@eng ] .
+
+<https://paths.uniroma.it/paths/places/367>
+  a lawd:Place ;
+  dc:spatial <http://pleiades.stoa.org/places/795886> ;
+  dc:relation <http://pleiades.stoa.org/places/795886> ;
+  skos:exactMatch <https://www.trismegistos.org/place/3486> ;
+  dc:temporal "1300/1300" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "1201" ;
+    periodo:latestYear "1300"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(31.700577735900882 26.672579777646654)" ] ;
+  rdfs:label "Deir Mar Tumas"@en ;
+  lawd:primaryForm "Deir Mar Tumas"@en ;
+  lawd:hasName [ lawd:variantForm "Deir Mar Tumas"@eng ], [ lawd:variantForm "Deir Anba Tumas"@eng ], [ lawd:variantForm "Monastery of St. Thomas the hermit"@eng ] .
+
+<https://paths.uniroma.it/paths/places/368>
+  a lawd:Place ;
+  dc:spatial <http://pleiades.stoa.org/places/756518> ;
+  dc:relation <http://pleiades.stoa.org/places/756518> ;
+  skos:exactMatch <https://www.trismegistos.org/place/2774> ;
+  dc:temporal "800/800" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "800"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.89036285877228 27.798658228620496)" ] ;
+  rdfs:label "Upper Ansina"@en ;
+  lawd:primaryForm "Upper Ansina"@en ;
+  lawd:hasName [ lawd:variantForm "انصنا"@arz ], [ lawd:variantForm "Ansina"@eng ], [ lawd:variantForm "Upper Ansina"@eng ] .
+
+<https://paths.uniroma.it/paths/places/369>
+  a lawd:Place ;
+  dc:spatial <http://pleiades.stoa.org/places/756676> ;
+  dc:relation <http://pleiades.stoa.org/places/756676> ;
+  skos:exactMatch <https://www.trismegistos.org/place/2843> ;
+  rdfs:label "Wadi Sarga"@en ;
+  lawd:primaryForm "Wadi Sarga"@en .
+
+<https://paths.uniroma.it/paths/places/370>
+  a lawd:Place ;
+  skos:exactMatch <https://www.trismegistos.org/place/4918> ;
+  dc:temporal "1300/1300" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "675" ;
+    periodo:latestYear "1300"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(31.294083595275882 29.903386052641643)" ] ;
+  rdfs:label "Helwan"@en ;
+  lawd:primaryForm "Helwan"@en ;
+  lawd:hasName [ lawd:variantForm "حلوان"@arz ], [ lawd:variantForm "Helwan"@eng ], [ lawd:variantForm "Hilwan"@eng ] .
+
+<https://paths.uniroma.it/paths/places/371>
+  a lawd:Place ;
+  dc:temporal "725/725" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "501" ;
+    periodo:latestYear "725"
+  ] ;
+  rdfs:label "Deir el-Nasara"@en ;
+  lawd:primaryForm "Deir el-Nasara"@en ;
+  lawd:hasName [ lawd:variantForm "Deir el-Nasara"@eng ], [ lawd:variantForm "Dayr al-Nasâra"@eng ] .
+
+<https://paths.uniroma.it/paths/places/372>
+  a lawd:Place ;
+  dc:temporal "1200/1200" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "501" ;
+    periodo:latestYear "1200"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.473318 25.669309)" ] ;
+  rdfs:label "Deir el-Misaykra"@en ;
+  lawd:primaryForm "Deir el-Misaykra"@en ;
+  lawd:hasName [ lawd:variantForm "Deir el-Misaykra"@eng ], [ lawd:variantForm "Dayr al-Misaykrah"@eng ], [ lawd:variantForm "Deir el-Miseikre"@eng ], [ lawd:variantForm "Deir el-Namus"@eng ] .
+
+<https://paths.uniroma.it/paths/places/373>
+  a lawd:Place ;
+  dc:temporal "1200/1200" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "501" ;
+    periodo:latestYear "1200"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.4833 25.6667)" ] ;
+  rdfs:label "Deir el-Namus"@en ;
+  lawd:primaryForm "Deir el-Namus"@en ;
+  lawd:hasName [ lawd:variantForm "Deir el-Namus"@eng ], [ lawd:variantForm "Deir el-Namous"@eng ], [ lawd:variantForm "Dayr al-Nāmūs"@eng ], [ lawd:variantForm "Qarā'ib an-Namūs"@eng ], [ lawd:variantForm "Deir el-Misaykra"@eng ] .
+
+<https://paths.uniroma.it/paths/places/374>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "501" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.45621 25.645327)" ] ;
+  rdfs:label "Deir el-Matmar"@en ;
+  lawd:primaryForm "Deir el-Matmar"@en ;
+  lawd:hasName [ lawd:variantForm "Deir el-Matmar"@eng ], [ lawd:variantForm "Dayr al-Maṭmar"@eng ] .
+
+<https://paths.uniroma.it/paths/places/375>
+  a lawd:Place ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(31.619725 26.554811)" ] ;
+  rdfs:label "Karbone"@en ;
+  lawd:primaryForm "Karbone"@en ;
+  lawd:hasName [ lawd:variantForm "Deir Apa Pshoi"@eng ] .
+
+<https://paths.uniroma.it/paths/places/376>
+  a lawd:Place ;
+  skos:exactMatch <https://www.trismegistos.org/place/812> ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "501" ;
+    periodo:latestYear "700"
+  ] ;
+  rdfs:label "Topos of Apa Tyrannos"@en ;
+  lawd:primaryForm "Topos of Apa Tyrannos"@en ;
+  lawd:hasName [ lawd:variantForm "Topos of Apa Tyrannos"@eng ], [ lawd:variantForm "Monastery of Apa Tyrannos"@eng ], [ lawd:variantForm "Monastery of Posidonios"@eng ] .
