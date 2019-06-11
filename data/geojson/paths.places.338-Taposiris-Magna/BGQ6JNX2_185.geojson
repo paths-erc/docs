@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "polygons",
+"name": "BGQ6JNX2-185",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "place": 338, "subplace": "Temple Church", "reconstr": null, "part": null, "phase": null, "visible": null, "scale": null, "source": "BGQ6JNX2", "subsource": null, "operator": "JB", "date": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 29.518927859748121, 30.946259434545297 ], [ 29.518929986460172, 30.946259434545297 ], [ 29.518933649130929, 30.946260616051994 ], [ 29.518935185089635, 30.946256244477219 ], [ 29.518919943653259, 30.946252227354453 ], [ 29.518918289543883, 30.946256362627889 ], [ 29.518927859748121, 30.946259434545297 ] ] ] ] } },
