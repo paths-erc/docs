@@ -63,6 +63,7 @@ index, georeference, and process cartographic data.
 A special thank goes therefore to our younger collaborators, coordinated by **Paolo Rosati** and **Domizia d'Erasmo**:
 - Fiorenza Angeloni
 - Ilaria Bitti
+- Maria Giulia Castro Cedeno
 - Michele d'Agostini
 - Cecilia De Leone
 - Martina De Giuseppe
