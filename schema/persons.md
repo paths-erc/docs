@@ -13,6 +13,8 @@ CREATE TABLE paths__persons (
     patronymicspirit TEXT, --
     placebirth      INTEGER, -- places.id
     placeaffiliation     INTEGER, -- places.id
+    hasbrother      TEXT,
+    hasfather       TEXT,
     sex             TEXT, -- vocabularies.def = 'sex'
     datefrom        INTEGER,
     dateto          INTEGER,
