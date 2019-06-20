@@ -514,6 +514,53 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 
 ---
 
+### Inks and pigments
+
+### Coloured
+
+#### COLOURS
+- List of pigment colours
+- DB id: `pgmcol`
+
+#### LOCATION
+- Location of pigments
+- DB id: `pgmlocation`
+
+#### NOTES ON PIGMENTS
+- Notes on coloured pigments
+- DB id: `pgmnotes`
+
+
+### Black
+
+#### BLACK INK TYPES
+- List of black ink types
+- DB id: `blktype`
+
+#### BLACK INK LOCATION
+- Location of black inks
+- DB id: `blklocation`
+
+#### NOTES ON BLACK INKS
+- Notes on black inks
+- DB id: `blknotes`
+
+### Legacy information
+
+#### INKS
+- Type of ink (iron gall, tannin, carbon).
+- DB id: `inks`
+
+#### RED INK
+- Noted if present.
+- DB id: `redink`
+
+#### NOTES ON RED INK
+- Verbose description of the red ink use and function.
+- DB id: `redlinknotes`
+
+---
+
 ### Additional information
 
 #### CHANGE OF HAND
@@ -539,18 +586,6 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 #### MODERN RESTORATIONS
 - Notes on modern restoration, if any.
 - DB id: `restmodern`
-
-#### INKS
-- Type of ink (iron gall, tannin, carbon).
-- DB id: `inks`
-
-#### RED INK
-- Noted if present.
-- DB id: `redink`
-
-#### NOTES ON RED INK
-- Verbose description of the red ink use and function.
-- DB id: `redlinknotes`
 
 #### DECORATION TYPES
 - Description of the decorative type(s).

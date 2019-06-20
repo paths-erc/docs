@@ -95,6 +95,15 @@ CREATE TABLE paths__manuscripts (
   palimpsestnotes  TEXT,
   restancient      TEXT,
   restmodern       TEXT,
+  pgmcol           TEXT,  -- semi-colon-separated-values: vocabularies.def = 'pigment_colours'
+  pgmlocation      TEXT,  -- semi-colon-separated-values: vocabularies.def = 'ink_location'
+  pgmnotes         TEXT,
+  blktype          TEXT,  -- semi-colon-separated-values: vocabularies.def = 'black_types'
+  blklocation      TEXT,  -- semi-colon-separated-values: vocabularies.def = 'ink_location'
+  blknotes         TEXT,
+  inks             TEXT,
+  redink           BOOLEAN,
+    redinknotes      TEXT,
   inks             TEXT,  -- semi-colon-separated-values: vocabularies.def = 'ink_types'
   redink           BOOLEAN, -- 1|0
   redinknotes      TEXT,
