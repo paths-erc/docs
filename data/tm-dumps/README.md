@@ -10,8 +10,8 @@ in order to be processed and imported by [Trismegistos](trismegistos.org).
 
 Latest export was completed on **2019-05-21**.
 
-## ms-plain.csv
-[Download](ms-plain.csv)
+## ms-plain-pre-800.csv
+[Download](ms-plain-pre-800.csv)
 
 Contains a plain list of manuscripts, dated or datable before 800 CE:
 - `id`      i.e. [CLM Identifier](https://docs.paths-erc.eu/handbook/manuscripts#clm)
@@ -27,8 +27,8 @@ This list is also available as real-time web service, in JSON format [at this li
 
 ---
 
-## ms-full.csv
-[Download](ms-full.csv)
+## ms-full-pre-800.csv
+[Download](ms-full-pre-800.csv)
 
 Contains a plain list of manuscripts, dated or datable before 800 CE:
 - `id`      i.e. [CLM Identifier](https://docs.paths-erc.eu/handbook/manuscripts#clm)
@@ -53,7 +53,7 @@ This list is also available as real-time web service, in JSON format [at this li
 ## places.csv
 [Download](places.csv)
 
-Contains a plain list of manuscripts, dated or datable before 800 CE:
+Contains a plain list of places:
 - `id`      i.e. [PAThs Place Identifier](https://docs.paths-erc.eu/handbook/places#id)
 - `name`  i.e. [Site Name](https://docs.paths-erc.eu/handbook/places#site-name)
 - `tm`      i.e. [Trismegistos GeoID](https://docs.paths-erc.eu/handbook/places#trismegistos-geoid)
