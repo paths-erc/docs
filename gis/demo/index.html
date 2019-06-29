@@ -26,6 +26,7 @@
     <script src="https://cdn.osmbuildings.org/classic/0.2.2b/OSMBuildings-Leaflet.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+    <script type="text/javascript" src="../../data/geojson/index.js"></script>
 
 
     <script type="text/javascript">
@@ -210,83 +211,13 @@
 
 
       var sites = L.control({position: 'bottomleft'});
-      var avalaible_gj = [
-        'paths.places.16-Elephantine/BGQ6JNX2-77',
-        'paths.places.16-Elephantine/BGQ6JNX2-186',
-        'paths.places.19-Luxor-complex/BGQ6JNX2-69',
-        'paths.places.19-Luxor-complex/BGQ6JNX2-70',
-        'paths.places.19-Luxor-complex/BGQ6JNX2-71',
-        'paths.places.20-Koptos/BGQ6JNX2-64',
-        'paths.places.21-Dendera/BGQ6JNX2-58',
-        'paths.places.21-Dendera/BGQ6JNX2-63',
-        'paths.places.24-Panopolis/BGQ6JNX2-161',
-        'paths.places.24-Panopolis/BGQ6JNX2-160',
-        'paths.places.28-Hermopolis-Magna/BGQ6JNX2-58',
-        'paths.places.28-Hermopolis-Magna/BGQ6JNX2-59',
-        'paths.places.36-Pelusium/BGQ6JNX2-88',
-        'paths.places.36-Pelusium/BGQ6JNX2-89',
-        'paths.places.36-Pelusium/BGQ6JNX2-90',
-        'paths.places.36-Pelusium/BGQ6JNX2-189',
-        'paths.places.38-Alexandria/BGQ6JNX2-1',
-        'paths.places.58-Esna/BGQ6JNX2-76',
-        'paths.places.58-Esna/BGQ6JNX2-169',
-        'paths.places.70-Hermonthis/BGQ6JNX2-74',
-        'paths.places.74-Naqlun/BGQ6JNX2-131a',
-        'paths.places.74-Naqlun/BGQ6JNX2-131b',
-        'paths.places.74-Naqlun/BGQ6JNX2-131c',
-        'paths.places.78-Kellia/BGQ6JNX2-114',
-        'paths.places.78-Kellia/BGQ6JNX2-115',
-        'paths.places.78-Kellia/BGQ6JNX2-116',
-        'paths.places.78-Kellia/BGQ6JNX2-117',
-        'paths.places.88-Petemout/BGQ6JNX2-66',
-        'paths.places.88-Petemout/BGQ6JNX2-67',
-        'paths.places.96-Philae/BGQ6JNX2-78',
-        'paths.places.96-Philae/BGQ6JNX2-79',
-        'paths.places.96-Philae/BGQ6JNX2-80',
-        'paths.places.104-Medinet-Madi/BGQ6JNX2-39',
-        'paths.places.104-Medinet-Madi/BGQ6JNX2-40',
-        'paths.places.104-Medinet-Madi/BGQ6JNX2-41',
-        'paths.places.104-Medinet-Madi/BGQ6JNX2-42',
-        'paths.places.104-Medinet-Madi/BGQ6JNX2-43',
-        'paths.places.104-Medinet-Madi/BGQ6JNX2-44',
-        'paths.places.113-Red-Monastery-at-Atripe/BGQ6JNX2-155',
-        'paths.places.113-Red-Monastery-at-Atripe/BGQ6JNX2-156',
-        'paths.places.114-Kellis/BGQ6JNX2-85',
-        'paths.places.115-Bagawat/BGQ6JNX2-86',
-        'paths.places.115-Bagawat/BGQ6JNX2-87',
-        'paths.places.116-Abu-Mina/BGQ6JNX2-21a1',
-        'paths.places.116-Abu-Mina/BGQ6JNX2-21a2',
-        'paths.places.116-Abu-Mina/BGQ6JNX2-21a3',
-        'paths.places.116-Abu-Mina/BGQ6JNX2-21b',
-        'paths.places.116-Abu-Mina/BGQ6JNX2-21b1',
-        'paths.places.116-Abu-Mina/BGQ6JNX2-22',
-        'paths.places.119-Dionysias/BGQ6JNX2-46',
-        'paths.places.182-Karnak/BGQ6JNX2-166',
-        'paths.places.182-Karnak/BGQ6JNX2-167',
-        'paths.places.188-Pharan/BGQ6JNX2-96a',
-        'paths.places.188-Pharan/BGQ6JNX2-96b',
-        'paths.places.188-Pharan/BGQ6JNX2-97',
-        'paths.places.122-Hawara/BGQ6JNX2-49',
-        'paths.places.215-Deir-Abu-Hennes/BGQ6JNX2-141',
-        'paths.places.217-Deir-al-Dik/BGQ6JNX2-51',
-        'paths.places.338-Taposiris-Magna/taposiris',
-        'paths.places.338-Taposiris-Magna/BGQ6JNX2_4',
-        'paths.places.338-Taposiris-Magna/BGQ6JNX2_5',
-        'paths.places.338-Taposiris-Magna/BGQ6JNX2_185',
-        'paths-places.368-Upper-Ansina/BGQ6JNX2-56',
-        'paths-places.368-Upper-Ansina/BGQ6JNX2-137',
-        'paths-places.368-Upper-Ansina/BGQ6JNX2-138',
-        'paths-places.368-Upper-Ansina/BGQ6JNX2-139',
-        'paths.places.374-Deir-el-Matmar/BGQ6JNX2-168'
-
-      ];
       sites.onAdd = function(){
         var div = L.DomUtil.create('div', 'bg-white shadow rounded p-2 border');
         div.innerHTML = `<div class="text-center">
         <div class="form-group">
           <label for="sites">Select a site</label>
           <select id="sites" class="form-control">
-          ${avalaible_gj.map( e => { return `<option value="${e}" ${ e == window.location.hash.split('#')[1] ? 'selected' : ''}>${e.replace(/\-/g, ' ')}</option>`; })}
+          ${geoJsonData.index.map( e => { return `<option value="${e}" ${ e == window.location.hash.split('#')[1] ? 'selected' : ''}>${e.replace(/\-/g, ' ')}</option>`; })}
 
           </select>
           </div>
@@ -307,7 +238,7 @@
         loadGeoJSON(`/data/geojson/${window.location.hash.split('#')[1]}.geojson`, GeoJsonOnMap);
       }
       if (!window.location.hash){
-        window.location.hash = avalaible_gj[0];
+        window.location.hash = geoJsonData.index[0];
       }
       loadGeoJSON(`/data/geojson/${window.location.hash.split('#')[1]}.geojson`, GeoJsonOnMap);
     </script>

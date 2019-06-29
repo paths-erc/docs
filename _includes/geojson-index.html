@@ -1,0 +1,7 @@
+{% assign arr = '' | split: '' %}
+{% for file in site.static_files %}
+  {% if file.path contains '/data/geojson' %}
+    {% assign str = file.path | replace: '/data/geojson/', '' | replace: '.geojson', '' | append: '@@' | split: '@@' %}
+    {% assign  arr = arr | concat: str %}
+  {% endif %}
+{% endfor %}

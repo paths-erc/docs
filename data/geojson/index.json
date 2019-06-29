@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /data/geojson/index.json
+---
+{% include geojson-index.html %}
+{{ arr | jsonify }}
