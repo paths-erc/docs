@@ -83,6 +83,7 @@ CREATE TABLE paths__manuscripts (
   kollno           INTEGER,
   kolldim          TEXT,
   bindings         INTEGER,  -- 1|0
+  boardmat         TEXT,
   sewings          INTEGER,  -- 1|0
   sewingtype       TEXT,
   covers           TEXT,  -- semi-colon-separated-values: vocabularies.def = 'covers'
@@ -103,7 +104,7 @@ CREATE TABLE paths__manuscripts (
   blknotes         TEXT,
   inks             TEXT,
   redink           BOOLEAN,
-    redinknotes      TEXT,
+  redinknotes      TEXT,
   inks             TEXT,  -- semi-colon-separated-values: vocabularies.def = 'ink_types'
   redink           BOOLEAN, -- 1|0
   redinknotes      TEXT,

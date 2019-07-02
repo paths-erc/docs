@@ -484,6 +484,10 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - Noted if present.
 - DB id: `bindings`
 
+#### BOARD MATERIAL
+- Material of the binding boards
+- DB id: `boardmat`
+
 #### PRESENCE OF SEWINGS
 - Noted if present.
 - DB id: `sewings`
