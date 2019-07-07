@@ -15,6 +15,7 @@ CREATE TABLE paths__authors (
   cmclname   TEXT, --
   birth      INTEGER, --
   death      INTEGER, --
+  episcopalsee INTEGER, -- places.id
   editors    VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
   status     VARCHAR(255) -- vocabularies.def = 'status'
 
@@ -22,5 +23,6 @@ CREATE TABLE paths__authors (
 ```
 
 ## Links
+- `author` — `places` (via `episcopalsee`)
 - `author` >—< `biblio` (via `m_biblio` [+ details])
 - `author` >—< `works` (via `m_wkauthor` [+ type])
