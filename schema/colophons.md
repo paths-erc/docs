@@ -10,6 +10,8 @@ CREATE TABLE paths__colophons (
   chronofrom      TEXT,
   chronoto        TEXT,
   datingcriteria  TEXT,
+  donationistitution TEXT,
+  istitutionplace    INTEGER, -- places.id
   dialect         TEXT, -- semi-colon-separated-values: vocabularies.def = 'dialects'
   dialectnotes    TEXT,
   greektext       TEXT,
@@ -31,3 +33,4 @@ CREATE TABLE paths__colophons (
 - `colophons` >—< `biblio` ( via `m_biblio` [+ details])
 - `colophons` >—< `collections` (via `m_shelfmarks` [+ shelfmark, pp])
 - `colophons` >— `manuscripts`
+- `colophons` — `places`

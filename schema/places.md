@@ -48,4 +48,5 @@ CREATE TABLE paths__places (
 - `places` —< `m_placephase`
 - `places` —< `manuscripts` (via `paths__m_msplaces` [+ type, source info, source note])
 - `places` —< `geodata` (via `paths__geodata`)
+- `places` — `colophons`
 - ...
