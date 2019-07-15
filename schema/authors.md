@@ -26,3 +26,4 @@ CREATE TABLE paths__authors (
 - `author` — `places` (via `episcopalsee`)
 - `author` >—< `biblio` (via `m_biblio` [+ details])
 - `author` >—< `works` (via `m_wkauthor` [+ type])
+- `author` — `places`
