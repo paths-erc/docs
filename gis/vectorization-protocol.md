@@ -32,7 +32,7 @@ This draft is meant to help users to go through the vectorization process of arc
 The **Simple Vectorization Protocol** (**SVP**) is intended to provide a rich, easy to implement, unified geographical data-entry system aimed at a rich output display, able to handle easily poor to very rich graphical representation.
 
 
-### Data encapsulation format
+### File format
 This protocol is not about defining a unique or the most efficient file-format for the vectorization process, but mainly about defining a common structure, independently from the file format. At “PAThs” [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) is being used as main vector file format, yet other formats can be used, like [Esri Shapefile](https://en.wikipedia.org/wiki/Shapefile), [spatialite](https://en.wikipedia.org/wiki/SpatiaLite), [PostGIS](https://en.wikipedia.org/wiki/PostGIS), [Geopackage](https://en.wikipedia.org/wiki/GeoPackage), etc.
 
 ### Data containers
