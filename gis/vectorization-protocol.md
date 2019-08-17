@@ -74,7 +74,7 @@ The definition of the attribute list and values to use for each field is the mos
 - `phase` (*Integer64*) a numeric value indicating relative chronology. Both negative numbers can be used to extend the relative chronology to the past and decimal numbers, to further detail sub-phases. **null** values can be used for mono-phasic buildings and/or main phase. The main phase is not the architectonically most important phase, but the phase on which the research puts its main focus.
 
 #### Other metadada
-- `visible` (*Integer, 1*), whether a feature is visible (**1**) or not (**0** or **null**). This is different from `reconstr` since a feature might be not reconstructed (reconstr = null\|0) but no more visible (visible = null\|0) because buried or damaged and lost.
+- `lost` (*Integer, 0*), whether a feature is lost (**1**) or not (**0** or **null**). This is different from `reconstr` since a feature might have been preserved when surveyed (reconstr = null\|0) but no more visible (lost = 1) because buried or damaged.
 - `scale` (*Integer, 10*), the scale of the original plan from which the feature has been vectorized. Enter only the second part of the ratio scale, presuming that the first part is always 1, eg. for ratio scale **1:200000** enter **200000**.
 - `source` (*String, 30*), contains the bibliographic or archive reference to the document used as the source for the vectorization. At PAThs, the Zotero identifier of [PAThs official bibliographic repository is being used](https://www.zotero.org/groups/2189557/erc-paths).
 - `subsource` (*String, 255*), enter page number and or figure number of the bibliographic record containing the original image.
