@@ -107,7 +107,7 @@ Follows a geojson sample code extracted from the [demo geojson file](/data/geojs
         "reconstr": 0,
         "part": null,
         "phase": null,
-        "visible": null,
+        "lost": null,
         "scale": null,
         "source": "BGQ6JNX2",
         "subsource": null,
