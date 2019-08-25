@@ -86,7 +86,7 @@ The definition of the attribute list and values to use for each field is the mos
 - `minHeight` (*Integer, 10*), offset elevation of the feature for extrusion purposes
 
 ### Sample code
-Follows a geojson sample code extracted from the [demo geojson file](/data/geojson/taposiris.geojson):
+Follows a geojson sample code extracted from the [demo](./leaflet-example/):
 
 ```json
 {
