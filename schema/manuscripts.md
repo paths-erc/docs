@@ -92,6 +92,8 @@ CREATE TABLE paths__manuscripts (
   holesarrangement TEXT, -- vocabularies.def = 'holes_arrangement'
   holesnotes       TEXT,
   marginalnotes    TEXT,
+  greekminuscule   BOOLEAN,
+  greekminusculenotes TEXT,
   palimpsest       BOOLEAN, -- 1|0
   palimpsestnotes  TEXT,
   restancient      TEXT,

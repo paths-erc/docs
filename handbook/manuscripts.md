@@ -575,6 +575,14 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - Noted if present and transcription or brief description.
 - DB id: `marginalnotes`
 
+#### GREEK MINUSCULE SCRIPT
+- Noted if present.
+- DB id: `greekminuscule`
+
+#### NOTES ON GREEK MINUSCULE SCRIPT
+- Notes on Greek minuscule script.
+- DB id: `greekminusculenotes`
+
 #### PALIMPSEST
 - It records whether the manuscript is palimpsest or not.
 - DB id: `palimpsest`
