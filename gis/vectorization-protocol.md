@@ -86,7 +86,7 @@ The definition of the attribute list and values to use for each field is the mos
 - `minHeight` (*Integer, 10*), offset elevation of the feature for extrusion purposes
 
 ### Sample code
-Follows a geojson sample code extracted from the [demo](./leaflet-example/):
+Follows a geojson sample code extracted from the [demo](./svp/):
 
 ```json
 {
@@ -126,4 +126,4 @@ Follows a geojson sample code extracted from the [demo](./leaflet-example/):
 ```
 
 ### Demo
-For a fully working example, built with Leaflet follow [this link](./leaflet-example/). It uses a sample geojson file following the most recent version of the protocol.
+For a fully working example, built with Leaflet follow [this link](./demo/). It uses a sample geojson file following the most recent version of the protocol.
