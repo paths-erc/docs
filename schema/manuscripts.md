@@ -9,10 +9,12 @@ CREATE TABLE paths__manuscripts (
   cmclid           TEXT,
   tm               TEXT,
   ldab             TEXT,
+  dbmnt            TEXT,
   lcbm             TEXT,
   alias            TEXT,
   issinglefrag     TEXT, -- 1|0
   isbookbinding    TEXT, -- 1|0
+  reusedinbinding  BOOLEAN,
   stratigraphy     TEXT,
   modernhistory    TEXT,
   contents         TEXT,

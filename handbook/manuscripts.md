@@ -39,6 +39,10 @@ Ref.: `paths.manuscripts`
 - List of Coptic Biblical Manuscripts identifier, where available (Göttingen, Digital Edition of the Sahidic Coptic Old Testament - [coptot.manuscriptroom.com/manuscript-catalog](http://coptot.manuscriptroom.com/manuscript-catalog) / Berlin, Novum Testamentum Graecum - Editio Critica Maior).
 - DB id: `lcbm`
 
+#### DBMNT
+- List of Database of Medieval Nubian Texts identifier, where available ([www.dbmnt.uw.edu.pl](http://www.dbmnt.uw.edu.pl)).
+- DB id: `dbmnt`
+
 #### ALIAS
 - Name *par excellence* used to identify a manuscript (i.e. Codex Tchacos).
 - DB id: `alias`
@@ -50,6 +54,10 @@ Ref.: `paths.manuscripts`
 #### ONLY BOOKBINDING PRESERVED
 - True or 1 if the manuscript if only the bookbinding is preserved
 - DB id: `isbookbinding`
+
+#### MANUSCRIPT REUSED IN BOOKBINDING
+- True or 1 if the manuscript has been reused in a bookbinding
+- DB id: `reusedinbinding`
 
 #### STRATIGRAPHY
 - Brief description of the stratigraphy of the codicological unit, following the method and terminology of P. Andrist, P. Canart, M. Maniaci, *La syntaxe du codex. Essai de codicologie structurale*, Turnhout 2013 [ISBN: 9782503543932]. Particular attention is given to 'Production Units' (UniProd) and 'Circulation Units' (UniCirc).
