@@ -12,7 +12,7 @@ CREATE TABLE paths__places (
   arabicname          TEXT,
   arabictranslname    TEXT,
   egyptianname        TEXT,
-  tm                  TEXT,
+  tmgeo               TEXT,
   pleiades            TEXT,
   timm                TEXT,
   region              TEXT, -- vocabularies.def = 'dialects'

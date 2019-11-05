@@ -31,7 +31,7 @@ Ref.: `paths.places`
 
 #### Trismegistos GeoID
 - [Trismegistos GeoID](https://www.trismegistos.org/geo/index.php), if available
-- DB id: `tm`
+- DB id: `tmgeo`
 
 #### Pleiades Id
 - [Pleiades](https://pleiades.stoa.org/places) Id, if available
