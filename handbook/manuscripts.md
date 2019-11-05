@@ -203,11 +203,11 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 
 ### Dimensions (mm) and proportions
 
-#### LEAF OR TABLET WIDTH
+#### LEAF WIDTH
 - Total width (in mm) of the leaf or the tablet.
 - DB id: `leafw`
 
-### LEAF OR TABLET HEIGHT
+### LEAF HEIGHT
 - Total height (in mm) of the leaf or the tablet.
 - DB id: `leafh`
 
@@ -534,7 +534,7 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - List of pigment colours
 - DB id: `pgmcol`
 
-#### LOCATION
+#### PIGMENT LOCATION
 - Location of pigments
 - DB id: `pgmlocation`
 
