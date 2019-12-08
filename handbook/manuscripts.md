@@ -631,6 +631,14 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - Initials of the person(s) responsible for the record.
 - DB id: `editors`
 
+#### STATUS
+- If the record has been fully compiled the status is set to `complete`; if it is under study the status is set to `in-progress`. If the status is blank it means that the provided information are incomplete, not reliable and liable to change in the future.
+- DB id: `status`
+
+#### LAST MODIFIED
+- date of last edit
+- DB id: `lastmodified`
+
 ---
 
 ### BIBLIOGRAPHY

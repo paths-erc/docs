@@ -250,3 +250,7 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 #### DETAILS ABOUT IMAGES
 - Pages or figures containing reproductions of (part[s] of) the manuscript
 - DB id: `images`
+
+#### LAST MODIFIED
+- date of last edit
+- DB id: `lastmodified`

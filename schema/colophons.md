@@ -25,7 +25,8 @@ CREATE TABLE paths__colophons (
   translation     TEXT,
   taggedtext      TEXT,
   editors         VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
-  status          VARCHAR(255) -- vocabularies.def = 'status'
+  status,         VARCHAR(255) -- vocabularies.def = 'status'
+  lastmodified    TEXT
 );
 ```
 

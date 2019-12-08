@@ -38,8 +38,8 @@ CREATE TABLE paths__places (
   isnomoscapital      BOOLEAN, -- 1|0
   accuracy            TEXT,
   editors             VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
-  status              VARCHAR(255) -- vocabularies.def = 'status'
-
+  status              VARCHAR(255), -- vocabularies.def = 'status'
+  lastmodified        TEXT
 );
 ```
 

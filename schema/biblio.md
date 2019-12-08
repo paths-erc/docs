@@ -24,7 +24,8 @@ CREATE TABLE paths__biblio (
   url        TEXT,
   notes      TEXT,
   worldcat   TEXT,
-  editors    TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
+  editors    TEXT, -- semi-colon-separated-values: vocabularies.def = 'persons'
+  lastmodified TEXT
 );
 ```
 

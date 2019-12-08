@@ -17,8 +17,8 @@ CREATE TABLE paths__authors (
   death      INTEGER, --
   episcopalsee INTEGER, -- places.id
   editors    VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
-  status     VARCHAR(255) -- vocabularies.def = 'status'
-
+  status     VARCHAR(255), -- vocabularies.def = 'status'
+  lastmodified TEXT
 );
 ```
 

@@ -118,8 +118,8 @@ CREATE TABLE paths__manuscripts (
   enlargedinitials TEXT,
   sourceinfo       TEXT,
   editors          VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
-  status           VARCHAR(255) -- vocabularies.def = 'status'
-
+  status           VARCHAR(255), -- vocabularies.def = 'status'
+  lastmodified     TEXT
 );
 
 );

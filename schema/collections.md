@@ -13,7 +13,8 @@ CREATE TABLE paths__collections (
   institution TEXT,
   name        TEXT,
   notes       TEXT,
-  editors     TEXT -- semi-colon-separated-values: vocabularies.def = 'persons'
+  editors     TEXT, -- semi-colon-separated-values: vocabularies.def = 'persons'
+  lastmodified TEXT
 );
 ```
 
