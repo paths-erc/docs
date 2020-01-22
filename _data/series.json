@@ -10,5 +10,5 @@
     { "id": 9, "name": "Survey of Egypt - arabic", "scale": 100000, "year": 1950, "rs": "EPSG:4022", "license": null, "source": "Courtesy of Polish Centre of Mediterranean Archaeology of the University of Warsaw (PCMA) (Warsaw, Poland)", "wms": null },
     { "id": 10, "name": "IMW", "scale": 1000000, "year": 1960, "rs": "EPSG:4229", "license": null, "source": "Perry-Castañeda Library Map Collection", "wms": true },
     { "id": 11, "name": "Tactical Pilotage Map (TPC)", "scale": 500000, "year": 1979, "rs": "EPSG: 4229", "license": null, "source": "Perry-Castañeda Library Map Collection", "wms": null },
-    { "id": 12, "name": "Composite: A Map of Lower Egypt from Various Surveys", "scale": 186440, "year": 1807, "rs": "EPSG:4229", "license": null, "source": "David Rumsey Collection", "wms": true },
+    { "id": 12, "name": "Composite: A Map of Lower Egypt from Various Surveys", "scale": 186440, "year": 1807, "rs": "EPSG:4229", "license": null, "source": "David Rumsey Collection", "wms": true }
 ]
