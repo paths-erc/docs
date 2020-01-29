@@ -5,6 +5,8 @@ permalink: /gis/vectors
 ---
 
 {% include gis-menu.html %}
+## Available vector themes
+
 <ul class="list-group">
 {% for ds in site.data.vectors %}
 
@@ -25,7 +27,7 @@ permalink: /gis/vectors
         <li>
         {{ a.role }}: {{ a.name }}
         {% if a.email %}
-          <<a href="mailto:{{ a.email }}">{{ a.email }}</a>>
+          <a href="mailto:{{ a.email }}">{{ a.email }}</a>>
         {% endif %}
         {% if a.web %}
           <br><a href="{{ a.web }}">{{ a.web }}</a>
@@ -50,5 +52,15 @@ permalink: /gis/vectors
 
 <li>Sorry, there are no vector data available yet, but we will have some soon.</li>
 
+{% endfor %}
+</ul>
+
+---
+
+## List of available maps vectorized using the SVP protocol
+{% include geojson-index.html %}
+<ul>
+{% for el in arr %}
+  <li>{{ el }} (<a href="/gis/demo/#{{ el }}" target="_blank">View in demo</a>)</li>
 {% endfor %}
 </ul>
