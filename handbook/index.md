@@ -13,5 +13,6 @@ This section is still under development and will be frequently updated
 
 ## Table of contents
 
-- [The Manuscripts table](manuscripts)
-- [The Places table](places)
+- [Manuscripts](manuscripts)
+- [Places](places)
+- [Authors](authors)

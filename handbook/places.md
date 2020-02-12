@@ -3,17 +3,7 @@ title: "Manual for the correct use and reading of the Places section of PAThs da
 permalink: "/handbook/places"
 ---
 
-
-
-This subfolder of PAThs’ main documentation repository provides a complete
-documentation for users and readers of the PAThs database, currently available at
-http://db.bradypus.net. The documentation is written in [Markdown](https://daringfireball.net/projects/markdown/)
-by the PAThs' team (Julian Bogdani) and is available in PDF format in
-[PAThs’ website](http://paths.uniroma1.it).
-
-If you are looking for the schema description please go to [db-schema/README.md](../db-schema/README.md).
-
-
+A detailed technical description of database schemais published at [schema/places](../schema/places).
 
 Ref.: `paths.places`
 
