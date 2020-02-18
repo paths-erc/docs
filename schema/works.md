@@ -14,9 +14,6 @@ CREATE TABLE paths__works (
   bhg             TEXT,
   bhl             TEXT,
   cae             TEXT,
-  period          TEXT,  -- CMCL legacy semi-colon-separated-values vocabularies.def = 'period'
-  problems        TEXT,  -- CMCL legacy
-  shelfmarks      TEXT,  -- CMCL legacy
   notes           TEXT,
   litperiod       TEXT,
   editors         VARCHAR (255), -- semi-colon-separated-values: vocabularies.def = 'persons'

@@ -16,3 +16,4 @@ This section is still under development and will be frequently updated
 - [Manuscripts](manuscripts)
 - [Places](places)
 - [Authors](authors)
+- [Works](works)

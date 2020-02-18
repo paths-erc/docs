@@ -75,16 +75,12 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 #### SHORT REFERENCE
 - Short reference of the bibliographic item as stored in [biblio table](biblio.md)
-- DB id: `short`
+- DB id: `paths__m_biblio.short`
 
 #### SPECIFIC DETAILS
 - Pages of the publication if not precised in the reference
-- DB id: `details`
+- DB id: `paths__m_biblio.details`
 
 #### DETAILS ABOUT IMAGES
 - Pages or figures containing reproductions of (part[s] of) the manuscript
-- DB id: `images`
-
-#### LAST MODIFIED
-- date of last edit
-- DB id: `lastmodified`
+- DB id: `paths__m_biblio.images`

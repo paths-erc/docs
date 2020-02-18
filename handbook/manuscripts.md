@@ -630,7 +630,7 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - DB id: `status`
 
 #### LAST MODIFIED
-- date of last edit
+- Date of last edit
 - DB id: `lastmodified`
 
 ---
@@ -642,12 +642,12 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 
 #### SHORT REFERENCE
 - Short reference of the bibliographic item as stored in [biblio table](biblio.md)
-- DB id: `short`
+- DB id: `paths__m_biblio.short`
 
 #### SPECIFIC DETAILS
 - Pages of the publication if not precised in the reference
-- DB id: `details`
+- DB id: `paths__m_biblio.details`
 
 #### DETAILS ABOUT IMAGES
 - Pages or figures containing reproductions of (part[s] of) the manuscript
-- DB id: `images`
+- DB id: `paths__m_biblio.images`

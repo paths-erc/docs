@@ -13,24 +13,19 @@ Ref.: `paths.places`
 
 #### ID
 - The unique stable identifier of each place. The identifier is a sequential integer provided by the database engine.
-- DB id: `id`
+- DB id: `paths__places.id`
 
 #### SITE NAME
 - English ‘standard’ version of the most common toponym used in the scholarly literature
-- DB id: `name`
+- DB id: `paths__places.name`
 
 #### Trismegistos GeoID
 - [Trismegistos GeoID](https://www.trismegistos.org/geo/index.php), if available
-- DB id: `tmgeo`
+- DB id: `paths__places.tmgeo`
 
 #### Pleiades Id
 - [Pleiades](https://pleiades.stoa.org/places) Id, if available
-- DB id: `pleiades`
-
-#### Timm references
-**The use of this field has been deprecated in favour of the Bibliography field group**
-~~- Bibliografical reference to Timm, S. 1984-1992. *Das christlich-koptische Ägypten in arabischer Zeit. Eine Sammlung christlicher Stätten in Ägypten in arabischer Zeit, unter Ausschluss von Alexandria, Kairo, des Apa-Mena-Klosters (Dēr Abū Mina), der Skētis (Wādi n-Naṭrūn) und der Sinai-Region*. Wiesbaden.~~
-~~- DB id: `timm`~~
+- DB id: `paths__places.pleiades`
 
 ---
 
@@ -41,23 +36,23 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 #### LANGUAGE
 - The language in which the toponym is expressed, e.g.: Egyptian, Greek, Latin, Coptic, Arabic and English.
-- DB id: `language`
+- DB id: `paths__m_msplaces.language`
 
 #### PLACE NAME
 - The single toponym variant.
-- DB id: `toponym`
+- DB id: `paths__m_msplaces.toponym`
 
 #### TRANSCRIPTION
 - Romanization of toponym variant. Only Arabic forms are being romanized, using the [DIN (Deutsches Institut für Normung) 31635 standard](https://en.wikipedia.org/wiki/DIN_31635).
-- DB id: `transcription`
+- DB id: `paths__m_msplaces.transcription`
 
 #### NOTES
 - Possible notes for the toponym variant
-- DB id: `notes`
+- DB id: `paths__m_msplaces.notes`
 
 #### SORT
 - This field is used to manually order the single items.
-- DB id: `sort`
+- DB id: `paths__m_msplaces.sort`
 
 ---
 
@@ -65,11 +60,11 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 #### REGION
 - Egyptian macro regions as listed by Baines, J., Malek, J. 1980 (*Atlas of Ancient Egypt*. Oxford) with the exception of Thebes (divided in Western and Eastern Thebes) and the Fayyum region.
-- DB id: `region`
+- DB id: `paths__places.region`
 
 #### AREA
 - A coherent modern area if available, eg. Valley of the Queens / Kings, etc.
-- DB id: `area`
+- DB id: `paths__places.area`
 
 ---
 
@@ -77,19 +72,19 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 #### NOME
 - The pertinent Egyptian nome. The [Trismegistos’ list of the Egyptian nomes](https://www.trismegistos.org/geo/nomoi_lookup_nomoi.php?fieldname=Egyptian_Nomos&num=one), around 3rd Century CE is used.
-- DB id: `nomos`
+- DB id: `paths__places.nomos`
 
 #### Capital of nome
 - True if the site is the capital of the pertinent nome, false otherwise.
-- DB id: `isnomoscapital`
+- DB id: `paths__places.isnomoscapital`
 
 #### PROVINCE
 - The pertinent Diocletian province.
-- DB id: `province`
+- DB id: `paths__places.province`
 
 #### MERIS
 - The pertinent Egyptian Fayyumic meris.
-- DB id: `meris`
+- DB id: `paths__places.meris`
 
 ---
 
@@ -97,15 +92,15 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 #### EPISCOPAL SEE
 - If the site is documented to have been a bishopric or not.
-- DB id: `episcopalsee`
+- DB id: `paths__places.episcopalsee`
 
 #### EPISCOPAL SEE FROM YEAR
 - If known, the year from which the site is documented to have been a bishopric.
-- DB id: `episcopalseefrom`
+- DB id: `paths__places.episcopalseefrom`
 
 #### NOTES ON EPISCOPAL SEE
 - Sources or other notations on the episcopal see, if the site is documented to have been a bishopric.
-- DB id: `notesepiscopalsee`
+- DB id: `paths__places.notesepiscopalsee`
 
 ---
 
@@ -113,15 +108,15 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 #### DATE FROM
 - The upper chronological limit expressed in years of the ‘Coptic’ phase of the site
-- DB id: `datefrom`
+- DB id: `paths__places.datefrom`
 
 #### DATE TO
 - The lower chronological limit expressed in years of the ‘Coptic’ phase of the site
-- DB id: `dateto`
+- DB id: `paths__places.dateto`
 
 #### DATING CRITERIA AND NOTES
 - Detailed information on which the dating of the site is made.
-- DB id: `datingcriteria`
+- DB id: `paths__places.datingcriteria`
 
 ---
 
@@ -129,31 +124,31 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 #### TYPOLOGY
 - Site typologies has been shaped after (selected from) Pleiades’ Feature (or Place) Categories, with the addition of `hermitage unit(s)` and `castrum`.
-- DB id: `typology`
+- DB id: `paths__places.typology`
 
 #### TOPOGRAPHICALLY REFERRED TO
 - An already inserted place (internal reference) to which the current place is topographically linked. Only upwards relations must be recorded.
--DB id: `toporeferredto`
+-DB id: `paths__places.toporeferredto`
 
 #### NOTES ON TOPOGRAPHICAL REFERENCE
 - Descriptive notes about the (upwards) topographical relation of the site.
-- DB id: `notestoporeferredto`
+- DB id: `paths__places.notestoporeferredto`
 
 #### DOES THE SITE INCLUDE ANY MONASTERIES?
 - True (1) if a site contains one or many monasteries, false (0) otherwise.
-- DB id: `Does the site include any monasteries?`
+- DB id: `paths__places.hasmonastery`
 
 #### NOTES ON MONASTERY
 - Descriptive notes on the monastic nature of the site.
-- DB id: `monasterynotes`
+- DB id: `paths__places.monasterynotes`
 
 #### HISTORICAL CONNECTIONS / REFERENCES
 - Historical (textual) evidence of relations between two or more sites.
-- DB id: `historicalreference`
+- DB id: `paths__places.historicalreference`
 
 #### DESCRIPTION
 - A detailed description of the site, limited to the 3rd-11th Centuries CE.
-- DB id: `description`
+- DB id: `paths__places.description`
 
 ---
 
@@ -184,43 +179,36 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
   - Early Ottoman Empire (AD 1453 - AD 1683)
   - Ottoman Empire (AD 1513 - AD 1918)
   - undefined.
-- DB id: `phperiod`
+- DB id: `paths__m_placephase.fperiod`
 
 #### NOTES ON PERIOD
 - Further verbose notes on the period
-- DB id: `phperiodnote`
+- DB id: `paths__m_placephase.fperiodnote`
 
 #### TYPOLOGY
 - Typology of the site in the specific period
-- DB id: `phtypology`
+- DB id: `paths__m_placephase.ftypology`
 
 #### DESCRIPTION
 - Full description of the site referring to the specific period
-- DB id: `phdescription`
+- DB id: `paths__m_placephase.fdescription`
 
 ---
 
 ### Editorial information
 
-**Deprecated**  
-~~- Field reserved for internal use~~
-~~- DB id: `hasplans`~~
-
-**Deprecated**  
-~~- Field reserved for internal use~~
-~~- DB id: `hasphotos`~~
-
-**Deprecated**  
-~~- Field reserved for internal use~~
-~~- DB id: `accuracy`~~
-
 #### EDITORS
 - Initials of the person(s) responsible for the record.
-- DB id: `editors`
+- DB id: `paths__places.editors`
 
 #### STATUS
 - If the record has been fully compiled the status is set to `complete`; if it is under study the status is set to `in-progress`. If the status is blank it means that the provided information are incomplete, not reliable and liable to change in the future.
-- DB id: `status`
+- DB id: `paths__places.status`
+
+#### LAST MODIFIED
+- Date of last edit
+- DB id: `paths__places.lastmodified`
+
 
 ---
 
@@ -231,16 +219,12 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 
 #### SHORT REFERENCE
 - Short reference of the bibliographic item as stored in [biblio table](biblio.md)
-- DB id: `short`
+- DB id: `paths__m_biblio.short`
 
 #### SPECIFIC DETAILS
 - Pages of the publication if not precised in the reference
-- DB id: `details`
+- DB id: `paths__m_biblio.details`
 
 #### DETAILS ABOUT IMAGES
 - Pages or figures containing reproductions of (part[s] of) the manuscript
-- DB id: `images`
-
-#### LAST MODIFIED
-- date of last edit
-- DB id: `lastmodified`
+- DB id: `paths__m_biblioimages`

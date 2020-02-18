@@ -31,12 +31,9 @@ CREATE TABLE paths__places (
   dateto              INTEGER,
   datingcriteria      TEXT,
   description         TEXT,
-  hasplans            BOOLEAN, -- 1|0
-  hasphotos           BOOLEAN, -- 1|0
   hasmonastery        BOOLEAN, -- 1|0
   monasterynotes      TEXT,
   isnomoscapital      BOOLEAN, -- 1|0
-  accuracy            TEXT,
   editors             VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
   status              VARCHAR(255), -- vocabularies.def = 'status'
   lastmodified        TEXT
