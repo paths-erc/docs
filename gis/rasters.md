@@ -24,7 +24,9 @@ We are wishing to publish the entire processed archive, but at present we are ve
     RS: <a href="http://epsg.io/{{ item.rs | replace: "EPSG:", '' }}" target="_blank" rel="nooper">{{ item.rs }}</a><br />
     Source: {{ item.source }}<br />
     {% if item.license %}License: {{ item.license }}<br />{% endif %}
-    {% if item.wms %}<span class="text-success">Available as WMS at http://wms.paths-erc.eu/{{ item.wms }}</span><br />{% endif %}
+    {% if item.wms %}<span class="text-success">Available as WMS at http://wms.paths-erc.eu/{{ item.wms }}</span>
+    [<a href="http://wms.paths-erc.eu/{{ item.wms }}?service=WMS&request=GetCapabilities" target="_blank" rel="noopener noreferrer">Capabilities</a>]
+    <br />{% endif %}
     <button class="btn btn-outline-info btn-sm toggle" data-toggletarget="more{{ item.id }}">More <i class="fas fa-chevron-down"></i></button>
     <ol id="more{{ item.id }}" style="display:none;" class="bg-light py-2">{%
       for f in site.data.rasters.features %}{%
