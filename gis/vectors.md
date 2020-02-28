@@ -58,9 +58,25 @@ permalink: /gis/vectors
 ---
 
 ## List of available maps vectorized using the SVP protocol
+
+<div class="m-3 border p-3 bg-danger text-white">
+  <h3>Notice</h3>
+  <p>PAThs team is currently working in the georeferencing and vectorization using the SVP of the maps of christian religious buildings,
+  such as chapels, churches, monasteries, basilicas, etc. When possible these data will be completed with their archaeological context
+  including information on previous buildings and phases. In some cases, a broader ureban context is provided, but currently the coverage 
+  is highly uneven.</p>
+  <p>A very premature stage of this work is being published in real time in the 
+  <a href="http://atlas.paths-erc.eu/" target="_blank" rel="noopener nofollow" class="text-white">Archaeological Atlas of Coptic Literature</a>.
+  The map preview of each Place displays the already available maps of the site; the coverage and the quality of the information
+  is being updated on a daily basis and no warranty is currently provided for these highly incomplete work.</p>
+
+  <p>PAThs team highly discourages the usage of these still unstable data; in any case, usage is free but all credits goes to PAThs project.</p>
+  <p class="border-top text-center">Copyright © PAThs team, Sapienza Università di Roma.<br><small><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="text-white">Use, sharing and remixing permitted under terms of the<br>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License<br><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" style="border-width: 0px;"></a></small></p>
+</div>
+
 {% include geojson-index.html %}
 <ul>
 {% for el in arr %}
-  <li>{{ el }} (<a href="/gis/demo/#{{ el }}" target="_blank">View in demo</a>)</li>
+  <li>{{ el }} {% comment %} (<a href="/gis/demo/#{{ el }}" target="_blank">View in demo</a>) {% endcomment %}</li>
 {% endfor %}
 </ul>
