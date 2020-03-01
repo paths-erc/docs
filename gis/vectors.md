@@ -60,18 +60,18 @@ permalink: /gis/vectors
 ## List of available maps vectorized using the SVP protocol
 
 <div class="m-3 border p-3 bg-danger text-white">
+  
   <h3>Notice</h3>
-  <p>The PAThs team is currently working on the georeferencing and vectorization of the maps of Christian religious buildings,
-  such as chapels, churches, monasteries, basilicas, etc. When possible these data will be completed with information on previous buildings and phases. In some cases, a broader urban context is provided, but in this case the current coverage is highly uneven.</p>
-  <p>A very premature stage of this work is being published in real time in the 
-  <a href="http://atlas.paths-erc.eu/" target="_blank" rel="noopener nofollow" class="text-white">Archaeological Atlas of Coptic Literature</a>.
-  The map preview of each Place displays the already available maps of the site; the coverage and the quality of the information
-  is being updated on a daily basis and no warranty is currently provided for these highly incomplete work.</p>
 
-  <p>The PAThs team highly discourages the usage of these still unstable data; in any case, 
-  usage is free but all credits goes to the PAThs project, which must be clearly and unmistakeably aknowledged.</p>
+  <p>The PAThs team is currently working on the georeferencing and vectorisation of the maps of Christian religious buildings, such as chapels, churches, monasteries, basilicas, etc. When possible these data will be completed with information on previous building phases. In some cases, a broader urban context is also provided, although the current coverage is highly uneven.</p>
+
+  <p>A <em>very premature stage</em> of this work is being published in real time in the 
+  <a href="http://atlas.paths-erc.eu/" target="_blank" rel="noopener nofollow" class="text-white">Atlas</a>. The map preview of each Place displays the already available maps of a specific site; the coverage and the quality of the information is being updated on a daily basis and no warranty is currently provided for these highly incomplete work.</p>
+
+  <p>At the moment, therefore, the PAThs team <em>strongly discourages the usage of these still unstable data</em>; in any case, usage is free, but all the credit goes to the PAThs project, which must be clearly and unmistakably acknowledged for its work.</p>
   
   <p class="border-top text-center">Copyright © PAThs team, Sapienza Università di Roma.<br><small><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="text-white">Use, sharing and remixing permitted under terms of the<br>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License<br><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" style="border-width: 0px;"></a></small></p>
+  
 </div>
 
 {% include geojson-index.html %}
