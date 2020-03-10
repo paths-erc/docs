@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "BGQ6JNX2_5",
+"name": "BGQ6JNX2-5",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "place": 338, "subplace": "Eastern Church", "reconstr": 0, "part": null, "phase": null, "lost": null, "scale": null, "source": "BGQ6JNX2", "subsource": null, "operator": "JB", "date": "", "height": null, "minHeight": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 29.514580528538012, 30.942515705530337 ], [ 29.514570907686849, 30.942528387561413 ], [ 29.514574551948652, 30.942530574118496 ], [ 29.514583443947455, 30.942518183628362 ], [ 29.514580528538012, 30.942515705530337 ] ] ] ] } },
