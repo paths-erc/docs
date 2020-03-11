@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "BGQ6JNX-148",
+"name": "BGQ6JNX2-148",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "place": 92, "subplace": null, "reconstr": 1, "part": "s", "phase": null, "lost": null, "scale": null, "source": "BGQ6JNX2", "subsource": "148", "operator": "Paolo Rosati", "date": "2019\/12\/31", "height": null, "minHeight": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 31.233878865638196, 27.032012883565258 ], [ 31.233891032091602, 27.03201597834644 ], [ 31.233891865487958, 27.032011426720185 ], [ 31.233889645084918, 27.032011100498881 ], [ 31.233878541444309, 27.032008101705433 ], [ 31.23387748781418, 27.032012235177483 ], [ 31.233878865638196, 27.032012883565258 ] ] ] ] } },
