@@ -7,11 +7,11 @@ docs:
 - title: Simple Vectorization Protocol (SVP)
   url: svp
 
-- title: SVP Demo
-  url: demo
-
 - title: SVP validation
   url: svp#validation
+
+- title: SVP Demo
+  url: svp#demo
 
 - title: Available raster data
   url: rasters
