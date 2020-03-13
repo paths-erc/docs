@@ -11,7 +11,7 @@ docs:
   url: demo
 
 - title: SVP validation
-  url: ./svp/#validation
+  url: svp#validation
 
 - title: Available raster data
   url: rasters
