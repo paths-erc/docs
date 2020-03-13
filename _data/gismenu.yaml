@@ -10,6 +10,9 @@ docs:
 - title: SVP Demo
   url: demo
 
+- title: SVP validation
+  url: ./svp/#validation
+
 - title: Available raster data
   url: rasters
 

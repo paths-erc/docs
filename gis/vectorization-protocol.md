@@ -125,5 +125,12 @@ Follows a geojson sample code extracted from the [demo](./svp/):
 }
 ```
 
+### Validation
+[**Update 20120-03-12**]  
+Is is now availabe a very simple validation tool for SVP, published at [https://paths-erc.eu/svp-validate/](https://paths-erc.eu/svp-validate/).
+This tool will not check about geometry consistency; only the attributes will be checked. 
+
+The tool is still under development; feedback and suggestions are much appreciated.
+
 ### Demo
 For a fully working example, built with Leaflet follow [this link](./demo/). It uses a sample geojson file following the most recent version of the protocol.
