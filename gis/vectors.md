@@ -74,6 +74,52 @@ permalink: /gis/vectors
   
 </div>
 
+All maps are currently availale as a 
+[Web Mapping Service (WMS)](https://en.wikipedia.org/wiki/Web_Map_Service), 
+published at `http://wms.paths-erc.eu/site-maps`.
+
+As of **{{ site.time | date: '%B %Y' }}** the following layers are available:
+- `All site maps (Phases < 0)`
+- `All site maps (Phase 0)`
+- `All site maps (Phase 1)`
+- `All site maps (Phase 2)`
+- `All site maps (Phases > 2)`
+
+### Legend and style schema
+![WMS legend](/images/wms-legend.png "WMS legend")
+
+---
+
+### Implementation example using leaflet.js
+
+For a working demo check [https://jsbin.com/judoluc/edit?output](https://jsbin.com/judoluc/edit?output).
+Feel free to fork and reuse.
+
+
+---
+
+### Credits & copyright
+
+Copyright © PAThs team, Sapienza Università di Roma.
+
+Use, sharing and remixing permitted under terms of the
+[CC-BY-NC-SA 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+
+---
+
+### Caveat
+A very premature stage of the work is being published in this service. 
+The coverage and the quality of the information is being updated on a **daily basis** and 
+**no warranty** is currently provided for these highly incomplete work.
+
+Feedback and suggestions are much appreciated.
+
+
+
+---
+
+### Abailable maps/sites
+
 {% include geojson-index.html %}
 <ul>
 {% for el in arr %}
