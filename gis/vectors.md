@@ -118,11 +118,11 @@ Feedback and suggestions are much appreciated.
 
 ---
 
-### Abailable maps/sites
+### Available maps/sites
 
 {% include geojson-index.html %}
-<ul>
+<ol>
 {% for el in arr %}
   <li>{{ el }} {% comment %} (<a href="/gis/demo/#{{ el }}" target="_blank">View in demo</a>) {% endcomment %}</li>
 {% endfor %}
-</ul>
+</ol>
