@@ -27,4 +27,5 @@ CREATE TABLE paths__persons (
 ```
 
 ## Links
+- `persons` —< `m_nameforms`
 - `persons` >—< `biblio` (via `m_biblio` [+ details])

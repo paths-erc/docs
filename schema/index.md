@@ -37,6 +37,7 @@ describing each table is standard SQL and will work—with minor changes—with 
   1. [m_biblio](m_biblio)
   1. [m_hands](m_hands)
   1. [m_msplaces](m_msplaces)
+  1. [m_nameforms](m_nameforms)
   1. [m_placephase](m_placephase)
   1. [m_quires](m_quires)
   1. [m_shelfmarks](m_shelfmarks)

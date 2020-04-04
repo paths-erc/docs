@@ -3,7 +3,7 @@ title: "Manual for the correct use and reading of the codicological description 
 permalink: "/handbook/manuscripts"
 ---
 
-A detailed technical description of database schemais published at [schema/manuscripts](../schema/manuscripts).
+A detailed technical description of database schema is published at [schema/manuscripts](../schema/manuscripts).
 
 
 
@@ -70,7 +70,7 @@ Ref.: `paths.manuscripts`
 ### Shelfmarks
 For each manuscript multiple instances of the following group of fields can be filed, each one describing a single modern fragment.
 
-These fields are not part of the [manuscripts table](../db-schema/manuscripts.md) but of the [m_shelfmarks table](../db-schema/m_shelfmarks.md).
+These fields are not part of the [manuscripts table](/schema/manuscript) but of the [m_shelfmarks table](/schema/m_shelfmarks).
 
 #### CMCL's full segnat
 - Fragment identifier as recorded in the [CMCL](http://cmcl.it)
@@ -83,7 +83,7 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 #### COLLECTION
 - Normalised full form of the collection name (country, city, institution, and collection of the fragment)
 - DB id: `collection`
-- **Warning**: this field is a foreign key referring [collections.id](../db-schema/collections.md) field.
+- **Warning**: this field is a foreign key referring [collections.id](/schema/collections) field.
 
 #### SHELFMARK
 - Identifier of the fragment within the collection
@@ -263,7 +263,7 @@ These fields are not part of the [manuscripts table](../db-schema/manuscripts.md
 
 For each manuscript, multiple instances of the following group of fields can be filed, each one describing a single quire.
 
-These fields are not part of the [manuscripts table](../db-schema/manuscripts.md) but of the [m_quires table](../db-schema/m_quires.md).
+These fields are not part of the [manuscripts table](/schema/manuscripts) but of the [m_quires table](/schema/m_quires).
 
 #### 	QUIRE NO.
 - Modern number assigned to the quire
@@ -367,7 +367,7 @@ The parchment side of the first page is noted (F for flesh side, and H for hair 
 
 For each manuscript, multiple instances of the following group of fields can be filed, each one describing a single hand.
 
-These fields are not part of the [manuscripts table](../db-schema/manuscripts.md) but of the [m_hands table](../db-schema/m_hands.md).
+These fields are not part of the [manuscripts table](/schema/manuscripts) but of the [m_hands table](/schema/m_hands).
 
 ---
 
@@ -638,10 +638,10 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 ### BIBLIOGRAPHY
 For each manuscript multiple instances of the following group of fields can be filed, each one describing a bibliographic reference.
 
-These fields are not part of the [manuscripts table](../db-schema/manuscripts.md) but of the [m_biblio table](../db-schema/m_biblio.md).
+These fields are not part of the [manuscripts table](/schema/manuscripts) but of the [m_biblio table](/schema/m_biblio).
 
 #### SHORT REFERENCE
-- Short reference of the bibliographic item as stored in [biblio table](biblio.md)
+- Short reference of the bibliographic item as stored in [biblio table](biblio)
 - DB id: `paths__m_biblio.short`
 
 #### SPECIFIC DETAILS

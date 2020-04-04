@@ -3,7 +3,7 @@ title: "Manual for the correct use and reading of the Places section of PAThs da
 permalink: "/handbook/places"
 ---
 
-A detailed technical description of database schemais published at [schema/places](../schema/places).
+A detailed technical description of database schema is published at [schema/places](../schema/places).
 
 Ref.: `paths.places`
 
@@ -32,7 +32,7 @@ Ref.: `paths.places`
 ### Place names
 For each place multiple instances of the following group of fields can be filed, each one describing a single toponym form.
 
-These fields are not part of the [places table](../db-schema/places.md) but of the [m_toponyms table](../db-schema/m_toponyms.md).
+These fields are not part of the [places table](/schema/places) but of the [m_toponyms table](/schema/m_toponyms).
 
 #### LANGUAGE
 - The language in which the toponym is expressed, e.g.: Egyptian, Greek, Latin, Coptic, Arabic and English.
@@ -155,7 +155,7 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 ### Other periods
 For each place multiple instances of the following group of fields can be filed, each one providing a short description of a specific phase.
 
-These fields are not part of the [places table](../db-schema/places.md) but of the [m_placephase table](../db-schema/m_placephase.md).
+These fields are not part of the [places table](/schema/places) but of the [m_placephase table](/schema/m_placephase).
 
 #### PERIOD
 - Specific chronological period, controlled by a vocabulary derived from [perio.do](http://perio.do/). The following items are so far implemented:
@@ -215,10 +215,10 @@ These fields are not part of the [places table](../db-schema/places.md) but of t
 ### Bibliography
 For each place multiple instances of the following group of fields can be filed, each one describing a bibliographic reference.
 
-These fields are not part of the [places table](../db-schema/places.md) but of the [m_biblio table](../db-schema/m_biblio.md).
+These fields are not part of the [places table](/schema/places) but of the [m_biblio table](/schema/m_biblio).
 
 #### SHORT REFERENCE
-- Short reference of the bibliographic item as stored in [biblio table](biblio.md)
+- Short reference of the bibliographic item as stored in [biblio table](biblio)
 - DB id: `paths__m_biblio.short`
 
 #### SPECIFIC DETAILS

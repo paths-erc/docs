@@ -3,7 +3,7 @@ title: "Manual for the correct use and reading of the Authors section of PAThs d
 permalink: "/handbook/authors"
 ---
 
-A detailed technical description of database schemais published at [schema/authors](../schema/authors).
+A detailed technical description of database schema is published at [schema/authors](../schema/authors).
 
 
 Ref.: `paths.authors`
@@ -71,10 +71,10 @@ Ref.: `paths.authors`
 ### Bibliography
 For each place multiple instances of the following group of fields can be filed, each one describing a bibliographic reference.
 
-These fields are not part of the [places table](../db-schema/places.md) but of the [m_biblio table](../db-schema/m_biblio.md).
+These fields are not part of the [places table](/schema/places) but of the [m_biblio table](/schema/m_biblio).
 
 #### SHORT REFERENCE
-- Short reference of the bibliographic item as stored in [biblio table](biblio.md)
+- Short reference of the bibliographic item as stored in [biblio table](biblio)
 - DB id: `paths__m_biblio.short`
 
 #### SPECIFIC DETAILS

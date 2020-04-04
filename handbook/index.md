@@ -13,7 +13,11 @@ This section is still under development and will be frequently updated
 
 ## Table of contents
 
-- [Manuscripts](manuscripts)
 - [Places](places)
-- [Authors](authors)
+- [Manuscripts](manuscripts)
 - [Works](works)
+- [Authors](authors)
+- [Titles](titles)
+- [Colophons](colophons)
+- [Persons](persons)
+- [Collections](collections)
