@@ -19,4 +19,4 @@ typographical misprints by [opening a new issue](https://github.com/paths-erc/pa
 ## Available documentation:
 - [Users’ handbook](handbook)
 - [Database schema](schema)
-- [GIS data](/gis/)
+- [Data repository](/data/)
