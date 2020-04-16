@@ -1,0 +1,17 @@
+menu_title: Main menu
+docs:
+
+- title: Data
+  url: /data
+
+- title: Credits
+  url: /data/credits
+
+- title: Spatial reference systems
+  url: /data/spatial-reference-systems
+
+- title: "Protocols: SVP"
+  url: /data/svp
+
+- title: Join us
+  url: /data/join-us

@@ -1,0 +1,130 @@
+---
+title: PAThs data repository & documentation
+layout: default
+permalink: /data/
+---
+
+<p>This is the unified entry point and index for all the statically available data of PAThs projects.
+    These are typically dumps from the main database, serving several purposes, and GIS ready datasets
+created and maintaind by the PAThs team.</p>
+
+<p>If you are loking for our API, please refer to the 
+    <a href="https://atlas.paths-erc.eu/api" target="_blank">dedicated page of the Atlas</a>.</p>
+
+<p>For each dataset a detailed description of the sources, working process, spatial coverage, persons involved, 
+file formats and protocols available, and licensed are provided.</p>
+
+<p>If not otherwise stated PAThs is the copyright holder. Usage licenses and availability may vary from dataset to dataset.</p>
+
+{% include data-menu.html %}
+
+
+<div class="row my-5 py-5 border-top border-bottom bg-light">
+    <div class="col-md-6 mx-auto">
+        <input type="search" id="search-dataset" class="form-control form-control-lg" placeholder="Search dataset">
+    </div>
+</div>
+
+
+<h2>Available datasets</h2>
+
+<ul class="list-group mt-5" id="datasets">
+{% for item in site.dataset %}
+{% assign id = item.name | downcase | replace: "'", "" | replace: ")", "_" | replace: "(", "_" | replace: ":", "_" | replace: ".", "_" | replace: ",", "_" | replace: " ", "_" | replace: "-", "_" | replace: "__", "_" %}
+<li class="list-group-item my-1" id ="{{ id }}">
+    <h5 class="mt-3">
+        <a href="#{{ id }}" class="btn btn-light">
+    {%    if item.type    == 'raster_map'       %}<i class="far fa-map"></i>
+    {% elsif item.type    == 'vector_map'       %}<i class="fas fa-map-marker-alt"></i>
+    {% elsif item.type    == 'multi_format_map' %}<i class="fas fa-map-marked"></i></i>
+    {% endif %}</a>
+    {{ item.name }}</h5>
+    
+    {% if item.preview %}
+    <button class="btn btn-warning modalMap float-right" data-seriesname="{{ item.name }}">
+        <i class="far fa-eye"></i> Preview coverage
+    </button>
+    {% endif %}
+
+    {% if item.year %}      Year: {{ item.year }}           <br> {% endif %}
+    {% if item.scale %}     Scale: {{ item.scale }}         <br> {% endif %}
+    {% if item.source %}    Source: {{ item.source }}       <br> {% endif %}
+    {% if item.copyright %} Copyright: {{ item.copyright }} <br> {% endif %}
+    {% if item.license %}   License: {{ item.license }}     <br> {% endif %}
+
+    
+
+    <button class="btn btn-outline-info btn-sm toggle my-3" data-toggletarget="more{{ forloop.index }}">More <i class="fas fa-xs fa-chevron-down"></i></button>
+
+    <div id="more{{ forloop.index }}" class="d-none bg-light p-3 mx-5">
+        
+        {% if item.rs %}RS: <a href="http://epsg.io/{{ item.rs | replace: "EPSG:", '' }}" target="_blank" rel="nooper">{{ item.rs }}</a><br /> {% endif %}
+        {% if item.date_created %}Created on: {{ item.date_created }}<br /> {% endif %}
+        {% if item.lang %}Language: {{ item.lang }}<br /> {% endif %}
+
+        <h5 class="mt-3 border-bottom">Availability</h5>
+        <dl>
+            {% if item.availability.wms %}
+            <dt>
+                WMS
+                <span class="float-right">[<a href="https://en.wikipedia.org/wiki/Web_Map_Service" target="_blank" rel="noopener noreferrer">What is WMS?</a>]</span>
+            </dt>
+            <dd>
+                <code>https://wms.paths-erc.eu/{{ item.availability.wms }}</code>
+                [<a href="https://wms.paths-erc.eu/{{ item.availability.wms }}?service=WMS&request=GetCapabilities" target="_blank" rel="noopener noreferrer">Capabilities</a>]
+            </dd>
+            {% endif %}
+
+            {% if item.availability.xyz %}
+            <dt>
+                Tiled web map
+                <span class="float-right">[<a href="https://en.wikipedia.org/wiki/Tiled_web_map" target="_blank" rel="noopener noreferrer">What is Tiled web map?</a>]</span>
+            </dt>
+            <dd>
+                <code>http://xyz.paths-erc.eu/{{ item.availability.xyz }}/{z}/{x}/{y}.png</code>
+                [<a href="javascript:void(0)" class="modalMap" data-xyz="{{ item.availability.xyz }}">Preview</a>]
+            </dd>
+            {% endif %}
+
+            {% if item.availability.csv %}
+            <dt>CSV
+                <span class="float-right">[<a href="https://en.wikipedia.org/wiki/Comma-separated_values" target="_blank" rel="noopener noreferrer">What is CSV?</a>]</span>
+            </dt>
+            <dd><a href="{{ item.availability.csv }}" target="_blank" rel="noopener noreferrer">Open CSV file</a></dd>
+            {% endif %}
+
+            {% if item.availability.geojson %}
+            <dt>GeoJSON 
+                <span class="float-right">[<a href="https://en.wikipedia.org/wiki/GeoJSON" target="_blank" rel="noopener noreferrer">What is GeoJSON?</a>]</span>
+            </dt>
+            <dd><a href="{{ item.availability.geojson }}" target="_blank" rel="noopener noreferrer">Open GeoJSON file</a></dd>
+            {% endif %}
+            
+            {% if item.availability.other %}
+            <dt>Other</dt>
+            <dd>{{ item.availability.other }}</dd>
+            {% endif %}
+        </dl>
+
+        <h5 class="mt-3 border-bottom">Credits</h5>
+        <dl>
+            {% for c in item.credits %}
+            <dt> {{ c.role }}</dt>
+            <dd>
+                {{ c.name }} {% if c.email %} &lt;{{ c.email }}&gt;{% endif %}
+                {% if c.web %}<br>Web: <a href="{{ c.web }}" target="_blank" rel="noopener noreferrer">{{ c.web }}</a>{% endif %}
+            </dd>
+            {% endfor %}
+        </dl>
+
+        <div>
+            {{ item.content }}
+        </div>
+        
+    </div>
+</li>
+{% endfor %}
+</ul>
+<script>
+const geojson = {{ site.data.rasters | jsonify }};
+</script>

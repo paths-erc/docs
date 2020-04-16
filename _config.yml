@@ -3,6 +3,10 @@ description: The official documentation repository of PAThs project
 logo: paths-logo.png
 
 
+collections:
+  dataset:
+    output: true
+
 defaults:
   - values:
       layout: default

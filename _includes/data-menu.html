@@ -1,0 +1,11 @@
+<div class="text-center my-5">
+  <div class="border-top border-bottom border-warning py-3 my-3 d-inline-block">
+      <ul class="list-inline mx-5 my-0">
+        {% for item in site.data.datamenu.docs %}
+          <li class="list-inline-item {% if forloop.index > 1 %}border-left border-dark pl-3{% endif %}">
+            <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+  </div>
+</div>
