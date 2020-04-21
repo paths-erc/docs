@@ -42,11 +42,11 @@ Ref.: `paths.manuscripts`
 - DB id: `alias`
 
 #### PRESERVED IN A SINGLE FRAGMENT
-- True or 1 if the manuscript is conserved in only one single fragment
+- True or 1 if the manuscript is preserved in only one single fragment
 - DB id: `issinglefrag`
 
 #### ONLY BOOKBINDING PRESERVED
-- True or 1 if the manuscript if only the bookbinding is preserved
+- True or 1 if only the bookbinding is preserved
 - DB id: `isbookbinding`
 
 #### MANUSCRIPT REUSED IN BOOKBINDING
@@ -71,14 +71,6 @@ Ref.: `paths.manuscripts`
 For each manuscript multiple instances of the following group of fields can be filed, each one describing a single modern fragment.
 
 These fields are not part of the [manuscripts table](/schema/manuscript) but of the [m_shelfmarks table](/schema/m_shelfmarks).
-
-#### CMCL's full segnat
-- Fragment identifier as recorded in the [CMCL](http://cmcl.it)
-- DB id: `fullsegnat`
-
-#### CMCL segnat
-- Collection name as (programmatically) extracted from the [CMCL](http://cmcl.it)
-- DB id: `segnatid`
 
 #### COLLECTION
 - Normalised full form of the collection name (country, city, institution, and collection of the fragment)
@@ -110,8 +102,8 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 ### Dating
 
 #### SOURCE FOR DATING
-- Used to further qualify the type of dating. Available sources are: `colophon`, `palaeography`, `prosopography` and `related manuscripts` in case a manuscript is part of a (well) datable group of manuscripts.
-- DB id: `chronofrom`
+- Used to further qualify the type of dating. Available sources are: `colophon`, `palaeography`, `prosopography`, `related manuscripts`, `archaeological data` and `contents` in case a manuscript is part of a (well) datable group of manuscripts.
+- DB id: `datingsource`
 
 #### FROM
 - Lower chronological limit (year) of the codicological unit, to be expressed in years. Negative values are used for BCE dating
@@ -119,7 +111,7 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 
 #### TO
 - Upper chronological limit (year) of the codicological unit, to be expressed in years. Negative values are used for BCE dating. In the case of an exact date (year), this field should be filled with the same value of the From ([chronofrom](#from)) date. When no elements of dating are available, the label is blank.
--DB id: `chronoto`
+- DB id: `chronoto`
 
 #### DATING CRITERIA
 - Criteria and information source for dating. If the manuscript/fragment (= codicological unit) is not datable, the field is blank.
@@ -130,11 +122,11 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 ### Book form
 
 #### BOOK FORM
-- Codex, horizontal roll (roll written horizontally in a sequence of more or less narrow columns), vertical roll (roll in which the writing runs in one column top-down and parallel to the short side), ostracon, polyptych (codex made from wooden tablets), and tablet.
+- Codex, horizontal roll (roll written horizontally in a sequence of more or less narrow columns), vertical roll (roll in which the writing runs in one column top-down and parallel to the short side), ostrakon, polyptych (codex made from wooden tablets), tablet and single leaf.
 - DB id: `bookform`
 
 #### WRITING SUPPORT
-- Material used for the manuscripts (papyrus, parchment, paper, wood, terracotta, wood, stone, and leather).
+- Material used for the manuscripts (papyrus, parchment, paper, wood, terracotta, stone, and leather).
 - DB id: `writingsupport`
 
 ---
@@ -146,7 +138,7 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 - DB id: `leaftotextant`
 
 #### NUMBER OF FRAGMENTS
-- Total number of extant fragments belonging to a codicological unit.
+- Total number of extant fragments (i.e. fragmentary leaves) belonging to a codicological unit.
 - DB id: `fragtot`
 
 #### FRAGMENTS DIMENSIONS
@@ -201,7 +193,7 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 - Total width (in mm) of the leaf or the tablet.
 - DB id: `leafw`
 
-### LEAF HEIGHT
+#### LEAF HEIGHT
 - Total height (in mm) of the leaf or the tablet.
 - DB id: `leafh`
 
@@ -214,7 +206,7 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 - DB id: `frameh`
 
 #### INTERCOLUMNIUM
-- Dimensions (in mm) of the intercolumnium.
+- Dimensions (in mm) of the intercolumnium if present.
 - DB id: `intercolumnium`
 
 #### UPPER MARGIN
@@ -226,11 +218,11 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 - DB id: `marginlow`
 
 #### OUTER MARGIN
-- Margin on the opposite side of the binding.
+- Dimensions (in mm) of the margin on the opposite side of the gutter.
 - DB id: `marginout`
 
 #### INNER MARGIN
-- Margin along the binding.
+- Dimensions (in mm) of the margin along the gutter.
 - DB id: `marginin`
 
 #### LEFT MARGIN
@@ -250,7 +242,7 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 - DB id: `prophw`
 
 #### PROPORTION WRITTEN/TOTAL PAGE SPACE
-- It shows how the writer decided to cover the writing support with scripture. Total page space includes the margins and the *intercolumnia*. The proportion is always between 0 and 1; the smaller it is, the smaller the surface of the page written upon. The bigger it is (around 1) a larger surface of the page is covered with writing and therefore margins and *intercolumnia* (if present) are narrower.
+- It shows how the writer decided to cover the writing support with scripture. Total page space includes the margins and the *intercolumnia*. The proportion is always between 0 and 1; the smaller it is, the smaller the surface of the page written upon. The bigger it is (around 1), a larger surface of the page is covered with writing and therefore margins and *intercolumnia* (if present) are narrower.
 - DB id: `propwt`
 
 #### NOTES ON DIMENSIONS AND PROPORTIONS
@@ -270,16 +262,12 @@ These fields are not part of the [manuscripts table](/schema/manuscripts) but of
 - DB id: `quireno`
 
 #### 	QUIRE LAYOUT
-- Schematic representation of the quire layout obtained by means of an *ad hoc*-elaborated tool (quireMatrix by J. Bogdani, DOI: [10.5281/zenodo.1453362](http://dx.doi.org/10.5281/zenodo.1453362), working demo: [https://paths-erc.github.io/quireMatrix/](https://paths-erc.github.io/quireMatrix/)): a dependency-less software to visualise in the browser the layout of quires, using a highly intuitive notation system. Please refer to the The software is written in vanilla javascript and can be run in every browser. The code is available for download at PAThs' official GitHub repository: https://github.com/paths-erc/quireMatrix and is released with MIT License.
+- Schematic representation of the quire layout obtained by means of an *ad hoc*-elaborated tool (quireMatrix by J. Bogdani, DOI: [10.5281/zenodo.1453362](http://dx.doi.org/10.5281/zenodo.1453362), working demo: [https://paths-erc.github.io/quireMatrix/](https://paths-erc.github.io/quireMatrix/)): a dependency-less software to visualise in the browser the layout of quires, using a highly intuitive notation system. The software is written in vanilla javascript and can be run in every browser. The code is available for download at PAThs' official GitHub repository: [https://github.com/paths-erc/quireMatrix](https://github.com/paths-erc/quireMatrix) and is released with MIT License.
 - DB id: `quirelayout`
-
-#### NOTES ON QUIRE LAYOUT
-- Verbose notes on quire layout
-- DB id: `quirelayoutnotes`
 
 #### PAPIRUS QUIRE TYPOLOGY
 - Papyrus quire typology, according to E.G. Turner, *The Typology of the Early Codex*, Philadelphia 1977.
-The fibre direction of the first page is noted (→ for horizontal fibres, and ↓ for vertical fibres) and followed by the pattern of composition of the quire, i.e. ‘like facing like’ when a double page shows the same fibre direction or ‘alternance’ when the fibre direction alternates in a double page. If the quire is of mixed type, its composition is accurately described in ‘Quire notes’ (see below). For this purpose, a scheme like the following is used: →↓|→↓|↓→|→↓||↓→|→↓|↓→|↓→ (↓, →, F or H; | shows the passage from one leaf to the next; || shows the centre of the quire). The scheme →-↓ or ↓-→ indicates a change of fibre direction in the page, i.e. in case of a kollēsis: e.g. →-↓ ↓-→|↓-→ →-↓| etc.
+The fibre direction of the first page is noted (→ for horizontal fibres, and ↓ for vertical fibres) and followed by the pattern of composition of the quire, i.e. ‘like facing like’ when a double page shows the same fibre direction or ‘alternance’ when the fibre direction alternates in a double page. If the quire is of mixed type, its composition is accurately described in ‘Quire notes’ (see below).
 - DB id: `quirepaptype`
 
 #### PARCHMENT QUIRE TYPOLOGY
@@ -288,7 +276,7 @@ The parchment side of the first page is noted (F for flesh side, and H for hair 
 - DB id: `quirepartype`
 
 #### QUIRE NOTES
-- Ancient quire-signature. Special characteristics of the structure and composition of the quire, e.g. →↓\|→↓\|↓→\|→↓\|\|↓→\|→↓\|↓→\|↓→ or F H\|H F\|F H\|F H\|\|H F\|H F\|F H\|H F, where \| shows the passage from one leaf to the next; \|\| shows the centre of the quire. For papyrus codices, the scheme →-↓ or ↓-→ indicates a change of fibre direction in the page, i.e. in case of a kollēsis: e.g. →-↓ ↓-→\|↓-→ →-↓.
+- Ancient quire signature. Special characteristics of the structure and composition of the quire, e.g. →↓\|→↓\|↓→\|→↓\|\|↓→\|→↓\|↓→\|↓→ or F H\|H F\|F H\|F H\|\|H F\|H F\|F H\|H F, where \| shows the passage from one leaf to the next; \|\| shows the centre of the quire. For papyrus codices, the scheme →-↓ or ↓-→ indicates a change of fibre direction in the page, i.e. in case of a kollēsis: e.g. →-↓ ↓-→\|↓-→ →-↓.
 - DB id: `quirenotes`
 
 ---
@@ -301,20 +289,20 @@ The parchment side of the first page is noted (F for flesh side, and H for hair 
 
 ### Quire signature
 
-#### QUIRE-SIGNATURE
+#### PRESENCE OF QUIRE SIGNATURE
 - Noted if present.
 - DB id: `quiresig`
 
-#### QUIRE-SIGNATURE TYPE
-- Regular/irregular. A regular signature respects the logical order of the quires; an irregular signature shows errors or incompleteness in signing the quires. We consider as irregular repeated series of regular quire-signatures (e.g.: quires 1-4 signed ⲁ-ⲇ followed by quires 5-8 signed again ⲁ-ⲇ).
+#### QUIRE SIGNATURE TYPE
+- Regular/irregular. A regular signature respects the logical order of the quires; an irregular signature shows errors or incompleteness in signing the quires. We consider as irregular repeated series of regular quire signatures (e.g.: quires 1-4 signed ⲁ-ⲇ followed by quires 5-8 signed again ⲁ-ⲇ).
 - DB id: `quiretype`
 
-#### QUIRE-SIGNATURE POSITION
-- Top-left / -right / -central / -inner / -outer. Position of the quire-signature on the page. It is usually written in the upper margin. The position may vary: near the inner margin, in the centre or near the outer margin. For the leaves where recto and verso cannot be identified, "left" or "right" is used.
+#### QUIRE SIGNATURE POSITION
+- Top-left / -right / -central / -inner / -outer. Position of the quire signature on the page. It is usually written in the upper margin. The position may vary: near the inner margin, in the centre or near the outer margin. For the leaves where recto and verso cannot be identified, "left" or "right" is used.
 - DB id: `quireposition`
 
-#### NOTES ON QUIRE-SIGNATURE
-- Special characteristics or exceptions in numbering, type, position, etc. of the quire-signature.
+#### NOTES ON QUIRE SIGNATURE
+- Special characteristics or exceptions in numbering, type, position, etc. of the quire signature.
 - DB id: `quirenrnotes`
 
 ---
@@ -432,7 +420,7 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - DB id: `ruling`
 
 #### RULING TYPE
-- Description of ruling types (and systems), following Leroy's method (J. Leroy, *Les types de réglures des manuscrits grecs*, Paris 1976; J.H. Sautel, *Répertoire des réglures dans les manuscrits grecs sur parchemin*, Turnhout 1995).
+- Description of ruling types, following Leroy's method (J. Leroy, *Les types de réglures des manuscrits grecs*, Paris 1976; J.H. Sautel, *Répertoire des réglures dans les manuscrits grecs sur parchemin*, Turnhout 1995).
 - DB id: `rulingtype`
 
 #### RULING TOOL
@@ -440,25 +428,25 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - DB id: `rulingtool`
 
 #### PRICKING
-- Noted if present. Description of pricking patterns, according to L.W. Jones, *Pricking Manuscripts: the Instruments and their Significance*, in Speculum 21 (1941), 389-403.
+- Noted if present.
 - DB id: `pricking`
 
-#### RULING NOTES
+#### NOTES ON RULING
 - Noteworthy matters related to ruling.
 - DB id: `rulingnotes`
 
 #### LEAF TABS
-- Presence or absence of little leather or parchment tab fixed to the outer margin of a leaf as a bookmark.
+- Little leather or parchment tabs fixed to the outer margin of a leaf and intended as a bookmark. Noted if present.
 - DB id: `leaftabs`
 
 #### NOTES ON LEAF TABS
-- Notes and description of little leather or parchment tab fixed to the outer margin of a leaf as a bookmark.
+- Noteworthy matters related to the leaf tabs.
 - DB id: `leaftabsnotes`
 
 ---
 ### MANUFACTURE OF THE ROLLS
 
-#### KOLLĒSEIS
+#### PRESENCE OF KOLLĒSEIS
 - Noted if present.
 - DB id: `kolleseis`
 
@@ -480,7 +468,7 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 
 ---
 
-### BIDINGS
+### BINDINGS
 
 #### PRESENCE OF BINDINGS
 - Noted if present.
@@ -490,7 +478,7 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - Material of the binding boards
 - DB id: `boardmat`
 
-#### PRESENCE OF SEWINGS
+#### PRESENCE OF SEWINGS
 - Noted if present.
 - DB id: `sewings`
 
@@ -525,15 +513,15 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 ### Coloured
 
 #### COLOURS
-- List of pigment colours
+- List of the pigments used in the codicological unit
 - DB id: `pgmcol`
 
 #### PIGMENT LOCATION
-- Location of pigments
+- Location of the pigments within the codicological unit (e.g. text, title, decoration)
 - DB id: `pgmlocation`
 
 #### NOTES ON PIGMENTS
-- Notes on coloured pigments
+- Noteworthy matters related to the pigments
 - DB id: `pgmnotes`
 
 
@@ -544,34 +532,16 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - DB id: `blktype`
 
 #### BLACK INK LOCATION
-- Location of black inks
+- Location of the black ink within the codicological unit (e.g. text, title, decoration)
 - DB id: `blklocation`
 
 #### NOTES ON BLACK INKS
-- Notes on black inks
+- Noteworthy matters related to the black ink
 - DB id: `blknotes`
-
-### Legacy information
-
-#### INKS
-- Type of ink (iron gall, tannin, carbon).
-- DB id: `inks`
-
-#### RED INK
-- Noted if present.
-- DB id: `redink`
-
-#### NOTES ON RED INK
-- Verbose description of the red ink use and function.
-- DB id: `redlinknotes`
 
 ---
 
 ### Additional information
-
-#### CHANGE OF HAND
-- Noted if present.
-- DB id: `changeofhand`
 
 #### MARGINAL NOTES
 - Noted if present and transcription or brief description.
@@ -602,11 +572,11 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - DB id: `restmodern`
 
 #### DECORATION TYPES
-- Description of the decorative type(s).
+- List of the decorative type(s).
 - DB id: `decortype`
 
 #### DECORATION SUBJECTS
-- Description of the decorative subject(s).
+- List of the decorative subject(s).
 - DB id: `decorsubj`
 
 #### DECORATION DESCRIPTION

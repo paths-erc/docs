@@ -4,9 +4,9 @@ layout: default
 permalink: /schema/
 ---
 
-This section of PAThs’ documentation repository provides a complete
+This section of the PAThs documentation repository provides a complete
 documentation of PAThs database schema, currently implemented at
-http://db.bradypus.net.
+[db.bradypus.net](https://db.bradypus.net).
 
 If you are looking for the user & reader guide please [follow this link](/handbook/).
 

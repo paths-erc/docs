@@ -60,10 +60,6 @@ This field id not available to public.
 - English translation of the Coptic text
 - DB id: `paths__titles.translation`
 
-#### TAGGED TEXT
-- Marked-up version of the Coptic text
-- DB id: `paths__titles.taggedtext`
-
 #### EDITORS
 - Initials of the person(s) responsible for the record.
 - DB id: `paths__titles.editors`

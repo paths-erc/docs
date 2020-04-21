@@ -1,5 +1,5 @@
 ---
-title: "Manual for the correct use and reading of the Places section of PAThs database"
+title: "Manual for the correct use and reading of the Places section of the PAThs database"
 permalink: "/handbook/places"
 ---
 

@@ -4,10 +4,10 @@ layout: default
 permalink: /handbook/
 ---
 
-This section of PAThs’ documentation repository provides a complete
-handbook for PAThs’ database users.
+This section of the PAThs documentation repository
+provides a complete handbook for PAThs’ database users.
 
-This section is still under development and will be frequently updated
+It is still under development and will be frequently updated
 
 ---
 
