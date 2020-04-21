@@ -613,7 +613,7 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - DB id: `enlargedinitials`
 
 #### SOURCE OF INFORMATION ABOUT THIS RECORD
-- Autoptic analysis - Photographic reproductions - Catalogues - Editions - Secondary literature - Personal communication (from...)
+- Autoptic analysis - Photographic reproductions - Bibliography - Archaeometric analysis - Personal communication (from…)
 - DB id: `sourceinfo`
 
 #### EDITORS
