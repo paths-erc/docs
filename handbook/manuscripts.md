@@ -99,6 +99,31 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 
 ---
 
+### Relevant places
+
+For each manuscript, multiple instances of the following group of fields can be filed, 
+each one describing a single relation to Place.
+
+These fields are not part of the [manuscripts table](/schema/manuscripts) but of the [m_quires table](/schema/m_msplaces).
+
+#### TYPE
+- Type of connection between a manuscript and a place: `production`, `storage` or `discovery`
+- DB id: `type`
+
+#### PLACE
+- Connected place
+- DB id: `place`
+
+#### SOURCE OF INFORMATION
+- The source of information used to make the connection: `contents`, `colophon`, `title`, `archaeology`, `decoration`, `palaeography`, `dialect`, `modern reports`
+- DB id: `sourceinfo`
+
+#### NOTES ON SOURCE
+- Noteworthy matters regarding the source used to make the connection between a manuscript and a place
+- DB id: `sourcenotes`
+
+---
+
 ### Dating
 
 #### SOURCE FOR DATING
@@ -257,11 +282,11 @@ For each manuscript, multiple instances of the following group of fields can be 
 
 These fields are not part of the [manuscripts table](/schema/manuscripts) but of the [m_quires table](/schema/m_quires).
 
-#### 	QUIRE NO.
+#### QUIRE NO.
 - Modern number assigned to the quire
 - DB id: `quireno`
 
-#### 	QUIRE LAYOUT
+#### QUIRE LAYOUT
 - Schematic representation of the quire layout obtained by means of an *ad hoc*-elaborated tool (quireMatrix by J. Bogdani, DOI: [10.5281/zenodo.1453362](http://dx.doi.org/10.5281/zenodo.1453362), working demo: [https://paths-erc.github.io/quireMatrix/](https://paths-erc.github.io/quireMatrix/)): a dependency-less software to visualise in the browser the layout of quires, using a highly intuitive notation system. The software is written in vanilla javascript and can be run in every browser. The code is available for download at PAThs' official GitHub repository: [https://github.com/paths-erc/quireMatrix](https://github.com/paths-erc/quireMatrix) and is released with MIT License.
 - DB id: `quirelayout`
 
