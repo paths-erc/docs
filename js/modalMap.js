@@ -100,10 +100,10 @@ $('.toggle').on('click', function(){
 function do_search(el){
   var filter = $(el).val();
   if (!filter || filter === ''){
-    $('#datasets li').removeClass('d-none').addClass('d-block').removeClass('border border-success shadow');
+    $('#datasets>li').removeClass('d-none').addClass('d-block').removeClass('border border-success shadow');
     return;
   }
-  $.each($('#datasets li'), function(i, el){
+  $.each($('#datasets>li'), function(i, el){
     if ($(el).text().toLowerCase().indexOf(filter.toLowerCase()) > -1){
       $(el).removeClass('d-none').addClass('d-block border border-success shadow');
     } else {
