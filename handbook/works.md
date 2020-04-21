@@ -26,31 +26,31 @@ This field id not available to public.
 - DB id: `paths__works.title`
 
 #### CPG
-- The corrisponding Clavis Patrum Graecorum identifier
+- The corresponding Clavis Patrum Graecorum identifier
 - DB id: `paths__works.cpg`
 
 #### CANT
-- The corrsponding Clavis Apocryphorum Novi Testamenti identifier
+- The corresponding Clavis Apocryphorum Novi Testamenti identifier
 - DB id: `paths__works.cant`
 
 #### CAVT
-- The corrsponding Clavis Apocryphorum Veteris Testamenti identifier
+- The corresponding Clavis Apocryphorum Veteris Testamenti identifier
 - DB id: `paths__works.cavt`
 
 #### BHO
-- The corrsponding Bibliotheca Hagiographica Orientalis identifier
+- The corresponding Bibliotheca Hagiographica Orientalis identifier
 - DB id: `paths__works.bho`
 
 #### BHG
-- The corrsponding Bibliotheca Hagiographica Graeca identifier
+- The corresponding Bibliotheca Hagiographica Graeca identifier
 - DB id: `paths__works.bhg`
 
 #### BHL
-- The corrsponding Bibliotheca Hagiographica Latina identifier
+- The corresponding Bibliotheca Hagiographica Latina identifier
 - DB id: `paths__works.bhl`
 
 #### CAe
-- The corrsponding Clavis Aethiopica identifier
+- The corresponding Clavis Aethiopica identifier
 - DB id: `paths__works.cae`
 
 ### Description
@@ -85,7 +85,6 @@ This field id not available to public.
 #### AUTHOR TYPE
 - The type of the author; can be `stated`, i.e. an author to which a work is attributed in the Coptic manuscript tradition; `creator`, i.e.
 Work’s Creator: actual and original author of the work in its original language, either Greek or Coptic
-Author of the Master Work: author of a work in the Coptic literary tradition that has been redrafted to such an extent that it is considered as an independent work
 - DB id: `paths__m_wkauthors.type`
 
 #### AUTHOR NAME
