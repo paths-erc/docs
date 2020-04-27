@@ -41,8 +41,14 @@ file formats and protocols available, and licensed are provided.</p>
     {{ item.name }}</h5>
     
     {% if item.preview %}
-    <button class="btn btn-warning modalMap float-right" data-seriesname="{{ item.name }}">
-        <i class="far fa-eye"></i> Preview coverage
+    <button class="btn btn-warning modalMap float-right" 
+        {% if item.availability.xyz %}
+        data-xyz="{{ item.availability.xyz }}"
+        {% else %}
+        data-seriesname="{{ item.name }}"
+        {% endif %}
+    >
+        <i class="far fa-eye"></i> Preview
     </button>
     {% endif %}
 
@@ -82,7 +88,6 @@ file formats and protocols available, and licensed are provided.</p>
             </dt>
             <dd>
                 <code>http://xyz.paths-erc.eu/{{ item.availability.xyz }}/{z}/{x}/{y}.png</code>
-                [<a href="javascript:void(0)" class="modalMap" data-xyz="{{ item.availability.xyz }}">Preview</a>]
             </dd>
             {% endif %}
 
