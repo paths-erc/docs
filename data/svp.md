@@ -58,7 +58,7 @@ OTHER DEALINGS IN THE PROTOCOL.
 
 ---
 
-## Curret versione
+## Current version
 SVP follows the [semver](https://semver.org/) syntax for version tracking.
 
 The current version is **1.0.0**
