@@ -26,17 +26,19 @@ file formats and protocols available, and licensed are provided.</p>
 </div>
 
 
-<h2>Available datasets</h2>
+<h2>Available datasets (tot: {{ site.dataset | size }})</h2>
 
 <ul class="list-group mt-5" id="datasets">
 {% for item in site.dataset %}
 {% assign id = item.name | downcase | replace: "'", "" | replace: ")", "_" | replace: "(", "_" | replace: ":", "_" | replace: ".", "_" | replace: ",", "_" | replace: " ", "_" | replace: "-", "_" | replace: "__", "_" %}
-<li class="list-group-item my-1" id ="{{ id }}">
+<li class="list-group-item my-1" id ="{{ id }}" data-type="{{ item.type }}">
     <h5 class="mt-3">
         <a href="#{{ id }}" class="btn btn-light">
     {%    if item.type    == 'raster_map'       %}<i class="far fa-map"></i>
     {% elsif item.type    == 'vector_map'       %}<i class="fas fa-map-marker-alt"></i>
-    {% elsif item.type    == 'multi_format_map' %}<i class="fas fa-map-marked"></i></i>
+    {% elsif item.type    == 'multi_format_map' %}<i class="fas fa-map-marked"></i>
+    {% elsif item.type    == 'table'            %}<i class="fas fa-table"></i>
+    {% elsif item.type    == 'rdf'              %}<i class="fas fa-project-diagram"></i>
     {% endif %}</a>
     {{ item.name }}</h5>
     
@@ -98,11 +100,39 @@ file formats and protocols available, and licensed are provided.</p>
             <dd><a href="{{ item.availability.csv }}" target="_blank" rel="noopener noreferrer">Open CSV file</a></dd>
             {% endif %}
 
+            {% if item.availability.json %}
+            <dt>JSON 
+                <span class="float-right">[<a href="https://en.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">What is JSON?</a>]</span>
+            </dt>
+            <dd><a href="{{ item.availability.json }}" target="_blank" rel="noopener noreferrer">Open JSON file</a></dd>
+            {% endif %}
+            
             {% if item.availability.geojson %}
             <dt>GeoJSON 
                 <span class="float-right">[<a href="https://en.wikipedia.org/wiki/GeoJSON" target="_blank" rel="noopener noreferrer">What is GeoJSON?</a>]</span>
             </dt>
             <dd><a href="{{ item.availability.geojson }}" target="_blank" rel="noopener noreferrer">Open GeoJSON file</a></dd>
+            {% endif %}
+            
+            {% if item.availability.rdf %}
+            <dt>RDF 
+                <span class="float-right">[<a href="https://en.wikipedia.org/wiki/Resource_Description_Framework" target="_blank" rel="noopener noreferrer">What is RDF?</a>]</span>
+            </dt>
+            <dd><a href="{{ item.availability.rdf }}" target="_blank" rel="noopener noreferrer">Open RDF file</a></dd>
+            {% endif %}
+            
+            {% if item.availability.webservice %}
+            <dt>WebService</dt>
+            
+            {% if item.availability.webservice[0] %}
+            {% for ws in item.availability.webservice %}
+            <dd>
+                <a href="{{ ws.url }}" target="_blank" rel="noopener noreferrer">{{ ws.info }}</a>
+            </dd>
+            {% endfor %}
+            {% else %}
+            <dd><a href="{{ item.availability.webservice }}" target="_blank" rel="noopener noreferrer">Open Web service</a></dd>
+            {% endif %}
             {% endif %}
             
             {% if item.availability.other %}
@@ -116,7 +146,7 @@ file formats and protocols available, and licensed are provided.</p>
             {% for c in item.credits %}
             <dt> {{ c.role }}</dt>
             <dd>
-                {{ c.name }} {% if c.email %} &lt;{{ c.email }}&gt;{% endif %}
+                {{ c.name }} {% if c.email %} &lt;<a href="mailto:{{ c.email }}">{{ c.email }}</a>&gt;{% endif %}
                 {% if c.web %}<br>Web: <a href="{{ c.web }}" target="_blank" rel="noopener noreferrer">{{ c.web }}</a>{% endif %}
             </dd>
             {% endfor %}

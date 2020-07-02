@@ -1,0 +1,2946 @@
+{
+    "head": {
+        "total_rows": 419,
+        "total_pages": 1,
+        "stripped_table": "places",
+        "table_label": "Places",
+        "page": 1,
+        "no_records_shown": 419
+    },
+    "debug": false,
+    "records": [
+        {
+            "id": "1",
+            "name": "Memphis",
+            "tmgeo": "1344",
+            "pleiades": "736963",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "2",
+            "name": "Letopolis",
+            "tmgeo": "1245",
+            "pleiades": "727149",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "3",
+            "name": "Sais",
+            "tmgeo": "2072",
+            "pleiades": "727217",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "4",
+            "name": "Xois",
+            "tmgeo": "2507",
+            "pleiades": "727256",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "5",
+            "name": "Hermopolis Mikra",
+            "tmgeo": "817",
+            "pleiades": "727123",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "6",
+            "name": "Heroonpolis",
+            "tmgeo": "2297",
+            "pleiades": "727124",
+            "region": null
+        },
+        {
+            "id": "7",
+            "name": "Bousiris",
+            "tmgeo": "469",
+            "pleiades": "727090",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "8",
+            "name": "Athribis",
+            "tmgeo": "369",
+            "pleiades": "727078",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "9",
+            "name": "Leontopolis (Tell el-Moqdam)",
+            "tmgeo": "1238",
+            "pleiades": "727147",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "10",
+            "name": "Sebennytos",
+            "tmgeo": "2104",
+            "pleiades": "727227",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "11",
+            "name": "Heliopolis",
+            "tmgeo": "761",
+            "pleiades": "727117",
+            "region": null
+        },
+        {
+            "id": "12",
+            "name": "Tanis",
+            "tmgeo": "2252",
+            "pleiades": "727236",
+            "region": null
+        },
+        {
+            "id": "13",
+            "name": "Hermopolis",
+            "tmgeo": "815",
+            "pleiades": "727122",
+            "region": null
+        },
+        {
+            "id": "14",
+            "name": "Tell el-Balamun",
+            "tmgeo": "575",
+            "pleiades": "727111",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "15",
+            "name": "Bubastis",
+            "tmgeo": "462",
+            "pleiades": "727088",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "16",
+            "name": "Elephantine",
+            "tmgeo": "621",
+            "pleiades": "786021",
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "18",
+            "name": "Hierakonpolis",
+            "tmgeo": "848",
+            "pleiades": "786037",
+            "region": null
+        },
+        {
+            "id": "19",
+            "name": "Luxor complex",
+            "tmgeo": "576",
+            "pleiades": "786017",
+            "region": "Eastern Thebes"
+        },
+        {
+            "id": "20",
+            "name": "Koptos",
+            "tmgeo": "1159",
+            "pleiades": "786010",
+            "region": null
+        },
+        {
+            "id": "21",
+            "name": "Dendera",
+            "tmgeo": "2312",
+            "pleiades": "786127",
+            "region": null
+        },
+        {
+            "id": "22",
+            "name": "Diospolis Mikra",
+            "tmgeo": "577",
+            "pleiades": "756566",
+            "region": null
+        },
+        {
+            "id": "23",
+            "name": "Abydos",
+            "tmgeo": "34",
+            "pleiades": "756512",
+            "region": null
+        },
+        {
+            "id": "24",
+            "name": "Panopolis",
+            "tmgeo": "1589",
+            "pleiades": "756613",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "25",
+            "name": "Antaiopolis",
+            "tmgeo": "188",
+            "pleiades": "756515",
+            "region": null
+        },
+        {
+            "id": "26",
+            "name": "Hypsele",
+            "tmgeo": "864",
+            "pleiades": "756578",
+            "region": null
+        },
+        {
+            "id": "27",
+            "name": "Lykopolis",
+            "tmgeo": "1271",
+            "pleiades": "756593",
+            "region": null
+        },
+        {
+            "id": "28",
+            "name": "Hermoupolis Magna",
+            "tmgeo": "816",
+            "pleiades": "756574",
+            "region": null
+        },
+        {
+            "id": "29",
+            "name": "Kynopolis",
+            "tmgeo": "1196",
+            "pleiades": "736949",
+            "region": null
+        },
+        {
+            "id": "30",
+            "name": "Ankyropolis",
+            "tmgeo": "182",
+            "pleiades": "736888",
+            "region": null
+        },
+        {
+            "id": "31",
+            "name": "Oxyrhynchos",
+            "tmgeo": "1524",
+            "pleiades": "736983",
+            "region": null
+        },
+        {
+            "id": "32",
+            "name": "Herakleopolis Magna",
+            "tmgeo": "801",
+            "pleiades": "736920",
+            "region": null
+        },
+        {
+            "id": "33",
+            "name": "Arsinoe",
+            "tmgeo": "327",
+            "pleiades": "736948",
+            "region": "Fayyum"
+        },
+        {
+            "id": "34",
+            "name": "Aphroditopolis",
+            "tmgeo": "236",
+            "pleiades": "736889",
+            "region": null
+        },
+        {
+            "id": "35",
+            "name": "Thmouis",
+            "tmgeo": "2405",
+            "pleiades": "727249",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "36",
+            "name": "Pelusium",
+            "tmgeo": "1662",
+            "pleiades": "727192",
+            "region": null
+        },
+        {
+            "id": "37",
+            "name": "Taya",
+            "tmgeo": "3075",
+            "pleiades": "727243",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "38",
+            "name": "Alexandria",
+            "tmgeo": "100",
+            "pleiades": "727070",
+            "region": null
+        },
+        {
+            "id": "39",
+            "name": "Metelis",
+            "tmgeo": "2640",
+            "pleiades": "727163",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "40",
+            "name": "Buto",
+            "tmgeo": "3685, 10704, 10767",
+            "pleiades": "727094",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "41",
+            "name": "Herakleopolis Mikra",
+            "tmgeo": "800",
+            "pleiades": "727121",
+            "region": null
+        },
+        {
+            "id": "42",
+            "name": "Kynopolis Inferior",
+            "tmgeo": "5392",
+            "pleiades": "727144",
+            "region": null
+        },
+        {
+            "id": "43",
+            "name": "Pharbaithos",
+            "tmgeo": "1751",
+            "pleiades": "727196",
+            "region": null
+        },
+        {
+            "id": "44",
+            "name": "Phakoussa",
+            "tmgeo": "1729",
+            "pleiades": "727194",
+            "region": null
+        },
+        {
+            "id": "45",
+            "name": "Nikiou",
+            "tmgeo": "1463",
+            "pleiades": "727174",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "46",
+            "name": "Phragonis",
+            "tmgeo": "7961",
+            "pleiades": "727201",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "47",
+            "name": "Kabasa",
+            "tmgeo": "2636",
+            "pleiades": "727133",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "48",
+            "name": "Panephysis",
+            "tmgeo": "6258",
+            "pleiades": "727184",
+            "region": null
+        },
+        {
+            "id": "49",
+            "name": "Andronpolis",
+            "tmgeo": "3108, 8505",
+            "pleiades": "727071",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "50",
+            "name": "Onouphis Kato",
+            "tmgeo": "3093",
+            "pleiades": "730134",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "51",
+            "name": "Onouphis Ano",
+            "tmgeo": "3093",
+            "pleiades": "730134",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "52",
+            "name": "Schedia",
+            "tmgeo": "2096",
+            "pleiades": "727221",
+            "region": null
+        },
+        {
+            "id": "53",
+            "name": "Antinoupolis",
+            "tmgeo": "2774",
+            "pleiades": "756518",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "54",
+            "name": "Ptolemais",
+            "tmgeo": "2018",
+            "pleiades": "373879",
+            "region": null
+        },
+        {
+            "id": "55",
+            "name": "Apollonopolis Parva",
+            "tmgeo": "270",
+            "pleiades": "785975",
+            "region": null
+        },
+        {
+            "id": "56",
+            "name": "Koussai",
+            "tmgeo": "1176",
+            "pleiades": "756588",
+            "region": null
+        },
+        {
+            "id": "57",
+            "name": "Neiloupolis",
+            "tmgeo": "1433",
+            "pleiades": "736973",
+            "region": null
+        },
+        {
+            "id": "58",
+            "name": "Esna",
+            "tmgeo": "1227",
+            "pleiades": "786059",
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "59",
+            "name": "Tsine",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "60",
+            "name": "Tse",
+            "tmgeo": "7741",
+            "pleiades": "759689",
+            "region": null
+        },
+        {
+            "id": "61",
+            "name": "Thbew",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "62",
+            "name": "Monchosis Thmoushons",
+            "tmgeo": "5796",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "63",
+            "name": "Pesterposen",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "64",
+            "name": "Chenoboskion",
+            "tmgeo": "5089",
+            "pleiades": "756545",
+            "region": null
+        },
+        {
+            "id": "65",
+            "name": "Bekhne",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "66",
+            "name": "Tabennisis",
+            "tmgeo": "7358",
+            "pleiades": "786125",
+            "region": null
+        },
+        {
+            "id": "67",
+            "name": "Maximianoupolis",
+            "tmgeo": "952",
+            "pleiades": "786047",
+            "region": null
+        },
+        {
+            "id": "68",
+            "name": "Pbou",
+            "tmgeo": "3843",
+            "pleiades": "756540",
+            "region": null
+        },
+        {
+            "id": "69",
+            "name": "Metanoia",
+            "tmgeo": "5744",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "70",
+            "name": "Hermonthis",
+            "tmgeo": "812",
+            "pleiades": "786036",
+            "region": null
+        },
+        {
+            "id": "71",
+            "name": "Pispir",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "72",
+            "name": "Deir Anba Hadra \/ St. Simeon",
+            "tmgeo": "2207",
+            "pleiades": "786106",
+            "region": null
+        },
+        {
+            "id": "73",
+            "name": "Bawit",
+            "tmgeo": "10454",
+            "pleiades": "756663",
+            "region": null
+        },
+        {
+            "id": "74",
+            "name": "Naqlun",
+            "tmgeo": "1418",
+            "pleiades": "736975",
+            "region": null
+        },
+        {
+            "id": "75",
+            "name": "Monastery of Apa Jeremiah",
+            "tmgeo": "12916",
+            "pleiades": "736963",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "76",
+            "name": "Sketis",
+            "tmgeo": "3375",
+            "pleiades": "727232",
+            "region": null
+        },
+        {
+            "id": "77",
+            "name": "Nitria",
+            "tmgeo": "1473",
+            "pleiades": "727177",
+            "region": null
+        },
+        {
+            "id": "78",
+            "name": "Kellia",
+            "tmgeo": "3375",
+            "pleiades": "727141",
+            "region": null
+        },
+        {
+            "id": "79",
+            "name": "Monastery of St. Paul",
+            "tmgeo": "5104",
+            "pleiades": "746800",
+            "region": null
+        },
+        {
+            "id": "80",
+            "name": "Monastery St. Antony",
+            "tmgeo": "3563",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "82",
+            "name": "Western Thebes MMA 1152",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "83",
+            "name": "Nag Hammadi",
+            "tmgeo": "2803",
+            "pleiades": "",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "84",
+            "name": "Berenike (Upper Egypt)",
+            "tmgeo": "416",
+            "pleiades": "785986",
+            "region": null
+        },
+        {
+            "id": "85",
+            "name": "Farshut",
+            "tmgeo": "5082",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "86",
+            "name": "Deir el-Qaddis Abu Bifam",
+            "tmgeo": "",
+            "pleiades": "756547",
+            "region": ""
+        },
+        {
+            "id": "87",
+            "name": "Medinet Habu",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "88",
+            "name": "Petemout",
+            "tmgeo": "1281",
+            "pleiades": "786088",
+            "region": null
+        },
+        {
+            "id": "89",
+            "name": "Ostrakine",
+            "tmgeo": "1518",
+            "pleiades": "687993",
+            "region": null
+        },
+        {
+            "id": "90",
+            "name": "Naqada",
+            "tmgeo": "2994",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "91",
+            "name": "Monastery of St. Thomas at Wadi Sarga",
+            "tmgeo": "12542",
+            "pleiades": "759543",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "92",
+            "name": "Deir el-Bala’izah",
+            "tmgeo": "3025",
+            "pleiades": "756520",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "93",
+            "name": "Deir el-Moharraq",
+            "tmgeo": "3122",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "94",
+            "name": "Gebel Assiut el-Gharbi",
+            "tmgeo": "1271",
+            "pleiades": "756593",
+            "region": null
+        },
+        {
+            "id": "95",
+            "name": "Hagr Edfu",
+            "tmgeo": "4982",
+            "pleiades": "",
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "96",
+            "name": "Philae",
+            "tmgeo": "17677",
+            "pleiades": "786089",
+            "region": null
+        },
+        {
+            "id": "97",
+            "name": "Deir el-Kubbaniya",
+            "tmgeo": "2772",
+            "pleiades": "786056",
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "98",
+            "name": "Deir Qubbat el Hawa",
+            "tmgeo": "4984",
+            "pleiades": "979588215",
+            "region": null
+        },
+        {
+            "id": "99",
+            "name": "Hamuli\/Monastery of the Archangel Michael at Phantoou",
+            "tmgeo": "50403",
+            "pleiades": "737001",
+            "region": "Fayyum"
+        },
+        {
+            "id": "100",
+            "name": "Gebel el-Qalamun",
+            "tmgeo": "11585",
+            "pleiades": "737030",
+            "region": "Fayyum"
+        },
+        {
+            "id": "101",
+            "name": "Touton",
+            "tmgeo": "2287",
+            "pleiades": "737072",
+            "region": "Fayyum"
+        },
+        {
+            "id": "102",
+            "name": "Dishna",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "103",
+            "name": "This",
+            "tmgeo": "2400",
+            "pleiades": "756659",
+            "region": null
+        },
+        {
+            "id": "104",
+            "name": "Medinet Madi",
+            "tmgeo": "1421",
+            "pleiades": "736972",
+            "region": "Fayyum"
+        },
+        {
+            "id": "105",
+            "name": "Bakchias",
+            "tmgeo": "392",
+            "pleiades": "736896",
+            "region": "Fayyum"
+        },
+        {
+            "id": "106",
+            "name": "Karanis",
+            "tmgeo": "1008",
+            "pleiades": "736932",
+            "region": "Fayyum"
+        },
+        {
+            "id": "107",
+            "name": "Soknopaiou Nesos",
+            "tmgeo": "2157",
+            "pleiades": "737053",
+            "region": null
+        },
+        {
+            "id": "108",
+            "name": "Deir Abu Lifah",
+            "tmgeo": "3506",
+            "pleiades": "756549",
+            "region": "Fayyum"
+        },
+        {
+            "id": "109",
+            "name": "Sadamant",
+            "tmgeo": "2819",
+            "pleiades": "",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "110",
+            "name": "Wadi Natrun",
+            "tmgeo": "3375",
+            "pleiades": "727104",
+            "region": null
+        },
+        {
+            "id": "111",
+            "name": "Sopehes",
+            "tmgeo": "50405",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "112",
+            "name": "Monastery of Shenoute at Atripe",
+            "tmgeo": "3121",
+            "pleiades": "756530",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "113",
+            "name": "Red Monastery at Atripe",
+            "tmgeo": "2820",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "114",
+            "name": "Kellis",
+            "tmgeo": "2762",
+            "pleiades": "776189",
+            "region": "El Dakhla oasis"
+        },
+        {
+            "id": "115",
+            "name": "Bagawat",
+            "tmgeo": "2739",
+            "pleiades": "776156",
+            "region": null
+        },
+        {
+            "id": "116",
+            "name": "Abu Mina",
+            "tmgeo": "2711",
+            "pleiades": "727105",
+            "region": null
+        },
+        {
+            "id": "117",
+            "name": "Marina el Alamein",
+            "tmgeo": "8554",
+            "pleiades": "716524",
+            "region": null
+        },
+        {
+            "id": "118",
+            "name": "Ennaton",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "119",
+            "name": "Dionysias",
+            "tmgeo": "565",
+            "pleiades": "736904",
+            "region": null
+        },
+        {
+            "id": "120",
+            "name": "Philoteris",
+            "tmgeo": "1780",
+            "pleiades": "737010",
+            "region": null
+        },
+        {
+            "id": "121",
+            "name": "Theadelphia",
+            "tmgeo": "2349",
+            "pleiades": "737081",
+            "region": null
+        },
+        {
+            "id": "122",
+            "name": "Hawara",
+            "tmgeo": "747",
+            "pleiades": "736918",
+            "region": null
+        },
+        {
+            "id": "123",
+            "name": "El-Lahun",
+            "tmgeo": "2024",
+            "pleiades": "737029",
+            "region": null
+        },
+        {
+            "id": "124",
+            "name": "Phthenetou",
+            "tmgeo": "7865",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "125",
+            "name": "Kleopatris",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "126",
+            "name": "Rinokoloura",
+            "tmgeo": "2052",
+            "pleiades": "688016",
+            "region": null
+        },
+        {
+            "id": "127",
+            "name": "Pachnemounis",
+            "tmgeo": "2674",
+            "pleiades": "727183",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "128",
+            "name": "Syene",
+            "tmgeo": "2207",
+            "pleiades": "786123",
+            "region": null
+        },
+        {
+            "id": "129",
+            "name": "Achaia",
+            "tmgeo": "12014",
+            "pleiades": "828238",
+            "region": null
+        },
+        {
+            "id": "130",
+            "name": "Stathmon",
+            "tmgeo": "12696",
+            "pleiades": "573533",
+            "region": null
+        },
+        {
+            "id": "131",
+            "name": "Terenouthis",
+            "tmgeo": "2318",
+            "pleiades": "727244",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "132",
+            "name": "Paralos",
+            "tmgeo": "6313",
+            "pleiades": "727224",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "133",
+            "name": "Tamiathis",
+            "tmgeo": "3054",
+            "pleiades": "727235",
+            "region": null
+        },
+        {
+            "id": "134",
+            "name": "Gerrae",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "135",
+            "name": "Daphnai",
+            "tmgeo": "3607",
+            "pleiades": "727103",
+            "region": null
+        },
+        {
+            "id": "136",
+            "name": "Sethroites",
+            "tmgeo": "3089",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "137",
+            "name": "Boukolia",
+            "tmgeo": "13247",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "138",
+            "name": "Thennesos",
+            "tmgeo": "3210",
+            "pleiades": "727247",
+            "region": null
+        },
+        {
+            "id": "139",
+            "name": "Aphnaioua",
+            "tmgeo": "225",
+            "pleiades": "730089",
+            "region": null
+        },
+        {
+            "id": "140",
+            "name": "Clysma",
+            "tmgeo": "2794",
+            "pleiades": "727101",
+            "region": null
+        },
+        {
+            "id": "141",
+            "name": "Naukratis",
+            "tmgeo": "1424",
+            "pleiades": "727169",
+            "region": null
+        },
+        {
+            "id": "142",
+            "name": "Helearchia",
+            "tmgeo": "4171",
+            "pleiades": "730114",
+            "region": null
+        },
+        {
+            "id": "143",
+            "name": "Marea",
+            "tmgeo": "2718",
+            "pleiades": "727153",
+            "region": null
+        },
+        {
+            "id": "144",
+            "name": "Babylon - Fustat",
+            "tmgeo": "389",
+            "pleiades": "727082",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "145",
+            "name": "Hephaistos",
+            "tmgeo": "4364",
+            "pleiades": "727119",
+            "region": null
+        },
+        {
+            "id": "146",
+            "name": "Skenai Mandrai",
+            "tmgeo": "2149",
+            "pleiades": "737050",
+            "region": null
+        },
+        {
+            "id": "147",
+            "name": "Hamamieh",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "149",
+            "name": "Psinches",
+            "tmgeo": "12015",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "150",
+            "name": "Paraitonion",
+            "tmgeo": "3668",
+            "pleiades": "716615",
+            "region": null
+        },
+        {
+            "id": "151",
+            "name": "Alexandreon Chora",
+            "tmgeo": "2630",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "152",
+            "name": "Zygrai",
+            "tmgeo": "4299",
+            "pleiades": "716656",
+            "region": null
+        },
+        {
+            "id": "153",
+            "name": "Ammoniake",
+            "tmgeo": "2575",
+            "pleiades": "716520",
+            "region": null
+        },
+        {
+            "id": "154",
+            "name": "Oasis Magna",
+            "tmgeo": "619",
+            "pleiades": "776210",
+            "region": null
+        },
+        {
+            "id": "155",
+            "name": "Prosopites",
+            "tmgeo": "3081",
+            "pleiades": "727206",
+            "region": null
+        },
+        {
+            "id": "156",
+            "name": "Sile",
+            "tmgeo": "2109",
+            "pleiades": "727231",
+            "region": null
+        },
+        {
+            "id": "157",
+            "name": "Boreum",
+            "tmgeo": "40348",
+            "pleiades": "363948",
+            "region": null
+        },
+        {
+            "id": "158",
+            "name": "Berenike (Lower Egypt)",
+            "tmgeo": "831",
+            "pleiades": "373757",
+            "region": null
+        },
+        {
+            "id": "159",
+            "name": "Taucheira",
+            "tmgeo": "3640",
+            "pleiades": "373736",
+            "region": null
+        },
+        {
+            "id": "160",
+            "name": "Barke",
+            "tmgeo": "402",
+            "pleiades": "373750",
+            "region": null
+        },
+        {
+            "id": "161",
+            "name": "Eglibos?",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "162",
+            "name": "Antipyrgos",
+            "tmgeo": "8550",
+            "pleiades": "716525",
+            "region": null
+        },
+        {
+            "id": "163",
+            "name": "Bassachitai?",
+            "tmgeo": "3777",
+            "pleiades": "716534",
+            "region": null
+        },
+        {
+            "id": "164",
+            "name": "Hadrianopolis",
+            "tmgeo": "10968",
+            "pleiades": "373824",
+            "region": null
+        },
+        {
+            "id": "165",
+            "name": "Erythron",
+            "tmgeo": "664",
+            "pleiades": "373785",
+            "region": null
+        },
+        {
+            "id": "166",
+            "name": "Abydos Deir Abu Masis",
+            "tmgeo": "",
+            "pleiades": "756550",
+            "region": null
+        },
+        {
+            "id": "169",
+            "name": "Manqabad",
+            "tmgeo": "2993",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "170",
+            "name": "Monastery of St. Macarius at Cyprus",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "171",
+            "name": "Amarna",
+            "tmgeo": "2767",
+            "pleiades": "149576487",
+            "region": null
+        },
+        {
+            "id": "172",
+            "name": "Beni Hassan",
+            "tmgeo": "414",
+            "pleiades": "112509596",
+            "region": null
+        },
+        {
+            "id": "173",
+            "name": "Dakhleh",
+            "tmgeo": "2753",
+            "pleiades": "776172",
+            "region": null
+        },
+        {
+            "id": "174",
+            "name": "Trimouthis",
+            "tmgeo": "2733",
+            "pleiades": "776235",
+            "region": null
+        },
+        {
+            "id": "175",
+            "name": "Dakleh Ain el Gedida",
+            "tmgeo": "3126",
+            "pleiades": "861854258",
+            "region": null
+        },
+        {
+            "id": "176",
+            "name": "Deir abu Matta",
+            "tmgeo": "56763",
+            "pleiades": "667956220",
+            "region": "El Dakhla oasis"
+        },
+        {
+            "id": "178",
+            "name": "El-Mudil",
+            "tmgeo": "3695",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "179",
+            "name": "Tell Edfu",
+            "tmgeo": "269",
+            "pleiades": "785974",
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "180",
+            "name": "Deir el Banat",
+            "tmgeo": "14197",
+            "pleiades": "",
+            "region": "Fayyum"
+        },
+        {
+            "id": "181",
+            "name": "Imbaba el Mansuriya ",
+            "tmgeo": "",
+            "pleiades": "776197",
+            "region": null
+        },
+        {
+            "id": "182",
+            "name": "Karnak",
+            "tmgeo": "576, 13524, 13525",
+            "pleiades": "786017, 786050",
+            "region": "Eastern Thebes"
+        },
+        {
+            "id": "183",
+            "name": "Kharga",
+            "tmgeo": "619",
+            "pleiades": "776210",
+            "region": null
+        },
+        {
+            "id": "184",
+            "name": "El-Deir",
+            "tmgeo": "14221",
+            "pleiades": "776167",
+            "region": null
+        },
+        {
+            "id": "185",
+            "name": "Hibis",
+            "tmgeo": "2786",
+            "pleiades": "776181",
+            "region": null
+        },
+        {
+            "id": "186",
+            "name": "Kom Ombo",
+            "tmgeo": "1499",
+            "pleiades": "786079",
+            "region": null
+        },
+        {
+            "id": "187",
+            "name": "Nag el Hagar",
+            "tmgeo": "",
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "188",
+            "name": "Pharan",
+            "tmgeo": "7832",
+            "pleiades": "746792",
+            "region": null
+        },
+        {
+            "id": "189",
+            "name": "Qasr Ibrim",
+            "tmgeo": "1916",
+            "pleiades": "798094",
+            "region": null
+        },
+        {
+            "id": "191",
+            "name": "Western Thebes",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": null
+        },
+        {
+            "id": "192",
+            "name": "Deir el Bakhit",
+            "tmgeo": "13098",
+            "pleiades": "786014",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "193",
+            "name": "Monastery of St. Phoibammon",
+            "tmgeo": "11645",
+            "pleiades": "",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "194",
+            "name": "Monastery of Saint Isidorus Martyr at Deir el Medina",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "195",
+            "name": "Deir el Rumi",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "196",
+            "name": "Western Thebes TT C3",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "198",
+            "name": "Monastery of Epiphanius",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "199",
+            "name": "Western Thebes TT 29",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "200",
+            "name": "Monastery of Cyriacus",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "201",
+            "name": "Monastery of St. Marcus",
+            "tmgeo": "11200",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "202",
+            "name": "Valley of the Kings",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": null
+        },
+        {
+            "id": "204",
+            "name": "Wadi Natrun Monastery of John the Little ",
+            "tmgeo": "3375",
+            "pleiades": "727232",
+            "region": null
+        },
+        {
+            "id": "205",
+            "name": "Wadi Natrun Monastery of Baramus",
+            "tmgeo": "3375",
+            "pleiades": "727232",
+            "region": null
+        },
+        {
+            "id": "206",
+            "name": "Wadi Natrun Monastery of the Syrians",
+            "tmgeo": "3375",
+            "pleiades": "727232",
+            "region": null
+        },
+        {
+            "id": "207",
+            "name": "Wadi Natrun Monastery of Moses",
+            "tmgeo": "3375",
+            "pleiades": "727232",
+            "region": null
+        },
+        {
+            "id": "208",
+            "name": "Wadi Natrun Monastery of St. Macarius",
+            "tmgeo": "3375",
+            "pleiades": "727232",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "209",
+            "name": "Aphrodite",
+            "tmgeo": "237",
+            "pleiades": "756532",
+            "region": null
+        },
+        {
+            "id": "210",
+            "name": "Topos of Apa Phoibammon in the Rock",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "211",
+            "name": "Philagris",
+            "tmgeo": "1766",
+            "pleiades": "737001",
+            "region": "Fayyum"
+        },
+        {
+            "id": "212",
+            "name": "Speos Artemidos",
+            "tmgeo": "3203",
+            "pleiades": "756647",
+            "region": null
+        },
+        {
+            "id": "213",
+            "name": "Mallawi",
+            "tmgeo": "1298",
+            "pleiades": "756599",
+            "region": null
+        },
+        {
+            "id": "214",
+            "name": "Deir el-Bersha",
+            "tmgeo": "2834",
+            "pleiades": null,
+            "region": null
+        },
+        {
+            "id": "215",
+            "name": "Deir Abu Hennes",
+            "tmgeo": "3506",
+            "pleiades": "756549",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "216",
+            "name": "Deir Sumbat",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "217",
+            "name": "Deir al-Dik",
+            "tmgeo": "3641",
+            "pleiades": "756557 ",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "218",
+            "name": "Ptepouhar",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "219",
+            "name": "Western Thebes TT 157",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "220",
+            "name": "Western Thebes TT 95",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "221",
+            "name": "Western Thebes TT 99",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "222",
+            "name": "Western Thebes Winlock - Crum site 26",
+            "tmgeo": "13098",
+            "pleiades": "786014",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "223",
+            "name": "Western Thebes Winlock - Crum site 27",
+            "tmgeo": "13098",
+            "pleiades": "786014",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "224",
+            "name": "Western Thebes TT 97",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "225",
+            "name": "Lykopolites nomòs",
+            "tmgeo": "3027",
+            "pleiades": "756594",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "226",
+            "name": "Western Thebes TT 56",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "227",
+            "name": "Western Thebes Winlock - Crum sites 30-32 (site 33)",
+            "tmgeo": "13098",
+            "pleiades": "786014",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "228",
+            "name": "Western Thebes K 131 [K93.11] - K 130 [K93.12]",
+            "tmgeo": "13098",
+            "pleiades": "786014",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "229",
+            "name": "Western Thebes TT 72",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "230",
+            "name": "Western Thebes Winlock - Crum site 29",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "232",
+            "name": "Western Thebes [K91.1]",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "233",
+            "name": "Western Thebes TT 75",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "234",
+            "name": "Western Thebes TT 230",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "235",
+            "name": "Western Thebes TT 225",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "236",
+            "name": "Western Thebes TT 82",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "237",
+            "name": "Western Thebes TT 35",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "239",
+            "name": "Western Thebes TT 96",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "240",
+            "name": "Western Thebes TT 160",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "241",
+            "name": "Western Thebes TT 158",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "242",
+            "name": "Western Thebes TT 282",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "243",
+            "name": "Oxyrhynchites nomòs",
+            "tmgeo": "2722",
+            "pleiades": "736982",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "244",
+            "name": "Western Thebes TT 288 - 289",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "245",
+            "name": "Western Thebes TT 20",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "246",
+            "name": "Western Thebes TT 109",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "247",
+            "name": "Western Thebes K 298",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "248",
+            "name": "Western Thebes TT 86",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "249",
+            "name": "Western Thebes TT 87",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "250",
+            "name": "Western Thebes TT 85, TT 87",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "251",
+            "name": "Western Thebes TT 84",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "252",
+            "name": "Western Thebes TT 94",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "253",
+            "name": "Western Thebes TT 92",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "254",
+            "name": "Western Thebes TT 367",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "255",
+            "name": "Western Thebes TT 39",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "256",
+            "name": "Western Thebes TT 373",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "257",
+            "name": "Western Thebes K 85",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "258",
+            "name": "Western Thebes TT 49",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "259",
+            "name": "Western Thebes KV 1",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "260",
+            "name": "Western Thebes TT 32",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "261",
+            "name": "Western Thebes TT 183",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "262",
+            "name": "Western Thebes KV 3",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "263",
+            "name": "Western Thebes KV 4",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "264",
+            "name": "Ghoran",
+            "tmgeo": "715",
+            "pleiades": "736942",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "265",
+            "name": "Western Thebes TT 240 (=MMA 517)",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "266",
+            "name": "Western Thebes TT 312 (=MMA 509)",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "267",
+            "name": "Western Thebes TT 223",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "268",
+            "name": "Western Thebes KV 9",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "269",
+            "name": "Western Thebes KV 2",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "270",
+            "name": "Western Thebes KV 5",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "271",
+            "name": "Western Thebes KV 6",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "272",
+            "name": "Western Thebes KV 8",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "273",
+            "name": "Western Thebes KV 24",
+            "tmgeo": "1341",
+            "pleiades": "384697574",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "274",
+            "name": "Giza",
+            "tmgeo": "716",
+            "pleiades": "442962448",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "275",
+            "name": "Western Thebes TT 310 (=MMA505)",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "277",
+            "name": "Western Thebes Mortuary complex of Ramses II",
+            "tmgeo": "11334",
+            "pleiades": "963047542",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "278",
+            "name": "Western Thebes Mortuary Temple of Seti I",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "279",
+            "name": "Lepidotonpolis",
+            "tmgeo": "3095",
+            "pleiades": "756591",
+            "region": null
+        },
+        {
+            "id": "280",
+            "name": "Northern Qurnet Murrai",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "281",
+            "name": "Deir el-Shelwit",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "282",
+            "name": "Perpnoute",
+            "tmgeo": "2376",
+            "pleiades": "741626",
+            "region": "Fayyum"
+        },
+        {
+            "id": "283",
+            "name": "Western Thebes Winlock - Crum site 6",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "284",
+            "name": "Western Thebes DeM 1437",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "285",
+            "name": "Western Thebes DeM 1438",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "286",
+            "name": "Western Thebes Ramesside votive chapel",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "287",
+            "name": "el-Qalamun (Dakhla)",
+            "tmgeo": "37062",
+            "pleiades": "776188",
+            "region": "El Dakhla oasis"
+        },
+        {
+            "id": "288",
+            "name": "Western Thebes DeM 1450",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "289",
+            "name": "Western Thebes DeM 1449",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "290",
+            "name": "Western Thebes DeM 1447",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "291",
+            "name": "Western Thebes QV 1",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "292",
+            "name": "Western Thebes DeM 1446",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "293",
+            "name": "Western Thebes QV 2",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "294",
+            "name": "Western Thebes QV 12",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "295",
+            "name": "Western Thebes QV 22",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "296",
+            "name": "Western Thebes QV 21",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "297",
+            "name": "Western Thebes DeM 1451",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "298",
+            "name": "Western Thebes QV 58",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": null
+        },
+        {
+            "id": "299",
+            "name": "Western Thebes QV 60",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "300",
+            "name": "Western Thebes QV 73",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "301",
+            "name": "Western Thebes QV 79",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "302",
+            "name": "Western Thebes DeM 1346",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "303",
+            "name": "Western Thebes DeM 1006",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "304",
+            "name": "Western Thebes TT 336",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "305",
+            "name": "Western Thebes QV 44",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "307",
+            "name": "Western Thebes TT 46",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "308",
+            "name": "Western Thebes TT 52",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "309",
+            "name": "Western Thebes DeM 1147",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "310",
+            "name": "Western Thebes DeM 1148",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "311",
+            "name": "Western Thebes DeM 1150",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "312",
+            "name": "Western Thebes DeM 1197",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "313",
+            "name": "Western Thebes DeM 2002 - DeM 2003 - DeM 2004",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "314",
+            "name": "Western Thebes TT 251",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "315",
+            "name": "Western Thebes C 6",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "316",
+            "name": "Qasr el-Agouz",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "317",
+            "name": "Western Thebes DeM 1401",
+            "tmgeo": "1341",
+            "pleiades": "864788873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "318",
+            "name": "Western Thebes C 7",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "319",
+            "name": "Western Thebes DeM 1400",
+            "tmgeo": "1341",
+            "pleiades": "864388873",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "320",
+            "name": "Western Thebes C' 7",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "321",
+            "name": "Western Thebes QV hamlet",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "322",
+            "name": "Pshanti",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "323",
+            "name": "Fayyum",
+            "tmgeo": "332, 1255",
+            "pleiades": "736893",
+            "region": "Fayyum"
+        },
+        {
+            "id": "324",
+            "name": "Deir el-Saqiyya",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Western Thebes"
+        },
+        {
+            "id": "325",
+            "name": "Koprithis",
+            "tmgeo": "5320",
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "326",
+            "name": "Kom Sidi Uqba",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "327",
+            "name": "Magdola",
+            "tmgeo": "1284",
+            "pleiades": "736956",
+            "region": "Fayyum"
+        },
+        {
+            "id": "328",
+            "name": "Leontopolis (Tell el-Yahudiya)",
+            "tmgeo": "1239",
+            "pleiades": "727146",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "329",
+            "name": "Mendes",
+            "tmgeo": "1351",
+            "pleiades": "727156",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "330",
+            "name": "Western Thebes MMA 803",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "331",
+            "name": "Western Thebes MMA 804",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "332",
+            "name": "Western Thebes MMA 1106",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "333",
+            "name": "Western Thebes MMA 1107 (=TT 22)",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "334",
+            "name": "Western Thebes MMA 1109",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "335",
+            "name": "Western Thebes MMA 1112",
+            "tmgeo": "1341",
+            "pleiades": "786067",
+            "region": "Western Thebes"
+        },
+        {
+            "id": "336",
+            "name": "Deir el-Hammam",
+            "tmgeo": "2756",
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "337",
+            "name": "Monastery of Apa Selbane in honour of the Virgin",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "338",
+            "name": "Taposiris Magna",
+            "tmgeo": "2260",
+            "pleiades": "7272741",
+            "region": null
+        },
+        {
+            "id": "339",
+            "name": "Female Monastery at Atripe",
+            "tmgeo": "5162",
+            "pleiades": "756538",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "340",
+            "name": "Pseudo Deir Abu Lifah",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "341",
+            "name": "El-Kanais",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "342",
+            "name": "Upper Egypt",
+            "tmgeo": "2766",
+            "pleiades": null,
+            "region": null
+        },
+        {
+            "id": "343",
+            "name": "Lower Egypt",
+            "tmgeo": "2712",
+            "pleiades": null,
+            "region": null
+        },
+        {
+            "id": "344",
+            "name": "Monastery of Apa St. Sansnos",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": null
+        },
+        {
+            "id": "345",
+            "name": "Talit",
+            "tmgeo": "2236",
+            "pleiades": "737065",
+            "region": "Fayyum"
+        },
+        {
+            "id": "346",
+            "name": "Monastery (?) of St. Theodoros",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "347",
+            "name": "Tahanhor",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "348",
+            "name": "Ousia of Apa Hafs",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": null
+        },
+        {
+            "id": "349",
+            "name": "Samalut",
+            "tmgeo": "4834, 3222",
+            "pleiades": "737054",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "350",
+            "name": "Tell el-Burashiya",
+            "tmgeo": "5128",
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "351",
+            "name": "Kom Yetwal wa Yuksur",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "352",
+            "name": "Monastery of Apa Epima at Pshonte",
+            "tmgeo": "89",
+            "pleiades": "741414",
+            "region": "Fayyum"
+        },
+        {
+            "id": "353",
+            "name": "Tmekra",
+            "tmgeo": "42927",
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "354",
+            "name": "Monastery of St. Theodoros",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "355",
+            "name": "Pishai",
+            "tmgeo": "1836",
+            "pleiades": "737015",
+            "region": "Fayyum"
+        },
+        {
+            "id": "356",
+            "name": "Phantoou Nerebe",
+            "tmgeo": "5932",
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "357",
+            "name": "Tmouou ",
+            "tmgeo": "2444, 1397",
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "358",
+            "name": "Faras",
+            "tmgeo": "3170",
+            "pleiades": "795838",
+            "region": "Nubia"
+        },
+        {
+            "id": "359",
+            "name": "Dongola",
+            "tmgeo": "5080",
+            "pleiades": "865674318",
+            "region": "Upper Nubia"
+        },
+        {
+            "id": "360",
+            "name": "Qasr el-Wizz",
+            "tmgeo": "3481",
+            "pleiades": null,
+            "region": "Nubia"
+        },
+        {
+            "id": "361",
+            "name": "Tidjephrone",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": null
+        },
+        {
+            "id": "362",
+            "name": "Abdallah-n Irqi",
+            "tmgeo": "14237",
+            "pleiades": null,
+            "region": "Nubia"
+        },
+        {
+            "id": "363",
+            "name": "Wadi Halfa",
+            "tmgeo": "2499",
+            "pleiades": null,
+            "region": "Nubia"
+        },
+        {
+            "id": "364",
+            "name": "Andoumana",
+            "tmgeo": "3448",
+            "pleiades": null,
+            "region": "Nubia"
+        },
+        {
+            "id": "365",
+            "name": "Thraso",
+            "tmgeo": "2417",
+            "pleiades": "741593",
+            "region": "Fayyum"
+        },
+        {
+            "id": "366",
+            "name": "Naga el-Sheima",
+            "tmgeo": "3164, 3493",
+            "pleiades": null,
+            "region": "Nubia"
+        },
+        {
+            "id": "367",
+            "name": "Deir Mar Tumas",
+            "tmgeo": "3486",
+            "pleiades": "795886",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "368",
+            "name": "Upper Ansina",
+            "tmgeo": "2774",
+            "pleiades": "756518",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "369",
+            "name": "Wadi Sarga",
+            "tmgeo": "2843",
+            "pleiades": "756676",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "370",
+            "name": "Helwan",
+            "tmgeo": "4918",
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "371",
+            "name": "Deir el-Nasara",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "372",
+            "name": "Deir el-Misaykra",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "373",
+            "name": "Deir el-Namus",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "374",
+            "name": "Deir el-Matmar",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "375",
+            "name": "Karbone",
+            "tmgeo": null,
+            "pleiades": "",
+            "region": null
+        },
+        {
+            "id": "376",
+            "name": "Topos of Apa Tyrannos",
+            "tmgeo": "812",
+            "pleiades": null,
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "377",
+            "name": "Kola el-Hamra",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "378",
+            "name": "Deir el-Sanad",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "379",
+            "name": "Monastery of John Khame",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "380",
+            "name": "Deir Mar Buqtur",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "381",
+            "name": "Deir el-Salib",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "382",
+            "name": "Deir Ishaq",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "383",
+            "name": "Deir el-Malek Mikhail (Qibli Qamula)",
+            "tmgeo": "1341",
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "384",
+            "name": "Deir Mar Girgis el-Magmaʿ",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "385",
+            "name": "Deir Abu Darag",
+            "tmgeo": "3539",
+            "pleiades": null,
+            "region": "Eastern desert"
+        },
+        {
+            "id": "386",
+            "name": "'Ain el-Sabil",
+            "tmgeo": null,
+            "pleiades": "551781152",
+            "region": "El Dakhla oasis"
+        },
+        {
+            "id": "387",
+            "name": "Deir el-Azab",
+            "tmgeo": "327",
+            "pleiades": null,
+            "region": "Fayyum"
+        },
+        {
+            "id": "388",
+            "name": "'Ain Saafa",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "El Dakhla oasis"
+        },
+        {
+            "id": "389",
+            "name": "Sur SR022.A",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Upper Nubia"
+        },
+        {
+            "id": "390",
+            "name": "Tell el-Abiad",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "391",
+            "name": "Kom Abu Ali",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "392",
+            "name": "Tell Abu el-Gudur",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "393",
+            "name": "Kom el-Adda",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "394",
+            "name": "Tell Abu el Sobh",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "395",
+            "name": "Tell Abu Husa",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "396",
+            "name": "Kom Abu Ismail",
+            "tmgeo": "3511",
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "397",
+            "name": "Tell Abu Kharufa",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "398",
+            "name": "Tell Abu Qirdan",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "399",
+            "name": "Tell Abu Shafei",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "400",
+            "name": "Tell Abu Umran",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "401",
+            "name": "Tell el-Adowel",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "402",
+            "name": "Kom el-Ahmar",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "403",
+            "name": "Kom el-Ahdar",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "404",
+            "name": "Kom el-Ahmar 1",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "405",
+            "name": "Kom el-Ahmar 2",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "406",
+            "name": "Kom Alawi",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "407",
+            "name": "Tell Amd",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "408",
+            "name": "Tell Amya",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "409",
+            "name": "Ezbet Aniz Ghubriyal",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "410",
+            "name": "Kom el-Arab",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "411",
+            "name": "Tell el-Arab",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "412",
+            "name": "Kafr el-Ashiri",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "413",
+            "name": "Deir Mustafa Kashef",
+            "tmgeo": null,
+            "pleiades": "776168",
+            "region": null
+        },
+        {
+            "id": "414",
+            "name": "El-Sheikh Sa'id",
+            "tmgeo": "3566",
+            "pleiades": "756547",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "415",
+            "name": "Deir Abu Fana",
+            "tmgeo": null,
+            "pleiades": "756523 ",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "416",
+            "name": "Deir al-Fakhuri",
+            "tmgeo": "1227",
+            "pleiades": "786059 ",
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "417",
+            "name": "Abu Sha'ar",
+            "tmgeo": "2727",
+            "pleiades": "766332 ",
+            "region": null
+        },
+        {
+            "id": "418",
+            "name": "Deir el-Quseir",
+            "tmgeo": "2480",
+            "pleiades": "727252",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "419",
+            "name": "Ain el-Hayz",
+            "tmgeo": null,
+            "pleiades": "716510 ",
+            "region": null
+        },
+        {
+            "id": "420",
+            "name": "Gezira el-Faraun",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": null
+        },
+        {
+            "id": "421",
+            "name": "Hawwariya ",
+            "tmgeo": null,
+            "pleiades": "727153 ",
+            "region": null
+        },
+        {
+            "id": "422",
+            "name": "Kalabsha",
+            "tmgeo": null,
+            "pleiades": "795868 ",
+            "region": null
+        },
+        {
+            "id": "423",
+            "name": "Kom Namrud",
+            "tmgeo": null,
+            "pleiades": "736944 ",
+            "region": "Northern Upper Egypt"
+        },
+        {
+            "id": "424",
+            "name": "El-Tor",
+            "tmgeo": null,
+            "pleiades": "746803 ",
+            "region": null
+        },
+        {
+            "id": "425",
+            "name": "El-Tod",
+            "tmgeo": "2458",
+            "pleiades": "786132 ",
+            "region": null
+        },
+        {
+            "id": "426",
+            "name": "Bashmur",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "427",
+            "name": "Deir el-Shuhada",
+            "tmgeo": "1227",
+            "pleiades": "756561 ",
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "428",
+            "name": "Ganub Qasr el-Agouz",
+            "tmgeo": null,
+            "pleiades": "716504 ",
+            "region": null
+        },
+        {
+            "id": "429",
+            "name": "Hagar Esna",
+            "tmgeo": "1227",
+            "pleiades": "786059",
+            "region": "Southern upper Egypt"
+        },
+        {
+            "id": "430",
+            "name": "Deir Anba Bishoi",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": null
+        },
+        {
+            "id": "431",
+            "name": "Gebel Qarara",
+            "tmgeo": "2634",
+            "pleiades": "736924",
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "432",
+            "name": "Kom el-Ahmar\/Sharuna",
+            "tmgeo": "2793",
+            "pleiades": null,
+            "region": "Middle Egypt"
+        }
+    ]
+}

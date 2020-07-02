@@ -54,7 +54,7 @@
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.95058917999268 31.08822202469153)" ] ;
   rdfs:label "Xois"@en ;
   lawd:primaryForm "Xois"@en ;
-  lawd:hasName [ lawd:variantForm "Sakha"@eng ], [ lawd:variantForm "Ḫȝswwt "@egy ], [ lawd:variantForm "Ḫȝsw"@egy ], [ lawd:variantForm "Ζωῆς"@grc ], [ lawd:variantForm "Ξέος"@grc ], [ lawd:variantForm "Ξέως"@grc ], [ lawd:variantForm "Ξόις"@grc ], [ lawd:variantForm "ⲥⲉⲕⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲥⲉϧⲱⲟⲩ"@cop ], [ lawd:variantForm "ⲥϧⲱⲟⲩ"@cop ], [ lawd:variantForm "سخا"@arz ], [ lawd:variantForm "Xois"@eng ] .
+  lawd:hasName [ lawd:variantForm "Sakha"@eng ], [ lawd:variantForm "Ḫȝswwt "@egy ], [ lawd:variantForm "Ḫȝsw"@egy ], [ lawd:variantForm "Ζωῆς"@grc ], [ lawd:variantForm "Ξέος"@grc ], [ lawd:variantForm "Ξέως"@grc ], [ lawd:variantForm "Ξόις"@grc ], [ lawd:variantForm "ⲥⲉⲕⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲥⲉϧⲱⲟⲩ"@cop ], [ lawd:variantForm "ⲥϧⲱⲟⲩ"@cop ], [ lawd:variantForm "ⲥⲑⲱⲟⲩ"@cop ], [ lawd:variantForm "سخا"@arz ], [ lawd:variantForm "Xois"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/5>
   a lawd:Place ;
@@ -146,7 +146,7 @@
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.379406 31.037798)" ] ;
   rdfs:label "Hermopolis"@en ;
   lawd:primaryForm "Hermopolis"@en ;
-  lawd:hasName [ lawd:variantForm "Bʿḥ"@egy ], [ lawd:variantForm "Pr-Ḏḥwty-wp-rḥ.wy"@egy ], [ lawd:variantForm "البقلية"@arz ], [ lawd:variantForm "Hermopolis"@eng ], [ lawd:variantForm "al-Baqliyah"@eng ] .
+  lawd:hasName [ lawd:variantForm "Bʿḥ"@egy ], [ lawd:variantForm "Pr-Ḏḥwty-wp-rḥ.wy"@egy ], [ lawd:variantForm "البقلية"@arz ], [ lawd:variantForm "Hermopolis"@eng ], [ lawd:variantForm "Hermoupolis"@eng ], [ lawd:variantForm "al-Baqliyah"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/14>
   a lawd:Place ;
@@ -177,10 +177,15 @@
 <http://paths.uniroma1.it/atlas/places/16>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/786021>, <https://www.trismegistos.org/place/621> ;
+  dc:temporal "1300/1300" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "300" ;
+    periodo:latestYear "1300"
+  ] ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(32.889 24.09)" ] ;
   rdfs:label "Elephantine"@en ;
   lawd:primaryForm "Elephantine"@en ;
-  lawd:hasName [ lawd:variantForm "Ybȝ"@egy ], [ lawd:variantForm "ȝbw"@egy ], [ lawd:variantForm "Ỉȝbw"@egy ], [ lawd:variantForm "Ỉb"@egy ], [ lawd:variantForm "Νῆσος Ἐλεφαντίνης"@grc ], [ lawd:variantForm "(ⲧⲙⲟⲩ(ⲉ)ⲓ(ⲛ)) (ⲉ)ⲓⲏⲃ"@cop ], [ lawd:variantForm "جزيرة الفنتين"@arz ], [ lawd:variantForm "Elephantine"@eng ] .
+  lawd:hasName [ lawd:variantForm "Ybȝ"@egy ], [ lawd:variantForm "ȝbw"@egy ], [ lawd:variantForm "Ỉȝbw"@egy ], [ lawd:variantForm "Ỉb"@egy ], [ lawd:variantForm "Νῆσος Ἐλεφαντίνης"@grc ], [ lawd:variantForm "Ἰηβ"@grc ], [ lawd:variantForm "(ⲧⲙⲟⲩ(ⲉ)ⲓ(ⲛ)) (ⲉ)ⲓⲏⲃ"@cop ], [ lawd:variantForm "جزيرة الفنتين"@arz ], [ lawd:variantForm "Elephantine"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/18>
   a lawd:Place ;
@@ -271,8 +276,8 @@
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/756574>, <https://www.trismegistos.org/place/816> ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.8035806072 27.7796202493)" ] ;
-  rdfs:label "Hermopolis Magna"@en ;
-  lawd:primaryForm "Hermopolis Magna"@en ;
+  rdfs:label "Hermoupolis Magna"@en ;
+  lawd:primaryForm "Hermoupolis Magna"@en ;
   lawd:hasName [ lawd:variantForm "Ḫmnw"@egy ], [ lawd:variantForm "Ἑρμούη"@grc ], [ lawd:variantForm "Ἑρμούπολις"@grc ], [ lawd:variantForm "ϣⲙⲟⲩⲛ"@cop ], [ lawd:variantForm "ⲥⲙⲟⲩⲛ"@cop ], [ lawd:variantForm "ϣⲙⲟⲩⲛ(ⲓⲛ)"@cop ], [ lawd:variantForm "الأشمونين‎‎"@arz ], [ lawd:variantForm "Hermopolis Magna"@eng ], [ lawd:variantForm "el-Ashmunein"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/29>
@@ -503,7 +508,7 @@
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.8810025 27.8105625)" ] ;
   rdfs:label "Antinoupolis"@en ;
   lawd:primaryForm "Antinoupolis"@en ;
-  lawd:hasName [ lawd:variantForm "Ἀντινώ"@grc ], [ lawd:variantForm "Ἀντινῶ"@grc ], [ lawd:variantForm "Ἀντινόου"@grc ], [ lawd:variantForm " Ἀντινόου πόλις"@grc ], [ lawd:variantForm "Νέοι Ἕλληνες"@grc ], [ lawd:variantForm "Antinou"@lat ], [ lawd:variantForm "Antenou"@lat ], [ lawd:variantForm "ⲁⲛⲧⲓⲛⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲁⲛϯⲓⲛⲱⲟⲩ"@cop ], [ lawd:variantForm "انصنا"@arz ], [ lawd:variantForm "الشيخ عبادة"@arz ], [ lawd:variantForm "Antinoopolis"@eng ], [ lawd:variantForm "Antinopolis"@eng ], [ lawd:variantForm "El-Sheikh Ibada"@eng ] .
+  lawd:hasName [ lawd:variantForm "Ἀντινώ"@grc ], [ lawd:variantForm "Ἀντινῶ"@grc ], [ lawd:variantForm "Ἀντινόου"@grc ], [ lawd:variantForm " Ἀντινόου πόλις"@grc ], [ lawd:variantForm "Νέοι Ἕλληνες"@grc ], [ lawd:variantForm "Antinou"@lat ], [ lawd:variantForm "Antenou"@lat ], [ lawd:variantForm "ⲁⲛⲧⲓⲛⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲁⲛϯⲓⲛⲱⲟⲩ"@cop ], [ lawd:variantForm "انصنا"@arz ], [ lawd:variantForm "الشيخ عبادة"@arz ], [ lawd:variantForm "Antinoopolis"@eng ], [ lawd:variantForm "Antinopolis"@eng ], [ lawd:variantForm "Antinoe"@eng ], [ lawd:variantForm "El-Sheikh Ibada"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/54>
   a lawd:Place ;
@@ -896,7 +901,7 @@
     periodo:earliestYear "822" ;
     periodo:latestYear "914"
   ] ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.615338 29.268084)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.598744 29.270347)" ] ;
   rdfs:label "Hamuli/Monastery of the Archangel Michael at Phantoou"@en ;
   lawd:primaryForm "Hamuli/Monastery of the Archangel Michael at Phantoou"@en ;
   lawd:hasName [ lawd:variantForm "ⲡϩⲁⲛⲧⲁⲩ"@cop ], [ lawd:variantForm "ⲡϩⲁⲛⲧⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲡϩⲟⲛⲧⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲫⲁⲛⲇⲁⲩ"@cop ], [ lawd:variantForm "ⲫⲁⲛⲧⲁⲩ"@cop ], [ lawd:variantForm "ⲫⲁⲛⲧⲟⲟⲩ"@cop ], [ lawd:variantForm "ⲡⲙⲟⲛⲏ ⲛⲁⲗⲗⲓ "@cop ], [ lawd:variantForm "ⲧⲙⲟⲩⲛⲏ ⲛⲁⲗⲗⲓ "@cop ], [ lawd:variantForm "Hamuli/Monastery of the Archangel Michael at Phantoou"@eng ] .
@@ -963,7 +968,7 @@
     periodo:earliestYear "451" ;
     periodo:latestYear "650"
   ] ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(31.0041595 29.536946)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(31.008467 29.541142)" ] ;
   rdfs:label "Bakchias"@en ;
   lawd:primaryForm "Bakchias"@en ;
   lawd:hasName [ lawd:variantForm "Gnw.t - Km-wr"@egy ], [ lawd:variantForm "Βακχιάς"@grc ], [ lawd:variantForm "أم الأتل"@arz ], [ lawd:variantForm "Bakchias"@eng ] .
@@ -1004,11 +1009,16 @@
 
 <http://paths.uniroma1.it/atlas/places/109>
   a lawd:Place ;
-  skos:exactMatch <http://pleiades.stoa.org/places/756549>, <https://www.trismegistos.org/place/3506> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.906827 27.787299)" ] ;
-  rdfs:label "Deir Abu Hennes Wadi Gamus"@en ;
-  lawd:primaryForm "Deir Abu Hennes Wadi Gamus"@en ;
-  lawd:hasName [ lawd:variantForm "εὔνη τοῦ ἁγίου Μακαρίου"@grc ], [ lawd:variantForm "ⲧⲟⲡⲟⲥ ⲙⲡϩⲁⲅⲓⲟⲥ"@cop ], [ lawd:variantForm "ⲁⲡⲁ ⲙⲁⲕⲁⲣⲉ"@cop ], [ lawd:variantForm "دير ابو حنس"@arz ], [ lawd:variantForm "Deir Abu Hennes Wadi Gamus"@eng ], [ lawd:variantForm "Apa Makarios"@eng ] .
+  skos:exactMatch <https://www.trismegistos.org/place/2819> ;
+  dc:temporal "1325/1325" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "1251" ;
+    periodo:latestYear "1325"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.902202129364017 29.14728886926008)" ] ;
+  rdfs:label "Sadamant"@en ;
+  lawd:primaryForm "Sadamant"@en ;
+  lawd:hasName [ lawd:variantForm "ⲡⲥⲟⲇⲟⲙⲉⲛⲧ"@cop ], [ lawd:variantForm "سدمنت الجبل"@arz ], [ lawd:variantForm "Deir Mar Girgis"@eng ], [ lawd:variantForm "Sidmant el-Gebel"@eng ], [ lawd:variantForm "Sadamant"@eng ], [ lawd:variantForm "Sedment"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/110>
   a lawd:Place ;
@@ -1047,15 +1057,20 @@
   geosparql:hasGeometry [ geosparql:asWKT "POINT(29.0756475 25.517958)" ] ;
   rdfs:label "Kellis"@en ;
   lawd:primaryForm "Kellis"@en ;
-  lawd:hasName [ lawd:variantForm "Κέλλις"@grc ], [ lawd:variantForm "اسمنت الخراب"@arz ], [ lawd:variantForm "Kellis"@eng ] .
+  lawd:hasName [ lawd:variantForm "Κέλλις"@grc ], [ lawd:variantForm "اسمنت الخراب"@arz ], [ lawd:variantForm "Kellis"@eng ], [ lawd:variantForm "Ismant el-Kharab"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/115>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/776156>, <https://www.trismegistos.org/place/2739> ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "301" ;
+    periodo:latestYear "700"
+  ] ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.555041721090678 25.485793102583216)" ] ;
   rdfs:label "Bagawat"@en ;
   lawd:primaryForm "Bagawat"@en ;
-  lawd:hasName [ lawd:variantForm "البجوات"@arz ], [ lawd:variantForm "Bagawat"@eng ] .
+  lawd:hasName [ lawd:variantForm "البجوات"@arz ], [ lawd:variantForm "جبانة البجوات"@arz ], [ lawd:variantForm "مقابر البجوات"@arz ], [ lawd:variantForm "Bagawat"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/116>
   a lawd:Place ;
@@ -1098,7 +1113,7 @@
 <http://paths.uniroma1.it/atlas/places/121>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/737081>, <https://www.trismegistos.org/place/2349> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.49696 29.348065)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.562937 29.346942)" ] ;
   rdfs:label "Theadelphia"@en ;
   lawd:primaryForm "Theadelphia"@en ;
   lawd:hasName [ lawd:variantForm "Pȝ-ʿ.wy-n-sn.t"@egy ], [ lawd:variantForm "Θεαδέλφεια"@grc ], [ lawd:variantForm "بطن اهريت"@arz ], [ lawd:variantForm "Theadelphia"@eng ] .
@@ -1181,7 +1196,7 @@
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.815779 30.432395)" ] ;
   rdfs:label "Terenouthis"@en ;
   lawd:primaryForm "Terenouthis"@en ;
-  lawd:hasName [ lawd:variantForm "Terenouthis"@eng ], [ lawd:variantForm "Pr-Ḥw.t-Ḥr-nb.t-Mfkȝt"@egy ], [ lawd:variantForm "Pȝ-Ḥw.t-tȝ-Ḥr-mfky - Mfkt"@egy ], [ lawd:variantForm "Θερενοῦτις"@grc ], [ lawd:variantForm "Τερενοῦθις"@grc ], [ lawd:variantForm "ⲧⲉⲣⲉⲛⲟⲩⲧⲉ"@cop ], [ lawd:variantForm "ⲧⲉⲣⲉⲛⲟⲩⲧⲓ"@cop ], [ lawd:variantForm "ⲧⲉⲣⲉⲛⲟⲩⲑⲓ"@cop ], [ lawd:variantForm "ⲑⲉⲣⲉⲛⲟⲩϯ"@cop ], [ lawd:variantForm "ترنوط"@arz ], [ lawd:variantForm " طرنوط"@arz ], [ lawd:variantForm "الطرانة   "@arz ] .
+  lawd:hasName [ lawd:variantForm "Pr-Ḥw.t-Ḥr-nb.t-Mfkȝt"@egy ], [ lawd:variantForm "Pȝ-Ḥw.t-tȝ-Ḥr-mfky - Mfkt"@egy ], [ lawd:variantForm "Θερενοῦτις"@grc ], [ lawd:variantForm "Τερενοῦθις"@grc ], [ lawd:variantForm "ⲧⲉⲣⲉⲛⲟⲩⲧⲉ"@cop ], [ lawd:variantForm "ⲧⲉⲣⲉⲛⲟⲩⲧⲓ"@cop ], [ lawd:variantForm "ⲧⲉⲣⲉⲛⲟⲩⲑⲓ"@cop ], [ lawd:variantForm "ⲑⲉⲣⲉⲛⲟⲩϯ"@cop ], [ lawd:variantForm "ترنوط"@arz ], [ lawd:variantForm " طرنوط"@arz ], [ lawd:variantForm "الطرانة   "@arz ], [ lawd:variantForm "Terenouthis"@eng ], [ lawd:variantForm "Kom Abu Billo"@eng ], [ lawd:variantForm "Kôm Abou Billou"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/132>
   a lawd:Place ;
@@ -1281,9 +1296,14 @@
 <http://paths.uniroma1.it/atlas/places/144>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/727082>, <https://www.trismegistos.org/place/389> ;
+  dc:temporal "969/969" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "641" ;
+    periodo:latestYear "969"
+  ] ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.2301075 30.005783)" ] ;
-  rdfs:label "Babylon"@en ;
-  lawd:primaryForm "Babylon"@en ;
+  rdfs:label "Babylon - Fustat"@en ;
+  lawd:primaryForm "Babylon - Fustat"@en ;
   lawd:hasName [ lawd:variantForm "Pr-Ḥʿpy-n-Ỉwn"@egy ], [ lawd:variantForm "Βαβυλών"@grc ], [ lawd:variantForm "Φοσσᾶτον"@grc ], [ lawd:variantForm "ⲃⲁⲃⲩⲗⲱⲛ"@cop ], [ lawd:variantForm "ⲃⲁⲃⲓⲗⲱⲛ"@cop ], [ lawd:variantForm "ⲡⲁⲃⲓⲗⲱⲛ"@cop ], [ lawd:variantForm "الفسطاط "@arz ], [ lawd:variantForm "Babylon"@eng ], [ lawd:variantForm "el-Fustat"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/145>
@@ -1349,7 +1369,7 @@
 <http://paths.uniroma1.it/atlas/places/154>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/776210>, <https://www.trismegistos.org/place/619> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(25.5435296667 29.2051733333)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.7304627764 25.5967547643)" ] ;
   rdfs:label "Oasis Magna"@en ;
   lawd:primaryForm "Oasis Magna"@en ;
   lawd:hasName [ lawd:variantForm "Wḥy-rsy"@egy ], [ lawd:variantForm "Wḥy"@egy ], [ lawd:variantForm "Knm.t"@egy ], [ lawd:variantForm "Gnm.t"@egy ], [ lawd:variantForm "Ἄνω Ὄασις"@grc ], [ lawd:variantForm "Μεγάλη Ὄασις"@grc ], [ lawd:variantForm "Ὄασις Θηβαίδος"@grc ], [ lawd:variantForm "Oasis Magna"@lat ], [ lawd:variantForm "Oasis Maior"@lat ], [ lawd:variantForm "الواح الداخلة"@arz ] .
@@ -1458,11 +1478,10 @@
 
 <http://paths.uniroma1.it/atlas/places/170>
   a lawd:Place ;
-  skos:exactMatch <http://pleiades.stoa.org/places/845040004>, <https://www.trismegistos.org/place/100> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(29.904133 31.195371)" ] ;
-  rdfs:label "Alexandria - Kom el Dikka"@en ;
-  lawd:primaryForm "Alexandria - Kom el Dikka"@en ;
-  lawd:hasName [ lawd:variantForm "Rʿ-qd"@egy ], [ lawd:variantForm "Rʿ-qt"@egy ], [ lawd:variantForm "Pȝ-ʿ.wy-n-ȝlgsȝntrs"@egy ], [ lawd:variantForm "Pȝ-sbt-n-Ỉrgsndrs"@egy ], [ lawd:variantForm "Ἀλεξάνδρεια"@grc ], [ lawd:variantForm "ⲣⲁⲕⲟⲧⲉ"@cop ], [ lawd:variantForm "ⲣⲁⲕⲟϯ"@cop ], [ lawd:variantForm " الإسكندرية"@arz ], [ lawd:variantForm "Alexandria - Kom el Dikka"@eng ] .
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(33.52226436138154 35.28739033835403)" ] ;
+  rdfs:label "Monastery of St. Macarius at Cyprus"@en ;
+  lawd:primaryForm "Monastery of St. Macarius at Cyprus"@en ;
+  lawd:hasName [ lawd:variantForm "Monastery of St. Macarius"@eng ], [ lawd:variantForm "Armenian Monastery"@eng ], [ lawd:variantForm "Sourp Magar"@eng ], [ lawd:variantForm "Magaravank"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/171>
   a lawd:Place ;
@@ -1506,7 +1525,12 @@
 
 <http://paths.uniroma1.it/atlas/places/176>
   a lawd:Place ;
-  skos:exactMatch <http://pleiades.stoa.org/places/667956220> ;
+  skos:exactMatch <http://pleiades.stoa.org/places/667956220>, <https://www.trismegistos.org/place/56763> ;
+  dc:temporal "600/600" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "600"
+  ] ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(28.9120129 25.5936295)" ] ;
   rdfs:label "Deir abu Matta"@en ;
   lawd:primaryForm "Deir abu Matta"@en ;
@@ -1579,7 +1603,7 @@
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.7304634591 25.5967488622)" ] ;
   rdfs:label "El-Deir"@en ;
   lawd:primaryForm "El-Deir"@en ;
-  lawd:hasName [ lawd:variantForm "Pȝ-sy?"@egy ], [ lawd:variantForm "الدير"@arz ], [ lawd:variantForm "El-Deir"@eng ] .
+  lawd:hasName [ lawd:variantForm "Pȝ-sy?"@egy ], [ lawd:variantForm "P-Si?"@egy ], [ lawd:variantForm "الدير"@arz ], [ lawd:variantForm "El-Deir"@eng ], [ lawd:variantForm "Al-Dayr"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/185>
   a lawd:Place ;
@@ -1615,6 +1639,7 @@
 <http://paths.uniroma1.it/atlas/places/189>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/798094>, <https://www.trismegistos.org/place/1916> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.0166707 22.6499972)" ] ;
   rdfs:label "Qasr Ibrim"@en ;
   lawd:primaryForm "Qasr Ibrim"@en ;
   lawd:hasName [ lawd:variantForm " Πριμις "@grc ], [ lawd:variantForm "Πρημνις "@grc ], [ lawd:variantForm "Πρῖμα"@grc ], [ lawd:variantForm " Primi "@lat ], [ lawd:variantForm "Pidema "@lat ], [ lawd:variantForm "Pindis"@lat ], [ lawd:variantForm "ⲫⲣⲓⲙ"@cop ], [ lawd:variantForm "قصر ابريم"@arz ], [ lawd:variantForm "Qasr Ibrim"@eng ], [ lawd:variantForm "Primis "@eng ] .
@@ -1752,14 +1777,6 @@
   lawd:primaryForm "Valley of the Kings"@en ;
   lawd:hasName [ lawd:variantForm " Syringes"@grc ], [ lawd:variantForm "وادي الملوك"@arz ], [ lawd:variantForm "وادي ابواب المملوك"@arz ], [ lawd:variantForm "Valley of the Kings"@eng ], [ lawd:variantForm "Wadi el-Muluk"@eng ], [ lawd:variantForm "Biban el-Muluk"@eng ] .
 
-<http://paths.uniroma1.it/atlas/places/203>
-  a lawd:Place ;
-  skos:exactMatch <http://pleiades.stoa.org/places/805591>, <https://www.trismegistos.org/place/3463> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT(33.190286 16.570227)" ] ;
-  rdfs:label "Wadi Araba"@en ;
-  lawd:primaryForm "Wadi Araba"@en ;
-  lawd:hasName [ lawd:variantForm "Wadi Araba"@eng ] .
-
 <http://paths.uniroma1.it/atlas/places/204>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/727232>, <https://www.trismegistos.org/place/3375> ;
@@ -1866,10 +1883,15 @@
 <http://paths.uniroma1.it/atlas/places/215>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/756549>, <https://www.trismegistos.org/place/3506> ;
+  dc:temporal "800/800" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "301" ;
+    periodo:latestYear "800"
+  ] ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.906827 27.787299)" ] ;
   rdfs:label "Deir Abu Hennes"@en ;
   lawd:primaryForm "Deir Abu Hennes"@en ;
-  lawd:hasName [ lawd:variantForm "Deir Abu Hennes"@eng ] .
+  lawd:hasName [ lawd:variantForm "εὔνη τοῦ ἁγίου Μακαρίου"@grc ], [ lawd:variantForm "ⲧⲟⲡⲟⲥ ⲙⲡϩⲁⲅⲓⲟⲥ"@cop ], [ lawd:variantForm "ⲁⲡⲁ ⲙⲁⲕⲁⲣⲉ"@cop ], [ lawd:variantForm "دير ابو حنس"@arz ], [ lawd:variantForm "Deir Abu Hennes"@eng ], [ lawd:variantForm "Deir Abu Hinnis"@eng ], [ lawd:variantForm "Dayr Abū Ḥinnis"@eng ], [ lawd:variantForm "Deir Abu Hennes Wadi Gamus"@eng ], [ lawd:variantForm "Apa Makarios"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/216>
   a lawd:Place ;
@@ -1880,10 +1902,16 @@
 
 <http://paths.uniroma1.it/atlas/places/217>
   a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756557 >, <https://www.trismegistos.org/place/3641> ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "501" ;
+    periodo:latestYear "700"
+  ] ;
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.8612058 27.8293788)" ] ;
   rdfs:label "Deir al-Dik"@en ;
   lawd:primaryForm "Deir al-Dik"@en ;
-  lawd:hasName [ lawd:variantForm "Deir al-Dik"@eng ] .
+  lawd:hasName [ lawd:variantForm "Deir el-Dik"@eng ], [ lawd:variantForm "Dayr al-Dik"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/218>
   a lawd:Place ;
@@ -2174,7 +2202,7 @@
 <http://paths.uniroma1.it/atlas/places/243>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/736982>, <https://www.trismegistos.org/place/2722> ;
-  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.75 28.25)" ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.655 28.5429)" ] ;
   rdfs:label "Oxyrhynchites nomòs"@en ;
   lawd:primaryForm "Oxyrhynchites nomòs"@en ;
   lawd:hasName [ lawd:variantForm "Ὀξυρυγχίτης"@grc ], [ lawd:variantForm "Oxyrhynchites nomòs"@eng ] .
@@ -3107,6 +3135,7 @@
 <http://paths.uniroma1.it/atlas/places/323>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/736893>, <https://www.trismegistos.org/place/332>, <https://www.trismegistos.org/place/1255> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.8399570 29.3149639)" ] ;
   rdfs:label "Fayyum"@en ;
   lawd:primaryForm "Fayyum"@en ;
   lawd:hasName [ lawd:variantForm "Tȝ-š"@egy ], [ lawd:variantForm "ⲡⲟⲗⲓⲥ, ⲡⲉⲓⲟⲙ, ⲡⲓⲁⲙ, ⲡⲓⲱⲙ, ⲫⲓⲟⲙ"@cop ], [ lawd:variantForm "   الفيوم"@arz ], [ lawd:variantForm "ⲫⲓⲟⲙ"@cop ], [ lawd:variantForm "ⲡⲓⲱⲙ"@cop ], [ lawd:variantForm "ⲡⲓⲁⲙ"@cop ], [ lawd:variantForm "ⲡⲉⲓⲟⲙ"@cop ], [ lawd:variantForm "ⲡⲟⲗⲓⲥ"@cop ], [ lawd:variantForm "ⲡⲉⲓⲟⲙ"@cop ], [ lawd:variantForm "Š-Sbk"@egy ], [ lawd:variantForm "Λιμνίτης"@grc ], [ lawd:variantForm "Λίμνη"@grc ], [ lawd:variantForm "Ἀρσινοίτης"@grc ], [ lawd:variantForm "Ἀρσενοίτης"@grc ], [ lawd:variantForm "Wȝḏ-wr"@egy ], [ lawd:variantForm "Pȝ-ym"@egy ], [ lawd:variantForm "Š-rsy š-mḥty"@egy ], [ lawd:variantForm "Fayyum"@eng ] .
@@ -3412,6 +3441,7 @@
 <http://paths.uniroma1.it/atlas/places/355>
   a lawd:Place ;
   skos:exactMatch <http://pleiades.stoa.org/places/737015>, <https://www.trismegistos.org/place/1836> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.68319 29.36476)" ] ;
   rdfs:label "Pishai"@en ;
   lawd:primaryForm "Pishai"@en ;
   lawd:hasName [ lawd:variantForm " Pȝy-Šȝy "@egy ], [ lawd:variantForm "Pȝy-Šy"@egy ], [ lawd:variantForm " Πισαις"@grc ], [ lawd:variantForm "ⲡⲓϣⲁⲉⲓ"@cop ], [ lawd:variantForm "ⲡⲓϣⲁⲓ"@cop ], [ lawd:variantForm "Ibshaway"@eng ], [ lawd:variantForm "Pisais "@eng ], [ lawd:variantForm "Pisaei "@eng ], [ lawd:variantForm "Pishai "@eng ], [ lawd:variantForm "Pisaitos Epoikion"@eng ], [ lawd:variantForm "Pisaei Chorion"@eng ], [ lawd:variantForm "Abshay(a) "@eng ], [ lawd:variantForm "Abshaih"@eng ], [ lawd:variantForm "Abshway"@eng ], [ lawd:variantForm "Ibshwai "@eng ], [ lawd:variantForm "Ibshawai "@eng ], [ lawd:variantForm "Abschajet er-Rumman"@eng ] .
@@ -3441,7 +3471,7 @@
   geosparql:hasGeometry [ geosparql:asWKT "POINT(31.498587 22.204049)" ] ;
   rdfs:label "Faras"@en ;
   lawd:primaryForm "Faras"@en ;
-  lawd:hasName [ lawd:variantForm "Pḫrse - Pe-ỉrs?"@egy ], [ lawd:variantForm "Παχωρα"@grc ], [ lawd:variantForm "Tapros - Phitorga?"@lat ], [ lawd:variantForm "ⲡⲁⲭⲱⲣⲁⲥ"@cop ] .
+  lawd:hasName [ lawd:variantForm "Pḫrse - Pe-ỉrs?"@egy ], [ lawd:variantForm "Παχωρα"@grc ], [ lawd:variantForm "Tapros - Phitorga?"@lat ], [ lawd:variantForm "ⲡⲁⲭⲱⲣⲁⲥ"@cop ], [ lawd:variantForm "Faras"@eng ] .
 
 <http://paths.uniroma1.it/atlas/places/359>
   a lawd:Place ;
@@ -3449,7 +3479,7 @@
   geosparql:hasGeometry [ geosparql:asWKT "POINT(30.740191 18.199038)" ] ;
   rdfs:label "Dongola"@en ;
   lawd:primaryForm "Dongola"@en ;
-  lawd:hasName [ lawd:variantForm "ⲧⲟⲩⲅⲅⲟⲩⲗ - ⲧⲟⲩⲅⲅⲟⲩⲗⲁ - ⲧⲟⲩⲅⲅⲓⲗⲓ - ⲇⲁⲛⲅ( ) - ⲇⲉⲩⲅ( )"@cop ] .
+  lawd:hasName [ lawd:variantForm "ⲇⲁⲛⲅ( )"@cop ], [ lawd:variantForm "ⲇⲉⲩⲅ( )"@cop ], [ lawd:variantForm "ⲧⲏⲙⲩⲕⲗⲉⲱⲥ"@cop ], [ lawd:variantForm "ⲧⲓⲙⲓⲕⲗⲉⲱⲥ"@grc ], [ lawd:variantForm "ⲧⲓⲙⲓⲕⲗⲉⲟⲥ"@grc ], [ lawd:variantForm "ⲧⲓⲙⲏⲕ(ⲗⲉⲟⲥ)"@grc ], [ lawd:variantForm "Dunqula"@arz ] .
 
 <http://paths.uniroma1.it/atlas/places/360>
   a lawd:Place ;
@@ -3620,3 +3650,616 @@
   rdfs:label "Topos of Apa Tyrannos"@en ;
   lawd:primaryForm "Topos of Apa Tyrannos"@en ;
   lawd:hasName [ lawd:variantForm "Topos of Apa Tyrannos"@eng ], [ lawd:variantForm "Monastery of Apa Tyrannos"@eng ], [ lawd:variantForm "Monastery of Posidonios"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/377>
+  a lawd:Place ;
+  dc:temporal "600/600" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "501" ;
+    periodo:latestYear "600"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.55798339843751 25.70039650405056)" ] ;
+  rdfs:label "Kola el-Hamra"@en ;
+  lawd:primaryForm "Kola el-Hamra"@en ;
+  lawd:hasName [ lawd:variantForm "Kola el-Hamra"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/378>
+  a lawd:Place ;
+  dc:temporal "1399/1399" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "501" ;
+    periodo:latestYear "1399"
+  ] ;
+  rdfs:label "Deir el-Sanad"@en ;
+  lawd:primaryForm "Deir el-Sanad"@en ;
+  lawd:hasName [ lawd:variantForm "Deir el-Sanad"@eng ], [ lawd:variantForm "Dayr al-Sanad"@eng ], [ lawd:variantForm "Dayr al-Gizaz"@eng ], [ lawd:variantForm "Monastery of Anba Samuel"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/379>
+  a lawd:Place ;
+  dc:temporal "1400/1400" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "840" ;
+    periodo:latestYear "1400"
+  ] ;
+  rdfs:label "Monastery of John Khame"@en ;
+  lawd:primaryForm "Monastery of John Khame"@en ;
+  lawd:hasName [ lawd:variantForm "ⲡⲁⲡⲁ ⲓⲱϩⲁⲛⲛⲏⲥ ⲭⲁⲙⲉ"@cop ], [ lawd:variantForm "Monastery of John Khame"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/380>
+  a lawd:Place ;
+  dc:temporal "1399/1399" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "800" ;
+    periodo:latestYear "1399"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.705548 25.815451)" ] ;
+  rdfs:label "Deir Mar Buqtur"@en ;
+  lawd:primaryForm "Deir Mar Buqtur"@en ;
+  lawd:hasName [ lawd:variantForm "Deir Mar Buqtur"@eng ], [ lawd:variantForm "Dayr Mar Buqtur"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/381>
+  a lawd:Place ;
+  dc:temporal "1225/1225" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "700" ;
+    periodo:latestYear "1225"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.703722 25.848278 )" ] ;
+  rdfs:label "Deir el-Salib"@en ;
+  lawd:primaryForm "Deir el-Salib"@en ;
+  lawd:hasName [ lawd:variantForm "دير الصليب المقدس"@arz ], [ lawd:variantForm "Deir el-Salib"@eng ], [ lawd:variantForm "Dayr al-Ṣalīb "@eng ], [ lawd:variantForm "Monastery of the Holy Cross"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/382>
+  a lawd:Place ;
+  dc:temporal "825/825" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "701" ;
+    periodo:latestYear "825"
+  ] ;
+  rdfs:label "Deir Ishaq"@en ;
+  lawd:primaryForm "Deir Ishaq"@en ;
+  lawd:hasName [ lawd:variantForm "Deir Ishaq"@eng ], [ lawd:variantForm "Dair Ishâq"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/383>
+  a lawd:Place ;
+  skos:exactMatch <https://www.trismegistos.org/place/1341> ;
+  dc:temporal "1400/1400" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "601" ;
+    periodo:latestYear "1400"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.696639 25.800631)" ] ;
+  rdfs:label "Deir el-Malek Mikhail (Qibli Qamula)"@en ;
+  lawd:primaryForm "Deir el-Malek Mikhail (Qibli Qamula)"@en ;
+  lawd:hasName [ lawd:variantForm "‏دير الملاك ميخائيل القبلي"@arz ], [ lawd:variantForm "دير العين"@arz ], [ lawd:variantForm "Deir el-Malek Mikhail (Qibli Qamula)"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/384>
+  a lawd:Place ;
+  dc:temporal "1199/1199" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "500" ;
+    periodo:latestYear "1199"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.70007 25.83439)" ] ;
+  rdfs:label "Deir Mar Girgis el-Magmaʿ"@en ;
+  lawd:primaryForm "Deir Mar Girgis el-Magmaʿ"@en ;
+  lawd:hasName [ lawd:variantForm "‏دير مارجرجس المجمع"@arz ] .
+
+<http://paths.uniroma1.it/atlas/places/385>
+  a lawd:Place ;
+  skos:exactMatch <https://www.trismegistos.org/place/3539> ;
+  dc:temporal "650/650" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "526" ;
+    periodo:latestYear "650"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.44890 29.46940)" ] ;
+  rdfs:label "Deir Abu Darag"@en ;
+  lawd:primaryForm "Deir Abu Darag"@en ;
+  lawd:hasName [ lawd:variantForm "Deir Abu Darag"@eng ], [ lawd:variantForm "Dayr Abū Daraj"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/386>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/551781152> ;
+  dc:temporal "360/360" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "340" ;
+    periodo:latestYear "360"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (29.08334444 25.50283333)" ] ;
+  rdfs:label "'Ain el-Sabil"@en ;
+  lawd:primaryForm "'Ain el-Sabil"@en ;
+  lawd:hasName [ lawd:variantForm "'Ain el-Sabil"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/387>
+  a lawd:Place ;
+  skos:exactMatch <https://www.trismegistos.org/place/327> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.851944 29.263333)" ] ;
+  rdfs:label "Deir el-Azab"@en ;
+  lawd:primaryForm "Deir el-Azab"@en ;
+  lawd:hasName [ lawd:variantForm "دير العزب‎"@arz ], [ lawd:variantForm "‏دير الأنبا أبرآم"@arz ], [ lawd:variantForm "Deir el-Azab"@eng ], [ lawd:variantForm "Tell Azab "@eng ], [ lawd:variantForm "Monastery of Anba Abraam"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/388>
+  a lawd:Place ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.54908 25.50654)" ] ;
+  rdfs:label "'Ain Saafa"@en ;
+  lawd:primaryForm "'Ain Saafa"@en ;
+  lawd:hasName [ lawd:variantForm "‏عين سعف"@arz ], [ lawd:variantForm "'Ain Saaf"@eng ], [ lawd:variantForm "Ain Zaaf"@eng ], [ lawd:variantForm "Ain Zaf"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/389>
+  a lawd:Place ;
+  dc:temporal "1500/1500" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "901" ;
+    periodo:latestYear "1500"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.5055803 19.103428)" ] ;
+  rdfs:label "Sur SR022.A"@en ;
+  lawd:primaryForm "Sur SR022.A"@en ;
+  lawd:hasName [ lawd:variantForm "Sur SR022.A"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/390>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (31.950000 30.805000)" ] ;
+  rdfs:label "Tell el-Abiad"@en ;
+  lawd:primaryForm "Tell el-Abiad"@en ;
+  lawd:hasName [ lawd:variantForm "Tell el-Abiad"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/391>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.422500 30.834722)" ] ;
+  rdfs:label "Kom Abu Ali"@en ;
+  lawd:primaryForm "Kom Abu Ali"@en ;
+  lawd:hasName [ lawd:variantForm "Kom Abu Ali"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/392>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.141667 30.925278)" ] ;
+  rdfs:label "Tell Abu el-Gudur"@en ;
+  lawd:primaryForm "Tell Abu el-Gudur"@en ;
+  lawd:hasName [ lawd:variantForm "Tell Abu el-Gudur"@eng ], [ lawd:variantForm "Abu Gudud"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/393>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.083889 30.940000)" ] ;
+  rdfs:label "Kom el-Adda"@en ;
+  lawd:primaryForm "Kom el-Adda"@en ;
+  lawd:hasName [ lawd:variantForm "Kom el-Adda"@eng ], [ lawd:variantForm "Kom Abu el-Ida"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/394>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT ( 31.815278 30.808333)" ] ;
+  rdfs:label "Tell Abu el Sobh"@en ;
+  lawd:primaryForm "Tell Abu el Sobh"@en ;
+  lawd:hasName [ lawd:variantForm "Tell Abu el Sobh"@eng ], [ lawd:variantForm "Tell el-Safra"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/395>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (31.724167 30.932222)" ] ;
+  rdfs:label "Tell Abu Husa"@en ;
+  lawd:primaryForm "Tell Abu Husa"@en ;
+  lawd:hasName [ lawd:variantForm "Tell Abu Husa"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/396>
+  a lawd:Place ;
+  skos:exactMatch <https://www.trismegistos.org/place/3511> ;
+  dc:temporal "1100/1100" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "1100"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.313889 31.015278)" ] ;
+  rdfs:label "Kom Abu Ismail"@en ;
+  lawd:primaryForm "Kom Abu Ismail"@en ;
+  lawd:hasName [ lawd:variantForm "Kom Abu Ismail"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/397>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (31.9167 30.8833)" ] ;
+  rdfs:label "Tell Abu Kharufa"@en ;
+  lawd:primaryForm "Tell Abu Kharufa"@en ;
+  lawd:hasName [ lawd:variantForm "Tell Abu Kharufa"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/398>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (31.829167 30.825000)" ] ;
+  rdfs:label "Tell Abu Qirdan"@en ;
+  lawd:primaryForm "Tell Abu Qirdan"@en ;
+  lawd:hasName [ lawd:variantForm "Tell Abu Qirdan"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/399>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (31.837500 30.805556)" ] ;
+  rdfs:label "Tell Abu Shafei"@en ;
+  lawd:primaryForm "Tell Abu Shafei"@en ;
+  lawd:hasName [ lawd:variantForm "Tell Abu Shafei"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/400>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (31.704167 30.857500)" ] ;
+  rdfs:label "Tell Abu Umran"@en ;
+  lawd:primaryForm "Tell Abu Umran"@en ;
+  lawd:hasName [ lawd:variantForm "Tell Abu Umran"@eng ], [ lawd:variantForm "Gazert Abu Omran"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/401>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (31.025556 31.576111)" ] ;
+  rdfs:label "Tell el-Adowel"@en ;
+  lawd:primaryForm "Tell el-Adowel"@en ;
+  lawd:hasName [ lawd:variantForm "Tell el-Adowel"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/402>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.897778 30.699722)" ] ;
+  rdfs:label "Kom el-Ahmar"@en ;
+  lawd:primaryForm "Kom el-Ahmar"@en ;
+  lawd:hasName [ lawd:variantForm "Kom el-Ahmar"@eng ], [ lawd:variantForm "Ezbet Ahmar"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/403>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.831667 31.448889)" ] ;
+  rdfs:label "Kom el-Ahdar"@en ;
+  lawd:primaryForm "Kom el-Ahdar"@en ;
+  lawd:hasName [ lawd:variantForm "Kom el-Ahdar"@eng ], [ lawd:variantForm "Gezira Kom el-Akhdar"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/404>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.863889 30.492500)" ] ;
+  rdfs:label "Kom el-Ahmar 1"@en ;
+  lawd:primaryForm "Kom el-Ahmar 1"@en ;
+  lawd:hasName [ lawd:variantForm "Kom el-Ahmar"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/405>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.410278 30.872778)" ] ;
+  rdfs:label "Kom el-Ahmar 2"@en ;
+  lawd:primaryForm "Kom el-Ahmar 2"@en ;
+  lawd:hasName [ lawd:variantForm "Kom el-Ahmar"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/406>
+  a lawd:Place ;
+  dc:temporal "900/900" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "301" ;
+    periodo:latestYear "900"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.719444 31.352500)" ] ;
+  rdfs:label "Kom Alawi"@en ;
+  lawd:primaryForm "Kom Alawi"@en ;
+  lawd:hasName [ lawd:variantForm "Kom Alawi"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/407>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (32.099444 30.943889)" ] ;
+  rdfs:label "Tell Amd"@en ;
+  lawd:primaryForm "Tell Amd"@en ;
+  lawd:hasName [ lawd:variantForm "Tell Amd"@eng ], [ lawd:variantForm "Tell Soweid"@eng ], [ lawd:variantForm "Tell Iswid"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/408>
+  a lawd:Place ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (30.635278 31.227778)" ] ;
+  rdfs:label "Tell Amya"@en ;
+  lawd:primaryForm "Tell Amya"@en ;
+  lawd:hasName [ lawd:variantForm "Tell Amya"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/409>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT (31.704167 30.962222)" ] ;
+  rdfs:label "Ezbet Aniz Ghubriyal"@en ;
+  lawd:primaryForm "Ezbet Aniz Ghubriyal"@en ;
+  lawd:hasName [ lawd:variantForm "Ezbet Aniz Ghubriyal"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/410>
+  a lawd:Place ;
+  dc:temporal "900/900" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "900"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.721667 31.316667)" ] ;
+  rdfs:label "Kom el-Arab"@en ;
+  lawd:primaryForm "Kom el-Arab"@en ;
+  lawd:hasName [ lawd:variantForm "Kom el-Arab"@eng ], [ lawd:variantForm "Tell Kafri"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/411>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(31.765278 31.248333)" ] ;
+  rdfs:label "Tell el-Arab"@en ;
+  lawd:primaryForm "Tell el-Arab"@en ;
+  lawd:hasName [ lawd:variantForm "Tell el-Arab"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/412>
+  a lawd:Place ;
+  dc:temporal "700/700" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "700"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.896389 30.486111)" ] ;
+  rdfs:label "Kafr el-Ashiri"@en ;
+  lawd:primaryForm "Kafr el-Ashiri"@en ;
+  lawd:hasName [ lawd:variantForm "Kafr el-Ashiri"@eng ], [ lawd:variantForm "Kom Barhim"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/413>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/776168> ;
+  dc:temporal "600/600" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "451" ;
+    periodo:latestYear "600"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.5478985 25.496667)" ] ;
+  rdfs:label "Deir Mustafa Kashef"@en ;
+  lawd:primaryForm "Deir Mustafa Kashef"@en ;
+  lawd:hasName [ lawd:variantForm "Deir Mustafa Kashef"@eng ], [ lawd:variantForm " ‏عين مصطفى كاشف"@arz ] .
+
+<http://paths.uniroma1.it/atlas/places/414>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756547>, <https://www.trismegistos.org/place/3566> ;
+  dc:temporal "1200/1200" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "301" ;
+    periodo:latestYear "1200"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.8833333333333333 27.7166666666666667)" ] ;
+  rdfs:label "El-Sheikh Sa'id"@en ;
+  lawd:primaryForm "El-Sheikh Sa'id"@en ;
+  lawd:hasName [ lawd:variantForm "El-Sheikh Sa'id"@eng ], [ lawd:variantForm "El-Sheikh Said"@eng ], [ lawd:variantForm "Deir Abu Fam"@eng ], [ lawd:variantForm "Deir el-Qaddis Abu Bifam"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/415>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756523 > ;
+  dc:temporal "1300/1300" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "401" ;
+    periodo:latestYear "1300"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.698053836822513 27.84528048692721)" ] ;
+  rdfs:label "Deir Abu Fana"@en ;
+  lawd:primaryForm "Deir Abu Fana"@en ;
+  lawd:hasName [ lawd:variantForm "Ⲁⲃⲃⲁ Ⲃⲉⲛⲓ ⲡⲓⲙⲁⲛⲇⲣⲓⲧⲏⲥ"@cop ], [ lawd:variantForm " ‏دير أبو فانا"@arz ], [ lawd:variantForm "دير الصليب"@arz ], [ lawd:variantForm "Deir Abu Fana"@eng ], [ lawd:variantForm "Dayr Abu Fanah"@eng ], [ lawd:variantForm "Monastery of Apa Bane"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/416>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786059 >, <https://www.trismegistos.org/place/1227> ;
+  dc:temporal "1200/1200" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "701" ;
+    periodo:latestYear "1200"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.480864524841316 25.369718302273917)" ] ;
+  rdfs:label "Deir al-Fakhuri"@en ;
+  lawd:primaryForm "Deir al-Fakhuri"@en ;
+  lawd:hasName [ lawd:variantForm "Deir el-Fakhuri"@eng ], [ lawd:variantForm " Dayr al-Fakhuri"@eng ], [ lawd:variantForm "Monastery of St. Matthew the Poor"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/417>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/766332 >, <https://www.trismegistos.org/place/2727> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(33.679368 27.355677)" ] ;
+  rdfs:label "Abu Sha'ar"@en ;
+  lawd:primaryForm "Abu Sha'ar"@en .
+
+<http://paths.uniroma1.it/atlas/places/418>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727252>, <https://www.trismegistos.org/place/2480> ;
+  dc:temporal "1350/1350" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "801" ;
+    periodo:latestYear "1350"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(33.67666 27.36744)" ] ;
+  rdfs:label "Deir el-Quseir"@en ;
+  lawd:primaryForm "Deir el-Quseir"@en ;
+  lawd:hasName [ lawd:variantForm "Deir el-Quseir"@eng ], [ lawd:variantForm "Dayr al-Qusayr"@eng ], [ lawd:variantForm "Dayr Arsaniyus"@eng ], [ lawd:variantForm "Dayr al-Baghl"@eng ], [ lawd:variantForm "Dayr al-Yunan"@eng ], [ lawd:variantForm "Dayr al-Haraqal"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/419>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/716510 > ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(28.033849 28.650122)" ] ;
+  rdfs:label "Ain el-Hayz"@en ;
+  lawd:primaryForm "Ain el-Hayz"@en .
+
+<http://paths.uniroma1.it/atlas/places/420>
+  a lawd:Place ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(34.8577778 29.4602778)" ] ;
+  rdfs:label "Gezira el-Faraun"@en ;
+  lawd:primaryForm "Gezira el-Faraun"@en .
+
+<http://paths.uniroma1.it/atlas/places/421>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/727153 > ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.966668 29.678295)" ] ;
+  rdfs:label "Hawwariya "@en ;
+  lawd:primaryForm "Hawwariya "@en .
+
+<http://paths.uniroma1.it/atlas/places/422>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/795868 > ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.769365 23.6097585)" ] ;
+  rdfs:label "Kalabsha"@en ;
+  lawd:primaryForm "Kalabsha"@en .
+
+<http://paths.uniroma1.it/atlas/places/423>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736944 > ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(28.410116 30.602698)" ] ;
+  rdfs:label "Kom Namrud"@en ;
+  lawd:primaryForm "Kom Namrud"@en ;
+  lawd:hasName [ lawd:variantForm "Kom Namrud"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/424>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/746803 > ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(33.6114471 28.2745989)" ] ;
+  rdfs:label "El-Tor"@en ;
+  lawd:primaryForm "El-Tor"@en .
+
+<http://paths.uniroma1.it/atlas/places/425>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786132 >, <https://www.trismegistos.org/place/2458> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.533559203147895 25.583217489637573)" ] ;
+  rdfs:label "El-Tod"@en ;
+  lawd:primaryForm "El-Tod"@en .
+
+<http://paths.uniroma1.it/atlas/places/426>
+  a lawd:Place ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.969910 31.524445)" ] ;
+  rdfs:label "Bashmur"@en ;
+  lawd:primaryForm "Bashmur"@en ;
+  lawd:hasName [ lawd:variantForm "pꜣ-šʿ-mr"@egy ], [ lawd:variantForm "ⲡⲥⲁⲙⲏⲣ"@cop ], [ lawd:variantForm "ⲡⲓϣⲁⲙⲏⲣ"@cop ], [ lawd:variantForm "البشمور"@arz ], [ lawd:variantForm "Bashmur"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/427>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/756561 >, <https://www.trismegistos.org/place/1227> ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(31.7913853542 26.5982922326)" ] ;
+  rdfs:label "Deir el-Shuhada"@en ;
+  lawd:primaryForm "Deir el-Shuhada"@en ;
+  lawd:hasName [ lawd:variantForm "Deir el-Shuhada"@eng ], [ lawd:variantForm "Dayr al-Shuhada"@eng ], [ lawd:variantForm "Dayr Manawus"@eng ], [ lawd:variantForm "Monastery of the Martyrs"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/428>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/716504 > ;
+  dc:temporal "600/600" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "301" ;
+    periodo:latestYear "600"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(28.922599 28.308013)" ] ;
+  rdfs:label "Ganub Qasr el-Agouz"@en ;
+  lawd:primaryForm "Ganub Qasr el-Agouz"@en ;
+  lawd:hasName [ lawd:variantForm "Ganub Qasr el-Agouz"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/429>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/786059>, <https://www.trismegistos.org/place/1227> ;
+  dc:temporal "630/630" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "550" ;
+    periodo:latestYear "630"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(32.43782043457032 25.28847329520524)" ] ;
+  rdfs:label "Hagar Esna"@en ;
+  lawd:primaryForm "Hagar Esna"@en ;
+  lawd:hasName [ lawd:variantForm "Hagar Esna"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/430>
+  a lawd:Place ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.3166666666666667 30.4166666666666667)" ] ;
+  rdfs:label "Deir Anba Bishoi"@en ;
+  lawd:primaryForm "Deir Anba Bishoi"@en .
+
+<http://paths.uniroma1.it/atlas/places/431>
+  a lawd:Place ;
+  skos:exactMatch <http://pleiades.stoa.org/places/736924>, <https://www.trismegistos.org/place/2634> ;
+  dc:temporal "900/900" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "301" ;
+    periodo:latestYear "900"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.9041667 28.6402778)" ] ;
+  rdfs:label "Gebel Qarara"@en ;
+  lawd:primaryForm "Gebel Qarara"@en ;
+  lawd:hasName [ lawd:variantForm "Gebel Qarara"@eng ], [ lawd:variantForm "Jebel Karara"@eng ] .
+
+<http://paths.uniroma1.it/atlas/places/432>
+  a lawd:Place ;
+  skos:exactMatch <https://www.trismegistos.org/place/2793> ;
+  dc:temporal "800/800" ;
+  time:hasDateTimeDescription [
+    periodo:earliestYear "376" ;
+    periodo:latestYear "800"
+  ] ;
+  geosparql:hasGeometry [ geosparql:asWKT "POINT(30.85 28.5666666666666667)" ] ;
+  rdfs:label "Kom el-Ahmar/Sharuna"@en ;
+  lawd:primaryForm "Kom el-Ahmar/Sharuna"@en ;
+  lawd:hasName [ lawd:variantForm "hwt-nsw"@egy ], [ lawd:variantForm "pȝ tš n hwt-nsw"@egy ], [ lawd:variantForm "Kom el-Ahmar/Sharuna"@eng ], [ lawd:variantForm "Kom el-Ahmar Sawaris"@eng ] .
