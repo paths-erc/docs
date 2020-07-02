@@ -103,13 +103,25 @@ function do_search(el){
     $('#datasets>li').removeClass('d-none').addClass('d-block').removeClass('border border-success shadow');
     return;
   }
-  $.each($('#datasets>li'), function(i, el){
-    if ($(el).text().toLowerCase().indexOf(filter.toLowerCase()) > -1){
-      $(el).removeClass('d-none').addClass('d-block border border-success shadow');
-    } else {
-      $(el).removeClass('d-block').addClass('d-none');
-    }
-  });
+  if (filter.startsWith('t:')){
+    filter = filter.replace('t:', '').trim();
+    $.each($('#datasets>li'), function(i, el){
+      if ($(el).data('type').toLowerCase().indexOf(filter.toLowerCase()) > -1){
+        $(el).removeClass('d-none').addClass('d-block border border-success shadow');
+      } else {
+        $(el).removeClass('d-block').addClass('d-none');
+      }
+    });
+  } else {
+    $.each($('#datasets>li'), function(i, el){
+      if ($(el).text().toLowerCase().indexOf(filter.toLowerCase()) > -1){
+        $(el).removeClass('d-none').addClass('d-block border border-success shadow');
+      } else {
+        $(el).removeClass('d-block').addClass('d-none');
+      }
+    });
+  }
+  
 }
 
 $('#search-dataset').on('search', function(){
