@@ -42,13 +42,9 @@ Ref.: `paths.authors`
 - A short biographical note of the author
 - DB id: `bio`
 
-#### YEAR OF BIRTH
-- If known, the year of birth of the author
-- DB id: `birth`
-
-#### YEAR OF DEATH
-- If known, the year of death of the author
-- DB id: `death`
+#### CHRONOLOGY
+- If known, the full chronoly of the author
+- DB id: `chronology`
 
 #### EPISCOPAL SEE
 - If known the PATh Place where the author served as a bishop.

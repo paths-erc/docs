@@ -13,8 +13,7 @@ CREATE TABLE paths__authors (
   title      TEXT, -- vocabularies.def = 'titles'
   bio        TEXT, --
   cmclname   TEXT, --
-  birth      INTEGER, --
-  death      INTEGER, --
+  chronology TEXT, --
   episcopalsee INTEGER, -- places.id
   editors    VARCHAR(255), -- semi-colon-separated-values: vocabularies.def = 'persons'
   status     VARCHAR(255), -- vocabularies.def = 'status'
