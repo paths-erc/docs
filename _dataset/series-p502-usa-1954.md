@@ -11,7 +11,7 @@ copyright: false
 license: Public Domain
 source: Perry-Castañeda Library Map Collection, http://legacy.lib.utexas.edu/maps/ams/north_africa/
 availability:
-  xyz: series-p502-usa-1954
+  xyz: https://swift.cloud.garr.it/swift/v1/series-p502-usa-1954
 credits:
   - role: Digitization
     name: Perry-Castañeda Library Map Collection

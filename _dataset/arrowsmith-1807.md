@@ -11,7 +11,7 @@ copyright: David Rumsey Historical Map Collection
 license: All rights reserved
 source: David Rumsey Historical Map Collection, https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~233552~5509705:Composite--A-Map-of-Lower-Egypt-fro
 availability:
-  xyz: arrowsmith-1807
+  xyz: https://swift.cloud.garr.it/swift/v1/arrowsmith-1807
 credits:
   - role: Digitization
     name: David Rumsey Historical Map Collection

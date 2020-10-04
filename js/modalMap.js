@@ -54,7 +54,7 @@ const modalMap = {
 
     if (xyz){
 
-      this.xyz = L.tileLayer(`http://xyz.paths-erc.eu/${xyz}/{z}/{x}/{y}.png`, {
+      this.xyz = L.tileLayer(`${xyz}/{z}/{x}/{y}.png`, {
         attribution: '<a href="https://paths.uniroma1.it/">PAThs: Archaeological Atlas of Coptic Literature</a>'
       }).addTo(this.map);
       this.map.setView([30.0594885,31.2584644], 5);

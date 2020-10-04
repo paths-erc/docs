@@ -11,7 +11,7 @@ copyright: David Rumsey Historical Map Collection
 license: All rights reserved
 source: David Rumsey Historical Map Collection, https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no%3d%223964.000%22
 availability:
-  xyz: jacotin-1827
+  xyz: https://swift.cloud.garr.it/swift/v1/jacotin-1827
 credits:
   - role: Digitization
     name: David Rumsey Historical Map Collection

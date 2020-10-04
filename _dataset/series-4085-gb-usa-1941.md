@@ -11,7 +11,7 @@ copyright: false
 license: Public Domain
 source: Perry-Castañeda Library Map Collection, http://legacy.lib.utexas.edu/maps/ams/egypt/
 availability:
-  xyz: series-4085-gb-usa-1941
+  xyz: https://swift.cloud.garr.it/swift/v1/series-4085-gb-usa-1941
   cvs: false
   geojson: false
 credits:
