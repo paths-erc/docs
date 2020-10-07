@@ -168,7 +168,7 @@ The definition of the attribute list and values to use for each field is the mos
 
 ---
 ## Validation
-[**Update 20120-03-12**]  
+[**Update 2020-03-12**]  
 Is is now availabe a very simple validation tool for SVP, published at [https://paths-erc.eu/svp-validate/](https://paths-erc.eu/svp-validate/).
 This tool will not check about geometry consistency; only the attributes will be checked. 
 
