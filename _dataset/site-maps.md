@@ -1,6 +1,6 @@
 ---
 name: Maps of Buildings of Christian Architecture
-type: multi_format_map
+type: vector_map
 date_created: 2020-04-30
 scale: multiple
 rs: EPSG:4326
@@ -8,8 +8,8 @@ preview: false
 copyright: Peter Grossmann & PAThs team.
 license: CC BY-NC-SA 4.0
 availability:
-  wms: site-maps
-  other: WFS and direct access to vector data is available on demand
+  geojson: https://xyz.paths-erc.eu/
+  other: Access is limited to a close list of domains. If you want to use the maps, please write to julian.bogdani at uniroma1 dot it
 credits:
   - role: Topographical survey & map drafting
     name: Peter Grossmann
@@ -23,22 +23,7 @@ A very premature stage of this work is being published in real time in the Atlas
 
 At the moment, therefore, the PAThs team strongly discourages the usage of these still unstable data; in any case, usage is free, but all the credit goes to the PAThs project, which must be clearly and unmistakably acknowledged for its work.
 
-### Available layers
-As of April 2020 the following layers are available:
-
-1. All site maps (Phases < 0)
-1. All site maps (Phase 0)
-1. All site maps (Phase 1)
-1. All site maps (Phase 2)
-1. All site maps (Phases > 2)
-
-### Map legend
-
-![WMS legend](/images/wms-legend.png "Leged of the maps served via WMS")
-
-### Leaflet demo
-For a working demo check [https://jsbin.com/judoluc/edit?output](https://jsbin.com/judoluc/edit?output). Feel free to fork and reuse.
-
+To use the geographical data in your website or webGIS, please contact us at `julian.bogdani at uniroma1 dot it`
 
 ### Available sites and maps
 
@@ -47,5 +32,5 @@ For a working demo check [https://jsbin.com/judoluc/edit?output](https://jsbin.c
 <script>
   fetch('https://xyz.paths-erc.eu/geojson/index.php')
     .then( r => r.json() )
-    .then( j => j.map( e => document.getElementById('map_list').innerHTML += `<li>${e.replace(/^\.\//, '')}</li>` ) );
+    .then( j => j.map( e => document.getElementById('map_list').innerHTML += `<li>https://xyz.paths-erc.eu/${e.replace(/^\.\//, '')}</li>` ) );
 </script>
