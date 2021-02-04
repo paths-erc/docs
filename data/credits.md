@@ -39,6 +39,7 @@ A special thank goes therefore to our younger collaborators, coordinated by **Pa
 - Beatrice De Santis
 - Annalaura De Santis
 - Ariela Desio
+- Lorenzo Gianni
 - Arianna Giordano
 - Giulia Mariotti
 - Susanna Masci
