@@ -1,11 +1,20 @@
 {
     "head": {
-        "total_rows": 419,
+        "shortsql": "@places~[id,name,tmgeo,pleiades,region",
+        "total_rows": 459,
         "total_pages": 1,
+        "table": "paths__places",
         "stripped_table": "places",
         "table_label": "Places",
         "page": 1,
-        "no_records_shown": 419
+        "no_records_shown": 459,
+        "fields": {
+            "id": "PAThs ID",
+            "name": "Site name",
+            "tmgeo": "Trismegistos GeoID",
+            "pleiades": "Pleiades Id",
+            "region": "Region"
+        }
     },
     "debug": false,
     "records": [
@@ -84,7 +93,7 @@
             "name": "Heliopolis",
             "tmgeo": "761",
             "pleiades": "727117",
-            "region": null
+            "region": "Lower Egypt (Delta)"
         },
         {
             "id": "12",
@@ -140,7 +149,7 @@
             "name": "Koptos",
             "tmgeo": "1159",
             "pleiades": "786010",
-            "region": null
+            "region": "Northern Upper Egypt"
         },
         {
             "id": "21",
@@ -287,7 +296,7 @@
             "name": "Herakleopolis Mikra",
             "tmgeo": "800",
             "pleiades": "727121",
-            "region": null
+            "region": "Lower Egypt (Delta)"
         },
         {
             "id": "42",
@@ -817,9 +826,9 @@
         {
             "id": "118",
             "name": "Ennaton",
-            "tmgeo": "",
-            "pleiades": "",
-            "region": null
+            "tmgeo": "56772",
+            "pleiades": "690832 ",
+            "region": "Lower Egypt (Delta)"
         },
         {
             "id": "119",
@@ -959,7 +968,7 @@
             "name": "Thennesos",
             "tmgeo": "3210",
             "pleiades": "727247",
-            "region": null
+            "region": "Lower Egypt (Delta)"
         },
         {
             "id": "139",
@@ -1006,9 +1015,9 @@
         {
             "id": "145",
             "name": "Hephaistos",
-            "tmgeo": "4364",
+            "tmgeo": "348",
             "pleiades": "727119",
-            "region": null
+            "region": "Lower Egypt (Delta)"
         },
         {
             "id": "146",
@@ -1288,7 +1297,7 @@
             "name": "Qasr Ibrim",
             "tmgeo": "1916",
             "pleiades": "798094",
-            "region": null
+            "region": "Lower Nubia"
         },
         {
             "id": "191",
@@ -2324,7 +2333,7 @@
             "name": "Monastery of Apa St. Sansnos",
             "tmgeo": null,
             "pleiades": null,
-            "region": null
+            "region": "Fayyum"
         },
         {
             "id": "345",
@@ -2371,7 +2380,7 @@
         {
             "id": "351",
             "name": "Kom Yetwal wa Yuksur",
-            "tmgeo": null,
+            "tmgeo": "56776",
             "pleiades": null,
             "region": "Lower Egypt (Delta)"
         },
@@ -2422,7 +2431,7 @@
             "name": "Faras",
             "tmgeo": "3170",
             "pleiades": "795838",
-            "region": "Nubia"
+            "region": "Lower Nubia"
         },
         {
             "id": "359",
@@ -2436,7 +2445,7 @@
             "name": "Qasr el-Wizz",
             "tmgeo": "3481",
             "pleiades": null,
-            "region": "Nubia"
+            "region": "Lower Nubia"
         },
         {
             "id": "361",
@@ -2450,21 +2459,21 @@
             "name": "Abdallah-n Irqi",
             "tmgeo": "14237",
             "pleiades": null,
-            "region": "Nubia"
+            "region": "Lower Nubia"
         },
         {
             "id": "363",
             "name": "Wadi Halfa",
             "tmgeo": "2499",
             "pleiades": null,
-            "region": "Nubia"
+            "region": "Lower Nubia"
         },
         {
             "id": "364",
-            "name": "Andoumana",
+            "name": "Arminna",
             "tmgeo": "3448",
-            "pleiades": null,
-            "region": "Nubia"
+            "pleiades": "795780 ",
+            "region": "Lower Nubia"
         },
         {
             "id": "365",
@@ -2478,7 +2487,7 @@
             "name": "Naga el-Sheima",
             "tmgeo": "3164, 3493",
             "pleiades": null,
-            "region": "Nubia"
+            "region": "Lower Nubia"
         },
         {
             "id": "367",
@@ -2685,8 +2694,8 @@
         },
         {
             "id": "396",
-            "name": "Kom Abu Ismail",
-            "tmgeo": "3511",
+            "name": "Kom el Sheikh Ismail",
+            "tmgeo": "",
             "pleiades": null,
             "region": "Lower Egypt (Delta)"
         },
@@ -2941,6 +2950,286 @@
             "tmgeo": "2793",
             "pleiades": null,
             "region": "Middle Egypt"
+        },
+        {
+            "id": "433",
+            "name": "Tell el-Barriya",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "434",
+            "name": "Kom el-Barud",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "435",
+            "name": "Tell el-Bendariya",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "436",
+            "name": "Monastery of St. Anthony at Famagusta",
+            "tmgeo": "688",
+            "pleiades": "707485",
+            "region": null
+        },
+        {
+            "id": "437",
+            "name": "Bilgai",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "438",
+            "name": "Kom el-Bilshasha",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "439",
+            "name": "Balhib",
+            "tmgeo": "",
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "440",
+            "name": "Tell ed-Deir",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "441",
+            "name": "Dibqu",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "442",
+            "name": "Kom ed-Dosha",
+            "tmgeo": "2599",
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "443",
+            "name": "Duweichat",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "444",
+            "name": "Tell el-Ghuzz",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "445",
+            "name": "Tell el-Gindiya",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "446",
+            "name": "Tell el-Ginn",
+            "tmgeo": "5132",
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "447",
+            "name": "Tell el-Hilayla",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "448",
+            "name": "Tell el-Kashif",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "449",
+            "name": "Kom el-Kebir",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "450",
+            "name": "El-Kifriya",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "451",
+            "name": "Kom el-Matyur",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "452",
+            "name": "Tell Mirdas",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "453",
+            "name": "Tell el-Riyad",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "454",
+            "name": "Kom el-Roka",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "455",
+            "name": "Natho",
+            "tmgeo": "1422",
+            "pleiades": "727168",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "456",
+            "name": "Kom Salih ",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "457",
+            "name": "Sandala",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "458",
+            "name": "Tell el-Shuhada",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "459",
+            "name": "Kom el-Shuhada",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "460",
+            "name": "Tell el-Shuwan",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "461",
+            "name": "Kom Sidi Salem",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "462",
+            "name": "Tell Tanbul",
+            "tmgeo": "9098",
+            "pleiades": "727245",
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "463",
+            "name": "Pempton",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "464",
+            "name": "Ezbet Yasin Omar",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "465",
+            "name": "Kom Abu Tahun",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "466",
+            "name": "El-Alaqma",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "467",
+            "name": "Kom Noweish",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Lower Egypt (Delta)"
+        },
+        {
+            "id": "468",
+            "name": "Deir el-Adhra",
+            "tmgeo": null,
+            "pleiades": null,
+            "region": "Middle Egypt"
+        },
+        {
+            "id": "469",
+            "name": "Serra East",
+            "tmgeo": "2806",
+            "pleiades": "795857",
+            "region": "Lower Nubia"
+        },
+        {
+            "id": "470",
+            "name": "Karanog",
+            "tmgeo": "2789",
+            "pleiades": "795832",
+            "region": "Lower Nubia"
+        },
+        {
+            "id": "471",
+            "name": "Buhen",
+            "tmgeo": "2747",
+            "pleiades": "795791",
+            "region": null
+        },
+        {
+            "id": "472",
+            "name": "Deir Anba Bidaba",
+            "tmgeo": null,
+            "pleiades": "756553 ",
+            "region": null
         }
     ]
 }

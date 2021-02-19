@@ -1,11 +1,23 @@
 {
     "head": {
-        "total_rows": 849,
+        "shortsql": "@manuscripts~[id:clm,cmclid,tm,ldab,writingsupport,bookform,chronofrom,chronoto~?chronofrom|<|801",
+        "total_rows": 882,
         "total_pages": 1,
+        "table": "paths__manuscripts",
         "stripped_table": "manuscripts",
         "table_label": "Manuscripts",
         "page": 1,
-        "no_records_shown": 849
+        "no_records_shown": 882,
+        "fields": {
+            "clm": false,
+            "cmclid": "CMCL",
+            "tm": "TM",
+            "ldab": "LDAB",
+            "writingsupport": "Writing support",
+            "bookform": "Book form",
+            "chronofrom": "From",
+            "chronoto": "To"
+        }
     },
     "debug": false,
     "records": [
@@ -456,7 +468,7 @@
             "ldab": "107868",
             "writingsupport": "parchment",
             "bookform": "codex",
-            "chronofrom": "501",
+            "chronofrom": "551",
             "chronoto": "600"
         },
         {
@@ -472,8 +484,8 @@
         {
             "clm": "66",
             "cmclid": "IERE.AC",
-            "tm": "107870",
-            "ldab": "107870",
+            "tm": "107870; 108045",
+            "ldab": "107870; 108045",
             "writingsupport": "parchment",
             "bookform": "codex",
             "chronofrom": "551",
@@ -500,10 +512,20 @@
             "chronoto": "600"
         },
         {
+            "clm": "172",
+            "cmclid": "MANI.AA",
+            "tm": "107976",
+            "ldab": "107976",
+            "writingsupport": "papyrus",
+            "bookform": "codex",
+            "chronofrom": "301",
+            "chronoto": "425"
+        },
+        {
             "clm": "173",
             "cmclid": "MANI.AB",
-            "tm": "108112",
-            "ldab": "108112",
+            "tm": "108112; 108140",
+            "ldab": "108112; 108140",
             "writingsupport": "papyrus",
             "bookform": "codex",
             "chronofrom": "301",
@@ -524,6 +546,36 @@
             "cmclid": "MANI.AD",
             "tm": "107977",
             "ldab": "107977",
+            "writingsupport": "papyrus",
+            "bookform": "codex",
+            "chronofrom": "301",
+            "chronoto": "425"
+        },
+        {
+            "clm": "176",
+            "cmclid": "MANI.AE",
+            "tm": "108111",
+            "ldab": "108111",
+            "writingsupport": "papyrus",
+            "bookform": "codex",
+            "chronofrom": "301",
+            "chronoto": "425"
+        },
+        {
+            "clm": "177",
+            "cmclid": "MANI.AF",
+            "tm": "108138",
+            "ldab": "108138",
+            "writingsupport": "papyrus",
+            "bookform": "codex",
+            "chronofrom": "301",
+            "chronoto": "425"
+        },
+        {
+            "clm": "178",
+            "cmclid": "MANI.AG",
+            "tm": "108139",
+            "ldab": "108139",
             "writingsupport": "papyrus",
             "bookform": "codex",
             "chronofrom": "301",
@@ -610,8 +662,38 @@
             "chronoto": "800"
         },
         {
+            "clm": "348",
+            "cmclid": "MONB.DS",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
             "clm": "356",
             "cmclid": "MONB.EC",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "366",
+            "cmclid": "MONB.EO",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "382",
+            "cmclid": "MONB.FG",
             "tm": null,
             "ldab": null,
             "writingsupport": "parchment",
@@ -670,6 +752,26 @@
             "chronoto": "800"
         },
         {
+            "clm": "449",
+            "cmclid": "MONB.JB",
+            "tm": "108491",
+            "ldab": "108491",
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "401",
+            "chronoto": "600"
+        },
+        {
+            "clm": "452",
+            "cmclid": "MONB.JE",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
             "clm": "460",
             "cmclid": "MONB.JO",
             "tm": null,
@@ -680,10 +782,90 @@
             "chronoto": "800"
         },
         {
+            "clm": "462",
+            "cmclid": "MONB.JQ",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "463",
+            "cmclid": "MONB.JR",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "464",
+            "cmclid": "MONB.JS",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "471",
+            "cmclid": "MONB.KC",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "472",
+            "cmclid": "MONB.KD",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "475",
+            "cmclid": "MONB.KG",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "477",
+            "cmclid": "MONB.KI",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "1000"
+        },
+        {
             "clm": "485",
             "cmclid": "MONB.KR",
             "tm": "108956; 128640",
             "ldab": "108956; 128640",
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "486",
+            "cmclid": "MONB.KS",
+            "tm": null,
+            "ldab": null,
             "writingsupport": "parchment",
             "bookform": "codex",
             "chronofrom": "601",
@@ -700,6 +882,26 @@
             "chronoto": "800"
         },
         {
+            "clm": "488",
+            "cmclid": "MONB.KU",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "501",
+            "chronoto": "600"
+        },
+        {
+            "clm": "492",
+            "cmclid": "MONB.LB",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "701",
+            "chronoto": "1100"
+        },
+        {
             "clm": "498",
             "cmclid": "MONB.LH",
             "tm": "108571",
@@ -708,6 +910,16 @@
             "bookform": "codex",
             "chronofrom": "501",
             "chronoto": "600"
+        },
+        {
+            "clm": "510",
+            "cmclid": "MONB.LV",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
         },
         {
             "clm": "589",
@@ -720,6 +932,16 @@
             "chronoto": "900"
         },
         {
+            "clm": "606",
+            "cmclid": "MONB.XE",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "501",
+            "chronoto": "700"
+        },
+        {
             "clm": "607",
             "cmclid": "MONB.XF",
             "tm": null,
@@ -728,6 +950,36 @@
             "bookform": "codex",
             "chronofrom": "693",
             "chronoto": "723"
+        },
+        {
+            "clm": "616",
+            "cmclid": "MONB.XO",
+            "tm": "107812; 244128",
+            "ldab": "107812; 244128",
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "701",
+            "chronoto": "800"
+        },
+        {
+            "clm": "617",
+            "cmclid": "MONB.XP",
+            "tm": "65433",
+            "ldab": "4228",
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "401",
+            "chronoto": "600"
+        },
+        {
+            "clm": "618",
+            "cmclid": "MONB.XQ",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
         },
         {
             "clm": "627",
@@ -748,6 +1000,26 @@
             "bookform": "codex",
             "chronofrom": "601",
             "chronoto": "800"
+        },
+        {
+            "clm": "648",
+            "cmclid": "MONB.ZG",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "658",
+            "cmclid": "MONB.ZV",
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "501",
+            "chronoto": "700"
         },
         {
             "clm": "660",
@@ -3097,7 +3369,7 @@
             "writingsupport": "papyrus",
             "bookform": "codex",
             "chronofrom": "601",
-            "chronoto": "800"
+            "chronoto": "900"
         },
         {
             "clm": "947",
@@ -3147,7 +3419,7 @@
             "writingsupport": "parchment",
             "bookform": "codex",
             "chronofrom": "601",
-            "chronoto": "800"
+            "chronoto": "900"
         },
         {
             "clm": "952",
@@ -5211,7 +5483,7 @@
         },
         {
             "clm": "1247",
-            "cmclid": null,
+            "cmclid": "MONB.PF",
             "tm": null,
             "ldab": null,
             "writingsupport": "parchment",
@@ -5264,6 +5536,16 @@
             "cmclid": null,
             "tm": "108694",
             "ldab": "108694",
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
+            "clm": "1444",
+            "cmclid": null,
+            "tm": "61812",
+            "ldab": "2966",
             "writingsupport": "parchment",
             "bookform": "codex",
             "chronofrom": "601",
@@ -6670,6 +6952,16 @@
             "chronoto": "600"
         },
         {
+            "clm": "4203",
+            "cmclid": null,
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "800"
+        },
+        {
             "clm": "4221",
             "cmclid": null,
             "tm": null,
@@ -7520,6 +7812,16 @@
             "chronoto": "700"
         },
         {
+            "clm": "6348",
+            "cmclid": null,
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "papyrus",
+            "bookform": "codex",
+            "chronofrom": "501",
+            "chronoto": "800"
+        },
+        {
             "clm": "6350",
             "cmclid": null,
             "tm": "108693",
@@ -7898,16 +8200,6 @@
             "bookform": "codex",
             "chronofrom": "601",
             "chronoto": "800"
-        },
-        {
-            "clm": "6463",
-            "cmclid": null,
-            "tm": "371279",
-            "ldab": null,
-            "writingsupport": "parchment",
-            "bookform": "codex",
-            "chronofrom": "701",
-            "chronoto": "1000"
         },
         {
             "clm": "6464",
@@ -8498,6 +8790,56 @@
             "bookform": "codex",
             "chronofrom": "601",
             "chronoto": "800"
+        },
+        {
+            "clm": "6621",
+            "cmclid": "IERE.AB",
+            "tm": "107869",
+            "ldab": "107869",
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "551",
+            "chronoto": "600"
+        },
+        {
+            "clm": "6622",
+            "cmclid": null,
+            "tm": "126174",
+            "ldab": "126174",
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "451",
+            "chronoto": "500"
+        },
+        {
+            "clm": "6623",
+            "cmclid": null,
+            "tm": "108391",
+            "ldab": "108391",
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "301",
+            "chronoto": "500"
+        },
+        {
+            "clm": "6626",
+            "cmclid": null,
+            "tm": "61688",
+            "ldab": "2839",
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "701",
+            "chronoto": "800"
+        },
+        {
+            "clm": "6628",
+            "cmclid": null,
+            "tm": null,
+            "ldab": null,
+            "writingsupport": "parchment",
+            "bookform": "codex",
+            "chronofrom": "601",
+            "chronoto": "700"
         }
     ]
 }
