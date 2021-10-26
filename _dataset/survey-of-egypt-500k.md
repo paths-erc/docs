@@ -5,7 +5,7 @@ date_created: false
 scale: "1:500,000"
 year: 1941
 rs: EPSG:4022
-preview: true
+preview: false
 license: All rights reserved
 source: nd.
 availability:

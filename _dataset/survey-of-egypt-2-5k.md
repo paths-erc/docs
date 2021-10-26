@@ -5,7 +5,7 @@ date_created: false
 scale: "1:2,500"
 year: 1934
 rs: EPSG:22992
-preview: true
+preview: false
 license: All rights reserved
 source: nd.
 availability:

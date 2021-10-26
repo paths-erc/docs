@@ -2,10 +2,11 @@
 name: Survey of Egypt 100k
 type: raster_map
 date_created: false
+lang: false
 scale: "1:100,000"
 year: 1950
 rs: EPSG:4022
-preview: true
+preview: false
 license: All rights reserved
 source: nd.
 availability:

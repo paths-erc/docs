@@ -94,15 +94,15 @@ This protocol defines **data structure** and **best-practices** for digital enco
 The definition of the attribute list and values to use for each field is the most important step of the entire process.
 
 #### Identification / Location
-- `place` (*Text, 255*): Identifier of the place/site where the building being vectorized is located. At PAThs the [Place ID](https://docs.paths-erc.eu/handbook/places#id) is being used.
-- `subplace` (*Text, 255*): Identifier, if applicable, of the sub-site building, structure or area that is being vectorized.
+- `place` (*text, required*): Identifier of the place/site where the building being vectorized is located. At PAThs the [Place ID](https://docs.paths-erc.eu/handbook/places#id) is being used.
+- `subplace` (*text, optional, default: null*): eventually the name (ancient or modern) of part of the place where the building is located. This is used to provide a more direct (and human readable) topographical location of the represented building.
 
 #### Description
-- `reconstr` (*Integer, 1*): whether the feature is/was visible/preserved or was hypothetically reconstructed when surveyed.
+- `reconstr` (*integer, required, default: 0*): whether the feature is/was visible/preserved or was hypothetically reconstructed when surveyed.
   - **0** (**null**) if the feature was clearly visible and preserved when surveyed; usually a solid line is used to represent this feature.
   - **1** if the feature is not visible or preserved and has bee hypothetically reconstructed by the surveyor or the author of the source drawing; usually a dashed line is used to represent these features.
   - **2** if the feature is not visible or preserved and has been hypothetically reconstructed by the operator who vectorised the images
-- `part` (*Text, 10,0*): defines what part of the building the features is. This is not about the function of the feature in the architectonical complex (except but for a few cases), but about the conventional way of representation.
+- `part` (*string, optional, default null, max length: 1*): defines what part of the building the features is. This is not about the function of the feature in the architectonical complex (except but for a few cases), but about the conventional way of representation.
   - **null**, default value, used for in most cases, especially when no information is provided in the source documentation.
   - **s**, stands for *sectioned* and is used for walls or other parts that are sectioned or cut by the projection plane.
   - **u**, stands for *upper projection* and is used for structures that does not intersect the projection plane, but are located above it. It can used for ceilings, domes, etc.
@@ -110,19 +110,19 @@ The definition of the attribute list and values to use for each field is the mos
   - **d**, stands for *doorways* and is an exception of the above mentioned rule of not recording the building parts. Yet passageways and doorways need an easy way to be reported.
 
 #### Chronology
-- `phase` (*Integer64*) a numeric value indicating relative chronology. Both negative numbers can be used to extend the relative chronology to the past and decimal numbers, to further detail sub-phases. **null** values can be used for mono-phasic buildings and/or main phase. The main phase is not the architectonically most important phase, but the phase on which the research puts its main focus.
+- `phase` (*optional, default: 0*) a numeric value indicating relative chronology. Both negative numbers can be used to extend the relative chronology to the past and decimal numbers, to further detail sub-phases. **null** values can be used for mono-phasic buildings and/or main phase. The main phase is not the architectonically most important phase, but the phase on which the research puts its main focus.
 
 #### Other metadada
-- `lost` (*Integer, 0*), whether a feature is lost (**1**) or not (**0** or **null**). This is different from `reconstr` since a feature might have been preserved when surveyed (reconstr = null\|0) but no more visible (lost = 1) because buried or damaged.
-- `scale` (*Integer, 10*), the scale of the original plan from which the feature has been vectorized. Enter only the second part of the ratio scale, presuming that the first part is always 1, eg. for ratio scale **1:200000** enter **200000**.
-- `source` (*String, 30*), contains the bibliographic or archive reference to the document used as the source for the vectorization. At PAThs, the Zotero identifier of [PAThs official bibliographic repository is being used](https://www.zotero.org/groups/2189557/erc-paths).
-- `subsource` (*String, 255*), enter page number and or figure number of the bibliographic record containing the original image.
-- `operator` (*String, 255*), name or codename of the operator who vectorised the image.
-- `date` (*Datetime*), Datetime of the vectorization process.
+- `lost` (*optional, boolean, default 0*), whether a feature is lost (**1**) or not (**0** or **null**). This is different from `reconstr` since a feature might have been preserved when surveyed (reconstr = null\|0) but no more visible (lost = 1) because buried or damaged.
+- `scale` (*optional, integer*), the denominator or the scale (when available) of the original map, eg. for ratio scale **1:200000** enter **200000**.
+- `source` (*required, string*), contains the bibliographic or archive reference to the document used as the source for the vectorization. At PAThs, the Zotero identifier of [PAThs official bibliographic repository is being used](https://www.zotero.org/groups/2189557/erc-paths).
+- `subsource` (*optional, default: null*), enter page number and or figure number of the bibliographic record containing the original image.
+- `operator` (*required, string*), name or codename of the operator who vectorised the image.
+- `date` (*datetime, required*), Datetime of the vectorization process.
 
 #### Elevation
-- `height` (*Double, 7,2*), elevation of the feature for extrusion purposes
-- `minHeight` (*Integer, 10*), offset elevation of the feature for extrusion purposes
+- `height` (*optional, integer, default null*), elevation of the feature for extrusion purposes
+- `minHeight` (*optional, integer, default: null*), offset elevation of the feature for extrusion purposes
 
 ---
 

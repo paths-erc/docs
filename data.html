@@ -34,7 +34,7 @@ file formats and protocols available, and licensed are provided.</p>
 
 <ul class="list-group mt-5" id="datasets">
 {% for item in site.dataset %}
-{% assign id = item.name | downcase | replace: "'", "" | replace: ")", "_" | replace: "(", "_" | replace: ":", "_" | replace: ".", "_" | replace: ",", "_" | replace: " ", "_" | replace: "-", "_" | replace: "__", "_" %}
+{% assign id = item.slug %}
 <li class="list-group-item my-1" id ="{{ id }}" data-type="{{ item.type }}">
     <h5 class="mt-3">
         <a href="#{{ id }}" class="btn btn-light">
@@ -164,6 +164,3 @@ file formats and protocols available, and licensed are provided.</p>
 </li>
 {% endfor %}
 </ul>
-<script>
-const geojson = {{ site.data.rasters | jsonify }};
-</script>
