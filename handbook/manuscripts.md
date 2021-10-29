@@ -104,7 +104,7 @@ These fields are not part of the [manuscripts table](/schema/manuscript) but of 
 For each manuscript, multiple instances of the following group of fields can be filed, 
 each one describing a single relation to Place.
 
-These fields are not part of the [manuscripts table](/schema/manuscripts) but of the [m_quires table](/schema/m_msplaces).
+These fields are not part of the [manuscripts table](/schema/manuscripts) but of the [m_msplaces table](/schema/m_msplaces).
 
 #### TYPE
 - Type of connection between a manuscript and a place: `production`, `storage` or `discovery`
@@ -179,7 +179,7 @@ These fields are not part of the [manuscripts table](/schema/manuscripts) but of
 - DB id: `quiresextant`
 
 #### NOTES
-- Verbose listing of ancient fly, guard, and written leaves.
+- Listing of ancient fly, guard, and written leaves.
 - DB id: `gennotes`
 
 ---
@@ -499,37 +499,197 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - Noted if present.
 - DB id: `bindings`
 
-#### BOARD MATERIAL
-- Material of the binding boards
-- DB id: `boardmat`
+#### EVIDENCE OF FORMER BINDING
+- Noted if traces indicating a rebinding are present
+- DB id: `bindformer`
 
-#### PRESENCE OF SEWINGS
-- Noted if present.
+#### Dimensions (mm) and proportions
+
+#### BOARD WIDTH
+- Average width (in mm) of the boards
+- DB id: `boardw`
+
+#### BOARD HEIGHT
+- Average height (in mm) of the boards.
+- DB id: `boardh`
+
+#### BOARD THICKNESS
+- Average thickness (in mm) of the boards
+- DB id: `boardt`
+
+#### SPINE WIDTH
+- Average width (in mm) of the spine
+- DB id: `spinew`
+
+#### NOTES ON BOARD DIMENSIONS
+- NOtes on the dimensions of the boards
+- DB id: `boarddimnotes`
+
+#### Sewing
+
+#### SEWING
+- Noted if present
 - DB id: `sewings`
 
-#### TYPE OF SEWING
-- Description of the sewing type.
+#### Type of sewing
+- Indication of the sewing type
 - DB id: `sewingtype`
+- Possible values include:
+    - `Chain stitch sewing – simple` (Szirmai 1999, fig. 2.1 [e]) (broad match [http://w3id.org/lob/concept/1249](http://w3id.org/lob/concept/1249))
+    - `Chain stitch sewing – paired sewing stations` (Szirmai 1999, fig. 2.1 [g], [h], [i] and [k]) (broad match [http://w3id.org/lob/concept/1249](http://w3id.org/lob/concept/1249)) 
+    - `Stab sewing` (Boudalis 2018, 61–65) 
+    - `Overcasting` (exact match http://w3id.org/lob/concept/1471 )
+    - `Tacketing` (exact match http://w3id.org/lob/concept/4835 )
+
+#### NO. SEWING STATIONS
+- Number of sewing stations (also applicable to tablets)
+- DB id: `sewingstationsno`
+
+#### FOLD PATTERN
+- Indication of sequence of stitches visible in the centrefold and note of presence of sewing guards.
+- DB id: `foldpattern`
+- Possible values include:
+    - `All-along – one length of thread` (Szirmai 1999, fig. 2.3 [b]) (exact match [http://w3id.org/lob/concept/1196](http://w3id.org/lob/concept/1196))
+    - `All-along – two length of thread` (Szirmai 1999, fig. 2.3 [c]) (close match [http://w3id.org/lob/concept/1196](http://w3id.org/lob/concept/1196))
+    - `Periodic – one length of thread` (Szirmai 1999, fig. 2.3 [a]; Spitzmueller 1982, 45)
+    - `Periodic – two lengths of thread` (Szirmai 1999, fig. 2.3 [d]; Spitzmueller 1982, 45)
+    - Sewing guards (exact match [http://w3id.org/lob/concept/3282](http://w3id.org/lob/concept/3282))
+
+#### Notes on sewings
+- Description of the sewing.
+- DB id: `sewingnotes`
+
+#### Boards
+
+#### BOARD MATERIAL
+- Material of which the boards are made
+- DB id: `boardmat`
+
+#### BOARD FEATURES
+- Features relating to the form of the boards
+- DB id: `boardfeatures`
+- Possible values include:
+    - `Bevels` (exact match [http://w3id.org/lob/concept/3475](http://w3id.org/lob/concept/3475))
+    - `Edge` grooves (close match [http://w3id.org/lob/concept/1303](http://w3id.org/lob/concept/1303))
+    - `Double` boards (exact match [http://w3id.org/lob/concept/3521](http://w3id.org/lob/concept/3521))
+    - `Folded` boards (exact match [http://w3id.org/lob/concept/3519](http://w3id.org/lob/concept/3519))
+
+#### BOARD ATTACHMENT
+- System used to attach the boards to the bookblock or between them
+- DB id: `boardattachment`
+- Possible values include:
+    - `n.d. (not visible)`
+    - `n.d. (not preserved)`
+    - `Hinging slips` (Sharpe 1999, 468–75)
+    - `Back strip` (Szirmai 1999, 23–25 and fig. 2.6)
+    - `Hinging loops – Z pattern` (Boudalis 2018, 73)
+    - `Hinging loops – U pattern` (Boudalis 2018, 73)
+    - `Hinging loops – I pattern`
+    - `Integral part of the sewing`
+
+#### NOTES ON BOARDS
+- Description of the boards.
+- DB id: `boardnotes`
+
+#### Cover
 
 #### COVERS
--	If present, indication of the preserved cover(s) (upper and/or lower).
+- Preserved parts of the cover (upper/ lower/ back).
 - DB id: `covers`
 
+#### COVER MATERIAL
+- Material of the covers
+- DB id: `covermat`
+
+#### TURN-INS
+- Type of trimming of the turn-ins.
+- DB id: `turnins`
+- Possible values include:
+    - `Irregular` (exact match [http://w3id.org/lob/concept/3723](http://w3id.org/lob/concept/3723))
+    - `Rough-trimmed` (exact match [http://w3id.org/lob/concept/3721](http://w3id.org/lob/concept/3721))
+    - `Straight-trimmed` (exact match [http://w3id.org/lob/concept/3719](http://w3id.org/lob/concept/3719))
+    - `Trimmed out` (exact match [http://w3id.org/lob/concept/1684](http://w3id.org/lob/concept/1684))
+
+
+#### MITRES
+- Type of mitres.
+- DB id: `mitres`
+- Possible values include:
+    - `Butt mitres` (exact match [http://w3id.org/lob/concept/1235](http://w3id.org/lob/concept/1235))
+    - `Lapped mitres` (fore-edge over) (broader match [http://w3id.org/lob/concept/1421](http://w3id.org/lob/concept/1421))
+    - `Lapped mitres` (head/tail over) (broader match [http://w3id.org/lob/concept/1421](http://w3id.org/lob/concept/1421))
+    - `Sewn mitres` (exact match [http://w3id.org/lob/concept/1588](http://w3id.org/lob/concept/1588))
+    - `Open mitres` (exact match [http://w3id.org/lob/concept/1465](http://w3id.org/lob/concept/1465))
+    - `Tongued mitres` (exact match [http://w3id.org/lob/concept/1674](http://w3id.org/lob/concept/1674))
+
+#### PRESENCE OF FORE-EDGE FLAP
+- Noted if present
+- DB id: `foreedgeflap`
+
+#### DECORATION OF THE COVERS
+- Indication of the decoration technique.
+- DB id: `coverdecoration`
+- Possible values include
+    - `Colouring`
+    - `Blind-tooling` (exact match [http://w3id.org/lob/concept/1212](http://w3id.org/lob/concept/1212))
+    - `Gilding` (exact match [http://w3id.org/lob/concept/1363](http://w3id.org/lob/concept/1363))
+    - `Lacing` (exact match [http://w3id.org/lob/concept/4015](http://w3id.org/lob/concept/4015))
+    - `Cut-leather work` (exact match [http://w3id.org/lob/concept/1280](http://w3id.org/lob/concept/1280))
+    - `Appliqué` (Fleming and Honour 1989, 32)
+    - `Intaglio` (Fleming and Honour 1989, 413)
+    - `Embroidery` (exact match [http://w3id.org/lob/concept/1306](http://w3id.org/lob/concept/1306)) 
+
 #### NOTES ON COVERS
-- Verbose description of the covers.
-- DB id: `coversnotes`
+- Description of the covers.
+- DB id: `covernotes`
 
-#### NO. OF HOLES
-- Number of the extant binding holes (also applicable to tablets).
-- DB id: `holesno`
+#### Spline lining
 
-#### ARRANGEMENT OF HOLES
-- Position of the holes.
-- DB id: `holesarrangement`
+#### NOTES ON SPLINE LINING
+- Description of the spine lining.
+- DB id: `splinelining`
 
-#### NOTES ON HOLES
-- Specific/special characteristics of the holes
-- DB id: `holesnotes`
+#### Endbands
+
+#### ENDBANDS TYPE
+- Type of endbands.
+- DB id: `endbandtype`
+- Possible values include:
+    - `Link-stitch endband` (Petersen 1954, fig. 22)
+    - `Cord endband` (Petersen 1948, fig. 18A)
+
+#### NOTES ON ENDBANDS
+- Description of the endbands.
+- DB id: `endbandnotes`
+
+#### Fastenings
+
+#### FASTENING TYPE
+- Fastening types
+- DB id: `fasteningtype`
+- Possible values include:
+    - `Ties and metal rings`
+    - `Loops and toggles`
+    - `Loops and ties`
+    - `Loops and pins`
+    - `Paired ties` (exact match [http://w3id.org/lob/concept/3029](http://w3id.org/lob/concept/3029))
+    - `Wrapping bands` (exact match [http://w3id.org/lob/concept/3097](http://w3id.org/lob/concept/3097))
+    - `Wrap around ties` (exact match [http://w3id.org/lob/concept/3096](http://w3id.org/lob/concept/3096))
+
+#### NOTES ON FASTENINGS
+- Description of the fastening system.
+- DB id: `fasteningnotes`
+
+#### Other ties
+
+#### POSITION OF OTHER TIES
+- Position of other ties.
+- DB id: `othertiesposition`
+
+#### NOTES ON OTHER TIES
+- Description of the other ties. 
+- DB id: `othertiesnotes`
+
 
 ---
 
