@@ -531,7 +531,7 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
 - Noted if present
 - DB id: `sewings`
 
-#### Type of sewing
+#### TYPE OF SEWING
 - Indication of the sewing type
 - DB id: `sewingtype`
 - Possible values include:
@@ -555,7 +555,7 @@ In the absence of a detailed and comprehensive study, we do not take into accoun
     - `Periodic – two lengths of thread` (Szirmai 1999, fig. 2.3 [d]; Spitzmueller 1982, 45)
     - Sewing guards (exact match [http://w3id.org/lob/concept/3282](http://w3id.org/lob/concept/3282))
 
-#### Notes on sewings
+#### NOTES ON SEWINGS
 - Description of the sewing.
 - DB id: `sewingnotes`
 
