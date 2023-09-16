@@ -212,7 +212,7 @@ const LeafletMap = function(map_list){
 };
 
 const loadGeoJSONFromUrl = (cb) => {
-    fetch(`https://xyz.paths-erc.eu/geojson/${window.location.hash.split('#')[1]}.geojson`)
+    fetch(`https://atlas.paths-erc.eu/places-geojson/${window.location.hash.split('#')[1]}.geojson`)
         .then(r => r.json() )
         .then(j => cb(j));
 }

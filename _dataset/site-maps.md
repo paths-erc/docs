@@ -30,7 +30,7 @@ To use the geographical data in your website or webGIS, please contact us at `ju
 <ol id="map_list"></ol>
 
 <script>
-  fetch('https://xyz.paths-erc.eu/geojson/index.php')
+  fetch('https://atlas.paths-erc.eu/places-geojson/index.json')
     .then( r => r.json() )
-    .then( j => j.map( e => document.getElementById('map_list').innerHTML += `<li>https://xyz.paths-erc.eu/${e.replace(/^\.\//, '')}</li>` ) );
+    .then( j => j.map( e => document.getElementById('map_list').innerHTML += `<li>https://atlas.paths-erc.eu/places-geojson/${e.replace(/^\.\//, '')}</li>` ) );
 </script>
