@@ -220,9 +220,9 @@ const loadGeoJSONFromUrl = (cb) => {
 
 const loadPage = async () => {
 
-    const response = await fetch('https://xyz.paths-erc.eu/geojson/index.php');
+    const response = await fetch('https://atlas.paths-erc.eu/places-geojson/');
     const map_list = await response.json();
-    
+
     const myMap = new LeafletMap(map_list);
 
     document.querySelector('#sites').addEventListener('change',function(){
