@@ -6,7 +6,7 @@ permalink: /schema/
 
 This section of the PAThs documentation repository provides a complete
 documentation of PAThs database schema, currently implemented at
-[db.bradypus.net](https://db.bradypus.net).
+[https://bdus.cloud/db/#/paths](https://bdus.cloud/db/#/paths).
 
 If you are looking for the user & reader guide please [follow this link](/handbook/).
 
